@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #f4f6fa;
+    --surface: #ffffff;
+    --line: #d9e1ec;
+    --ink: #142c4f;
+    --soft: #60738f;
+    --brand: #c4140e;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "DM Sans", "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+}
+
+.test-header {
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--line);
+    background: #fff;
+}
+
+.test-header h1 {
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+}
+
+.test-header p {
+    font-size: 0.9rem;
+    color: var(--soft);
+}
+
+.test-layout {
+    height: calc(100vh - 74px);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 340px;
+    gap: 10px;
+    padding: 10px;
+}
+
+#map {
+    min-height: 0;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    overflow: hidden;
+}
+
+.test-sidebar {
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.panel {
+    border: 1px solid #e7ecf4;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fcfdff;
+}
+
+.panel h2 {
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+}
+
+.coordinates {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.coord-card {
+    border: 1px solid #d8e3f2;
+    border-radius: 8px;
+    padding: 8px;
+    background: #f7faff;
+}
+
+.coord-card span {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--soft);
+}
+
+.coord-card strong {
+    font-size: 1.05rem;
+}
+
+.help-text {
+    margin-top: 8px;
+    font-size: 0.82rem;
+    color: var(--soft);
+}
+
+#statusCacheo {
+    display: none;
+    border-left: 4px solid #e3a740;
+    background: #fff2da;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+#cacheSizeInfo {
+    border: 1px solid #d9e4f3;
+    background: #f8fbff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#cacheSizeInfo p {
+    margin-bottom: 6px;
+}
+
+.cache-details {
+    margin-top: 6px;
+}
+
+.cache-details summary {
+    cursor: pointer;
+    color: #2c4f83;
+    font-weight: 700;
+}
+
+.detail-content {
+    margin-top: 6px;
+}
+
+.button-stack {
+    margin-top: 10px;
+    display: grid;
+    gap: 8px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    background: #ffc107;
+    color: #222;
+}
+
+button.danger {
+    background: var(--brand);
+    color: #fff;
+}
+
+@media (max-width: 980px) {
+    .test-layout {
+        height: auto;
+        grid-template-columns: 1fr;
+    }
+
+    #map {
+        min-height: 55vh;
+    }
+}

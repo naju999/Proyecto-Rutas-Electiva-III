@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Control de Caché</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .panel {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .panel h2 {
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-box {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        
+        .stat-value {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .button-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .btn-success {
+            background: #48bb78;
+            color: white;
+        }
+        
+        .btn-success:hover {
+            background: #38a169;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(72, 187, 120, 0.3);
+        }
+        
+        .btn-warning {
+            background: #ed8936;
+            color: white;
+        }
+        
+        .btn-warning:hover {
+            background: #dd6b20;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(237, 137, 54, 0.3);
+        }
+        
+        .btn-danger {
+            background: #f56565;
+            color: white;
+        }
+        
+        .btn-danger:hover {
+            background: #e53e3e;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(245, 101, 101, 0.3);
+        }
+        
+        .info-box {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+        
+        .info-box strong {
+            color: #667eea;
+        }
+        
+        .output {
+            background: #1a202c;
+            color: #48bb78;
+            padding: 20px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            max-height: 400px;
+            overflow-y: auto;
+            margin-top: 15px;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+        
+        .output-line {
+            margin: 5px 0;
+        }
+        
+        .error {
+            color: #fc8181;
+        }
+        
+        .warning {
+            color: #fbd38d;
+        }
+        
+        .success {
+            color: #48bb78;
+        }
+        
+        .info {
+            color: #90cdf4;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+            font-size: 12px;
+        }
+        
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .tab {
+            padding: 12px 24px;
+            background: none;
+            border: none;
+            border-bottom: 3px solid transparent;
+            cursor: pointer;
+            color: #666;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .tab.active {
+            border-bottom-color: #667eea;
+            color: #667eea;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔧 Panel de Control de Caché</h1>
+            <p>Herramientas de diagnóstico y administración del Sistema de Caché de Tiles</p>
+        </div>
+
+        <!-- PANEL DE DIAGNÓSTICO -->
+        <div class="panel">
+            <h2>📊 Diagnóstico del Sistema</h2>
+            
+            <div class="stats-grid" id="statsGrid">
+                <div class="stat-box">
+                    <div class="stat-label">Estado</div>
+                    <div class="stat-value" id="statoOnline">🟢</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Tiles Cacheados</div>
+                    <div class="stat-value" id="statTileCount">0</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Tamaño del Caché</div>
+                    <div class="stat-value" id="statCacheSize">0 MB</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Modo Actual</div>
+                    <div class="stat-value" id="statMode">🌐</div>
+                </div>
+            </div>
+            
+            <div class="button-group">
+                <button class="btn-primary" onclick="runDiagnostics()">🔍 Diagnóstico Completo</button>
+                <button class="btn-primary" onclick="updateStats()">🔄 Actualizar Estadísticas</button>
+                <button class="btn-info" onclick="openConsole()">📟 Abrir Consola</button>
+            </div>
+            
+            <div class="output" id="output"></div>
+        </div>
+
+        <!-- PANEL DE ACCIONES -->
+        <div class="panel">
+            <h2>⚡ Acciones Rápidas</h2>
+            
+            <div class="tabs">
+                <button class="tab active" onclick="switchTab(event, 'tab-cache')">💾 Caché</button>
+                <button class="tab" onclick="switchTab(event, 'tab-offline')">🔌 Modo Offline</button>
+                <button class="tab" onclick="switchTab(event, 'tab-export')">📤 Exportar</button>
+            </div>
+            
+            <!-- TAB: CACHÉ -->
+            <div class="tab-content active" id="tab-cache">
+                <div class="info-box">
+                    <strong>💡 Nota:</strong> Navega por el mapa en modo ONLINE para cachear tiles automáticamente. El caché se llena en background sin interferir.
+                </div>
+                <div class="button-group">
+                    <button class="btn-success" onclick="reloadFromCache()">🔄 Recargar desde Caché</button>
+                    <button class="btn-warning" onclick="showTiles()">📋 Ver Todos los Tiles</button>
+                    <button class="btn-danger" onclick="wipeCache()">🗑️ Limpiar Caché (PELIGROSO)</button>
+                </div>
+            </div>
+            
+            <!-- TAB: OFFLINE -->
+            <div class="tab-content" id="tab-offline">
+                <div class="info-box">
+                    <strong>💡 Nota:</strong> Solo funciona después de cachear tiles en modo ONLINE. Verás tiles rojos donde no hay caché.
+                </div>
+                <div class="button-group">
+                    <button class="btn-success" onclick="toggleOfflineFromPanel()">🔌 Cambiar Modo Offline</button>
+                    <button class="btn-primary" onclick="showOfflineInfo()">ℹ️ Ver Información Offline</button>
+                </div>
+                <div class="output" id="output-offline" style="margin-top: 15px;"></div>
+            </div>
+            
+            <!-- TAB: EXPORTAR -->
+            <div class="tab-content" id="tab-export">
+                <div class="info-box">
+                    <strong>💡 Nota:</strong> Exporta la información del caché a JSON para análisis o backup.
+                </div>
+                <div class="button-group">
+                    <button class="btn-success" onclick="exportJSON()">📥 Exportar como JSON</button>
+                    <button class="btn-primary" onclick="showStatsTable()">📊 Ver Tabla de Estadísticas</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- PANEL DE INFO -->
+        <div class="panel">
+            <h2>ℹ️ Información Útil</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
+                <div class="info-box">
+                    <strong>📍 Caché Activado</strong><br/>
+                    Los tiles se cachean automáticamente en IndexedDB cuando navegas en modo ONLINE.
+                </div>
+                <div class="info-box">
+                    <strong>🔌 Modo Offline</strong><br/>
+                    Cambia a OFFLINE para ver tiles desde el caché. Los tiles rojos no están cacheados.
+                </div>
+                <div class="info-box">
+                    <strong>🔍 Diagnóstico</strong><br/>
+                    Usa los botones para ver qué está cacheado y si hay problemas.
+                </div>
+                <div class="info-box">
+                    <strong>📤 Exportar</strong><br/>
+                    Puedes exportar los datos del caché a JSON para análisis o backup.
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>💡 Tip: Abre F12 (Consola) para ver logs más detallados</p>
+            <p>© 2024 Panel de Control de Caché - Sistema de Mapas PWA</p>
+        </div>
+    </div>
+
+    <script>
+        // Output helper
+        function log(message, type = 'info') {
+            const output = document.getElementById('output');
+            const line = document.createElement('div');
+            line.className = `output-line ${type}`;
+            line.textContent = message;
+            output.appendChild(line);
+            output.scrollTop = output.scrollHeight;
+        }
+
+        function clearOutput() {
+            document.getElementById('output').innerHTML = '';
+        }
+
+        // Tab switching
+        function switchTab(e, tabId) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            // Remove active from all buttons
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            // Show selected tab
+            document.getElementById(tabId).classList.add('active');
+            e.target.classList.add('active');
+        }
+
+        // Update statistics
+        async function updateStats() {
+            if (typeof tileCache === 'undefined') {
+                log('❌ TileCache no disponible aún', 'error');
+                return;
+            }
+
+            const cacheInfo = await tileCache.getCacheSize();
+            
+            document.getElementById('statTileCount').textContent = cacheInfo.count;
+            document.getElementById('statCacheSize').textContent = cacheInfo.sizeInMB + ' MB';
+            document.getElementById('statoOnline').textContent = navigator.onLine ? '🟢' : '🔴';
+            document.getElementById('statMode').textContent = MAP_STATE?.offlineMode ? '🔴 OFFLINE' : '🟢 ONLINE';
+            
+            log('✅ Estadísticas actualizadas', 'success');
+        }
+
+        // Run diagnostics
+        async function runDiagnostics() {
+            clearOutput();
+            log('🔍 Iniciando diagnóstico del sistema...', 'info');
+            
+            try {
+                if (typeof cacheDiagnostics === 'undefined') {
+                    log('❌ cache-debug-utils.js no cargado', 'error');
+                    return;
+                }
+                
+                // Ejecutar diagnósticos (muestra en consola, nosotros actualizamos stats)
+                await updateStats();
+                log('✅ Diagnóstico completado', 'success');
+                
+                if (typeof getCacheStatistics !== 'undefined') {
+                    const stats = await getCacheStatistics();
+                    log(`📊 Total: ${Object.keys(stats.byLayer).length} capas`, 'info');
+                    
+                    Object.entries(stats.byLayer).forEach(([layer, info]) => {
+                        log(`   📍 ${layer}: ${info.count} tiles`, 'success');
+                    });
+                    
+                    log(`🔍 Zoom levels:`, 'info');
+                    Object.keys(stats.byZoom)
+                        .map(z => parseInt(z))
+                        .sort((a, b) => a - b)
+                        .forEach(z => {
+                            const count = stats.byZoom[z].count;
+                            log(`   Z${z}: ${count} tiles`, 'success');
+                        });
+                }
+            } catch (error) {
+                log(`❌ Error: ${error.message}`, 'error');
+            }
+        }
+
+        // Show cached tiles
+        async function showTiles() {
+            clearOutput();
+            try {
+                const tiles = await tileCache.getAllTiles();
+                if (tiles.length === 0) {
+                    log('❌ No hay tiles cacheados', 'warning');
+                    return;
+                }
+                
+                log(`📋 ${tiles.length} Tiles Cacheados:`, 'info');
+                tiles.slice(0, 20).forEach(tile => {
+                    const coords = tile.url.match(/(\d+)\/(\d+)\/(\d+)/) || [''];
+                    log(`  📍 ${tile.layer} [${coords[0]}] - ${(tile.size/1024).toFixed(1)}KB`, 'success');
+                });
+                
+                if (tiles.length > 20) {
+                    log(`... y ${tiles.length - 20} más`, 'info');
+                }
+            } catch (error) {
+                log(`❌ Error: ${error.message}`, 'error');
+            }
+        }
+
+        // Reload tiles
+        async function reloadFromCache() {
+            clearOutput();
+            try {
+                log('🔄 Recargando tiles...', 'info');
+                MAP_STATE.map.eachLayer(layer => {
+                    if (layer.redraw) layer.redraw();
+                });
+                MAP_STATE.map.invalidateSize(false);
+                log('✅ Tiles recargados correctamente', 'success');
+            } catch (error) {
+                log(`❌ Error: ${error.message}`, 'error');
+            }
+        }
+
+        // Wipe cache
+        function wipeCache() {
+            if (confirm('⚠️ ¿Estás SEGURO? Esto eliminará TODOS los tiles.\n\nEsta acción NO se puede deshacer.')) {
+                if (confirm('Última confirmación: ¿ELIMINAR TODO?')) {
+                    wipeCacheForReal();
+                }
+            }
+        }
+
+        // Toggle offline
+        function toggleOfflineFromPanel() {
+            clearOutput();
+            if (typeof toggleOfflineMode !== 'undefined') {
+                toggleOfflineMode();
+                updateStats();
+                log('✅ Estado cambiado', 'success');
+            } else {
+                log('❌ toggleOfflineMode no disponible', 'error');
+            }
+        }
+
+        // Show offline info
+        async function showOfflineInfo() {
+            const output = document.getElementById('output-offline');
+            output.innerHTML = '';
+            
+            try {
+                const stats = await getCacheStatistics();
+                const info = await tileCache.getCacheSize();
+                
+                const html = `
+                    <strong style="color: #667eea;">✅ INFORMACIÓN DEL CACHÉ</strong><br/>
+                    <br/>
+                    Total Tiles: <strong>${info.count}</strong><br/>
+                    Tamaño Total: <strong>${info.sizeInMB} MB</strong><br/>
+                    <br/>
+                    <strong>Por Capa:</strong><br/>
+                    ${Object.entries(stats.byLayer)
+                        .map(([layer, data]) => `&nbsp;&nbsp;📍 ${layer}: ${data.count} tiles (${(data.size / (1024 * 1024)).toFixed(2)} MB)`)
+                        .join('<br/>')}
+                    <br/>
+                    <br/>
+                    <strong>Zoom Levels:</strong><br/>
+                    ${Object.keys(stats.byZoom)
+                        .map(z => parseInt(z))
+                        .sort((a, b) => a - b)
+                        .map(z => `&nbsp;&nbsp;🔍 Z${z}: ${stats.byZoom[z].count} tiles`)
+                        .join('<br/>')}
+                `;
+                
+                output.innerHTML = html;
+            } catch (error) {
+                output.innerHTML = `<span style="color: #fc8181;">❌ Error: ${error.message}</span>`;
+            }
+        }
+
+        // Export JSON
+        async function exportJSON() {
+            clearOutput();
+            try {
+                log('📤 Preparando exportación...', 'info');
+                
+                const tiles = await tileCache.getAllTiles();
+                const stats = await getCacheStatistics();
+                
+                const data = {
+                    timestamp: new Date().toISOString(),
+                    summary: {
+                        totalTiles: tiles.length,
+                        totalSizeMB: stats.totalSize / (1024 * 1024),
+                        byLayer: stats.byLayer,
+                        byZoom: stats.byZoom
+                    }
+                };
+                
+                const json = JSON.stringify(data, null, 2);
+                const blob = new Blob([json], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `cache-${Date.now()}.json`;
+                a.click();
+                
+                log('✅ Archivo descargado: cache-' + Date.now() + '.json', 'success');
+            } catch (error) {
+                log(`❌ Error: ${error.message}`, 'error');
+            }
+        }
+
+        // Open console
+        function openConsole() {
+            alert('Abre Developer Tools:\n\nWindows: F12 o Ctrl+Shift+I\nMac: Cmd+Option+I\n\nLuego dirigite a la pestaña "Console"');
+        }
+
+        // Show stats table
+        async function showStatsTable() {
+            clearOutput();
+            try {
+                const stats = await getCacheStatistics();
+                
+                log('📊 ESTADÍSTICAS DETALLADAS', 'info');
+                log('═════════════════════════════════════════', 'info');
+                log('', 'info');
+                
+                log('Por CAPA:', 'success');
+                Object.entries(stats.byLayer).forEach(([layer, info]) => {
+                    const sizePerTile = (info.size / info.count / 1024).toFixed(1);
+                    log(`  ${layer.padEnd(20)}: ${String(info.count).padStart(4)} tiles × ${sizePerTile} KB = ${(info.size / (1024 * 1024)).toFixed(2)} MB`, 'info');
+                });
+                
+                log('', 'info');
+                log('Por ZOOM:', 'success');
+                Object.entries(stats.byZoom)
+                    .sort((a, b) => parseInt(a[0]) - parseInt(b[0]))
+                    .forEach(([z, info]) => {
+                        const sizePerTile = (info.size / info.count / 1024).toFixed(1);
+                        log(`  Z${z.padEnd(2)}: ${String(info.count).padStart(4)} tiles × ${sizePerTile} KB = ${(info.size / (1024 * 1024)).toFixed(2)} MB`, 'info');
+                    });
+                    
+            } catch (error) {
+                log(`❌ Error: ${error.message}`, 'error');
+            }
+        }
+
+        // Initialize on load
+        window.addEventListener('load', () => {
+            updateStats();
+        });
+
+        // Auto-update every 5 seconds
+        setInterval(updateStats, 5000);
+    </script>
+</body>
+</html>

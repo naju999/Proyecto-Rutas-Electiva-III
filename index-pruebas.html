@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index de Pruebas - Mapa y Cache</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/test-styles.css" />
+</head>
+<body data-show-bus-a1="true">
+    <header class="test-header">
+        <h1>Index de Pruebas</h1>
+        <p>Vista independiente: mapa, coordenadas y sistema de cache</p>
+    </header>
+
+    <main class="test-layout">
+        <section id="map"></section>
+
+        <aside class="test-sidebar">
+            <section class="panel">
+                <h2>Coordenadas actuales</h2>
+                <div class="coordinates">
+                    <div class="coord-card">
+                        <span>Latitud</span>
+                        <strong id="coordLat">5.527700</strong>
+                    </div>
+                    <div class="coord-card">
+                        <span>Longitud</span>
+                        <strong id="coordLng">-73.363900</strong>
+                    </div>
+                </div>
+                <p class="help-text">Tip: clic derecho en el mapa para actualizar coordenadas.</p>
+            </section>
+
+            <section class="panel">
+                <h2>Sistema de cache</h2>
+
+                <div id="statusCacheo">
+                    <p><strong id="statusText">Online</strong></p>
+                </div>
+
+                <div id="cacheSizeInfo">
+                    <p><strong>Tiles cacheados:</strong> <span id="tileCount">0</span></p>
+                    <p><strong>Tamano cache:</strong> <span id="cacheSize">0 MB</span></p>
+
+                    <details class="cache-details">
+                        <summary>Ver detalle por capa y zoom</summary>
+                        <div id="layerDetails" class="detail-content"></div>
+                        <div id="zoomDetails" class="detail-content"></div>
+                    </details>
+                </div>
+
+                <div class="button-stack">
+                    <button type="button" id="offlineBtn" onclick="toggleOfflineMode()">Simular Offline</button>
+                    <button type="button" class="danger" onclick="clearCache()">Limpiar cache</button>
+                </div>
+            </section>
+        </aside>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script src="js/tileCache.js"></script>
+    <script src="js/mapConfig.js"></script>
+    <script src="js/mapLayers.js"></script>
+    <script src="js/mapControls.js"></script>
+    <script src="js/cacheManager.js"></script>
+    <script src="js/diagnostics.js"></script>
+    <script src="js/cache-debug-utils.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

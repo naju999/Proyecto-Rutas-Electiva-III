@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Control del Caché</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Courier New', monospace;
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1, h2 {
+            color: #4ec9b0;
+            margin: 20px 0 10px 0;
+        }
+        
+        .panel {
+            background: #252526;
+            border: 1px solid #3e3e42;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        
+        .btn {
+            background: #0e639c;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 3px;
+            cursor: pointer;
+            margin: 5px 5px 5px 0;
+            font-family: monospace;
+        }
+        
+        .btn:hover {
+            background: #1177bb;
+        }
+        
+        .btn-danger {
+            background: #d13438;
+        }
+        
+        .btn-danger:hover {
+            background: #e81123;
+        }
+        
+        .btn-success {
+            background: #107c10;
+        }
+        
+        .btn-success:hover {
+            background: #16a85a;
+        }
+        
+        .output {
+            background: #1e1e1e;
+            border: 1px solid #3e3e42;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 3px;
+            font-size: 12px;
+            max-height: 400px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+        
+        .status {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 3px;
+            margin: 5px 0;
+        }
+        
+        .status.online {
+            background: #107c10;
+            color: white;
+        }
+        
+        .status.offline {
+            background: #d13438;
+            color: white;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin: 10px 0;
+        }
+        
+        .stat-card {
+            background: #2d2d30;
+            border-left: 3px solid #0e639c;
+            padding: 10px;
+            border-radius: 3px;
+        }
+        
+        .stat-label {
+            color: #858585;
+            font-size: 11px;
+            text-transform: uppercase;
+        }
+        
+        .stat-value {
+            color: #4ec9b0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            font-size: 12px;
+        }
+        
+        table th {
+            background: #2d2d30;
+            color: #4ec9b0;
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #3e3e42;
+        }
+        
+        table td {
+            padding: 8px;
+            border-bottom: 1px solid #3e3e42;
+        }
+        
+        table tr:hover {
+            background: #2d2d30;
+        }
+        
+        .code-block {
+            background: #1e1e1e;
+            border-left: 3px solid #0e639c;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 3px;
+            overflow-x: auto;
+        }
+        
+        input[type="number"] {
+            background: #3e3e42;
+            color: #d4d4d4;
+            border: 1px solid #555;
+            padding: 5px;
+            border-radius: 3px;
+            width: 80px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔧 Panel de Control del Caché de Tunja Maps</h1>
+        <p>Herramienta para debugging y testing del sistema de caché IndexedDB + Redis</p>
+        
+        <!-- STATUS -->
+        <div class="panel">
+            <h2>📊 Estado del Sistema</h2>
+            <div id="statusInfo"></div>
+            <button class="btn btn-success" onclick="actualizarEstatus()">🔄 Actualizar Estado</button>
+        </div>
+        
+        <!-- ESTADÍSTICAS -->
+        <div class="panel">
+            <h2>📈 Estadísticas del Caché</h2>
+            <div class="stats" id="statsContainer"></div>
+            <button class="btn" onclick="cargarEstadisticas()">📊 Cargar Estadísticas</button>
+            <button class="btn" onclick="exportarJSON()">💾 Exportar JSON</button>
+        </div>
+        
+        <!-- TILES CACHEADOS -->
+        <div class="panel">
+            <h2>🗂️ Tiles Cacheados</h2>
+            <button class="btn" onclick="listarTiles()">Listar Todos los Tiles</button>
+            <button class="btn" onclick="agruparPorCapa()">Agrupar por Capa</button>
+            <button class="btn" onclick="agruparPorZoom()">Agrupar por Zoom</button>
+            <div id="tilesOutput" class="output" style="display: none;"></div>
+        </div>
+        
+        <!-- HERRAMIENTAS -->
+        <div class="panel">
+            <h2>🛠️ Herramientas</h2>
+            
+            <h3>Buscar Tiles</h3>
+            <input type="text" id="buscarTile" placeholder="Buscar por URL..." style="width: 300px;">
+            <button class="btn" onclick="buscarTile()">🔍 Buscar</button>
+            <div id="buscarOutput" class="output" style="display: none;"></div>
+            
+            <h3>Filtrar por Zoom</h3>
+            <label>Min Zoom: <input type="number" id="minZoom" min="0" max="20" value="10"></label>
+            <label>Max Zoom: <input type="number" id="maxZoom" min="0" max="20" value="18"></label>
+            <button class="btn" onclick="filtrarPorZoom()">Filtrar</button>
+            <div id="zoomOutput" class="output" style="display: none;"></div>
+            
+            <h3>Filtrar por Capa</h3>
+            <select id="selectCapa" style="padding: 5px; background: #3e3e42; color: #d4d4d4; border: 1px solid #555;">
+                <option value="openstreetmap">OpenStreetMap</option>
+                <option value="satellite">Satélite</option>
+                <option value="terrain">Terreno</option>
+                <option value="all">Todas</option>
+            </select>
+            <button class="btn" onclick="filtrarPorCapa()">Filtrar</button>
+            <div id="capaOutput" class="output" style="display: none;"></div>
+        </div>
+        
+        <!-- OPERACIONES DESTRUCTIVAS -->
+        <div class="panel">
+            <h2>⚠️ Operaciones Peligrosas</h2>
+            <button class="btn btn-danger" onclick="if(confirm('¿Limpiar caché de OSM?')) limpiarCapaEspecifica('openstreetmap')">🗑️ Limpiar OpenStreetMap</button>
+            <button class="btn btn-danger" onclick="if(confirm('¿Limpiar caché de Satélite?')) limpiarCapaEspecifica('satellite')">🗑️ Limpiar Satélite</button>
+            <button class="btn btn-danger" onclick="if(confirm('¿Limpiar TODOS los tiles?')) limpiarTodoCache()">🗑️ Limpiar TODO</button>
+            <button class="btn" onclick="showConsoleInstructions()">📖 Ver Instrucciones de Consola</button>
+            <div id="instructionsOutput" class="output" style="display: none;"></div>
+        </div>
+        
+        <!-- CONSOLE OUTPUT -->
+        <div class="panel">
+            <h2>📝 Salida de Consola</h2>
+            <button class="btn" onclick="document.getElementById('console').textContent = ''">🧹 Limpiar Consola</button>
+            <div id="console" class="output"></div>
+        </div>
+    </div>
+
+    <script>
+        // Redirigir console.log a nuestro output
+        const originalLog = console.log;
+        const consoleDiv = document.getElementById('console');
+        
+        console.log = function(...args) {
+            originalLog(...args);
+            const message = args.map(arg => 
+                typeof arg === 'object' ? JSON.stringify(arg, null, 2) : String(arg)
+            ).join(' ');
+            consoleDiv.textContent += message + '\n';
+            consoleDiv.scrollTop = consoleDiv.scrollHeight;
+        };
+        
+        // ===== FUNCIONES =====
+        
+        async function actualizarEstatus() {
+            const statusDiv = document.getElementById('statusInfo');
+            const online = navigator.onLine;
+            
+            if (window.tileCache) {
+                const info = await window.tileCache.getCacheSize();
+                statusDiv.innerHTML = `
+                    <p><span class="status ${online ? 'online' : 'offline'}">
+                        ${online ? '🟢 ONLINE' : '🔴 OFFLINE'}
+                    </span></p>
+                    <p>Tiles en caché: <strong>${info.count}</strong></p>
+                    <p>Tamaño: <strong>${info.sizeInMB} MB</strong></p>
+                    <p>Espacio disponible: <strong>~50 MB</strong></p>
+                    <p>Uso: <strong>${((info.sizeInMB / 50) * 100).toFixed(1)}%</strong></p>
+                `;
+                console.log(`✅ Estado actualizado: ${info.count} tiles, ${info.sizeInMB} MB`);
+            } else {
+                statusDiv.innerHTML = '<p style="color: #d13438;">⚠️ tileCache no disponible. Abre primero index.html</p>';
+            }
+        }
+        
+        async function cargarEstadisticas() {
+            if (!window.tileCache) {
+                alert('Abre primero index.html en otra pestaña');
+                return;
+            }
+            
+            const tiles = await window.tileCache.getAllTiles();
+            const statsDiv = document.getElementById('statsContainer');
+            
+            let totalSize = 0;
+            const porCapa = {};
+            const porZoom = {};
+            
+            tiles.forEach(tile => {
+                const layer = tile.layer || 'unknown';
+                const match = tile.url.match(/\/(\d+)\/\d+\/\d+\.png/);
+                const zoom = match ? match[1] : 'unknown';
+                
+                totalSize += tile.data.length;
+                porCapa[layer] = (porCapa[layer] || 0) + 1;
+                porZoom[zoom] = (porZoom[zoom] || 0) + 1;
+            });
+            
+            statsDiv.innerHTML = `
+                <div class="stat-card">
+                    <div class="stat-label">Total de Tiles</div>
+                    <div class="stat-value">${tiles.length}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Tamaño Total</div>
+                    <div class="stat-value">${(totalSize / (1024 * 1024)).toFixed(2)} MB</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Promedio por Tile</div>
+                    <div class="stat-value">${(totalSize / tiles.length / 1024).toFixed(1)} KB</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Capas Cacheadas</div>
+                    <div class="stat-value">${Object.keys(porCapa).length}</div>
+                </div>
+            `;
+            
+            console.log('📊 Estadísticas cargadas:');
+            console.log(`   Total: ${tiles.length} tiles`);
+            console.log(`   Tamaño: ${(totalSize / (1024 * 1024)).toFixed(2)} MB`);
+            console.log(`   Por capa:`, porCapa);
+            console.log(`   Por zoom:`, porZoom);
+        }
+        
+        async function listarTiles() {
+            if (!window.tileCache) return;
+            
+            const tiles = await window.tileCache.getAllTiles();
+            const output = document.getElementById('tilesOutput');
+            
+            let html = `<strong>${tiles.length} tiles en total:</strong>\n\n`;
+            html += `<table>
+                <tr>
+                    <th>Z/X/Y</th>
+                    <th>Capa</th>
+                    <th>Tamaño</th>
+                    <th>Fecha</th>
+                </tr>`;
+            
+            tiles.forEach(tile => {
+                const match = tile.url.match(/\/(\d+)\/(\d+)\/(\d+)\.png/);
+                const zxy = match ? `${match[1]}/${match[2]}/${match[3]}` : 'N/A';
+                const size = (tile.data.length / 1024).toFixed(1);
+                const date = new Date(tile.timestamp).toLocaleString();
+                
+                html += `<tr><td>${zxy}</td><td>${tile.layer}</td><td>${size} KB</td><td>${date}</td></tr>`;
+            });
+            
+            html += '</table>';
+            output.innerHTML = html;
+            output.style.display = 'block';
+            
+            console.log(`📂 Listando ${tiles.length} tiles`);
+        }
+        
+        async function agruparPorCapa() {
+            if (!window.tileCache) return;
+            
+            const tiles = await window.tileCache.getAllTiles();
+            const porCapa = {};
+            
+            tiles.forEach(tile => {
+                const layer = tile.layer || 'unknown';
+                if (!porCapa[layer]) porCapa[layer] = [];
+                porCapa[layer].push(tile);
+            });
+            
+            const output = document.getElementById('tilesOutput');
+            let html = '<strong>Tiles Agrupados por Capa:</strong>\n\n';
+            
+            Object.keys(porCapa).forEach(capa => {
+                const tileCapa = porCapa[capa];
+                const size = tileCapa.reduce((acc, t) => acc + t.data.length, 0) / (1024 * 1024);
+                html += `<strong>${capa}</strong>: ${tileCapa.length} tiles (${size.toFixed(2)} MB)\n`;
+            });
+            
+            output.textContent = html;
+            output.style.display = 'block';
+            
+            console.log('🏷️ Agrupado por capa:', porCapa);
+        }
+        
+        async function agruparPorZoom() {
+            if (!window.tileCache) return;
+            
+            const tiles = await window.tileCache.getAllTiles();
+            const porZoom = {};
+            
+            tiles.forEach(tile => {
+                const match = tile.url.match(/\/(\d+)\/\d+\/\d+\.png/);
+                const zoom = match ? match[1] : 'unknown';
+                if (!porZoom[zoom]) porZoom[zoom] = [];
+                porZoom[zoom].push(tile);
+            });
+            
+            const output = document.getElementById('tilesOutput');
+            let html = '<strong>Tiles Agrupados por Zoom:</strong>\n\n';
+            
+            Object.keys(porZoom).sort((a, b) => a - b).forEach(zoom => {
+                const tileZoom = porZoom[zoom];
+                const size = tileZoom.reduce((acc, t) => acc + t.data.length, 0) / (1024 * 1024);
+                html += `Zoom ${zoom}: ${tileZoom.length} tiles (${size.toFixed(2)} MB)\n`;
+            });
+            
+            output.textContent = html;
+            output.style.display = 'block';
+            
+            console.log('🔍 Agrupado por zoom:', porZoom);
+        }
+        
+        async function buscarTile() {
+            if (!window.tileCache) return;
+            
+            const query = document.getElementById('buscarTile').value.toLowerCase();
+            const tiles = await window.tileCache.getAllTiles();
+            const resultados = tiles.filter(t => t.url.toLowerCase().includes(query));
+            
+            const output = document.getElementById('buscarOutput');
+            output.textContent = `Encontrados ${resultados.length} resultados:\n\n`;
+            resultados.forEach(t => {
+                output.textContent += `${t.url}\nCapa: ${t.layer}, Tamaño: ${(t.data.length / 1024).toFixed(1)} KB\n\n`;
+            });
+            output.style.display = 'block';
+            
+            console.log(`🔍 Búsqueda: ${resultados.length} resultados para "${query}"`);
+        }
+        
+        async function filtrarPorZoom() {
+            if (!window.tileCache) return;
+            
+            const minZ = parseInt(document.getElementById('minZoom').value);
+            const maxZ = parseInt(document.getElementById('maxZoom').value);
+            const tiles = await window.tileCache.getAllTiles();
+            
+            const filtrados = tiles.filter(tile => {
+                const match = tile.url.match(/\/(\d+)\/\d+\/\d+\.png/);
+                const z = match ? parseInt(match[1]) : -1;
+                return z >= minZ && z <= maxZ;
+            });
+            
+            const output = document.getElementById('zoomOutput');
+            output.textContent = `Tiles entre zoom ${minZ}-${maxZ}: ${filtrados.length}\n\n`;
+            filtrados.forEach(t => {
+                const match = t.url.match(/\/(\d+)\/(\d+)\/(\d+)/);
+                if (match) output.textContent += `Z${match[1]}/X${match[2]}/Y${match[3]} - ${(t.data.length / 1024).toFixed(1)} KB\n`;
+            });
+            output.style.display = 'block';
+            
+            console.log(`🔎 Filtro zoom: ${filtrados.length} tiles`);
+        }
+        
+        async function filtrarPorCapa() {
+            if (!window.tileCache) return;
+            
+            const capa = document.getElementById('selectCapa').value;
+            const tiles = await window.tileCache.getAllTiles();
+            
+            const filtrados = capa === 'all' ? tiles : tiles.filter(t => t.layer === capa);
+            
+            const output = document.getElementById('capaOutput');
+            output.textContent = `Tiles de capa ${capa}: ${filtrados.length}\n\n`;
+            filtrados.forEach(t => {
+                output.textContent += `${t.url}\n`;
+            });
+            output.style.display = 'block';
+            
+            console.log(`🏷️ Filtro capa: ${filtrados.length} tiles`);
+        }
+        
+        async function limpiarCapaEspecifica(capa) {
+            if (!window.tileCache) return;
+            
+            const tiles = await window.tileCache.getAllTiles();
+            const aEliminar = tiles.filter(t => t.layer === capa);
+            
+            console.log(`🗑️ Limpiando ${aEliminar.length} tiles de ${capa}...`);
+            
+            // En la práctica, necesitarías un método para eliminar específicos
+            // Por ahora, solo aviso
+            alert(`Se eliminarían ${aEliminar.length} tiles de ${capa}\n\nUsa "Limpiar TODO" para limpiar todo`);
+            console.log(`⚠️ Implementa método para limpiar capa específica`);
+        }
+        
+        async function limpiarTodoCache() {
+            if (!window.tileCache) return;
+            
+            console.log('🗑️ Limpiando TODOS los tiles...');
+            await window.tileCache.clearCache();
+            console.log('✅ Caché limpiado completamente');
+            alert('✅ Caché limpiado');
+            actualizarEstatus();
+        }
+        
+        async function exportarJSON() {
+            if (!window.tileCache) return;
+            
+            const tiles = await window.tileCache.getAllTiles();
+            const stats = await window.tileCache.getCacheSize();
+            
+            const datos = {
+                exported: new Date().toISOString(),
+                stats: {
+                    totalTiles: stats.count,
+                    totalSizeMB: stats.sizeInMB
+                },
+                tiles: tiles.map(t => ({
+                    url: t.url,
+                    size: t.data.length,
+                    layer: t.layer,
+                    timestamp: new Date(t.timestamp).toISOString()
+                }))
+            };
+            
+            const json = JSON.stringify(datos, null, 2);
+            const blob = new Blob([json], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `cache-export-${Date.now()}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+            
+            console.log('💾 JSON exportado:', a.download);
+        }
+        
+        function showConsoleInstructions() {
+            const output = document.getElementById('instructionsOutput');
+            output.textContent = `
+INSTRUCCIONES PARA LA CONSOLA DEL NAVEGADOR (F12):
+
+1. VER TILES EN INDEXEDDB
+=========================
+Abre: DevTools → Application → IndexedDB → tunjaMapsCache → tiles
+
+2. CONTAR TILES
+===============
+(async () => {
+    const info = await tileCache.getCacheSize();
+    console.log('Tiles:', info.count, '| Tamaño:', info.sizeInMB, 'MB');
+})();
+
+3. LISTAR TODOS LOS TILES
+=========================
+(async () => {
+    const tiles = await tileCache.getAllTiles();
+    console.table(tiles.map(t => ({
+        url: t.url.substring(0, 50),
+        size: (t.data.length / 1024).toFixed(1) + ' KB',
+        layer: t.layer
+    })));
+})();
+
+4. BUSCAR UN TILE
+=================
+(async () => {
+    const tile = await tileCache.getTile('https://...');
+    console.log('Tile encontrado:', tile);
+})();
+
+5. LIMPIAR CACHÉ
+================
+await tileCache.clearCache();
+console.log('Caché limpiado');
+
+6. ACTIVAR/DESACTIVAR OFFLINE
+==============================
+offlineMode = true;   // Activar
+offlineMode = false;  // Desactivar
+
+7. VER ESTADO DEL MAPA
+=====================
+console.log('Zoom:', map.getZoom());
+console.log('Centro:', map.getCenter());
+console.log('Bounds:', map.getBounds());
+
+8. VER MEMORY USAGE
+====================
+performance.memory  // Si está disponible
+            `;
+            output.style.display = 'block';
+        }
+        
+        // Inicializar
+        window.addEventListener('load', () => {
+            actualizarEstatus();
+            setInterval(() => {
+                // Auto-refresh cada 5 segundos
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
