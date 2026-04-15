@@ -1,6 +1,6 @@
 @echo off
 REM Iniciar servidor Python HTTP para release React/PWA
-REM Este archivo inicia el servidor en http://localhost:8000 sirviendo react-parallel/dist
+REM Este archivo inicia el servidor en http://localhost:8000 sirviendo dist
 
 color 0f
 cls
@@ -26,7 +26,7 @@ if errorlevel 1 (
 )
 
 REM Iniciar servidor
-echo Iniciando servidor...
+echo Iniciando servidor React/PWA...
 echo.
 python "%~dp0start-server.py"
 

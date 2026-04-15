@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Servidor HTTP Simple para Servir Archivos del Mapa de Tunja
+Servidor HTTP simple para el build React/PWA.
 Ejecutar: python start-server.py
 Luego abre: http://localhost:8000
 """
@@ -13,7 +13,7 @@ from pathlib import Path
 
 PORT = 8000
 ROOT_DIRECTORY = Path(__file__).parent
-DIST_DIRECTORY = ROOT_DIRECTORY / 'react-parallel' / 'dist'
+DIST_DIRECTORY = ROOT_DIRECTORY / 'dist'
 
 class MyHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
@@ -27,9 +27,9 @@ class MyHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
 
 def start_server():
     if not DIST_DIRECTORY.exists():
-        print('ERROR: No existe react-parallel/dist.')
+        print('ERROR: No existe dist.')
         print('Ejecuta primero:')
-        print('  cd react-parallel')
+        print('  cd .')
         print('  npm install')
         print('  npm run build')
         sys.exit(1)
@@ -48,9 +48,9 @@ Directorio servido: {DIST_DIRECTORY}
 URL local: http://localhost:{PORT}
 App React/PWA: http://localhost:{PORT}/
 
-Estado de corte final:
- - Frontend React/PWA es la entrada por defecto.
- - Frontend legado queda preservado en raiz para referencia historica.
+Estado actual:
+ - React/PWA es la entrada principal.
+ - La estructura histórica fue retirada de la raíz del proyecto.
 
 Para detener: CTRL+C
 

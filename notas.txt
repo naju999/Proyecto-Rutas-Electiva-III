@@ -95,26 +95,3 @@ Comparar métricas contra Fase 0.
 Retirar código legado cuando React ya cubra todo.
 Entregable: release estable y plan de mantenimiento.
 
-Cierre Fase 5 (2026-04-14)
-Estado: Cerrada con evidencia tecnica.
-Evidencia consolidada en: FASE5_EVIDENCIA_CIERRE.md
-Validaciones: sin errores de diagnostico en archivos clave, build de produccion exitoso y dist/sw.js generado.
-
-Fase 6 (2026-04-14)
-Estado: Implementacion tecnica completada.
-Incluye: manifest web, iconos (192/512/maskable/apple), fallback offline (offline.html), instalacion PWA desde perfil y estrategia de update de SW controlada por usuario para evitar inconsistencias.
-Validaciones: sin errores de diagnostico en archivos clave y build de produccion exitoso con dist/manifest.webmanifest, dist/icons/, dist/offline.html y dist/sw.js.
-
-Cierre Fase 6 (2026-04-14)
-Estado: Cerrada con evidencia tecnica.
-Evidencia consolidada en: FASE6_EVIDENCIA_CIERRE.md
-Validaciones: sin errores de diagnostico en archivos PWA clave, build de produccion exitoso (53 modulos) y artefactos PWA completos en dist (manifest, offline, sw e iconos).
-
-Fase 7 (2026-04-14)
-Estado: QA y corte final ejecutados.
-Incluye: QA automatizada online/red lenta/offline, validacion de zoom/capas/recarga, comparacion contra Fase 0 (con brecha de baseline numerico), corte de ejecucion por defecto hacia React/PWA y plan de mantenimiento.
-Evidencia: react-parallel/qa-results/phase7-qa-report.json, FASE7_EVIDENCIA_CIERRE.md, PLAN_MANTENIMIENTO_RELEASE.md.
-
-Cierre Fase 7 (2026-04-14)
-Estado: Cerrada con evidencia tecnica.
-Validaciones: QA pass true, build de produccion en verde, release estable sobre React/PWA.
