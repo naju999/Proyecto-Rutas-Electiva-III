@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-04-15T03:19:38.362Z",
+  "baseUrl": "http://127.0.0.1:4173",
+  "browserPath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+  "scenarios": {
+    "online": {
+      "timings": {
+        "domContentLoadedMs": 1270,
+        "loadEventMs": 1270,
+        "firstTileMs": 1416
+      },
+      "layerTimesMs": {
+        "openstreetmap": 80,
+        "satellite": 65,
+        "terrain": 32
+      },
+      "routeToggle": {
+        "before": false,
+        "after": true,
+        "ok": true
+      },
+      "errors": {
+        "consoleErrorCount": 0,
+        "pageErrorCount": 0,
+        "consoleErrors": [],
+        "pageErrors": []
+      },
+      "serviceWorker": {
+        "supported": true,
+        "controlled": true,
+        "hasRegistration": true
+      }
+    },
+    "fast3g": {
+      "domContentLoadedMs": 1547,
+      "loadEventMs": 1550,
+      "firstTileMs": 3092
+    },
+    "offline": {
+      "ok": true,
+      "mode": "app-shell"
+    }
+  },
+  "summary": {
+    "pass": true
+  }
+}

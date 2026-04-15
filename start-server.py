@@ -12,7 +12,8 @@ import sys
 from pathlib import Path
 
 PORT = 8000
-DIRECTORY = str(Path(__file__).parent)
+ROOT_DIRECTORY = Path(__file__).parent
+DIST_DIRECTORY = ROOT_DIRECTORY / 'react-parallel' / 'dist'
 
 class MyHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
@@ -25,28 +26,33 @@ class MyHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
         print(f"[{self.log_date_time_string()}] {format % args}")
 
 def start_server():
-    os.chdir(DIRECTORY)
+    if not DIST_DIRECTORY.exists():
+        print('ERROR: No existe react-parallel/dist.')
+        print('Ejecuta primero:')
+        print('  cd react-parallel')
+        print('  npm install')
+        print('  npm run build')
+        sys.exit(1)
+
+    os.chdir(str(DIST_DIRECTORY))
     handler = MyHTTPRequestHandler
     
     try:
         with socketserver.TCPServer(("", PORT), handler) as httpd:
             print(f"""
 ╔═══════════════════════════════════════════════════════════╗
-║     🚀 SERVIDOR HTTP INICIADO CORRECTAMENTE              ║
+║       SERVIDOR HTTP INICIADO CORRECTAMENTE               ║
 ╚═══════════════════════════════════════════════════════════╝
 
-📁 Directorio: {DIRECTORY}
-🌐 URL Local: http://localhost:{PORT}
-🗺️  Mapa: http://localhost:{PORT}/index.html
-🔧 Debug: http://localhost:{PORT}/cache-debug-panel.html
+Directorio servido: {DIST_DIRECTORY}
+URL local: http://localhost:{PORT}
+App React/PWA: http://localhost:{PORT}/
 
-✅ AHORA FUNCIONA:
-   ✓ IndexedDB está habilitado
-   ✓ Caché se guardará correctamente
-   ✓ Modo Offline funcionará
-   ✓ Sin errores de CORS
+Estado de corte final:
+ - Frontend React/PWA es la entrada por defecto.
+ - Frontend legado queda preservado en raiz para referencia historica.
 
-⏹️  Para detener: Presiona CTRL+C
+Para detener: CTRL+C
 
 ═══════════════════════════════════════════════════════════
             """)
