@@ -1,13 +1,13 @@
 @echo off
-REM Iniciar servidor Python HTTP para el mapa de Tunja
-REM Este archivo inicia el servidor en http://localhost:8000
+REM Iniciar servidor Python HTTP para release React/PWA
+REM Este archivo inicia el servidor en http://localhost:8000 sirviendo dist
 
 color 0f
 cls
 
 echo.
 echo ╔═══════════════════════════════════════════════════════════╗
-echo ║   INICIANDO SERVIDOR HTTP PARA MAPA DE TUNJA            ║
+echo ║   INICIANDO SERVIDOR HTTP PARA RELEASE REACT/PWA        ║
 echo ╚═══════════════════════════════════════════════════════════╝
 echo.
 
@@ -26,7 +26,7 @@ if errorlevel 1 (
 )
 
 REM Iniciar servidor
-echo Iniciando servidor...
+echo Iniciando servidor React/PWA...
 echo.
 python "%~dp0start-server.py"
 

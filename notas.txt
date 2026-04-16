@@ -67,3 +67,31 @@ Errores de sync y métricas mínimas.
 2. Planea PostgreSQL/PostGIS como backend objetivo.
 3. Evita localStorage para tiles o datos pesados.
 
+Fase 2: Migrar UI primero, lógica después (2 a 3 días)
+Pasar vistas visuales de Inicio, Rutas, Favoritos y Perfil a componentes React.
+Mantener temporalmente la lógica del mapa fuera de React para evitar regresiones.
+Entregable: interfaz en React equivalente a la actual, sin cambiar aún el motor del mapa.
+Fase 3: Encapsular Leaflet en componente React (2 a 3 días)
+Crear componente Map principal con ciclo de vida controlado.
+Portar interacción actual: zoom, center, cambio de capa, markers, ruta A1.
+Reusar la lógica existente de capas y controles mediante adaptadores, no reescribir todo de golpe.
+Entregable: mapa funcional dentro de React con mismo comportamiento que hoy.
+Fase 4: Estado global moderno (1 a 2 días)
+Reemplazar progresivamente estado global actual por store de React.
+Separar estado UI y estado de mapa/caché.
+Entregable: estado predecible y fácil de mantener, sin variables globales dispersas.
+Fase 5: Caché para PWA bien hecho (2 a 4 días)
+Mantener IndexedDB para metadatos y control de tiles.
+Mover caché de red de tiles al Service Worker con Cache Storage.
+Definir estrategia de expiración y limpieza (LRU o antigüedad).
+Entregable: offline estable, sin bloquear UI, listo para crecer.
+Fase 6: PWA completa (1 a 2 días)
+Manifest, iconos, instalación, splash, fallback offline.
+Estrategia de actualización del Service Worker para evitar inconsistencias.
+Entregable: app instalable en móvil/escritorio y usable offline.
+Fase 7: QA y corte final (1 a 2 días)
+Pruebas reales: online, red lenta, offline total, cambio de zoom/capa, recarga.
+Comparar métricas contra Fase 0.
+Retirar código legado cuando React ya cubra todo.
+Entregable: release estable y plan de mantenimiento.
+
