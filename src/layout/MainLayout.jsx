@@ -6,17 +6,12 @@ import {
   subscribeServiceWorkerUpdates
 } from '../pwa/registerServiceWorker';
 import { useAppDispatch, useAppStore } from '../store/AppStore';
-import { cacheActions, mapActions as mapStoreActions, uiActions } from '../store/actions';
-import { clearTileCache, getTileCacheStats, trimTileCache } from '../pwa/tileCacheController';
+import { mapActions as mapStoreActions, uiActions } from '../store/actions';
 import {
-  selectCacheOfflineMode,
-  selectCacheStats,
   selectCoordinates,
-  selectCurrentLayer,
   selectHomeOverlayCollapsed,
   selectMapWarning,
-  selectRoutesSheetCollapsed,
-  selectShowBusA1
+  selectRoutesSheetCollapsed
 } from '../store/selectors';
 
 const NAV_ITEMS = [
@@ -70,21 +65,13 @@ function MainLayout() {
   const dispatch = useAppDispatch();
 
   const [mapActions, setMapActions] = useState(null);
-  const [isCacheBusy, setIsCacheBusy] = useState(false);
   const [isApplyingSwUpdate, setIsApplyingSwUpdate] = useState(false);
   const [isSwUpdateAvailable, setIsSwUpdateAvailable] = useState(false);
 
   const isHomeOverlayCollapsed = selectHomeOverlayCollapsed(state);
   const isRoutesSheetCollapsed = selectRoutesSheetCollapsed(state);
-  const currentLayer = selectCurrentLayer(state);
-  const showBusA1 = selectShowBusA1(state);
   const coord = selectCoordinates(state);
   const mapWarning = selectMapWarning(state);
-  const isOfflineMode = selectCacheOfflineMode(state);
-  const cacheStats = selectCacheStats(state);
-
-  const tileCount = Number(cacheStats?.tileCount ?? 0);
-  const cacheSizeMB = Number(cacheStats?.sizeMB ?? 0).toFixed(2);
 
   const activeView = useMemo(() => {
     const segment = location.pathname.split('/').filter(Boolean)[0];
@@ -92,12 +79,6 @@ function MainLayout() {
   }, [location.pathname]);
 
   const isMapView = activeView === 'inicio' || activeView === 'rutas';
-
-  const currentLayerLabel = useMemo(() => {
-    if (currentLayer === 'satellite') return 'Satelite';
-    if (currentLayer === 'terrain') return 'Terreno';
-    return 'OpenStreetMap';
-  }, [currentLayer]);
 
   useEffect(() => {
     document.body.setAttribute('data-active-view', activeView);
@@ -142,55 +123,6 @@ function MainLayout() {
   }, [isMapView, mapActions]);
 
   useEffect(() => {
-    const syncOfflineMode = () => {
-      dispatch(cacheActions.setOfflineMode(!navigator.onLine));
-    };
-
-    syncOfflineMode();
-    window.addEventListener('online', syncOfflineMode);
-    window.addEventListener('offline', syncOfflineMode);
-
-    return () => {
-      window.removeEventListener('online', syncOfflineMode);
-      window.removeEventListener('offline', syncOfflineMode);
-    };
-  }, [dispatch]);
-
-  useEffect(() => {
-    let isMounted = true;
-
-    const refreshTileStats = async () => {
-      const stats = await getTileCacheStats();
-      if (!stats || !isMounted) return;
-
-      dispatch(
-        cacheActions.updateStats({
-          tileCount: Number(stats.tileCount ?? 0),
-          sizeMB: Number(stats.sizeMB ?? 0),
-          lastUpdated: stats.lastUpdated ?? Date.now()
-        })
-      );
-    };
-
-    const handleControllerChange = () => {
-      void refreshTileStats();
-    };
-
-    void refreshTileStats();
-    const intervalId = window.setInterval(() => {
-      void refreshTileStats();
-    }, 30000);
-
-    window.addEventListener('pwa:sw-controller-change', handleControllerChange);
-
-    return () => {
-      isMounted = false;
-      window.clearInterval(intervalId);
-      window.removeEventListener('pwa:sw-controller-change', handleControllerChange);
-    };
-  }, [dispatch]);
-
-  useEffect(() => {
     return subscribeServiceWorkerUpdates((stateUpdate) => {
       setIsSwUpdateAvailable(Boolean(stateUpdate?.available));
 
@@ -208,45 +140,6 @@ function MainLayout() {
     window.setTimeout(() => {
       mapActions.invalidateSize();
     }, 180);
-  };
-
-  const handleTrimTileCache = async () => {
-    if (isCacheBusy) return;
-
-    setIsCacheBusy(true);
-    try {
-      const stats = await trimTileCache();
-      if (!stats) return;
-
-      dispatch(
-        cacheActions.updateStats({
-          tileCount: Number(stats.tileCount ?? 0),
-          sizeMB: Number(stats.sizeMB ?? 0),
-          lastUpdated: stats.lastUpdated ?? Date.now()
-        })
-      );
-    } finally {
-      setIsCacheBusy(false);
-    }
-  };
-
-  const handleClearTileCache = async () => {
-    if (isCacheBusy) return;
-
-    setIsCacheBusy(true);
-    try {
-      const stats = await clearTileCache();
-
-      dispatch(
-        cacheActions.updateStats({
-          tileCount: Number(stats?.tileCount ?? 0),
-          sizeMB: Number(stats?.sizeMB ?? 0),
-          lastUpdated: stats?.lastUpdated ?? Date.now()
-        })
-      );
-    } finally {
-      setIsCacheBusy(false);
-    }
   };
 
   const handleApplySwUpdate = async () => {
@@ -323,143 +216,19 @@ function MainLayout() {
                     <strong id="coordLng">{coord.lng.toFixed(6)}</strong>
                   </div>
                 </div>
-                <div className="cache-status-inline" aria-live="polite">
-                  <span>{isOfflineMode ? 'Sin conexion' : 'En linea'}</span>
-                  <span>Tiles: {tileCount}</span>
-                  <span>Cache: {cacheSizeMB} MB</span>
-                </div>
-                <div className="cache-actions">
-                  <button
-                    type="button"
-                    className="ghost-btn cache-control-btn"
-                    onClick={handleTrimTileCache}
-                    disabled={isCacheBusy}
-                  >
-                    Optimizar cache
-                  </button>
-                  <button
-                    type="button"
-                    className="ghost-btn cache-control-btn"
-                    onClick={handleClearTileCache}
-                    disabled={isCacheBusy}
-                  >
-                    Limpiar tiles
-                  </button>
-                </div>
               </div>
             </div>
           </div>
 
-          <div className="map-tools map-tools-routes" aria-label="Controles del mapa">
-            <div className="button-group">
-              <button
-                type="button"
-                onClick={() => {
-                  if (mapActions) mapActions.centerMap();
-                }}
-              >
-                Centrar
-              </button>
-              <button
-                type="button"
-                onClick={() => {
-                  if (mapActions) mapActions.zoomIn();
-                }}
-              >
-                Zoom +
-              </button>
-              <button
-                type="button"
-                onClick={() => {
-                  if (mapActions) mapActions.zoomOut();
-                }}
-              >
-                Zoom -
-              </button>
-              <button
-                type="button"
-                onClick={() => {
-                  if (mapActions) mapActions.resetView();
-                }}
-              >
-                Reset
-              </button>
+          {mapWarning ? (
+            <div className="map-tools map-tools-routes" aria-label="Avisos del mapa">
+              <p className="map-warning">{mapWarning}</p>
             </div>
-
-            <div className="layer-controls">
-              <p>Capa actual: {currentLayerLabel}</p>
-              <label>
-                <input
-                  type="radio"
-                  name="layer"
-                  value="openstreetmap"
-                  checked={currentLayer === 'openstreetmap'}
-                  onChange={(event) => dispatch(mapStoreActions.setCurrentLayer(event.target.value))}
-                />
-                OpenStreetMap
-              </label>
-              <label>
-                <input
-                  type="radio"
-                  name="layer"
-                  value="satellite"
-                  checked={currentLayer === 'satellite'}
-                  onChange={(event) => dispatch(mapStoreActions.setCurrentLayer(event.target.value))}
-                />
-                Satelite
-              </label>
-              <label>
-                <input
-                  type="radio"
-                  name="layer"
-                  value="terrain"
-                  checked={currentLayer === 'terrain'}
-                  onChange={(event) => dispatch(mapStoreActions.setCurrentLayer(event.target.value))}
-                />
-                Terreno
-              </label>
-
-              <label className="route-toggle">
-                <input
-                  type="checkbox"
-                  checked={showBusA1}
-                  onChange={(event) => dispatch(mapStoreActions.setShowBusA1(event.target.checked))}
-                />
-                Mostrar ruta A1
-              </label>
-            </div>
-
-            <div className="cache-status-inline cache-status-routes" aria-live="polite">
-              <span>{isOfflineMode ? 'Sin conexion' : 'En linea'}</span>
-              <span>Tiles: {tileCount}</span>
-              <span>Cache: {cacheSizeMB} MB</span>
-            </div>
-
-            <div className="cache-actions routes-cache-actions">
-              <button
-                type="button"
-                className="ghost-btn cache-control-btn"
-                onClick={handleTrimTileCache}
-                disabled={isCacheBusy}
-              >
-                Optimizar cache
-              </button>
-              <button
-                type="button"
-                className="ghost-btn cache-control-btn"
-                onClick={handleClearTileCache}
-                disabled={isCacheBusy}
-              >
-                Limpiar tiles
-              </button>
-            </div>
-
-            {mapWarning ? <p className="map-warning">{mapWarning}</p> : null}
-          </div>
+          ) : null}
 
           <MapCanvas
-            currentLayer={currentLayer}
-            showBusA1={showBusA1}
+            currentLayer="openstreetmap"
+            showBusA1={false}
             onMapReady={setMapActions}
             onMapError={(warning) => dispatch(mapStoreActions.setWarning(warning))}
             onCoordinatesChange={(lat, lng) => dispatch(mapStoreActions.setCoordinates(lat, lng))}

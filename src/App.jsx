@@ -5,10 +5,12 @@ import RutasPage from './pages/RutasPage';
 import FavoritosPage from './pages/FavoritosPage';
 import PerfilPage from './pages/PerfilPage';
 import NotFoundPage from './pages/NotFoundPage';
+import CacheLabPage from './pages/CacheLabPage';
 
 function App() {
   return (
     <Routes>
+      <Route path="/lab/cache" element={<CacheLabPage />} />
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Navigate to="/inicio" replace />} />
         <Route path="inicio" element={<InicioPage />} />

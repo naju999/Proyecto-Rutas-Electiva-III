@@ -36,18 +36,8 @@ export const MAP_CONFIG = {
         { order: 3, name: 'Los Muiscas', lat: 5.571341, lng: -73.34107 },
         { order: 4, name: 'Centro comercial el nogal', lat: 5.569566, lng: -73.343798 },
         { order: 5, name: 'Bavaria', lat: 5.562331, lng: -73.347813 },
-        {
-          order: 6,
-          name: 'Secretaria De Transito Y Transporte De Tunja',
-          lat: 5.562331,
-          lng: -73.347813
-        },
-        {
-          order: 7,
-          name: 'Empresa De Energia De Boyaca S.A. E.S.P. Norte',
-          lat: 5.558006,
-          lng: -73.34982
-        },
+        {order: 6,name: 'Secretaria De Transito Y Transporte De Tunja',lat: 5.562331,lng: -73.347813},
+        {order: 7,name: 'Empresa De Energia De Boyaca S.A. E.S.P. Norte',lat: 5.558006,lng: -73.34982},
         {
           order: 8,
           name: 'Centro comercial Centro Norte',

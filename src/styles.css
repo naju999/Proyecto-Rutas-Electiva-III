@@ -162,35 +162,6 @@ body[data-active-view='rutas'] .map-tools-home {
   color: #fff;
 }
 
-.layer-controls {
-  margin-top: 12px;
-  padding-top: 10px;
-  border-top: 1px dashed #d5dce7;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 14px;
-  align-items: center;
-}
-
-.layer-controls p {
-  width: 100%;
-  font-weight: 700;
-  color: #304e78;
-  font-size: 0.92rem;
-}
-
-.layer-controls label {
-  font-size: 0.9rem;
-  color: #42546f;
-  display: inline-flex;
-  gap: 6px;
-  align-items: center;
-}
-
-.route-toggle {
-  margin-left: auto;
-}
-
 .map-warning {
   margin-top: 10px;
   border-left: 4px solid #cc6a10;
@@ -670,48 +641,6 @@ button:hover {
   font-size: 0.92rem;
 }
 
-.cache-status-inline {
-  margin-top: 8px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.cache-status-inline span {
-  border: 1px solid #d8e2f0;
-  background: #f6f9ff;
-  color: #35537f;
-  border-radius: 999px;
-  padding: 4px 8px;
-  font-size: 0.74rem;
-  font-weight: 700;
-}
-
-.cache-actions {
-  margin-top: 8px;
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.cache-control-btn {
-  flex: 1 1 120px;
-  font-size: 0.78rem;
-  padding: 8px 9px;
-}
-
-.cache-control-btn[disabled],
-.cache-control-btn[disabled]:hover {
-  opacity: 0.62;
-  cursor: not-allowed;
-  transform: none;
-  box-shadow: none;
-}
-
-.routes-cache-actions {
-  margin-top: 10px;
-}
-
 body[data-active-view='inicio'] #sidebar {
   display: none;
 }
@@ -890,11 +819,6 @@ body[data-active-view='perfil'] #sidebar {
 
   .home-map-info {
     grid-template-columns: 1fr;
-  }
-
-  .route-toggle {
-    margin-left: 0;
-    width: 100%;
   }
 
   body[data-active-view='inicio'] .map-tools-home {
