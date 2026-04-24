@@ -4,6 +4,7 @@ const APP_SHELL_CACHE_NAME = `tunja-app-shell-${SW_VERSION}`;
 const APP_SHELL_CACHE_PREFIX = 'tunja-app-shell-';
 const TILE_CACHE_NAME = `tunja-tiles-${SW_VERSION}`;
 const TILE_CACHE_PREFIX = 'tunja-tiles-';
+const API_CACHE_NAME = `tunja-api-v1`;
 
 const OFFLINE_FALLBACK_URL = '/offline.html';
 const APP_SHELL_FILES = [
@@ -46,27 +47,327 @@ self.addEventListener('activate', (event) => {
   })());
 });
 
+// ============================================================================
+// FETCH EVENT HANDLER CON 4 ESTRATEGIAS
+// ============================================================================
+// - Navigations (Network First + timeout)
+// - App Assets (Cache First + stale-while-revalidate)
+// - Tiles de Mapa (Cache First con metadata en IndexedDB)
+// - API/Datos Dinámicos (Network First)
+// ============================================================================
+
+const NAVIGATION_TIMEOUT_MS = 6000;
+const API_CACHE_TIMEOUT_MS = 8000;
+
 self.addEventListener('fetch', (event) => {
   const request = event.request;
 
+  // Regla 1: Interceptar SOLO requests GET
   if (!request || request.method !== 'GET') {
+    return; // No respondWith => pasar al network naturalmente
+  }
+
+  // Regla 2: No interceptar si request.cache === 'only-if-cached' y mode !== 'same-origin'
+  if (request.cache === 'only-if-cached' && request.mode !== 'same-origin') {
     return;
   }
 
+  // Clasificar y delegar por tipo de request
+
+  // Tipo C: Tiles de Mapa (Externos permitidos, Cache First)
   if (isTileRequest(request)) {
     event.respondWith(handleTileRequest(event));
     return;
   }
 
+  // Tipo A: Navigations (Network First con timeout)
   if (request.mode === 'navigate') {
     event.respondWith(handleNavigationRequest(request));
     return;
   }
 
+  // Tipo B: App Assets (Cache First + stale-while-revalidate)
   if (isAppAssetRequest(request)) {
     event.respondWith(handleAppAssetRequest(request, event));
+    return;
   }
+
+  // Tipo D: API / Datos Dinámicos (Network First)
+  if (isApiRequest(request)) {
+    event.respondWith(handleApiRequest(request));
+    return;
+  }
+
+  // Cualquier otro request: no interceptar (pasar al network)
 });
+
+// ============================================================================
+// FUNCIONES CLASIFICADORAS
+// ============================================================================
+
+/**
+ * Detecta si una request es para un tile de mapa.
+ * Valida:
+ * - Protocolo http/https
+ * - Hostname en allowlist (tile.openstreetmap.org, tile.opentopomap.org, etc.)
+ * - Path/extension indica tile (contiene "/tile/", patrón /z/x/y, o extensión .png/.jpg/.webp)
+ */
+function isTileRequest(request) {
+  const url = new URL(request.url);
+  const path = url.pathname.toLowerCase();
+
+  const sameProtocol = url.protocol === 'https:' || url.protocol === 'http:';
+
+  // Validar que el hostname esté en la allowlist de tiles
+  const hostMatch = TILE_HOST_MATCHERS.some((matcher) => matcher(url.hostname));
+
+  // Detectar por path o extensión
+  const looksLikeTile = path.includes('/tile/') || /\/\d+\/\d+\/\d+/.test(path);
+  const tileExtension = path.endsWith('.png') || path.endsWith('.jpg')
+    || path.endsWith('.jpeg') || path.endsWith('.webp');
+
+  return sameProtocol && hostMatch && (looksLikeTile || tileExtension);
+}
+
+/**
+ * Detecta si una request es un asset de la aplicación (Vite build output + icons + manifest).
+ * Validar que sea mismo origen.
+ */
+function isAppAssetRequest(request) {
+  const url = new URL(request.url);
+
+  // Solo assets del mismo origen
+  if (url.origin !== self.location.origin) {
+    return false;
+  }
+
+  // Validar por destination (navegador lo establece automáticamente)
+  const assetDestinations = new Set(['script', 'style', 'image', 'font', 'manifest']);
+  if (assetDestinations.has(request.destination)) {
+    return true;
+  }
+
+  // Validar por path (/assets/* es salida de Vite)
+  return url.pathname.startsWith('/assets/') || url.pathname.startsWith('/icons/');
+}
+
+/**
+ * Detecta si una request es para API / datos dinámicos.
+ * Criterios:
+ * - Mismo origen que el SW (self.location.origin)
+ * - Y CUALQUIERA de:
+ *   - Path comienza con /api/
+ *   - Header 'accept' contiene 'application/json'
+ */
+function isApiRequest(request) {
+  const url = new URL(request.url);
+
+  // Solo datos dinámicos del mismo origen
+  if (url.origin !== self.location.origin) {
+    return false;
+  }
+
+  // Criterio 1: Path comienza con /api/
+  if (url.pathname.startsWith('/api/')) {
+    return true;
+  }
+
+  // Criterio 2: Header 'accept' menciona application/json
+  const acceptHeader = request.headers.get('accept') || '';
+  if (acceptHeader.includes('application/json')) {
+    return true;
+  }
+
+  return false;
+}
+
+// ============================================================================
+// MANEJADORES POR TIPO DE REQUEST
+// ============================================================================
+
+/**
+ * Estrategia A: Navigation (Network First con timeout)
+ * 1. Intentar network con timeout de 6s
+ * 2. Si ok => cachear y devolver
+ * 3. Si falla => devolver cache de la request (ignoreSearch)
+ * 4. Si no hay cache => devolver cache de /index.html
+ * 5. Si no hay /index.html => devolver /offline.html
+ * 6. Si no hay offline.html => devolver 503 textual
+ */
+async function handleNavigationRequest(request) {
+  const appCache = await caches.open(APP_SHELL_CACHE_NAME);
+
+  try {
+    // Intentar network con timeout
+    const networkResponse = await fetchWithTimeout(request, NAVIGATION_TIMEOUT_MS);
+
+    if (networkResponse && networkResponse.ok) {
+      // Cachear la response y /index.html para futuras navegaciones
+      await appCache.put('/index.html', networkResponse.clone());
+      await appCache.put(request, networkResponse.clone());
+      return networkResponse;
+    }
+
+    throw new Error('Navigation network response was not ok');
+  } catch (_error) {
+    // Network falló o timeout => recurrir a cache
+
+    // Intento 1: cache exact match de la request (ignoreSearch)
+    const cachedNavigation = await appCache.match(request, { ignoreSearch: true });
+    if (cachedNavigation) {
+      return cachedNavigation;
+    }
+
+    // Intento 2: cache de /index.html (fallback SPA)
+    const cachedIndex = await appCache.match('/index.html');
+    if (cachedIndex) {
+      return cachedIndex;
+    }
+
+    // Intento 3: offline.html como último recurso
+    const offlinePage = await appCache.match(OFFLINE_FALLBACK_URL);
+    if (offlinePage) {
+      return offlinePage;
+    }
+
+    // Intento 4: respuesta 503 textual como fallback final
+    return new Response('Offline - Cannot reach server', {
+      status: 503,
+      statusText: 'Service Unavailable',
+      headers: {
+        'Content-Type': 'text/plain; charset=utf-8',
+        'Cache-Control': 'no-store'
+      }
+    });
+  }
+}
+
+/**
+ * Estrategia B: App Assets (Cache First + stale-while-revalidate)
+ * 1. Si está en cache => responder con cache Y refrescar en background
+ * 2. Si no está en cache => ir a network
+ * 3. Si network ok => cachear y devolver
+ * 4. Si network falla => devolver /index.html o 503
+ */
+async function handleAppAssetRequest(request, event) {
+  const appCache = await caches.open(APP_SHELL_CACHE_NAME);
+
+  // Buscar en cache primero
+  const cachedResponse = await appCache.match(request, { ignoreSearch: true });
+
+  if (cachedResponse) {
+    // Cache First: devolver cache inmediatamente
+    // Stale-While-Revalidate: refrescar en background sin bloquear
+    event.waitUntil(refreshAppAsset(request, appCache));
+    return cachedResponse;
+  }
+
+  // No en cache => ir a network
+  try {
+    const networkResponse = await fetch(request);
+
+    if (networkResponse && networkResponse.ok) {
+      // Cachear para futuras solicitudes
+      await appCache.put(request, networkResponse.clone());
+      return networkResponse;
+    }
+
+    // Network response no ok => fallback
+    throw new Error('Asset network response was not ok');
+  } catch (_error) {
+    // Network falló => fallback a /index.html o 503
+    const fallback = await appCache.match('/index.html');
+    if (fallback) {
+      return fallback;
+    }
+
+    return new Response('', {
+      status: 503,
+      statusText: 'Service Unavailable'
+    });
+  }
+}
+
+/**
+ * Stale-While-Revalidate para App Assets.
+ * Refrescar el cache en background sin afectar respuesta actual.
+ * Errores se ignoran para no degradar UX.
+ */
+async function refreshAppAsset(request, appCache) {
+  try {
+    const networkResponse = await fetch(request, { cache: 'no-store' });
+    if (!networkResponse || !networkResponse.ok) {
+      return;
+    }
+
+    // Actualizar cache con versión fresca
+    await appCache.put(request, networkResponse.clone());
+  } catch (_error) {
+    // Intencionalmente ignorado: SWR en background
+  }
+}
+
+/**
+ * Estrategia D: API / Datos Dinámicos (Network First)
+ * 1. Intentar network con timeout
+ * 2. Si ok => cachear y devolver
+ * 3. Si falla => devolver cache match
+ * 4. Si no hay cache => devolver JSON vacío seguro (status 200, body '[]')
+ */
+async function handleApiRequest(request) {
+  const apiCache = await caches.open(API_CACHE_NAME);
+
+  try {
+    // Intentar network con timeout
+    const networkResponse = await fetchWithTimeout(request, API_CACHE_TIMEOUT_MS);
+
+    if (networkResponse && networkResponse.ok) {
+      // Clonar antes de cachear (consume el body)
+      const clonedResponse = networkResponse.clone();
+      await apiCache.put(request, clonedResponse);
+      return networkResponse;
+    }
+
+    throw new Error('API network response was not ok');
+  } catch (_error) {
+    // Network falló => recurrir a cache
+
+    // Intento 1: devolver cache match
+    const cachedResponse = await apiCache.match(request);
+    if (cachedResponse) {
+      return cachedResponse;
+    }
+
+    // Intento 2: devolver JSON vacío seguro como fallback
+    // Status 200 para no confundir al cliente de que se trata de un error real
+    // Body '[]' indica "lista vacía" (común en endpoints que retornan arrays)
+    return new Response(JSON.stringify([]), {
+      status: 200,
+      statusText: 'OK',
+      headers: {
+        'Content-Type': 'application/json; charset=utf-8',
+        'Cache-Control': 'no-store'
+      }
+    });
+  }
+}
+
+/**
+ * Ejecutar fetch con timeout.
+ * Usa AbortController para cancelar después de timeoutMs.
+ */
+async function fetchWithTimeout(request, timeoutMs) {
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    return await fetch(request, {
+      signal: controller.signal
+    });
+  } finally {
+    clearTimeout(timeoutId);
+  }
+}
 
 self.addEventListener('message', (event) => {
   const type = event?.data?.type;
@@ -144,128 +445,6 @@ async function deleteOutdatedCaches() {
   });
 
   await Promise.all(outdated.map((cacheName) => caches.delete(cacheName)));
-}
-
-function isTileRequest(request) {
-  const url = new URL(request.url);
-  const path = url.pathname.toLowerCase();
-
-  const sameProtocol = url.protocol === 'https:' || url.protocol === 'http:';
-  const hostMatch = TILE_HOST_MATCHERS.some((matcher) => matcher(url.hostname));
-  const looksLikeTile = path.includes('/tile/') || /\/\d+\/\d+\/\d+/.test(path);
-  const tileExtension = path.endsWith('.png') || path.endsWith('.jpg') || path.endsWith('.jpeg') || path.endsWith('.webp');
-
-  return sameProtocol && hostMatch && (looksLikeTile || tileExtension);
-}
-
-function isAppAssetRequest(request) {
-  const url = new URL(request.url);
-
-  if (url.origin !== self.location.origin) {
-    return false;
-  }
-
-  const assetDestinations = new Set(['script', 'style', 'image', 'font', 'manifest']);
-  if (assetDestinations.has(request.destination)) {
-    return true;
-  }
-
-  return url.pathname.startsWith('/assets/') || url.pathname.startsWith('/icons/');
-}
-
-async function handleNavigationRequest(request) {
-  const appCache = await caches.open(APP_SHELL_CACHE_NAME);
-
-  try {
-    const networkResponse = await fetchWithTimeout(request, 6000);
-
-    if (networkResponse && networkResponse.ok) {
-      await appCache.put('/index.html', networkResponse.clone());
-      await appCache.put(request, networkResponse.clone());
-      return networkResponse;
-    }
-
-    throw new Error('Navigation fetch failed');
-  } catch (_error) {
-    const cachedNavigation = await appCache.match(request, { ignoreSearch: true });
-    if (cachedNavigation) {
-      return cachedNavigation;
-    }
-
-    const cachedIndex = await appCache.match('/index.html');
-    if (cachedIndex) {
-      return cachedIndex;
-    }
-
-    const offlinePage = await appCache.match(OFFLINE_FALLBACK_URL);
-    if (offlinePage) {
-      return offlinePage;
-    }
-
-    return new Response('Offline', {
-      status: 503,
-      statusText: 'Offline',
-      headers: {
-        'Content-Type': 'text/plain; charset=utf-8',
-        'Cache-Control': 'no-store'
-      }
-    });
-  }
-}
-
-async function fetchWithTimeout(request, timeoutMs) {
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
-
-  try {
-    return await fetch(request, {
-      signal: controller.signal
-    });
-  } finally {
-    clearTimeout(timeoutId);
-  }
-}
-
-async function handleAppAssetRequest(request, event) {
-  const appCache = await caches.open(APP_SHELL_CACHE_NAME);
-  const cachedResponse = await appCache.match(request, { ignoreSearch: true });
-
-  if (cachedResponse) {
-    event.waitUntil(refreshAppAsset(request));
-    return cachedResponse;
-  }
-
-  try {
-    const networkResponse = await fetch(request);
-
-    if (networkResponse && networkResponse.ok) {
-      await appCache.put(request, networkResponse.clone());
-    }
-
-    return networkResponse;
-  } catch (_error) {
-    const fallback = await appCache.match('/index.html');
-    if (fallback) {
-      return fallback;
-    }
-
-    return new Response('', {
-      status: 503,
-      statusText: 'Offline'
-    });
-  }
-}
-
-async function refreshAppAsset(request) {
-  try {
-    const networkResponse = await fetch(request, { cache: 'no-store' });
-    if (!networkResponse || !networkResponse.ok) return;
-
-    const appCache = await caches.open(APP_SHELL_CACHE_NAME);
-    await appCache.put(request, networkResponse.clone());
-  } catch (_error) {
-    // Se ignora para no afectar respuesta cacheada actual.
-  }
 }
 
 async function handleTileRequest(event) {
