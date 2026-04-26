@@ -94,6 +94,16 @@ export const MAP_CONFIG = {
       url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
       attribution: '© OpenStreetMap contributors',
       name: 'openstreetmap'
+    },
+    satellite: {
+      url: 'https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryAndBaseMapsRC/MapServer/tile/{z}/{y}/{x}',
+      attribution: 'Tiles © USGS',
+      name: 'satellite'
+    },
+    terrain: {
+      url: 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
+      attribution: '© OpenTopoMap',
+      name: 'terrain'
     }
   }
 };

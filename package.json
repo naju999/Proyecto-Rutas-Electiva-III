@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "qa:phase7": "node ./scripts/phase7-qa.mjs",
-    "sync:routes": "node ./scripts/sync-geojson-routes.mjs"
+    "qa:phase7": "node ./scripts/phase7-qa.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

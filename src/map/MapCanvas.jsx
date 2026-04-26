@@ -4,13 +4,14 @@ import 'leaflet/dist/leaflet.css';
 import { MAP_CONFIG } from './legacyMapConfig';
 import {
   addMarkersAndFeatures,
-  createSelectedRouteLayer,
+  changeMapLayer,
+  createBusRouteLayer,
   initializeBaseLayers
 } from './legacyMapAdapter';
 
 function MapCanvas({
-  selectedRoute,
-  coordinates,
+  currentLayer,
+  showBusA1,
   onMapReady,
   onMapError,
   onCoordinatesChange
@@ -18,34 +19,12 @@ function MapCanvas({
   const mapNodeRef = useRef(null);
   const mapRef = useRef(null);
   const baseLayersRef = useRef({});
-  const selectedRouteLayerRef = useRef(null);
-  const selectedLocationLayerRef = useRef(null);
-  const selectedRouteRef = useRef(selectedRoute);
-  const coordinatesRef = useRef(coordinates);
+  const routeLayerRef = useRef(null);
+  const activeLayerRef = useRef('openstreetmap');
+  const showBusA1Ref = useRef(showBusA1);
   const onMapReadyRef = useRef(onMapReady);
   const onMapErrorRef = useRef(onMapError);
   const onCoordinatesChangeRef = useRef(onCoordinatesChange);
-
-  const syncSelectedLocation = (lat, lng) => {
-    const locationLayer = selectedLocationLayerRef.current;
-
-    if (!locationLayer) {
-      return;
-    }
-
-    locationLayer.clearLayers();
-
-    L.circleMarker([lat, lng], {
-      radius: 9,
-      fillColor: '#0c67ff',
-      color: '#083c9b',
-      weight: 2,
-      opacity: 1,
-      fillOpacity: 0.92
-    })
-      .bindPopup('<strong>Ubicacion seleccionada</strong>')
-      .addTo(locationLayer);
-  };
 
   useEffect(() => {
     onMapReadyRef.current = onMapReady;
@@ -60,18 +39,8 @@ function MapCanvas({
   }, [onCoordinatesChange]);
 
   useEffect(() => {
-    coordinatesRef.current = coordinates;
-
-    if (!mapRef.current || !coordinates) {
-      return;
-    }
-
-    syncSelectedLocation(coordinates.lat, coordinates.lng);
-  }, [coordinates]);
-
-  useEffect(() => {
-    selectedRouteRef.current = selectedRoute;
-  }, [selectedRoute]);
+    showBusA1Ref.current = showBusA1;
+  }, [showBusA1]);
 
   useEffect(() => {
     if (!mapNodeRef.current || mapRef.current) {
@@ -92,26 +61,17 @@ function MapCanvas({
 
     const baseLayers = initializeBaseLayers(L);
     baseLayersRef.current = baseLayers;
+    activeLayerRef.current = 'openstreetmap';
     baseLayers.openstreetmap.addTo(map);
-
-    selectedLocationLayerRef.current = L.layerGroup().addTo(map);
 
     addMarkersAndFeatures(L, map);
 
-    map.on('click', (event) => {
-      onCoordinatesChangeRef.current(event.latlng.lat, event.latlng.lng);
-      syncSelectedLocation(event.latlng.lat, event.latlng.lng);
-    });
-
     map.on('contextmenu', (event) => {
       onCoordinatesChangeRef.current(event.latlng.lat, event.latlng.lng);
-      syncSelectedLocation(event.latlng.lat, event.latlng.lng);
     });
 
     const center = map.getCenter();
-    const initialCoordinates = coordinatesRef.current ?? center;
-    syncSelectedLocation(initialCoordinates.lat, initialCoordinates.lng);
-    onCoordinatesChangeRef.current(initialCoordinates.lat, initialCoordinates.lng);
+    onCoordinatesChangeRef.current(center.lat, center.lng);
 
     const handleWindowResize = () => {
       if (!isDisposed) {
@@ -128,23 +88,28 @@ function MapCanvas({
     });
     resizeObserver.observe(mapNodeRef.current);
 
-    const handleFocusSelectedLocation = (event) => {
-      const lat = Number(event?.detail?.lat);
-      const lng = Number(event?.detail?.lng);
-      const zoom = Number(event?.detail?.zoom ?? 16);
+    createBusRouteLayer(L, map)
+      .then((routeLayer) => {
+        if (isDisposed) {
+          return;
+        }
 
-      if (Number.isFinite(lat) && Number.isFinite(lng)) {
-        map.flyTo([lat, lng], zoom);
-      }
-    };
-
-    window.addEventListener('map:focus-selected-location', handleFocusSelectedLocation);
+        routeLayerRef.current = routeLayer;
+        if (!showBusA1Ref.current && map.hasLayer(routeLayer)) {
+          map.removeLayer(routeLayer);
+        }
+      })
+      .catch((error) => {
+        if (!isDisposed) {
+          onMapErrorRef.current(`No se pudo cargar la ruta A1: ${error.message}`);
+        }
+      });
 
     onMapReadyRef.current({
       centerMap: () => map.flyTo(MAP_CONFIG.center, MAP_CONFIG.initialZoom),
       zoomIn: () => map.zoomIn(),
       zoomOut: () => map.zoomOut(),
-      focusCoordinates: (lat, lng, zoom = 16) => map.flyTo([lat, lng], zoom),
+      resetView: () => map.setView(MAP_CONFIG.center, MAP_CONFIG.initialZoom),
       invalidateSize: () => map.invalidateSize(false)
     });
 
@@ -152,62 +117,37 @@ function MapCanvas({
       isDisposed = true;
       resizeObserver.disconnect();
       window.removeEventListener('resize', handleWindowResize);
-      window.removeEventListener('map:focus-selected-location', handleFocusSelectedLocation);
       onMapReadyRef.current(null);
       map.remove();
       mapRef.current = null;
-      selectedRouteLayerRef.current = null;
-      selectedLocationLayerRef.current = null;
+      routeLayerRef.current = null;
       baseLayersRef.current = {};
     };
   }, []);
 
   useEffect(() => {
     const map = mapRef.current;
-    if (!map) {
-      return;
+    if (!map) return;
+
+    activeLayerRef.current = changeMapLayer(
+      map,
+      baseLayersRef.current,
+      currentLayer,
+      activeLayerRef.current
+    );
+  }, [currentLayer]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    const busLayer = routeLayerRef.current;
+    if (!map || !busLayer) return;
+
+    if (showBusA1 && !map.hasLayer(busLayer)) {
+      busLayer.addTo(map);
+    } else if (!showBusA1 && map.hasLayer(busLayer)) {
+      map.removeLayer(busLayer);
     }
-
-    const previousLayer = selectedRouteLayerRef.current;
-    if (previousLayer && map.hasLayer(previousLayer)) {
-      map.removeLayer(previousLayer);
-      selectedRouteLayerRef.current = null;
-    }
-
-    if (!selectedRoute) {
-      return;
-    }
-
-    let cancelled = false;
-
-    createSelectedRouteLayer(L, selectedRoute)
-      .then((nextLayer) => {
-        if (cancelled || !nextLayer || !mapRef.current) {
-          return;
-        }
-
-        selectedRouteLayerRef.current = nextLayer;
-        nextLayer.addTo(mapRef.current);
-
-        try {
-          const bounds = nextLayer.getBounds?.();
-          if (bounds?.isValid?.()) {
-            mapRef.current.fitBounds(bounds, { padding: [24, 24] });
-          }
-        } catch (_error) {
-          // Ignora errores de ajuste de bounds para no bloquear el render.
-        }
-      })
-      .catch((error) => {
-        if (!cancelled) {
-          onMapErrorRef.current(`No se pudo cargar ${selectedRoute.title}: ${error.message}`);
-        }
-      });
-
-    return () => {
-      cancelled = true;
-    };
-  }, [selectedRoute]);
+  }, [showBusA1]);
 
   return <div id="map" ref={mapNodeRef} aria-label="Mapa de Tunja"></div>;
 }
