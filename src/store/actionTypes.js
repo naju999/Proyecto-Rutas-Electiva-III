@@ -7,7 +7,7 @@ export const ACTION_TYPES = {
   },
   map: {
     setCurrentLayer: 'map/setCurrentLayer',
-    setSelectedRoute: 'map/setSelectedRoute',
+    setShowBusA1: 'map/setShowBusA1',
     setCoordinates: 'map/setCoordinates',
     setWarning: 'map/setWarning'
   },

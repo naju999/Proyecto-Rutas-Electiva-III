@@ -1,4 +1,0 @@
-{"type":"FeatureCollection", "features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-73.364248,5.502825,0]},"properties":{"name":"Despacho Ciudad Jardín"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-73.332322,5.573503,0]},"properties":{"name":"Despacho Arboleda"}}
-]}
