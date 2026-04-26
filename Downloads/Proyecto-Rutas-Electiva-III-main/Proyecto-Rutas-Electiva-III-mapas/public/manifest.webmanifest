@@ -1,0 +1,31 @@
+{
+  "name": "TuRuta Tunja",
+  "short_name": "TuRuta",
+  "description": "Rutas de buses de Tunja con soporte offline y cache de mapas.",
+  "lang": "es-CO",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f3f5f8",
+  "theme_color": "#c4140e",
+  "categories": ["navigation", "travel", "maps"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

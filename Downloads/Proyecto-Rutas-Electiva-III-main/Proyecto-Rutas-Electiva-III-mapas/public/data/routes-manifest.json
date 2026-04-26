@@ -1,0 +1,474 @@
+{
+  "generated_at": "2026-04-26T05:22:41.805Z",
+  "total_routes": 26,
+  "routes": [
+    {
+      "id": "Ruta1",
+      "code": "Ruta1",
+      "title": "Ruta 1",
+      "summary": "Ruta1 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta1-Despachos.geojson",
+        "outbound_route": "/data/routes/Ruta1-Arboleda-AvenidaNorte-TerminaldeTransporte.geojson",
+        "inbound_route": "/data/routes/Ruta1-TerminaldeTransporte-AvenidaNorte-Arboleda.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta1-Despachos.geojson",
+        "outbound_route": "Ruta1-Arboleda-AvenidaNorte-TerminaldeTransporte.geojson",
+        "inbound_route": "Ruta1-TerminaldeTransporte-AvenidaNorte-Arboleda.geojson"
+      }
+    },
+    {
+      "id": "Ruta2",
+      "code": "Ruta2",
+      "title": "Ruta 2",
+      "summary": "Ruta2 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta2-Despachos.geojson",
+        "outbound_route": "/data/routes/Ruta2-Arboleda-Viaducto-SanFrancisco-PinosdeOriente.geojson",
+        "inbound_route": "/data/routes/Ruta2-PinosdeOriente-SanFrancisco-Viaducto-TerminaldeTransporte-Arboleda.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta2-Despachos.geojson",
+        "outbound_route": "Ruta2-Arboleda-Viaducto-SanFrancisco-PinosdeOriente.geojson",
+        "inbound_route": "Ruta2-PinosdeOriente-SanFrancisco-Viaducto-TerminaldeTransporte-Arboleda.geojson"
+      }
+    },
+    {
+      "id": "Ruta2T",
+      "code": "Ruta2T",
+      "title": "Ruta 2T",
+      "summary": "Ruta2T con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta2T-Despachos.geojson",
+        "outbound_route": "/data/routes/Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular).geojson",
+        "inbound_route": "/data/routes/Ruta2T-BarriolaFuente-CCViva-Terminal-Avenidauniversitaria-BarrioAsis-BarrioMuiscas.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta2T-Despachos.geojson",
+        "outbound_route": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular).geojson",
+        "inbound_route": "Ruta2T-BarriolaFuente-CCViva-Terminal-Avenidauniversitaria-BarrioAsis-BarrioMuiscas.geojson"
+      }
+    },
+    {
+      "id": "Ruta3",
+      "code": "Ruta3",
+      "title": "Ruta 3",
+      "summary": "Ruta3 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta3-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta3-Arboleda-SantaInes-Escandinavo.geojson",
+        "inbound_route": "/data/routes/Ruta3-Escandinavo-SantaInes-Arboleda.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta3-Despacho.geojson",
+        "outbound_route": "Ruta3-Arboleda-SantaInes-Escandinavo.geojson",
+        "inbound_route": "Ruta3-Escandinavo-SantaInes-Arboleda.geojson"
+      }
+    },
+    {
+      "id": "Ruta4",
+      "code": "Ruta4",
+      "title": "Ruta 4",
+      "summary": "Ruta4 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta4-Despachos.geojson",
+        "outbound_route": "/data/routes/Ruta4-Arboleda-Muiscas-SanFrancisco-PinosdeOriente.geojson",
+        "inbound_route": "/data/routes/Ruta4-PinosdeOriente-SanFrancisco-Muiscas-Arboleda.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta4-Despachos.geojson",
+        "outbound_route": "Ruta4-Arboleda-Muiscas-SanFrancisco-PinosdeOriente.geojson",
+        "inbound_route": "Ruta4-PinosdeOriente-SanFrancisco-Muiscas-Arboleda.geojson"
+      }
+    },
+    {
+      "id": "Ruta4A",
+      "code": "Ruta4A",
+      "title": "Ruta 4A",
+      "summary": "Ruta4A con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta4A-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta4A-Arboleda-Uniboyaca-RamalFlorida-SanFrancisco.geojson",
+        "inbound_route": "/data/routes/Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta4A-Despacho.geojson",
+        "outbound_route": "Ruta4A-Arboleda-Uniboyaca-RamalFlorida-SanFrancisco.geojson",
+        "inbound_route": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda.geojson"
+      }
+    },
+    {
+      "id": "Ruta5",
+      "code": "Ruta5",
+      "title": "Ruta 5",
+      "summary": "Ruta5 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta5-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta5-Arboleda-Muiscas-RetenSur.geojson",
+        "inbound_route": "/data/routes/Ruta5-RetenSur-Paraiso-Muiscas-Arboleda.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta5-Despacho.geojson",
+        "outbound_route": "Ruta5-Arboleda-Muiscas-RetenSur.geojson",
+        "inbound_route": "Ruta5-RetenSur-Paraiso-Muiscas-Arboleda.geojson"
+      }
+    },
+    {
+      "id": "Ruta6",
+      "code": "Ruta6",
+      "title": "Ruta 6",
+      "summary": "Ruta6 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta6-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta6-EstanciaelRoble-AvenidaNorte-RetenSur.geojson",
+        "inbound_route": "/data/routes/Ruta6-RetenSur-ViaMoniquira-EstanciaelRoble.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta6-Despacho.geojson",
+        "outbound_route": "Ruta6-EstanciaelRoble-AvenidaNorte-RetenSur.geojson",
+        "inbound_route": "Ruta6-RetenSur-ViaMoniquira-EstanciaelRoble.geojson"
+      }
+    },
+    {
+      "id": "Ruta7",
+      "code": "Ruta7",
+      "title": "Ruta 7",
+      "summary": "Ruta7 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta7-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta7-EstanciaelRoble-ViaMoniquira-JuandeCastellanos-Florida.geojson",
+        "inbound_route": "/data/routes/Ruta7-Florida-JuandeCastellanos-AvenidaNorte-EstanciaelRoble.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta7-Despacho.geojson",
+        "outbound_route": "Ruta7-EstanciaelRoble-ViaMoniquira-JuandeCastellanos-Florida.geojson",
+        "inbound_route": "Ruta7-Florida-JuandeCastellanos-AvenidaNorte-EstanciaelRoble.geojson"
+      }
+    },
+    {
+      "id": "Ruta8",
+      "code": "Ruta8",
+      "title": "Ruta 8",
+      "summary": "Ruta8 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta8-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta8-Cooservicios-LaFuente.geojson",
+        "inbound_route": "/data/routes/Ruta8-LaFuente-Cooservicios.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta8-Despacho.geojson",
+        "outbound_route": "Ruta8-Cooservicios-LaFuente.geojson",
+        "inbound_route": "Ruta8-LaFuente-Cooservicios.geojson"
+      }
+    },
+    {
+      "id": "Ruta8AF",
+      "code": "Ruta8AF",
+      "title": "Ruta 8AF",
+      "summary": "Ruta8AF con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta8AF-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta8AF-RamalFlorencia-LaFuente-Runta.geojson",
+        "inbound_route": "/data/routes/Ruta8AF-Runta-RamalFlorencia-LaFuente.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta8AF-Despacho.geojson",
+        "outbound_route": "Ruta8AF-RamalFlorencia-LaFuente-Runta.geojson",
+        "inbound_route": "Ruta8AF-Runta-RamalFlorencia-LaFuente.geojson"
+      }
+    },
+    {
+      "id": "Ruta8AT",
+      "code": "Ruta8AT",
+      "title": "Ruta 8AT",
+      "summary": "Ruta8AT con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta8AT-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta8AT-LaFuente-Runta.geojson",
+        "inbound_route": "/data/routes/Ruta8AT-Runta-LaFuente.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta8AT-Despacho.geojson",
+        "outbound_route": "Ruta8AT-LaFuente-Runta.geojson",
+        "inbound_route": "Ruta8AT-Runta-LaFuente.geojson"
+      }
+    },
+    {
+      "id": "Ruta9",
+      "code": "Ruta9",
+      "title": "Ruta 9",
+      "summary": "Ruta9 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta9-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta9-Arboleda-AvenidaNorte-LaFuente.geojson",
+        "inbound_route": "/data/routes/Ruta9-LaFuente-AvenidaNorte-Arboleda.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta9-Despacho.geojson",
+        "outbound_route": "Ruta9-Arboleda-AvenidaNorte-LaFuente.geojson",
+        "inbound_route": "Ruta9-LaFuente-AvenidaNorte-Arboleda.geojson"
+      }
+    },
+    {
+      "id": "Ruta10",
+      "code": "Ruta10",
+      "title": "Ruta 10",
+      "summary": "Ruta10 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta10-Despachos.geojson",
+        "outbound_route": "/data/routes/Ruta10-Muiscas-AvenidaNorte-Triunfo.geojson",
+        "inbound_route": "/data/routes/Ruta10-Triunfo-AvenidaNorte-Muiscas.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta10-Despachos.geojson",
+        "outbound_route": "Ruta10-Muiscas-AvenidaNorte-Triunfo.geojson",
+        "inbound_route": "Ruta10-Triunfo-AvenidaNorte-Muiscas.geojson"
+      }
+    },
+    {
+      "id": "Ruta11",
+      "code": "Ruta11",
+      "title": "Ruta 11",
+      "summary": "Ruta11 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta11-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas.geojson",
+        "inbound_route": "/data/routes/Ruta11-Muiscas-Viaducto-Cooservicios-BrSantaMarta.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta11-Despacho.geojson",
+        "outbound_route": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas.geojson",
+        "inbound_route": "Ruta11-Muiscas-Viaducto-Cooservicios-BrSantaMarta.geojson"
+      }
+    },
+    {
+      "id": "Ruta12",
+      "code": "Ruta12",
+      "title": "Ruta 12",
+      "summary": "Ruta12 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta12-Depacho.geojson",
+        "outbound_route": "/data/routes/Ruta12-Muiscas-Uniboyaca-RetenSur-Runta.geojson",
+        "inbound_route": "/data/routes/Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta12-Depacho.geojson",
+        "outbound_route": "Ruta12-Muiscas-Uniboyaca-RetenSur-Runta.geojson",
+        "inbound_route": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas.geojson"
+      }
+    },
+    {
+      "id": "Ruta13",
+      "code": "Ruta13",
+      "title": "Ruta 13",
+      "summary": "Ruta13 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta13-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta13-LimitePerimetroTunja-Estadio-Triunfo.geojson",
+        "inbound_route": "/data/routes/Ruta13-Triunfo-Estadio-LimitePerimetroTunja.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta13-Despacho.geojson",
+        "outbound_route": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo.geojson",
+        "inbound_route": "Ruta13-Triunfo-Estadio-LimitePerimetroTunja.geojson"
+      }
+    },
+    {
+      "id": "Ruta14",
+      "code": "Ruta14",
+      "title": "Ruta 14",
+      "summary": "Ruta14 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta14-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta14-EstanciaelRoble-Viaducto-Paraiso.geojson",
+        "inbound_route": "/data/routes/Ruta14-Paraiso-AvenidaNorte-EstanciaelRoble.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta14-Despacho.geojson",
+        "outbound_route": "Ruta14-EstanciaelRoble-Viaducto-Paraiso.geojson",
+        "inbound_route": "Ruta14-Paraiso-AvenidaNorte-EstanciaelRoble.geojson"
+      }
+    },
+    {
+      "id": "Ruta15",
+      "code": "Ruta15",
+      "title": "Ruta 15",
+      "summary": "Ruta15 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta15-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta15-Cooservicios-AvenidaNorte-Muiscas.geojson",
+        "inbound_route": "/data/routes/Ruta15-Muiscas-AvenidaNorte-Cooservicios.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta15-Despacho.geojson",
+        "outbound_route": "Ruta15-Cooservicios-AvenidaNorte-Muiscas.geojson",
+        "inbound_route": "Ruta15-Muiscas-AvenidaNorte-Cooservicios.geojson"
+      }
+    },
+    {
+      "id": "Ruta15A",
+      "code": "Ruta15A",
+      "title": "Ruta 15A",
+      "summary": "Ruta15A con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta15A-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente.geojson",
+        "inbound_route": "/data/routes/Ruta15A-RamalSoldeOriente-AntoniaSantos-AvenidaNorte-Muiscas.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta15A-Despacho.geojson",
+        "outbound_route": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente.geojson",
+        "inbound_route": "Ruta15A-RamalSoldeOriente-AntoniaSantos-AvenidaNorte-Muiscas.geojson"
+      }
+    },
+    {
+      "id": "Ruta16",
+      "code": "Ruta16",
+      "title": "Ruta 16",
+      "summary": "Ruta16 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta16-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta16-Asis-AvenidaNorte-Florida.geojson",
+        "inbound_route": "/data/routes/Ruta16-Florida-AvenidaNorte-Asis.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta16-Despacho.geojson",
+        "outbound_route": "Ruta16-Asis-AvenidaNorte-Florida.geojson",
+        "inbound_route": "Ruta16-Florida-AvenidaNorte-Asis.geojson"
+      }
+    },
+    {
+      "id": "Ruta17",
+      "code": "Ruta17",
+      "title": "Ruta 17",
+      "summary": "Ruta17 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta17-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta17-Altamira-AvenidaNorte-Asis.geojson",
+        "inbound_route": "/data/routes/Ruta17-Asis-AvenidaNorte-Altamira.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta17-Despacho.geojson",
+        "outbound_route": "Ruta17-Altamira-AvenidaNorte-Asis.geojson",
+        "inbound_route": "Ruta17-Asis-AvenidaNorte-Altamira.geojson"
+      }
+    },
+    {
+      "id": "Ruta18",
+      "code": "Ruta18",
+      "title": "Ruta 18",
+      "summary": "Ruta18 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta18-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta18-LIMITE%20PERIMETRO%20TUNJA%20(Sector%20El%20Lago%20-%20Resoluci%C3%B3n%202292%20de%201999)-AvenidaNorte-PradosdeSanLuis.geojson",
+        "inbound_route": "/data/routes/Ruta18-PradosdeSanLuis-AvenidaNorte-LIMITE%20PERIMETRO%20TUNJA%20(Sector%20El%20Lago%20-%20Resoluci%C3%B3n%202292%20de%201999).geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta18-Despacho.geojson",
+        "outbound_route": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis.geojson",
+        "inbound_route": "Ruta18-PradosdeSanLuis-AvenidaNorte-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999).geojson"
+      }
+    },
+    {
+      "id": "Ruta19",
+      "code": "Ruta19",
+      "title": "Ruta 19",
+      "summary": "Ruta19 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta19-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta19-Arboleda-LIMITE PERIMETRO TUNJA(RETORNO BTS, Vda. Barón Gallero - Sector San Antonio).geojson",
+        "inbound_route": "/data/routes/Ruta19-LIMITE PERIMETRO TUNJA(RETORNO BTS, Vda. Barón Gallero-Sector San Antonio)-Arboleda.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta19-Despacho.geojson",
+        "outbound_route": "Ruta19-Arboleda-LIMITE PERIMETRO TUNJA(RETORNO BTS, Vda. Barón Gallero - Sector San Antonio).geojson",
+        "inbound_route": "Ruta19-LIMITE PERIMETRO TUNJA(RETORNO BTS, Vda. Barón Gallero-Sector San Antonio)-Arboleda.geojson"
+      }
+    },
+    {
+      "id": "Ruta20",
+      "code": "Ruta20",
+      "title": "Ruta 20",
+      "summary": "Ruta20 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta20-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta20-Arboleda-AvenidaNorte-Terminal-Pirgua.geojson",
+        "inbound_route": "/data/routes/Ruta20-Pirgua-Terminal-AvenidaNorte-Arboleda.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta20-Despacho.geojson",
+        "outbound_route": "Ruta20-Arboleda-AvenidaNorte-Terminal-Pirgua.geojson",
+        "inbound_route": "Ruta20-Pirgua-Terminal-AvenidaNorte-Arboleda.geojson"
+      }
+    },
+    {
+      "id": "Ruta21",
+      "code": "Ruta21",
+      "title": "Ruta 21",
+      "summary": "Ruta21 con despachos y dos sentidos de recorrido.",
+      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
+      "eta": "Variable",
+      "files": {
+        "dispatch_points": "/data/routes/Ruta21-Despacho.geojson",
+        "outbound_route": "/data/routes/Ruta21-Pirgua-Terminalo-Estadio-Runta.geojson",
+        "inbound_route": "/data/routes/Ruta21-Runta-Estadio-Terminal-Pirgua.geojson"
+      },
+      "source_files": {
+        "dispatch_points": "Ruta21-Despacho.geojson",
+        "outbound_route": "Ruta21-Pirgua-Terminalo-Estadio-Runta.geojson",
+        "inbound_route": "Ruta21-Runta-Estadio-Terminal-Pirgua.geojson"
+      }
+    }
+  ]
+}

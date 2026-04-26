@@ -1,0 +1,33 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.383394,
+                    5.491614
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Despacho Runta",
+                "name": "Despacho Runta"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.338609,
+                    5.568315
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Punto de Retorno",
+                "name": "Punto de Retorno"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

@@ -1,0 +1,97 @@
+Base de datos
+promt 
+ahora como se va a migrar a pdw se tiene que manejar una base de datos pero de momento no 
+se que tipo de base de datos me sirva ni que estructura deberia tener podrias darme una 
+idea de cual usar(no modifiques nada de momento)
+
+
+
+recomendación práctica
+Para tu caso (mapa + offline + futura PWA), usaría este enfoque:
+
+1. Base local en el cliente: IndexedDB.
+2. Base central en servidor: PostgreSQL con PostGIS (cuando ya necesites backend real).
+3. Cache de tiles: Service Worker + Cache Storage (no base SQL para tiles).
+
+Eso te da buen rendimiento, escalabilidad y soporte geoespacial real.
+
+**Importante**
+No estás obligado a tener una base de datos de servidor desde el día 1 para ser PWA.  
+Puedes arrancar con:
+1. IndexedDB local para datos y cola offline.
+2. Cache Storage para recursos y tiles.
+3. Más adelante agregar PostgreSQL/PostGIS para sincronización multiusuario.
+
+**Qué base usar según etapa**
+1. Etapa inicial (rápida): solo IndexedDB.
+2. Etapa intermedia (sincronización básica): backend con PostgreSQL.
+3. Etapa madura (rutas, consultas geográficas, optimización): PostgreSQL + PostGIS.
+
+**Estructura sugerida (servidor)**
+1. users
+Campos: id, nombre, email, created_at.
+2. stops
+Campos: id, nombre, lat, lng, zona, activo, updated_at.
+3. routes
+Campos: id, codigo, nombre, color, activo, updated_at, version.
+4. route_stops
+Campos: route_id, stop_id, orden, tiempo_estimado_min.
+5. trips o schedules (si manejas horarios/frecuencias)
+Campos: id, route_id, salida, llegada, dia_semana, activo.
+6. favorites
+Campos: user_id, stop_id o route_id, created_at.
+7. dataset_versions
+Campos: entidad, version, checksum, updated_at.
+8. sync_events (opcional para auditoría)
+Campos: id, user_id, tipo_evento, payload, created_at.
+
+**Estructura sugerida (cliente IndexedDB)**
+1. app_meta
+Versión local, fecha último sync, flags.
+2. routes_cache
+Snapshot de rutas/paradas para uso offline.
+3. favorites_local
+Favoritos del usuario en local.
+4. offline_queue
+Acciones pendientes por sincronizar cuando vuelva internet.
+5. telemetry_light (opcional)
+Errores de sync y métricas mínimas.
+
+**Regla clave para mapas**
+1. Tiles en Cache Storage.
+2. Datos de negocio en IndexedDB.
+3. Datos maestros y analítica en PostgreSQL/PostGIS.
+
+**Decisión recomendada hoy**
+1. Mantén IndexedDB como base local.
+2. Planea PostgreSQL/PostGIS como backend objetivo.
+3. Evita localStorage para tiles o datos pesados.
+
+Fase 2: Migrar UI primero, lógica después (2 a 3 días)
+Pasar vistas visuales de Inicio, Rutas, Favoritos y Perfil a componentes React.
+Mantener temporalmente la lógica del mapa fuera de React para evitar regresiones.
+Entregable: interfaz en React equivalente a la actual, sin cambiar aún el motor del mapa.
+Fase 3: Encapsular Leaflet en componente React (2 a 3 días)
+Crear componente Map principal con ciclo de vida controlado.
+Portar interacción actual: zoom, center, cambio de capa, markers, ruta A1.
+Reusar la lógica existente de capas y controles mediante adaptadores, no reescribir todo de golpe.
+Entregable: mapa funcional dentro de React con mismo comportamiento que hoy.
+Fase 4: Estado global moderno (1 a 2 días)
+Reemplazar progresivamente estado global actual por store de React.
+Separar estado UI y estado de mapa/caché.
+Entregable: estado predecible y fácil de mantener, sin variables globales dispersas.
+Fase 5: Caché para PWA bien hecho (2 a 4 días)
+Mantener IndexedDB para metadatos y control de tiles.
+Mover caché de red de tiles al Service Worker con Cache Storage.
+Definir estrategia de expiración y limpieza (LRU o antigüedad).
+Entregable: offline estable, sin bloquear UI, listo para crecer.
+Fase 6: PWA completa (1 a 2 días)
+Manifest, iconos, instalación, splash, fallback offline.
+Estrategia de actualización del Service Worker para evitar inconsistencias.
+Entregable: app instalable en móvil/escritorio y usable offline.
+Fase 7: QA y corte final (1 a 2 días)
+Pruebas reales: online, red lenta, offline total, cambio de zoom/capa, recarga.
+Comparar métricas contra Fase 0.
+Retirar código legado cuando React ya cubra todo.
+Entregable: release estable y plan de mantenimiento.
+
