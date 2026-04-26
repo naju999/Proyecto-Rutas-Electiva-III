@@ -1,3 +1,8 @@
+modo desarrollo interfaz de prueba
+http://localhost:5173/lab/cache
+
+modo produccion interfaz de prueba
+
 Base de datos
 promt 
 ahora como se va a migrar a pdw se tiene que manejar una base de datos pero de momento no 
@@ -12,7 +17,7 @@ Para tu caso (mapa + offline + futura PWA), usaría este enfoque:
 1. Base local en el cliente: IndexedDB.
 2. Base central en servidor: PostgreSQL con PostGIS (cuando ya necesites backend real).
 3. Cache de tiles: Service Worker + Cache Storage (no base SQL para tiles).
-
+   
 Eso te da buen rendimiento, escalabilidad y soporte geoespacial real.
 
 **Importante**
@@ -95,3 +100,95 @@ Comparar métricas contra Fase 0.
 Retirar código legado cuando React ya cubra todo.
 Entregable: release estable y plan de mantenimiento.
 
+
+1. Interceptar **todas las requests GET** dentro del scope del SW.  
+2. Solo manejar con caché:
+   - **Mismo origen** (app assets + API)
+   - **Tiles** en allowlist de hosts (OSM/opentopomap/nationalmap).  
+3. Estrategias:
+   - **Navigations (document):** Network First (con timeout) + fallback cache + fallback final `/offline.html`.
+   - **App assets** (`/assets/*`, CSS/JS/images/fonts/manifest/icons): Cache First.
+   - **Tiles:** Cache First + metadata/cleanup (reusar tu lógica existente).
+   - **API (mismo origen, `/api/*` o JSON):** Network First + fallback a cache; si no hay cache, responder JSON vacío (`[]` o `{}`) con headers.
+4. Ignorar no-GET (no `respondWith`).
+5. Modularizar: `handleNavigation`, `handleAppAsset`, `handleTile`, `handleApi` + helpers `isTileRequest`, `isApiRequest`, etc.
+6. Mantener integración actual con Cache API + IndexedDB (metadata tiles).
+
+
+
+Contexto del proyecto (repo: naju999/Proyecto-Rutas-Electiva-III):
+- PWA en React + Vite, React Router (rutas /inicio, /rutas, /favoritos, /perfil).
+- Leaflet para mapa (tiles externos tipo OpenStreetMap).
+- Service Worker ya existe en public/sw.js e implementa:
+  - App Shell cache (tunja-app-shell-<version>)
+  - Tile cache (tunja-tiles-<version>)
+  - Fallback offline (/offline.html)
+  - Lógica avanzada de tiles: Cache API + IndexedDB metadata (lastAccess, expiresAt, max entries, cleanup, etc.)
+- El SW también escucha mensajes (GET_TILE_CACHE_STATS, TRIM_TILE_CACHE, CLEAR_TILE_CACHE, SKIP_WAITING), así que el fetch handler debe integrarse sin romper eso.
+- No asumir que existe un backend real; “API” puede ser opcional y solo aplicarse si se detecta JSON o paths tipo /api/*.
+
+Tarea:
+Genera el código COMPLETO y organizado del evento:
+  self.addEventListener('fetch', (event) => { ... })
+para public/sw.js, cumpliendo estas reglas.
+
+Reglas/condiciones:
+1) Interceptar SOLO requests GET. Para cualquier request no-GET (POST/PUT/DELETE/etc.) no usar respondWith y dejar pasar al network.
+2) No interceptar recursos de dominios externos no controlados.
+   - Excepción: los tiles externos SÍ se permiten pero SOLO si el hostname está en una allowlist (la misma lógica/allowlist que ya usa el SW actual: tile.openstreetmap.org, *.tile.openstreetmap.org, tile.opentopomap.org, *.tile.opentopomap.org, basemap.nationalmap.gov).
+   - Para cualquier otro request cross-origin que no sea tile permitido: no responder con caché (no respondWith).
+3) Clasificar requests en 4 tipos y aplicar estrategia distinta:
+   A) Navigations (document): requests con request.mode === 'navigate'
+      - Estrategia: Network First con timeout (ej. 6000ms) y fallback:
+        1) intentar network (si ok, cachear index.html y/o request)
+        2) si falla, devolver cache match para ese request (ignoreSearch)
+        3) si no hay, devolver cache match de /index.html
+        4) si no hay, devolver /offline.html
+   B) App Assets (mismo origen):
+      - Incluye assets del build de Vite (/assets/*) + icons + manifest + CSS/JS/images/fonts
+      - Estrategia: Cache First con refresh en background (stale-while-revalidate opcional):
+        1) si está en cache => responder cache y en paralelo intentar refrescar para actualizar cache
+        2) si no está en cache => ir a network, si ok guardar en cache, si falla fallback a /index.html o una respuesta 503 (según aplique)
+      - Usar el mismo APP_SHELL_CACHE_NAME ya definido en el SW.
+   C) Tiles de mapa (externos permitidos):
+      - Estrategia: Cache First
+      - Reusar la lógica existente de tiles del SW (handleTileRequest / cleanupTileCache / metadata en IndexedDB).
+      - Si no hay tile en cache y falla network => devolver fallback (la función existente buildOfflineTileFallback o equivalente).
+   D) API / datos dinámicos (mismo origen):
+      - Nota: el repo no evidencia un backend; implementar esta parte sin asumir endpoints concretos.
+      - Identificar como API si:
+        - url.origin === self.location.origin AND (
+            url.pathname.startsWith('/api/') OR
+            request.headers.get('accept') incluye 'application/json'
+          )
+      - Estrategia: Network First:
+        1) intentar network
+        2) si ok => clonar y guardar en un cache dedicado (por ejemplo 'tunja-api-v1' o similar)
+        3) si falla => devolver cache match
+        4) si no hay cache => devolver respuesta vacía segura:
+           - status 200
+           - content-type application/json
+           - body '[]' (o '{}' si prefieres, pero justificar en comentario)
+4) Modularidad/legibilidad:
+   - El fetch handler debe delegar por tipo a funciones auxiliares, por ejemplo:
+     - isTileRequest(request)
+     - isAppAssetRequest(request)
+     - isApiRequest(request)
+     - handleNavigationRequest(request)
+     - handleAppAssetRequest(request, event)
+     - handleTileRequest(event)  (reusar actual)
+     - handleApiRequest(request)
+   - No duplicar la lógica avanzada ya presente para tiles.
+5) Offline fallbacks:
+   - Si falla navegación => devolver /offline.html (cacheada si está; si no, Response 503 textual).
+   - Si falla request de API => devolver caché o JSON vacío.
+6) Mantener compatibilidad con la estructura actual del SW:
+   - Respetar constantes existentes (SW_VERSION, APP_SHELL_CACHE_NAME, TILE_CACHE_NAME, OFFLINE_FALLBACK_URL, etc.)
+   - No eliminar listeners existentes (install/activate/message); solo entregar el bloque fetch (y funciones auxiliares si hacen falta).
+7) Escribir comentarios claros que expliquen el porqué de cada rama y estrategia.
+
+Salida:
+- Devuelve el código final del bloque self.addEventListener('fetch', ...) completo y organizado (incluyendo helpers necesarios),
+- listo para pegar en public/sw.js,
+- usando JavaScript (no TypeScript),
+- sin pseudocódigo: código ejecutable real.

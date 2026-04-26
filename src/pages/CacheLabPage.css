@@ -1,0 +1,187 @@
+body.cache-lab-mode {
+  padding-bottom: 0;
+  background:
+    radial-gradient(circle at 8% 0%, rgba(196, 20, 14, 0.14) 0%, transparent 32%),
+    radial-gradient(circle at 92% 4%, rgba(21, 80, 146, 0.14) 0%, transparent 30%),
+    linear-gradient(180deg, #f8fbff 0%, #edf2f9 100%);
+}
+
+body.cache-lab-mode #root {
+  min-height: 100vh;
+}
+
+.cache-lab-page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr) auto;
+  gap: 12px;
+  padding: 16px;
+  color: #12253f;
+}
+
+.cache-lab-header {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #d7e0ec;
+  border-radius: 16px;
+  padding: 14px 16px;
+  box-shadow: 0 16px 30px rgba(12, 34, 64, 0.12);
+}
+
+.cache-lab-kicker {
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #b11611;
+}
+
+.cache-lab-header h1 {
+  margin-top: 4px;
+  font-family: 'Outfit', 'Segoe UI', sans-serif;
+  font-size: clamp(1.2rem, 2.4vw, 1.9rem);
+}
+
+.cache-lab-subtitle {
+  margin-top: 8px;
+  color: #4e607a;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.cache-lab-toolbar {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #d7e0ec;
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 12px 26px rgba(14, 36, 64, 0.1);
+  display: grid;
+  gap: 10px;
+}
+
+.cache-lab-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cache-lab-badges span {
+  border: 1px solid #d4deeb;
+  background: #f5f9ff;
+  color: #294c7a;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.cache-lab-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cache-lab-btn {
+  border: 1px solid #d7e0ec;
+  background: #f2f6fc;
+  color: #274a78;
+  padding: 9px 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.cache-lab-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 16px rgba(8, 38, 70, 0.14);
+}
+
+.cache-lab-btn.is-active {
+  border-color: #9c1510;
+  background: linear-gradient(120deg, #c4140e 0%, #8d100b 100%);
+  color: #fff;
+}
+
+.cache-lab-btn[disabled],
+.cache-lab-btn[disabled]:hover {
+  opacity: 0.62;
+  cursor: wait;
+  transform: none;
+  box-shadow: none;
+}
+
+.cache-lab-warning {
+  border-left: 4px solid #cc6a10;
+  background: #fff3df;
+  color: #8b4f0a;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.cache-lab-map-wrap {
+  min-height: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 20px 30px rgba(8, 31, 56, 0.18);
+}
+
+.cache-lab-map-wrap #map {
+  min-height: 420px;
+  height: 100%;
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+}
+
+.cache-lab-footer {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  align-items: start;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #d7e0ec;
+  border-radius: 16px;
+  padding: 10px 12px;
+}
+
+.cache-lab-footer div {
+  border: 1px solid #d8e2ef;
+  border-radius: 10px;
+  background: #f6faff;
+  padding: 8px;
+}
+
+.cache-lab-footer span {
+  display: block;
+  color: #567094;
+  font-size: 0.78rem;
+}
+
+.cache-lab-footer strong {
+  font-family: 'Outfit', 'Segoe UI', sans-serif;
+  font-size: 1rem;
+}
+
+.cache-lab-footer p {
+  grid-column: 1 / -1;
+  margin-top: 2px;
+  color: #5f6f86;
+  font-size: 0.82rem;
+}
+
+@media (max-width: 740px) {
+  .cache-lab-page {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .cache-lab-map-wrap #map {
+    min-height: 340px;
+  }
+
+  .cache-lab-btn {
+    flex: 1 1 140px;
+  }
+}
