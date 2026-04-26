@@ -22,9 +22,9 @@ export const mapActions = {
     type: ACTION_TYPES.map.setCurrentLayer,
     payload: layer
   }),
-  setShowBusA1: (value) => ({
-    type: ACTION_TYPES.map.setShowBusA1,
-    payload: value
+  setSelectedRoute: (route) => ({
+    type: ACTION_TYPES.map.setSelectedRoute,
+    payload: route
   }),
   setCoordinates: (lat, lng) => ({
     type: ACTION_TYPES.map.setCoordinates,

@@ -1,19 +1,36 @@
 import { MAP_CONFIG } from './legacyMapConfig';
 
+const ROUTE_ROLE_META = {
+  dispatch_points: {
+    label: 'Despachos',
+    color: '#2563eb',
+    fillColor: '#60a5fa',
+    pointRadius: 6,
+    lineWeight: 3,
+    dashArray: '4 4'
+  },
+  outbound_route: {
+    label: 'Sentido de ida',
+    color: '#15803d',
+    fillColor: '#4ade80',
+    pointRadius: 5,
+    lineWeight: 4,
+    dashArray: null
+  },
+  inbound_route: {
+    label: 'Sentido de regreso',
+    color: '#ea580c',
+    fillColor: '#fb923c',
+    pointRadius: 5,
+    lineWeight: 4,
+    dashArray: '8 6'
+  }
+};
+
 export function initializeBaseLayers(L) {
   return {
     openstreetmap: L.tileLayer(MAP_CONFIG.layers.openstreetmap.url, {
       attribution: MAP_CONFIG.layers.openstreetmap.attribution,
-      minZoom: MAP_CONFIG.minZoom,
-      maxZoom: MAP_CONFIG.maxZoom
-    }),
-    satellite: L.tileLayer(MAP_CONFIG.layers.satellite.url, {
-      attribution: MAP_CONFIG.layers.satellite.attribution,
-      minZoom: MAP_CONFIG.minZoom,
-      maxZoom: MAP_CONFIG.maxZoom
-    }),
-    terrain: L.tileLayer(MAP_CONFIG.layers.terrain.url, {
-      attribution: MAP_CONFIG.layers.terrain.attribution,
       minZoom: MAP_CONFIG.minZoom,
       maxZoom: MAP_CONFIG.maxZoom
     })
@@ -59,65 +76,76 @@ export function addMarkersAndFeatures(L, map) {
   return featureGroup;
 }
 
-export async function getRoadAwarePath(stops) {
-  const fallbackPath = stops.map((stop) => [stop.lat, stop.lng]);
+function buildFeaturePopup(routeTitle, roleLabel, feature) {
+  const featureName =
+    feature?.properties?.Name ||
+    feature?.properties?.name ||
+    feature?.properties?.nombre ||
+    roleLabel;
 
-  try {
-    const waypoints = stops.map((stop) => `${stop.lng},${stop.lat}`).join(';');
-    const url = `https://router.project-osrm.org/route/v1/driving/${waypoints}?overview=full&geometries=geojson&steps=false&continue_straight=true`;
-    const response = await fetch(url, { signal: AbortSignal.timeout(12000) });
-
-    if (!response.ok) {
-      return fallbackPath;
-    }
-
-    const data = await response.json();
-    const routeCoords = data?.routes?.[0]?.geometry?.coordinates;
-
-    if (!Array.isArray(routeCoords) || routeCoords.length < 2) {
-      return fallbackPath;
-    }
-
-    return routeCoords.map(([lng, lat]) => [lat, lng]);
-  } catch (error) {
-    return fallbackPath;
-  }
+  return `<strong>${routeTitle}</strong><br/>${roleLabel}<br/>${featureName}`;
 }
 
-export async function createBusRouteLayer(L, map) {
-  const routeA1 = MAP_CONFIG.busRoutes.a1;
+export async function createSelectedRouteLayer(L, selectedRoute) {
+  if (!selectedRoute?.files) {
+    return null;
+  }
+
   const routeGroup = L.layerGroup();
-  const sortedStops = [...routeA1.stops].sort((a, b) => a.order - b.order);
-  const roadPath = await getRoadAwarePath(sortedStops);
+  const fileEntries = Object.entries(selectedRoute.files);
 
-  L.polyline(roadPath, {
-    color: routeA1.color || '#ff6b00',
-    weight: 5,
-    opacity: 0.85,
-    lineCap: 'round',
-    lineJoin: 'round'
-  })
-    .bindPopup(`<strong>${routeA1.name}</strong>`)
-    .addTo(routeGroup);
+  for (const [roleKey, filePath] of fileEntries) {
+    if (!filePath) {
+      continue;
+    }
 
-  sortedStops.forEach((stop) => {
-    L.circleMarker([stop.lat, stop.lng], {
-      radius: 6,
-      color: '#a84300',
-      weight: 2,
-      fillColor: '#ff8a3d',
-      fillOpacity: 0.95
-    })
-      .bindPopup(`<strong>${stop.name}</strong>`)
-      .addTo(routeGroup);
-  });
+    const roleMeta = ROUTE_ROLE_META[roleKey] ?? {
+      label: roleKey,
+      color: '#334155',
+      fillColor: '#64748b',
+      pointRadius: 5,
+      lineWeight: 3,
+      dashArray: null
+    };
 
-  routeGroup.addTo(map);
+    const response = await fetch(filePath);
+    if (!response.ok) {
+      throw new Error(`No se pudo cargar ${filePath} (${response.status})`);
+    }
+
+    const geoJsonData = await response.json();
+
+    const geoJsonLayer = L.geoJSON(geoJsonData, {
+      style: {
+        color: roleMeta.color,
+        weight: roleMeta.lineWeight,
+        opacity: 0.9,
+        lineCap: 'round',
+        lineJoin: 'round',
+        dashArray: roleMeta.dashArray ?? undefined
+      },
+      pointToLayer: (_feature, latlng) => {
+        return L.circleMarker(latlng, {
+          radius: roleMeta.pointRadius,
+          color: roleMeta.color,
+          weight: 2,
+          fillColor: roleMeta.fillColor,
+          fillOpacity: 0.95
+        });
+      },
+      onEachFeature: (feature, layer) => {
+        layer.bindPopup(buildFeaturePopup(selectedRoute.title, roleMeta.label, feature));
+      }
+    });
+
+    geoJsonLayer.addTo(routeGroup);
+  }
+
   return routeGroup;
 }
 
 export function changeMapLayer(map, layers, nextLayerName, currentLayerName) {
-  const baseNames = ['openstreetmap', 'satellite', 'terrain'];
+  const baseNames = ['openstreetmap'];
 
   baseNames.forEach((name) => {
     const layer = layers[name];
@@ -126,9 +154,9 @@ export function changeMapLayer(map, layers, nextLayerName, currentLayerName) {
     }
   });
 
-  if (layers[nextLayerName]) {
-    layers[nextLayerName].addTo(map);
-    return nextLayerName;
+  if (layers.openstreetmap) {
+    layers.openstreetmap.addTo(map);
+    return 'openstreetmap';
   }
 
   return currentLayerName;

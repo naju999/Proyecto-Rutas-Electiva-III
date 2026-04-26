@@ -1,7 +1,7 @@
 import { createContext, useContext, useReducer } from 'react';
 import { ACTION_TYPES } from './actionTypes';
 
-const VALID_MAP_LAYERS = new Set(['openstreetmap', 'satellite', 'terrain']);
+const VALID_MAP_LAYERS = new Set(['openstreetmap']);
 
 export const initialState = {
   ui: {
@@ -10,7 +10,7 @@ export const initialState = {
   },
   map: {
     currentLayer: 'openstreetmap',
-    showBusA1: false,
+    selectedRoute: null,
     coordinates: {
       lat: 5.5277,
       lng: -73.3639
@@ -79,12 +79,12 @@ function appReducer(state, action) {
       };
     }
 
-    case ACTION_TYPES.map.setShowBusA1:
+    case ACTION_TYPES.map.setSelectedRoute:
       return {
         ...state,
         map: {
           ...state.map,
-          showBusA1: Boolean(action.payload)
+          selectedRoute: action.payload ?? null
         }
       };
 

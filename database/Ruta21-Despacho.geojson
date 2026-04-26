@@ -1,0 +1,33 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.32944,
+                    5.529523
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Despacho Pirgua",
+                "name": "Despacho Pirgua"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.373473,
+                    5.509228
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Punto de Retorno",
+                "name": "Punto de Retorno"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

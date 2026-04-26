@@ -1,0 +1,33 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.348015,
+                    5.571397
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Despacho Asis",
+                "name": "Despacho Asis"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.36732,
+                    5.54748
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Punto de Retorno",
+                "name": "Punto de Retorno"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

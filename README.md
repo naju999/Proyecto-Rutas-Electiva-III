@@ -13,8 +13,32 @@ La aplicación principal del repositorio vive ahora en la raíz. El código Reac
 ## Flujo de uso
 
 1. Instalar dependencias con `npm install`.
-2. Construir la app con `npm run build`.
-3. Servir el build con `python start-server.py` o el script equivalente del sistema operativo.
+2. Sincronizar rutas GeoJSON con `npm run sync:routes`.
+3. Construir la app con `npm run build`.
+4. Servir el build con `python start-server.py` o el script equivalente del sistema operativo.
+
+## Rutas dinamicas desde GeoJSON
+
+- La PWA ya no usa rutas quemadas en el codigo.
+- El catalogo se genera desde los archivos `database/Ruta*.geojson`.
+- Cada ruta debe tener 3 archivos: un `Despacho` (o `Despachos`) y dos trazados de recorrido.
+
+Comando de sincronizacion:
+
+- `npm run sync:routes`
+
+Ese comando:
+
+- Copia los GeoJSON usados por la app a `public/data/routes/`.
+- Genera el manifest `public/data/routes-manifest.json`.
+- Omite rutas incompletas y las reporta en consola.
+
+Flujo recomendado cuando agregues o cambies rutas:
+
+1. Guardar/actualizar archivos GeoJSON en `database/`.
+2. Ejecutar `npm run sync:routes`.
+3. Ejecutar `npm run build`.
+4. Reiniciar el servidor de la app para servir el nuevo build.
 
 ## Estado del proyecto
 

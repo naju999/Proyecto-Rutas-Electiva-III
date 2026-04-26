@@ -170,7 +170,11 @@ function isAppAssetRequest(request) {
     return true;
   }
 
-  return url.pathname.startsWith('/assets/') || url.pathname.startsWith('/icons/');
+  return (
+    url.pathname.startsWith('/assets/') ||
+    url.pathname.startsWith('/icons/') ||
+    url.pathname.startsWith('/data/')
+  );
 }
 
 async function handleNavigationRequest(request) {
