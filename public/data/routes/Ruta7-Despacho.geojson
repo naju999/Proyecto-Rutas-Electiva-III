@@ -1,0 +1,33 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.355127,
+                    5.564044
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Despacho EDS La Gran Colina",
+                "name": "Despacho EDS La Gran Colina"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.366124,
+                    5.515197
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "PUNTO DE RETORNO",
+                "name": "PUNTO DE RETORNO"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}
