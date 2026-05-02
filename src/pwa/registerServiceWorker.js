@@ -60,9 +60,8 @@ export async function registerServiceWorker() {
     return { supported: false };
   }
 
-  const shouldRegisterInDev = window.__ENABLE_SW_DEV__ === true;
-  if (import.meta.env.DEV && !shouldRegisterInDev) {
-    return { supported: true, skipped: true };
+  if (import.meta.env.DEV) {
+    console.log('[PWA] Service Worker en modo desarrollo - registrando...');
   }
 
   try {

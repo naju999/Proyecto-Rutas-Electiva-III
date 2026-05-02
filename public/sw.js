@@ -1,6 +1,5 @@
 /**
- * Service Worker - Punto de entrada
- * Modularizado en:
+ * Service Worker
  * - sw/constants.js      : Constantes
  * - sw/utils.js          : Funciones utilitarias
  * - sw/classifiers.js    : Clasificadores de requests
