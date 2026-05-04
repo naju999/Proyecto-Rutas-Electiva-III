@@ -5,5 +5,3 @@ dist/
 .env
 .env.local
 .env.*.local
-QUICK_START.md
-SETUP_FIRESTORE.md
