@@ -3,14 +3,17 @@
  * Versión, nombres de caché, configuración de tiles, etc.
  */
 
-export const SW_VERSION = 'v2';
+export const SW_VERSION = 'v3';
 
 // Cache Names
 export const APP_SHELL_CACHE_NAME = `tunja-app-shell-${SW_VERSION}`;
 export const APP_SHELL_CACHE_PREFIX = 'tunja-app-shell-';
+export const APP_RUNTIME_CACHE_NAME = `tunja-app-runtime-${SW_VERSION}`;
+export const APP_RUNTIME_CACHE_PREFIX = 'tunja-app-runtime-';
 export const TILE_CACHE_NAME = `tunja-tiles-${SW_VERSION}`;
 export const TILE_CACHE_PREFIX = 'tunja-tiles-';
-export const API_CACHE_NAME = `tunja-api-v1`;
+export const API_CACHE_NAME = `tunja-api-${SW_VERSION}`;
+export const API_CACHE_PREFIX = 'tunja-api-';
 
 // Offline fallback
 export const OFFLINE_FALLBACK_URL = '/offline.html';
@@ -48,3 +51,6 @@ export const TILE_HOST_MATCHERS = [
 // Fetch timeouts
 export const NAVIGATION_TIMEOUT_MS = 6000;
 export const API_CACHE_TIMEOUT_MS = 8000;
+export const API_CACHE_MAX_AGE_MS = 1000 * 60 * 10; // 10 minutos
+export const API_CACHE_MAX_ENTRIES = 120;
+export const API_CLEANUP_INTERVAL_MS = 1000 * 60 * 5; // 5 minutos
