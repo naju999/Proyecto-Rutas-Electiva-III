@@ -658,6 +658,7 @@ body[data-active-view='inicio'] #map {
 }
 
 body[data-active-view='inicio'] .map-tools-home {
+  display: none;
   position: absolute;
   top: 8px;
   left: 8px;

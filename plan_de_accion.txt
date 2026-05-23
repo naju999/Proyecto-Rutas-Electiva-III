@@ -1,0 +1,77 @@
+Plan de acción para Proyecto-final
+
+Fase 1 — Consolidar lo que ya tienes
+1. Verificar el login y la sesión:
+   - src/context/AuthContext.jsx
+   - src/firebase/config.js
+   - src/firebase/firestoreService.js
+2. Asegurarse de que la PWA esté activa:
+   - public/manifest.webmanifest
+   - public/sw.js
+   - registro del service worker en src/main.jsx o equivalente
+3. Limpiar RutasPage.jsx:
+   - eliminar mockRoutes
+   - crear una función asíncrona vacía como fetchRoutes() o searchRoutes()
+   - mantener el formulario de origen/destino y mostrar un estado de "buscando..."
+4. Preparar el frontend para consumir la API:
+   - estado routes
+   - estado selectedRoute
+   - estado loading y error
+   - placeholder para resultados reales
+
+Fase 2 — Backend + PostGIS
+1. Elegir el backend: Node.js + Express es la opción recomendada.
+   - crear carpeta server/ o api/
+2. Crear endpoints mínimos:
+   - GET /api/routes → lista todas las rutas disponibles
+   - GET /api/search?origin=...&destination=... → rutas candidatas
+3. Preparar PostGIS:
+   - usar docker-compose.yml con PostGIS
+   - cargar database/postgresql_schema.sql
+4. Insertar GeoJSON en la base:
+   - script de carga para recorrer database/*.geojson
+   - usar ST_GeomFromGeoJSON(source) para convertir geojson a geometry
+   - guardar rutas, versiones, archivos geojson y paradas
+5. Implementar búsqueda espacial:
+   - calcular punto aproximado de origin y destination
+   - usar ST_DWithin(route.geom, origen_geom, distancia)
+   - usar ST_DWithin(route.geom, destino_geom, distancia)
+   - devolver rutas que cumplan ambas condiciones o un puntaje simple
+
+Fase 3 — Mapa con datos reales
+1. Conectar RutasPage.jsx con la API:
+   - fetch('/api/search?origin=...&destination=...')
+   - guardar resultados en routes
+2. Cambiar MapCanvas.jsx para que reciba:
+   - routeGeoJSON
+   - stops
+   - selectedRoute
+3. Dibujar en Leaflet:
+   - línea GeoJSON de la ruta seleccionada
+   - marcadores para paradas/despachos
+   - centrar el mapa sobre bounds de la ruta seleccionada
+4. Añadir comportamiento:
+   - lista de rutas de resultados en RutasPage
+   - al hacer clic en una ruta, resaltarla y mostrar detalles en el mapa
+   - mostrar opciones retornadas por la API al buscar destino
+
+Fase 4 — Robustecer la PWA
+1. Cachear GeoJSON:
+   - cachear routes-manifest.json
+   - cachear GeoJSON de rutas más consultadas
+2. Estrategias de cache:
+   - stale-while-revalidate para rutas estáticas y GeoJSON
+   - network-first para búsquedas dinámicas /api/search
+3. Mensajes de conexión:
+   - detectar offline
+   - mostrar "Sin conexión, usando datos cacheados" cuando corresponda
+   - mostrar error claro si no hay resultados y no hay red
+4. Asegurar la experiencia:
+   - validación de formularios en offline
+   - fallback visual para el mapa cuando no hay datos
+   - refresco de cache cuando la app se actualiza
+
+Recomendación general:
+- mantener Firebase para auth, usuarios, favoritos y búsquedas recientes
+- usar PostGIS para rutas reales y consultas espaciales
+- contemplar arquitectura: frontend React/PWA + backend API + PostGIS + Firebase Auth/Firestore
