@@ -6,12 +6,14 @@ import {
   subscribeServiceWorkerUpdates
 } from '../pwa/registerServiceWorker';
 import { useAppDispatch, useAppStore } from '../store/AppStore';
-import { mapActions as mapStoreActions, uiActions } from '../store/actions';
+import { cacheActions, mapActions as mapStoreActions, uiActions } from '../store/actions';
 import {
+  selectCacheOfflineMode,
   selectCoordinates,
   selectHomeOverlayCollapsed,
   selectMapWarning,
-  selectRoutesSheetCollapsed
+  selectRoutesSheetCollapsed,
+  selectSelectedRoute
 } from '../store/selectors';
 
 const NAV_ITEMS = [
@@ -70,8 +72,10 @@ function MainLayout() {
 
   const isHomeOverlayCollapsed = selectHomeOverlayCollapsed(state);
   const isRoutesSheetCollapsed = selectRoutesSheetCollapsed(state);
+  const selectedRoute = selectSelectedRoute(state);
   const coord = selectCoordinates(state);
   const mapWarning = selectMapWarning(state);
+  const isOfflineMode = selectCacheOfflineMode(state);
 
   const activeView = useMemo(() => {
     const segment = location.pathname.split('/').filter(Boolean)[0];
@@ -123,6 +127,21 @@ function MainLayout() {
   }, [isMapView, mapActions]);
 
   useEffect(() => {
+    const syncOfflineMode = () => {
+      dispatch(cacheActions.setOfflineMode(!navigator.onLine));
+    };
+
+    syncOfflineMode();
+    window.addEventListener('online', syncOfflineMode);
+    window.addEventListener('offline', syncOfflineMode);
+
+    return () => {
+      window.removeEventListener('online', syncOfflineMode);
+      window.removeEventListener('offline', syncOfflineMode);
+    };
+  }, [dispatch]);
+
+  useEffect(() => {
     return subscribeServiceWorkerUpdates((stateUpdate) => {
       setIsSwUpdateAvailable(Boolean(stateUpdate?.available));
 
@@ -152,6 +171,18 @@ function MainLayout() {
       setIsApplyingSwUpdate(false);
     }
   };
+
+  // Callback robusto para errores del mapa
+  function handleMapWarning(warning) {
+    // Si es el error de appendChild pero la ruta ya está visible, ignóralo
+    if (
+      warning?.includes('appendChild') &&
+      document.querySelector('.leaflet-pane .leaflet-interactive') // hay capa visible
+    ) {
+      return;
+    }
+    dispatch(mapStoreActions.setWarning(warning));
+  }
 
   return (
     <>
@@ -199,38 +230,71 @@ function MainLayout() {
             <div className="home-map-info" id="homeMapOverlayContent">
               <div className="home-tip-pane">
                 <div className="note-box home-map-note">
-                  Tip: usa clic derecho sobre el mapa para capturar coordenadas y preparar una
-                  consulta.
+                  En Inicio preparas tu busqueda y desde Rutas eliges la ruta exacta que quieres consultar.
                 </div>
               </div>
 
               <div className="home-coord-pane">
-                <p className="coord-title">Coordenadas actuales</p>
-                <div className="coordinates home-map-coords">
-                  <div>
-                    <span>Latitud</span>
-                    <strong id="coordLat">{coord.lat.toFixed(6)}</strong>
-                  </div>
-                  <div>
-                    <span>Longitud</span>
-                    <strong id="coordLng">{coord.lng.toFixed(6)}</strong>
-                  </div>
+                <div className="connection-status" aria-live="polite">
+                  <span
+                    className={`status-led ${isOfflineMode ? 'is-offline' : 'is-online'}`}
+                    aria-hidden="true"
+                  ></span>
+                  <span>{isOfflineMode ? 'Sin conexion' : 'En linea'}</span>
                 </div>
+                <p className="selected-route-hint">La ruta del mapa se activa desde la vista Rutas.</p>
               </div>
             </div>
           </div>
 
-          {mapWarning ? (
-            <div className="map-tools map-tools-routes" aria-label="Avisos del mapa">
-              <p className="map-warning">{mapWarning}</p>
+          <div className="map-tools map-tools-routes" aria-label="Controles del mapa">
+            <div className="button-group">
+              <button
+                type="button"
+                onClick={() => {
+                  if (mapActions) mapActions.centerMap();
+                }}
+              >
+                Centrar
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  if (mapActions) mapActions.zoomIn();
+                }}
+              >
+                Zoom +
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  if (mapActions) mapActions.zoomOut();
+                }}
+              >
+                Zoom -
+              </button>
             </div>
-          ) : null}
+
+            <div className="connection-status connection-status-routes" aria-live="polite">
+              <span
+                className={`status-led ${isOfflineMode ? 'is-offline' : 'is-online'}`}
+                aria-hidden="true"
+              ></span>
+              <span>{isOfflineMode ? 'Sin conexion' : 'En linea'}</span>
+            </div>
+
+            {selectedRoute ? (
+              <p className="selected-route-hint">{selectedRoute.title} visible en el mapa.</p>
+            ) : null}
+
+            {mapWarning ? <p className="map-warning">{mapWarning}</p> : null}
+          </div>
 
           <MapCanvas
-            currentLayer="openstreetmap"
-            showBusA1={false}
+            selectedRoute={selectedRoute}
+            coordinates={coord}
             onMapReady={setMapActions}
-            onMapError={(warning) => dispatch(mapStoreActions.setWarning(warning))}
+            onMapError={handleMapWarning}
             onCoordinatesChange={(lat, lng) => dispatch(mapStoreActions.setCoordinates(lat, lng))}
           />
         </section>

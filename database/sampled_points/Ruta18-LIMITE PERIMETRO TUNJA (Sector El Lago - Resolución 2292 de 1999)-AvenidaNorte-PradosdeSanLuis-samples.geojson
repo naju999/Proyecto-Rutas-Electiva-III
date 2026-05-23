@@ -1,0 +1,4460 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.326139,
+          5.599858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32637533382227,
+          5.599631831770295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32645149965829,
+          5.599188606912257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3265277496668,
+          5.598745396424282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32660425921593,
+          5.598302230224911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32668076864903,
+          5.597859064015621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32675727796612,
+          5.597415897796412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3268384137344,
+          5.596973551854706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32692038646996,
+          5.596531354317383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32700016491474,
+          5.596088762445324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32707876662997,
+          5.595645959108949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32715763022428,
+          5.59520320218546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32724938235286,
+          5.59476304516205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3273515744426,
+          5.594325058725682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32747267435245,
+          5.593891851562361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32760839600643,
+          5.593463897575169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32779324954797,
+          5.593053595179394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32799636432091,
+          5.592652024877421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32823214043849,
+          5.592268767993224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32847427084891,
+          5.591889131532044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32871640094517,
+          5.591509494971633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32897343017612,
+          5.5911397876434545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32923391604876,
+          5.590772384003677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3294944015944,
+          5.590404980249077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32975185028758,
+          5.590035494791088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33000391046757,
+          5.589662315529665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33025597032623,
+          5.589289136160747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33050802986355,
+          5.588915956684342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33076044385135,
+          5.588543017374594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33101674301682,
+          5.588172709464994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33127304185817,
+          5.587802401444281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33152934037538,
+          5.587432093312467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33178563856848,
+          5.587061785069552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33204120368823,
+          5.5866909761538945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33229626517729,
+          5.586319823304633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33255132634314,
+          5.585948670345366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33280638718581,
+          5.585577517276102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33306155940492,
+          5.585206440181384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33331685038837,
+          5.584835444093428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33357214104853,
+          5.5844644478952965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33382743138544,
+          5.584093451587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33408272139913,
+          5.583722455168544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33433698640957,
+          5.58335076636228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33458919864869,
+          5.582977690805059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33484141056675,
+          5.582604615140341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33509362216375,
+          5.582231539368133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33534901290113,
+          5.581860614384406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33560475902907,
+          5.581489929929671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33586050483362,
+          5.581119245364437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33611241255495,
+          5.580745971919386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33636361904185,
+          5.58037222556437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3366181240662,
+          5.580000713031733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33687521446082,
+          5.579630951375244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33713230453125,
+          5.579261189607124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33738882588315,
+          5.578891038101682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33764428065659,
+          5.578520155583948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.332938,
+          5.585386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33319165469261,
+          5.585013893790046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33344530906307,
+          5.584641787471327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33369943258636,
+          5.58426999891162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33395403926684,
+          5.583898537592548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33420864562459,
+          5.583527076163907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33446325165956,
+          5.58315561462571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33471747922371,
+          5.582783896568677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33497164267919,
+          5.582412135151174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33522580581229,
+          5.5820403736245146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33547996460473,
+          5.581668609267522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33573412288969,
+          5.581296844676021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33598828085236,
+          5.580925079975391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33624243849275,
+          5.580553315165639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33649713584882,
+          5.580181916637661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33675357848391,
+          5.5798117096363065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33701002079523,
+          5.579441502523879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33726646278284,
+          5.5790712953003885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.337311,
+          5.579007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33764824939611,
+          5.579306219242936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33798640894084,
+          5.579604417414758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33832515942926,
+          5.579901952689206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33866358687989,
+          5.580199845838974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33899683607925,
+          5.58050347287792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33934563763404,
+          5.580774000001104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33947,
+          5.580697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33976360929337,
+          5.580355235352044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3400572182445,
+          5.58001347055847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34034887346314,
+          5.579670054390969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.340393,
+          5.579618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34006918400209,
+          5.5793123033586145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33973980323904,
+          5.579004658118754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33938801686976,
+          5.5788831461936255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33917321140407,
+          5.578548425538923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33888541175725,
+          5.57822177295613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3385507852019,
+          5.577919709910635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33817303135937,
+          5.578002772826295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.337862,
+          5.578179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33810325393868,
+          5.577802684027831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33835728571711,
+          5.577430834932074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33861131717353,
+          5.577058985727372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33886636689765,
+          5.576687827980367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33912154594736,
+          5.576316758147557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33937824414913,
+          5.5759467536426905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33964343522098,
+          5.5755827043523585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33990096791861,
+          5.575213856532545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34015207880105,
+          5.574840081449435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34041926340947,
+          5.574477920822892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34069010791302,
+          5.574118374758858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34094511734922,
+          5.573747190202942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34120012646298,
+          5.573376005537311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34145513525431,
+          5.5730048207619705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34171014372326,
+          5.572633635876927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34197356069942,
+          5.572268330176889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34223268858405,
+          5.571900021955151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3424880582828,
+          5.571529083482232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34274018392284,
+          5.571155979509005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34298811900389,
+          5.570780078191236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34323605376763,
+          5.570404176769809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34348944058603,
+          5.570031920508673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3437453272063,
+          5.569661335632954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34400121350379,
+          5.5692907506468465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3442570994785,
+          5.568920165550351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34450899776344,
+          5.568546887116795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34476050380341,
+          5.568173343854589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3450118243268,
+          5.567799677153174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34526280643479,
+          5.567425785189039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34551378822347,
+          5.5670518931187445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34575311150803,
+          5.56667120082082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34595756465737,
+          5.566270219809126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34615836063259,
+          5.565867464565146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34634640413557,
+          5.565458604524532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34653444737702,
+          5.565049744424349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.346722490357,
+          5.564640884264597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3469105330755,
+          5.5642320240452845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34709901841394,
+          5.563823365869496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34728756664107,
+          5.5634147364518345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34747611460625,
+          5.5630061069743055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34766803522179,
+          5.562599040120525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34786080371984,
+          5.562192366155035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34805067942106,
+          5.561784362432937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34823677544306,
+          5.561374621255712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3484229375483,
+          5.560964910510489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34861563095254,
+          5.560558201543587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34880832409041,
+          5.560151492514185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34899887507578,
+          5.559743792382106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34918708235884,
+          5.559335007891714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34937528938048,
+          5.558926223341712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34956349614075,
+          5.558517438732104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34975170263965,
+          5.5581086540628935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34994051657574,
+          5.557700147319814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35012964558932,
+          5.557291784765691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35031877434058,
+          5.556883422151394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35050790282956,
+          5.55647505947693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35069703105627,
+          5.5560666967423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3508841016713,
+          5.555657415312889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3510647997788,
+          5.555245288529442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3512449795767,
+          5.5548329388725435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35142270515755,
+          5.554419533699853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35155858033058,
+          5.553991003845329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 63
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35168875826245,
+          5.553560415050443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35182475071413,
+          5.553131615959949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35196151405927,
+          5.552703054175639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35209827720551,
+          5.552274492359892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35223470778159,
+          5.551845825957522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35242797285868,
+          5.551442661053295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 69
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35268639951204,
+          5.551073995758287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35294804270377,
+          5.550707420186524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 71
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35323658095965,
+          5.550362107636003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 72
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35353592283035,
+          5.550025327818394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35381646027136,
+          5.549672866290205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35409699737701,
+          5.5493204046298015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35437753414733,
+          5.548967942837191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35464946615411,
+          5.5486089034900274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 77
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35491922951329,
+          5.548248206508258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35518899254251,
+          5.54788750940426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 79
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35545875524181,
+          5.547526812178049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35572637275435,
+          5.547164544391902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 81
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35599201715164,
+          5.546800832035953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 82
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3562576612214,
+          5.546437119561516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 83
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35652611045437,
+          5.546075463762669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 84
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35679631748138,
+          5.545715096778139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 85
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3570665241784,
+          5.545354729671037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 86
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35733673054541,
+          5.544994362441373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357346,
+          5.544982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35774766509103,
+          5.544777441404419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35786273447859,
+          5.544365207398293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357907,
+          5.544283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3581644875816,
+          5.543913522995001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35842595175194,
+          5.543546828089581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35868714539953,
+          5.543179940783684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35899085157502,
+          5.542857395800606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35893623545527,
+          5.54243417482231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35904669276438,
+          5.542004250674257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35923007938055,
+          5.541593303874767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35941987459168,
+          5.541185250647645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35960973737124,
+          5.540777227985999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359783719287,
+          5.540362340298058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35993051583067,
+          5.539937361410891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36005240021619,
+          5.539504564081642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36016459333963,
+          5.539068990589663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36026334692181,
+          5.5386302158351315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36037337564156,
+          5.538194545838593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360404,
+          5.537932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36015518554447,
+          5.537609472639847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35973368831675,
+          5.537447646250127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359571,
+          5.537385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35970041190899,
+          5.536954566286426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3598224852911,
+          5.53652164833696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35993315823993,
+          5.536085743942721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36006290882476,
+          5.535655737999056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36018494580011,
+          5.535222800705275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36030808326792,
+          5.534790179425646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3604428108824,
+          5.534360984005902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36057213614929,
+          5.533930142033616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3606797964544,
+          5.533493716873679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36083212397985,
+          5.5330720294956715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36100616382302,
+          5.53265980313814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36115924770021,
+          5.532236745900968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36123518046281,
+          5.531812305357366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36133193753427,
+          5.531380290217832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36145759704232,
+          5.530948375102536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.361503,
+          5.530742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36107204225404,
+          5.53060921960418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36064422247215,
+          5.530464773891508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36021219401093,
+          5.530333504277922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35977911876077,
+          5.530205512036674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359527,
+          5.530131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35963396165153,
+          5.529694132900741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35973903416135,
+          5.529256804015923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35985905442759,
+          5.528823542536433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35999211999054,
+          5.528393830789988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36012516754775,
+          5.527964113549985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36026484998884,
+          5.5275365463385855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3604272488724,
+          5.5271194670000705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360435,
+          5.527075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36010337527298,
+          5.527187520399731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35980960392106,
+          5.527529124492188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35951583223013,
+          5.527870728440231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3592323287978,
+          5.5282207689092075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35895102493586,
+          5.528572616683712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3586697207395,
+          5.528924464325776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35840616693709,
+          5.529288631840854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35817171126253,
+          5.529672995209093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35797783374761,
+          5.530078109440954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35779961814077,
+          5.530491302288507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35764078829773,
+          5.530912241760835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35748247708248,
+          5.531333388620007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35732416564187,
+          5.531754535437212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35716560028949,
+          5.532175587501299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35699141540995,
+          5.53259035911641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3567752477166,
+          5.532983441894126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35652912180413,
+          5.53336050889124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35626793537489,
+          5.533727213973181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35600050642394,
+          5.5340896241438475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35573307714522,
+          5.5344520341947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.355663,
+          5.534547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35543388043897,
+          5.53418519802806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35519619963365,
+          5.533806991680091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3547989918507,
+          5.533649183210522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3543472793831,
+          5.533656074894409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35389554406828,
+          5.533660000229253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35344377853222,
+          5.533660000517334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35299201299617,
+          5.533660000463523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35254024746013,
+          5.53366000006782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3520885236159,
+          5.533665744851397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35163680521464,
+          5.533672240670637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35121784559045,
+          5.533800891920571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35116040522239,
+          5.534237500645846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35115901893181,
+          5.534684916292328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35103413648775,
+          5.535109263399973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35077820536435,
+          5.535477393430696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3504914604949,
+          5.535824841586625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35019554232689,
+          5.536164245642983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34987402308494,
+          5.53647769353367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3494310748685,
+          5.536545479799701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34898850450297,
+          5.536507419615016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3486138651005,
+          5.536262716782698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34837854514261,
+          5.53588478238228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34830627140707,
+          5.535440915956239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34823725985547,
+          5.5349965332423645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34813690571968,
+          5.534560453530992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34789212982918,
+          5.534186232088152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34752370762261,
+          5.533933612289288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34708234483536,
+          5.533844461341228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34663681308139,
+          5.533901966333954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34627064995462,
+          5.534160702095949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3459642527584,
+          5.534490770551832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34565705641428,
+          5.534818973964852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34526657624079,
+          5.534836717276572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.345252,
+          5.534813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34504684064396,
+          5.5344128067334895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34485385240085,
+          5.534006393757259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34465338088245,
+          5.533603430758218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3444596359329,
+          5.533197254819226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34426922107042,
+          5.532789488300127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34409080882263,
+          5.532378753666222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34425119051552,
+          5.531985399106413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34450000019747,
+          5.531610999672853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34472683866788,
+          5.531222133784375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34494927919732,
+          5.530830769015307
+        ]
+      }
+    }
+  ]
+}

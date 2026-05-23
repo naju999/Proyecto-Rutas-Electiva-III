@@ -3,6 +3,10 @@ export const MAP_CONFIG = {
   initialZoom: 13,
   minZoom: 2,
   maxZoom: 19,
+  bounds: [
+    [5.485, -73.414],
+    [5.595, -73.295]
+  ],
   pointsOfInterest: [
     {
       nombre: 'Catedral Metropolitana',
@@ -36,8 +40,18 @@ export const MAP_CONFIG = {
         { order: 3, name: 'Los Muiscas', lat: 5.571341, lng: -73.34107 },
         { order: 4, name: 'Centro comercial el nogal', lat: 5.569566, lng: -73.343798 },
         { order: 5, name: 'Bavaria', lat: 5.562331, lng: -73.347813 },
-        {order: 6,name: 'Secretaria De Transito Y Transporte De Tunja',lat: 5.562331,lng: -73.347813},
-        {order: 7,name: 'Empresa De Energia De Boyaca S.A. E.S.P. Norte',lat: 5.558006,lng: -73.34982},
+        {
+          order: 6,
+          name: 'Secretaria De Transito Y Transporte De Tunja',
+          lat: 5.562331,
+          lng: -73.347813
+        },
+        {
+          order: 7,
+          name: 'Empresa De Energia De Boyaca S.A. E.S.P. Norte',
+          lat: 5.558006,
+          lng: -73.34982
+        },
         {
           order: 8,
           name: 'Centro comercial Centro Norte',
@@ -84,16 +98,6 @@ export const MAP_CONFIG = {
       url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
       attribution: '© OpenStreetMap contributors',
       name: 'openstreetmap'
-    },
-    satellite: {
-      url: 'https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryAndBaseMapsRC/MapServer/tile/{z}/{y}/{x}',
-      attribution: 'Tiles © USGS',
-      name: 'satellite'
-    },
-    terrain: {
-      url: 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
-      attribution: '© OpenTopoMap',
-      name: 'terrain'
     }
   }
 };

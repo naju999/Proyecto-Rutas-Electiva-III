@@ -1,0 +1,4865 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.345024,
+          5.530698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34487525826874,
+          5.530340530824926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34459305722078,
+          5.5305887503532905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34458404138613,
+          5.531038235483731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3445722205352,
+          5.531487732217643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34455811470298,
+          5.531937173152121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34450163322299,
+          5.532380577448822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34414895088754,
+          5.532385633545519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34419861667732,
+          5.53194309258216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3443272362976,
+          5.531512665507027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3443311122915,
+          5.531066404515564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34429159076463,
+          5.530618492284383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34430987216719,
+          5.530172283201658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34449413294574,
+          5.529769925009866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34474087937576,
+          5.529393260974268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3449951325057,
+          5.529021673517001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34525605873294,
+          5.528654598903147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.345356,
+          5.528514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34576034365283,
+          5.528714423252355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34616907308462,
+          5.528905957269676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34657780278096,
+          5.529097491007378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34699454674976,
+          5.52927041539992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34741575373656,
+          5.529432976621595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3478548343353,
+          5.529533157816686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34830344321146,
+          5.529586195380183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3487529629476,
+          5.529629413659718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.348975,
+          5.529644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34874972295036,
+          5.530031266996711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34846546703284,
+          5.530380162271621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34820410403023,
+          5.5307468535616024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34794587596214,
+          5.531115811387921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34768426583818,
+          5.531482404203522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34737896892435,
+          5.531813489684653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34710900267225,
+          5.5321625714765075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34703955593598,
+          5.532599662661098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34707694682152,
+          5.533040691234023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34714019271512,
+          5.533485822460546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.347189,
+          5.533903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34761766967402,
+          5.534039371236958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34795726889008,
+          5.534333061365834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34815058937254,
+          5.534737351700608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34821365534631,
+          5.535182557957875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3482846265231,
+          5.535626634795913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34839047144264,
+          5.536061330401572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34868013229928,
+          5.536397448731461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34907634971627,
+          5.5366092847966115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34952421159046,
+          5.536598157987454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3499516785795,
+          5.536480340275478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35026923833682,
+          5.5361612427281495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35056906185613,
+          5.535825121481343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3508559321988,
+          5.53547784253113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35110247633358,
+          5.535102067184292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35122891405383,
+          5.534673529579405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35122581948164,
+          5.534224504945565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35129234148395,
+          5.533795362129362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35173653251667,
+          5.533735936546981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35218814624113,
+          5.533727025824855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35263990081967,
+          5.533723886871524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3530916553934,
+          5.53372074757631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35354341053058,
+          5.533717699666143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35399516964598,
+          5.5337152942747325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35444691958661,
+          5.533712373383688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35489822408753,
+          5.533704564073307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35525253634034,
+          5.533948967002053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35544566231499,
+          5.534355079194544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3556,
+          5.534608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35545769580297,
+          5.535027415042022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35541091381864,
+          5.535473196256371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35549704708667,
+          5.5359140847476285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3556067165249,
+          5.536350294369122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35571638612501,
+          5.536786503970458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3558281663796,
+          5.537222174436535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35593627095878,
+          5.537658770931078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3560446435169,
+          5.538095301292103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35615839163869,
+          5.538530446693649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35627205368979,
+          5.538965505059971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.356353756854,
+          5.539407619685729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.356466,
+          5.539716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35641191051639,
+          5.539272601564512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35631307648532,
+          5.538834032391755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35620300320706,
+          5.5383979785972794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3561080000452,
+          5.537958373384942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35601299702468,
+          5.537518768157473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35588947295749,
+          5.5370865563667575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35578195553785,
+          5.536649816281005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3556744382771,
+          5.536213076175879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35557820006814,
+          5.53577381774875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35552169714168,
+          5.5353278533676775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35561860564842,
+          5.5348938300636545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3558431453127,
+          5.534505195136013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3561021902354,
+          5.534136801124263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35636123483533,
+          5.533768407000092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35662027911253,
+          5.533400012763506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35686587604356,
+          5.53302297451177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35710409078284,
+          5.532641543731489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35726989567469,
+          5.532223263274296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35743054334972,
+          5.5318030068292865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35759070324919,
+          5.531382553724335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35775126007537,
+          5.530962249929337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35790980667335,
+          5.530541214469664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35806664338007,
+          5.53011971153897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35825174102098,
+          5.529709636013291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35849404738228,
+          5.529331132157179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35876685976476,
+          5.528972720884068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35904835622226,
+          5.528621353023565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3593574532641,
+          5.5282943669547375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35969374433651,
+          5.527994134880546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359907,
+          5.527774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3600475464969,
+          5.528106077153824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35992219464373,
+          5.528538080654634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3597915510606,
+          5.5289685235773876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35968177478959,
+          5.529404496498791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35957451461447,
+          5.529841297302988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35947733387383,
+          5.530279670102132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35935226929766,
+          5.530711756215942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359237,
+          5.53111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35966457289064,
+          5.531255163808154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36009247452708,
+          5.531399370792629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360216,
+          5.531441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36009203854233,
+          5.53187340099817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3599612055163,
+          5.532303790126908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35983666462954,
+          5.532735999735308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35971142846466,
+          5.533168022592729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35958865761782,
+          5.533600721113159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35946368587297,
+          5.534032560402054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35931643899438,
+          5.5344573080109365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35920518413369,
+          5.534892576881393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35908022281582,
+          5.535324681109233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3592903979341,
+          5.535591807469351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3597181965181,
+          5.535736326243652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35979811120377,
+          5.536055205620513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35954177997321,
+          5.536278082897671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35910846656344,
+          5.536150877037362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35877790455517,
+          5.5362408964472625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35866897052877,
+          5.536677275099203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.358582,
+          5.537055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3589952204091,
+          5.537228807515061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3594247821915,
+          5.537368052111997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35983460573499,
+          5.537554422288423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36025462633724,
+          5.537719471888073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360404,
+          5.537932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36021580530512,
+          5.5383358510688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360148,
+          5.538705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36004220413858,
+          5.539142156484676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35993390817116,
+          5.539578692542827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35981779893515,
+          5.540013118913748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35966409203877,
+          5.540435765237161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35948651448032,
+          5.54084882319487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35929305348554,
+          5.541255164550101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35909650023919,
+          5.54166003657229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35892672767432,
+          5.5420763157190995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35884920115495,
+          5.542515125520301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35878203046565,
+          5.542924264118881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35850590001455,
+          5.543279547260715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35823423272423,
+          5.543638808794836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35795870780423,
+          5.543995163667812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357727,
+          5.54422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35732081987592,
+          5.544378646377803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35725854639523,
+          5.544813140198296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357254,
+          5.544826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35703363264626,
+          5.545215780366796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3567732297792,
+          5.545583228114334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35651177841687,
+          5.545949929671151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35624660087615,
+          5.5463139790897555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35598142300819,
+          5.546678028390296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35571624481298,
+          5.547042077572766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35544989595807,
+          5.547405271690269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35518046191163,
+          5.547766212144861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35491102753545,
+          5.5481271524775355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35464159282952,
+          5.548488092688287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35436214598363,
+          5.548841394453573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35408195671077,
+          5.549194129922113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35380176710271,
+          5.549546865258775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35351283738119,
+          5.549892507811391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35322211113682,
+          5.55023669255353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35293313726,
+          5.550582270225955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35266021746367,
+          5.550940608005821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35238729733555,
+          5.551298945660525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35217632215944,
+          5.551693767772466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35203883220214,
+          5.552121910032677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35190440272046,
+          5.55255120266984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35176791868946,
+          5.552979849999532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35163042121887,
+          5.553408179036572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35149292354839,
+          5.553836508041829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35135542567802,
+          5.5542648370153005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35118726415392,
+          5.554681617225919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35100541892952,
+          5.555093243805421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35081887922891,
+          5.555502774738713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35063095470242,
+          5.555911687516391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35044302991501,
+          5.556320600234676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35025709407581,
+          5.556730393925148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35007768503371,
+          5.557143078426474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34989827574016,
+          5.557555762873654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3497116331683,
+          5.557965251605052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34952445908064,
+          5.558374505560707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34933728473275,
+          5.558783759457417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34915011012463,
+          5.5591930132951735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34895625671672,
+          5.559599174124013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34876225309618,
+          5.560005265447361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34856824920794,
+          5.560411356707362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34837424505197,
+          5.560817447904012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34818024062824,
+          5.561223539037306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34799605368615,
+          5.561634116510349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34781307354028,
+          5.562045245511753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34762701859667,
+          5.562454999946824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34743977294832,
+          5.562864222120902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34725252703946,
+          5.563273444235939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34706528087007,
+          5.563682666291931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34687803444012,
+          5.564091888288876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34669078774964,
+          5.564501110226766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34649983408093,
+          5.564908619194106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34630657546127,
+          5.5653150630811075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34611331657445,
+          5.565721506905189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34592005742041,
+          5.566127950666345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34572013175443,
+          5.566531104945905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3454810092544,
+          5.5669123458325505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34523490036916,
+          5.5672894185401685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34498478208863,
+          5.567663883440917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3447346634894,
+          5.568038348236232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34448454457144,
+          5.568412812926107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34423393130538,
+          5.568786946670405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34397963363453,
+          5.569158613160471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 63
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34372533564199,
+          5.569530279541519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34347103732773,
+          5.569901945813546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34321573017873,
+          5.5702729250721505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34295972443637,
+          5.570643428624122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34270371837108,
+          5.571013932065577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34244771198287,
+          5.571384435396513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 69
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34219170527166,
+          5.571754938616917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34193569823746,
+          5.572125441726785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.341898,
+          5.57218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34165019195346,
+          5.572555984672114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3413950442753,
+          5.572927053325369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34113839026497,
+          5.573297113134456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34088173593113,
+          5.573667172832416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34062508127376,
+          5.57403723241924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34036576067712,
+          5.574405413970874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3401386555654,
+          5.574788917429836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3398836888356,
+          5.575160122678927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33962331077151,
+          5.575527144970413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33936268669993,
+          5.5758943818190945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33910366031914,
+          5.576262801535492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33884463361312,
+          5.576631221138637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33858889052831,
+          5.577001890142054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33833563433572,
+          5.577374262785745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33808237782165,
+          5.577746635321153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33783360896632,
+          5.578121981275247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33758396214935,
+          5.578496745987814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33733078756607,
+          5.578869174032469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.337284,
+          5.578938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3376106622279,
+          5.5792478548223405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33794647386121,
+          5.579548655001841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33828544832566,
+          5.57984593707634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33862412513427,
+          5.58014352725094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33895232946043,
+          5.580452258167035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33929445301182,
+          5.580745946190548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.339427,
+          5.580714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33972315625289,
+          5.580374419117593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34001703272774,
+          5.5800328853495245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34031212787175,
+          5.579692390967163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.340372,
+          5.579609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34003338454967,
+          5.579311321509527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33969688507129,
+          5.579011267134295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33934072434022,
+          5.578873816747562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33914289751192,
+          5.578533720381573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33883167837453,
+          5.578219360280916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33849479637263,
+          5.577919732061803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33812555092193,
+          5.578078919700906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.337786,
+          5.578218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3375364745868,
+          5.5785928522829575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33728059286207,
+          5.578963378565821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33702618299228,
+          5.579334970780724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33677185050105,
+          5.579706616766103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33650964493349,
+          5.580072773515649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33624794175701,
+          5.580439257139708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33599694667377,
+          5.580813123820687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33573973091937,
+          5.581182799466423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3354835036552,
+          5.581553152476829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33522834692646,
+          5.581924239064969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33497383366776,
+          5.582295762826128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33471962686495,
+          5.582667494850811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33446675903187,
+          5.58304012929335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.334214347435,
+          5.583413071294717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.334048,
+          5.583647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33379626255324,
+          5.584020393253085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33354426153403,
+          5.584393609274618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33328992207613,
+          5.584765252025154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33303534076869,
+          5.585136730527233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33278012830021,
+          5.585507780208748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33252491550847,
+          5.585878829780144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33226949579058,
+          5.586249736733149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33200999470434,
+          5.586617828596362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33175049329193,
+          5.5869859203456995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3314909917658,
+          5.587354012126746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33123801605025,
+          5.5877265765776025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33098416168521,
+          5.588098544414344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33072781667701,
+          5.588468820869553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33047147134462,
+          5.5888390972136035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33022187378315,
+          5.589213852376077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32997524829243,
+          5.58959056430611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32971398746082,
+          5.589957422135544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32945272630177,
+          5.590324279849487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32919327641746,
+          5.59069240803177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32893735651587,
+          5.59106292087805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32868987449152,
+          5.591439122799936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3284388421777,
+          5.591812988210977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32819416247949,
+          5.592190862878052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3279616734263,
+          5.592576413108114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32775175457202,
+          5.59297459257717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32757542784998,
+          5.593388212790818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32743106602635,
+          5.593813938691089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32729969095003,
+          5.5942441107840875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32720076292357,
+          5.594682859612856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32710660019929,
+          5.5951225678217735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32702640556617,
+          5.59556508814775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32694621081167,
+          5.596007608462833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32686575685234,
+          5.596450081742203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32678382811967,
+          5.596892287354686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32670189926306,
+          5.597334492955795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32662184012352,
+          5.597777027912987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32654628622485,
+          5.598220356466704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32647073221155,
+          5.598663685010747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32639517808364,
+          5.599107013545116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago)",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32631287735441,
+          5.599549144415848
+        ]
+      }
+    }
+  ]
+}
