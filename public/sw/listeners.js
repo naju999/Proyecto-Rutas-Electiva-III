@@ -6,11 +6,16 @@
 import {
     APP_SHELL_CACHE_NAME,
     APP_SHELL_FILES,
+    APP_RUNTIME_CACHE_NAME,
     TILE_CACHE_NAME,
     TILE_CACHE_PREFIX,
-    APP_SHELL_CACHE_PREFIX
+    APP_SHELL_CACHE_PREFIX,
+    APP_RUNTIME_CACHE_PREFIX,
+    API_CACHE_NAME,
+    API_CACHE_PREFIX
 } from './constants.js';
 import { cleanupTileCache, getTileCacheStats, clearTileCacheAndMetadata } from './handlers/tiles.js';
+import { cleanupApiCache } from './handlers/api.js';
 import { postPortMessage } from './utils.js';
 
 /**
@@ -36,6 +41,7 @@ function handleActivate(event) {
     event.waitUntil((async () => {
         await deleteOutdatedCaches();
         await cleanupTileCache({ force: true });
+        await cleanupApiCache({ force: true });
         await self.clients.claim();
     })());
 }
@@ -129,8 +135,10 @@ async function deleteOutdatedCaches() {
 
     const outdated = allCacheNames.filter((cacheName) => {
         const isOldAppShell = cacheName.startsWith(APP_SHELL_CACHE_PREFIX) && cacheName !== APP_SHELL_CACHE_NAME;
+        const isOldAppRuntime = cacheName.startsWith(APP_RUNTIME_CACHE_PREFIX) && cacheName !== APP_RUNTIME_CACHE_NAME;
         const isOldTileCache = cacheName.startsWith(TILE_CACHE_PREFIX) && cacheName !== TILE_CACHE_NAME;
-        return isOldAppShell || isOldTileCache;
+        const isOldApiCache = cacheName.startsWith(API_CACHE_PREFIX) && cacheName !== API_CACHE_NAME;
+        return isOldAppShell || isOldAppRuntime || isOldTileCache || isOldApiCache;
     });
 
     await Promise.all(outdated.map((cacheName) => caches.delete(cacheName)));

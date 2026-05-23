@@ -18,15 +18,24 @@ import { fetchWithTimeout } from '../utils.js';
 
 export async function handleNavigationRequest(request) {
     const appCache = await caches.open(APP_SHELL_CACHE_NAME);
+    const url = new URL(request.url);
+    const isRootNavigation =
+        url.origin === self.location.origin
+        && (url.pathname === '/' || url.pathname === '/index.html');
 
     try {
         // Intentar network con timeout
         const networkResponse = await fetchWithTimeout(request, NAVIGATION_TIMEOUT_MS);
 
         if (networkResponse && networkResponse.ok) {
-            // Cachear la response y /index.html para futuras navegaciones
-            await appCache.put('/index.html', networkResponse.clone());
+            // Cachear la navegación actual.
             await appCache.put(request, networkResponse.clone());
+
+            // Actualizar /index.html solo cuando realmente se solicita raíz/index.
+            if (isRootNavigation) {
+                await appCache.put('/index.html', networkResponse.clone());
+            }
+
             return networkResponse;
         }
 
