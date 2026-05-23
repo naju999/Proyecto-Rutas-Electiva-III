@@ -7,9 +7,13 @@ export const ACTION_TYPES = {
   },
   map: {
     setCurrentLayer: 'map/setCurrentLayer',
-    setShowBusA1: 'map/setShowBusA1',
+    setSelectedRoute: 'map/setSelectedRoute',
     setCoordinates: 'map/setCoordinates',
     setWarning: 'map/setWarning'
+  },
+  favorites: {
+    toggleFavorite: 'favorites/toggleFavorite',
+    toggleFavoriteTripRoute: 'favorites/toggleFavoriteTripRoute'
   },
   cache: {
     setOfflineMode: 'cache/setOfflineMode',

@@ -1,0 +1,4235 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.347996,
+          5.571372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34821482137144,
+          5.571044283055994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34788148247709,
+          5.570741329942771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34752023375482,
+          5.570471362176508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34714252769233,
+          5.570225421885131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.346768631578,
+          5.5699739013298535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34640407624148,
+          5.569708373210443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3460307875591,
+          5.569455070220217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34565544679667,
+          5.5692048036232995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34527941485766,
+          5.568955567751771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34490929635506,
+          5.568697698422274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34455966738,
+          5.568663336240524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.344382,
+          5.568749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34404960511377,
+          5.569035786580393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34379893810211,
+          5.569409888333672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34354827077125,
+          5.569783989981019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34329381627765,
+          5.570155543088005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34303836375787,
+          5.570526424659919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34278291091555,
+          5.570897306121797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.342582,
+          5.571189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3421857202276,
+          5.570974750704026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3418270392589,
+          5.570701946899542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34146848755744,
+          5.570428436249559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34110616166645,
+          5.57015982659561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.340828970276,
+          5.569812016270543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34062952586105,
+          5.569416575473182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34028667554776,
+          5.569124869859053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33992879820144,
+          5.5688504217318355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3395703100324,
+          5.568576760113459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33921221875721,
+          5.568302585763212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33879237246431,
+          5.568252420187593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33841420836121,
+          5.568483715457355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3381341488375,
+          5.568809881093428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33797230486654,
+          5.569227930248644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33771665949178,
+          5.569575479134051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33728389754535,
+          5.569700078651852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.336964,
+          5.569747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33657749473161,
+          5.569979831223295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33619016512004,
+          5.570211286525964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33580533134678,
+          5.5704468552310535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33539912722479,
+          5.570641330309287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3349719074206,
+          5.570786576114963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33457275946625,
+          5.570990670119086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3342562480539,
+          5.571311064064202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.334017,
+          5.571574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33370559004375,
+          5.571249948917205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33340470466926,
+          5.570914542002134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3331486417696,
+          5.570546878500264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33291964365935,
+          5.570159259815078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33267666693835,
+          5.569780253046921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33243229333868,
+          5.569402102108815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33226883923552,
+          5.568990612340348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33239134577265,
+          5.568572421571602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33272425385238,
+          5.568268431428821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33306602746082,
+          5.5679745176210504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33341271658536,
+          5.5676861907383595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33375584575555,
+          5.567393770151226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33409228483801,
+          5.567093656264688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33442875374831,
+          5.566793575789387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33476605798992,
+          5.56649442581738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33511258464576,
+          5.566207259119404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33549062674395,
+          5.565961041790004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3358686685255,
+          5.565714824219816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33624525822502,
+          5.56546642770352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33662022832037,
+          5.565215600842529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33699519809582,
+          5.564964773744676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33735910358892,
+          5.564698565758697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33771703415437,
+          5.5644241853575345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3380738998675,
+          5.5641484454155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33842862692975,
+          5.563869974761417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3387833536561,
+          5.563591503895408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33913889426366,
+          5.563314068106828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33949568217025,
+          5.563038218490205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33985246974223,
+          5.562762368659218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34020713120121,
+          5.562483852036194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34055813973954,
+          5.562200753400173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34090916248951,
+          5.5619176725062225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3412614015562,
+          5.561636092383241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34160881492363,
+          5.561349304828398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34191923080324,
+          5.561022592130293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34221708346628,
+          5.560684580841711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34251321693135,
+          5.560345026932557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34282394510376,
+          5.560018634059577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34312599232102,
+          5.559684241866101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34342804652749,
+          5.559349856122151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34373222424976,
+          5.559017382830763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34402637428843,
+          5.558676126177108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34431905897115,
+          5.558333586133875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34460823214772,
+          5.557988129379183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34478266539816,
+          5.557577797649898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.344784,
+          5.557574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34493235689294,
+          5.557149275467714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34507084314917,
+          5.556721289233348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34520713741732,
+          5.5562925791879225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34534314012717,
+          5.555863777447747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34547915651895,
+          5.555434980038263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34561520258778,
+          5.555006191985951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34570404095632,
+          5.554566867445055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34575222162374,
+          5.5541197716502655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34579521774924,
+          5.553672193324405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34583115497361,
+          5.5532239580177425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34587089362694,
+          5.5527760426485475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34591356163081,
+          5.552328406538129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.345960934222,
+          5.5518812271906635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34600412376771,
+          5.551433626475267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34604319529865,
+          5.550985655267948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34611116753793,
+          5.550541372597821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34620496656467,
+          5.550101638817859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34631176954944,
+          5.549664776709191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34642426957427,
+          5.5492292843209166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34653178641425,
+          5.548792543554496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34664377435743,
+          5.548356925501697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34675706260852,
+          5.547921632517406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3469371523151,
+          5.5475111649528985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34717147003772,
+          5.547127166685097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34744426549875,
+          5.546769126848986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34772471085418,
+          5.546416611417661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34799860178862,
+          5.546059018491889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34826564277199,
+          5.545696321065223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34851922227789,
+          5.545324253083214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34877229081184,
+          5.544951794033605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34903192771954,
+          5.544583809911862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34926199532968,
+          5.54419733675416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34948296298077,
+          5.543805135249073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34970560071422,
+          5.5434138689797035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34993096387143,
+          5.543024160191896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35013118747526,
+          5.542621380351782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35040159528954,
+          5.542264556745171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.350421,
+          5.542192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35060737133358,
+          5.5417928429412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35036886246472,
+          5.541453397611047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34993651673733,
+          5.541557719239646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34958502363878,
+          5.541310268861002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3493201100903,
+          5.5409492452608164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34889517795324,
+          5.540858735797607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3484829389607,
+          5.541036650795052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3480534168063,
+          5.541145000003879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34769404144686,
+          5.5409101644175385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34758847984567,
+          5.540480535507467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34754623734709,
+          5.540032845354836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34749672540475,
+          5.539585930116183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34749788906318,
+          5.539140544748188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34768612654729,
+          5.538734390013472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34791742619109,
+          5.538348134770227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34807269705804,
+          5.537930858738186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3479309052937,
+          5.537515131622114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34756636061059,
+          5.537254651254519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34716504440168,
+          5.5370488848580734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34674442674338,
+          5.536885984003226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34630019085034,
+          5.5368194783329265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34584990275532,
+          5.536793336682724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34546105354642,
+          5.536589193485886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.345329164602,
+          5.53616913620306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34531347918184,
+          5.535719767434979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34532942865236,
+          5.535273739547427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34532951287179,
+          5.534911934243657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.345098767171,
+          5.534527519853856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34490521220441,
+          5.5341212204508246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34471165750382,
+          5.533714920985029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34451804750957,
+          5.53330864782967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34432266971538,
+          5.5329032138822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34412762555205,
+          5.532497623743367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34414104624287,
+          5.532075024948758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34442043891131,
+          5.5317345025843885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34464518138412,
+          5.531344432823673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34486992356057,
+          5.530954362978381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34503808597559,
+          5.530556214951249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34471469033289,
+          5.530374755659381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34459562404108,
+          5.530783559011404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34458504964672,
+          5.531233089328003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34457523794539,
+          5.53168264344505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34455349507591,
+          5.5321317050619125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34438186181394,
+          5.532503273234402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34413200809216,
+          5.532215854342751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.344194,
+          5.53194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3443523278002,
+          5.531519424628823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34437623064368,
+          5.531075945922006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34433358316316,
+          5.530628550149948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34434704885473,
+          5.530181757353822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34446703904821,
+          5.529762434179814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3447232082372,
+          5.52939209227513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34498161221207,
+          5.529023254129962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3452400158649,
+          5.52865441587303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.345351,
+          5.528496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34575445323462,
+          5.528698313176731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3461596226796,
+          5.528897107646673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34656889866739,
+          5.529087482136234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34698318115495,
+          5.5292664928656725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34740942565854,
+          5.529414480773998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34783999709323,
+          5.529541016871341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34828956904198,
+          5.529585243604453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3487391410579,
+          5.529629469999229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34918906951012,
+          5.529669763624209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3496393730648,
+          5.52970574910056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35009064400369,
+          5.529725355284077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35053544487805,
+          5.529665575339733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3509368738456,
+          5.5294649183598725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35137582026914,
+          5.529367996755079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35182143551941,
+          5.5292940717113455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35226696010355,
+          5.52921960732767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35271485356554,
+          5.529163676190644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35316550906822,
+          5.5291421829014205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3536171477239,
+          5.529152529024482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35406873766308,
+          5.5291649418029225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35452016938595,
+          5.529181934908022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35497154940445,
+          5.529200425216779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35542292945117,
+          5.529218915184499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35583960508208,
+          5.529392326593134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3562766776637,
+          5.529505779657683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.356573,
+          5.529582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3566551399397,
+          5.530023500316291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35701344218569,
+          5.530235000062244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3573518344616,
+          5.530435543671635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35718380097906,
+          5.530852941920143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35704266777786,
+          5.531279209743832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35695742581724,
+          5.531718680949202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35680577384196,
+          5.5321420594060005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35678586790802,
+          5.532582003613944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.356842,
+          5.532816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35664718879681,
+          5.533210153041692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35639790491363,
+          5.533584891718714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.356378,
+          5.533665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35681687905848,
+          5.533767875532294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35725184776287,
+          5.533889295822937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35768569095191,
+          5.534014694299964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35811727275714,
+          5.534147523727988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.358278,
+          5.534198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35814036483274,
+          5.5346262838307645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35799937033666,
+          5.535053477524393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35785693590182,
+          5.535480203948892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35772205939864,
+          5.5359093564783945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35759971144876,
+          5.536342200362305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357492,
+          5.536704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35790944680825,
+          5.536868880928354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35833694976164,
+          5.537014266481659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35876348907763,
+          5.537162403398351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3591891401638,
+          5.537313076415532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35961420276891,
+          5.537465325143928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3600353629267,
+          5.537628021491959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36039060931297,
+          5.537854269671941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360381,
+          5.537941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36072250563448,
+          5.5377836181984526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36110343370883,
+          5.537543149438886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36135223777197,
+          5.537175174839624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3615968119083,
+          5.53680143609102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36196034635428,
+          5.536543414018369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36240706960935,
+          5.536480107502017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3628555491631,
+          5.536425954346002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36330437331797,
+          5.536375072288196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36375438281543,
+          5.536335440789582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36420416946054,
+          5.536293413266638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36464934528405,
+          5.536225939676902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.364662,
+          5.536222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3650924191953,
+          5.536328209083179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3655099220795,
+          5.536499484377549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36592507703332,
+          5.536676811826592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36634183161185,
+          5.536850376643511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36675969662346,
+          5.537021237987467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36718030305437,
+          5.537185342849858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36752618225556,
+          5.537465977959442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36778695837502,
+          5.537828987531131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36791073789459,
+          5.538258422408308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36796083350195,
+          5.538705254440508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36800427789261,
+          5.539152830631393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36804821332768,
+          5.539600359338241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36809214175251,
+          5.540047888728988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36813593262676,
+          5.540495431478711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36815526989244,
+          5.540944323153038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36814404406574,
+          5.541393844492879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36812622647497,
+          5.541842955434488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3680677168874,
+          5.542287995614078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36795489312298,
+          5.542723407857516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36785663917821,
+          5.543161881461809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3677830188442,
+          5.543605530987443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36770939839951,
+          5.544049180503978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36764149874064,
+          5.5444937223251465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36757523844383,
+          5.544938519853132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36750897804714,
+          5.545383317373747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36744271755059,
+          5.5458281148869935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36737759227852,
+          5.5462730727758816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36731688626934,
+          5.546718654964198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta2T-BarrioAsis-BarrioMuiscas-AvenidaUniversitaria-CCViva-Terminal-BarriolaFuente(Circular)",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36728834651088,
+          5.547166503625054
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.3323,
+                    5.573517
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Despacho Arboleda",
+                "name": "Despacho Arboleda"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.366992,
+                    5.508108
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Punto de Retorno",
+                "name": "Punto de Retorno"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}
