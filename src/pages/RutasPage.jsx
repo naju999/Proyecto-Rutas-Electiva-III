@@ -204,6 +204,13 @@ function RutasPage() {
     'Cargando catalogo de rutas desde tus archivos GeoJSON...'
   );
 
+  // Estados para búsqueda por origen/destino (API-ready)
+  const [searchOrigin, setSearchOrigin] = useState(null);
+  const [searchDestination, setSearchDestination] = useState(null);
+  const [searchResults, setSearchResults] = useState([]);
+  const [isSearching, setIsSearching] = useState(false);
+  const [apiError, setApiError] = useState(null);
+
   const routeCatalog = useMemo(() => {
     const routeMap = new Map();
 
@@ -419,7 +426,35 @@ function RutasPage() {
     setStatusMessage(`Ruta encontrada: ${matchingRoute.title}. Ya se mostro en el mapa.`);
   };
 
+  // Búsqueda de rutas por origen/destino (API-ready para Fase 2)
+  const searchRoutes = async (origin, destination) => {
+    // Validar entrada
+    if (!origin || !destination) {
+      setApiError('Debe especificar origen y destino');
+      return [];
+    }
 
+    setIsSearching(true);
+    setApiError(null);
+    setStatusMessage('Buscando rutas disponibles...');
+
+    try {
+      // Llamada real a backend para buscar rutas por origen y destino
+      const response = await fetch(`/api/search?origin=${origin.lat},${origin.lng}&destination=${destination.lat},${destination.lng}&radius=5000`);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const data = await response.json();
+      setSearchResults(data.routes || []);
+      return data.routes || [];
+    } catch (error) {
+      const errorMsg = error instanceof Error ? error.message : 'Error desconocido en búsqueda';
+      setApiError(errorMsg);
+      setStatusMessage(`Error buscando rutas: ${errorMsg}`);
+      setSearchResults([]);
+      return [];
+    } finally {
+      setIsSearching(false);
+    }
+  };
 
   // Callback robusto para errores del mapa
   function handleMapError(errorMsg) {

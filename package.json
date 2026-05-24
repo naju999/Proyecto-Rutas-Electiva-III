@@ -12,6 +12,7 @@
     "generate:samples": "node ./scripts/generate_route_samples.mjs"
   },
   "dependencies": {
+    "firebase": "^12.12.1",
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
