@@ -12,13 +12,7 @@ import {
   setDeviceLocationEnabled
 } from '../utils/deviceLocation';
 
-const REVIEWS_STORAGE_KEY = 'tuRuta.routeReviews';
-const FINALIZED_ROUTE_KEY = 'tuRuta.finalizedRoute';
 
-const DEFAULT_REVIEW_FORM = {
-  rating: 0,
-  comments: ''
-};
 
 function PerfilPage() {
   const { currentUser, userProfile, logout } = useAuth();
@@ -27,10 +21,6 @@ function PerfilPage() {
     canInstall: false,
     installed: false
   });
-  const [reviews, setReviews] = useState([]);
-  const [reviewForm, setReviewForm] = useState(DEFAULT_REVIEW_FORM);
-  const [finalizedRoute, setFinalizedRoute] = useState(null);
-  const [reviewMessage, setReviewMessage] = useState('Finaliza una ruta para habilitar la calificacion.');
   const [locationMessage, setLocationMessage] = useState('');
   const [isSavingLocation, setIsSavingLocation] = useState(false);
   const [deviceLocation, setDeviceLocation] = useState(userProfile?.currentLocation || null);
@@ -42,51 +32,7 @@ function PerfilPage() {
     return subscribePwaInstallState(setInstallState);
   }, []);
 
-  useEffect(() => {
-    const storedReviews = window.localStorage.getItem(REVIEWS_STORAGE_KEY) || '[]';
-    const storedFinalizedRoute = window.localStorage.getItem(FINALIZED_ROUTE_KEY) || '';
 
-    try {
-      setReviews(JSON.parse(storedReviews));
-    } catch {
-      setReviews([]);
-    }
-
-    try {
-      setFinalizedRoute(storedFinalizedRoute ? JSON.parse(storedFinalizedRoute) : null);
-    } catch {
-      setFinalizedRoute(null);
-    }
-  }, []);
-
-  useEffect(() => {
-    window.localStorage.setItem(REVIEWS_STORAGE_KEY, JSON.stringify(reviews));
-  }, [reviews]);
-
-  useEffect(() => {
-    const handleRouteFinalized = (event) => {
-      setFinalizedRoute(event.detail || null);
-      setReviewMessage('Ruta finalizada detectada. Ya puedes dejar tu calificacion.');
-    };
-
-    const syncFinalizedRoute = () => {
-      const storedFinalizedRoute = window.localStorage.getItem(FINALIZED_ROUTE_KEY) || '';
-
-      try {
-        setFinalizedRoute(storedFinalizedRoute ? JSON.parse(storedFinalizedRoute) : null);
-      } catch {
-        setFinalizedRoute(null);
-      }
-    };
-
-    window.addEventListener('tuRuta:routeFinalized', handleRouteFinalized);
-    window.addEventListener('focus', syncFinalizedRoute);
-
-    return () => {
-      window.removeEventListener('tuRuta:routeFinalized', handleRouteFinalized);
-      window.removeEventListener('focus', syncFinalizedRoute);
-    };
-  }, []);
 
   useEffect(() => {
     setDeviceLocation(userProfile?.currentLocation || null);
@@ -146,38 +92,12 @@ function PerfilPage() {
       ? 'Instalar aplicacion'
       : 'Instalacion no disponible';
 
-  const metrics = useMemo(() => {
-    if (!reviews.length) {
-      return {
-        totalReviews: 0,
-        averageOverall: 0,
-        activeUsers: currentUser ? 1 : 0
-      };
-    }
+  const metrics = useMemo(() => ({
+    totalReviews: 0,
+    averageOverall: 0
+  }), []);
 
-    const totals = reviews.reduce(
-      (accumulator, review) => {
-        accumulator.driver += Number(review.driver);
-        accumulator.bus += Number(review.bus);
-        accumulator.routeQuality += Number(review.routeQuality);
-        accumulator.routeTime += Number(review.routeTime);
-        return accumulator;
-      },
-      { driver: 0, bus: 0, routeQuality: 0, routeTime: 0 }
-    );
 
-    const averageOverall =
-      (totals.driver + totals.bus + totals.routeQuality + totals.routeTime) /
-      (reviews.length * 4);
-
-    return {
-      totalReviews: reviews.length,
-      averageOverall,
-      activeUsers: new Set([...reviews.map((review) => review.user), currentUser?.email].filter(Boolean)).size
-    };
-  }, [reviews, currentUser]);
-
-  const hasFinalizedRoute = Boolean(finalizedRoute?.id);
 
   const handleLogout = () => {
     void logout().then(() => {
@@ -185,55 +105,7 @@ function PerfilPage() {
     });
   };
 
-  const handleRatingSelect = (rating) => {
-    setReviewForm((current) => ({
-      ...current,
-      rating
-    }));
-  };
 
-  const handleReviewSubmit = (event) => {
-    event.preventDefault();
-
-    if (!currentUser) {
-      setReviewMessage('Primero inicia sesion con Firebase para dejar una valoracion.');
-      return;
-    }
-
-    if (!hasFinalizedRoute) {
-      setReviewMessage('La calificacion solo se habilita despues de finalizar una ruta.');
-      return;
-    }
-
-    if (!reviewForm.rating) {
-      setReviewMessage('Selecciona una calificacion de estrellas.');
-      return;
-    }
-
-    if (!reviewForm.comments.trim()) {
-      setReviewMessage('Agrega un comentario para completar la calificacion.');
-      return;
-    }
-
-    const reviewId =
-      typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function'
-        ? crypto.randomUUID()
-        : `${Date.now()}-${Math.random().toString(16).slice(2)}`;
-
-    const nextReview = {
-      id: reviewId,
-      user: currentUser.email || userProfile?.displayName || 'Usuario Firebase',
-      routeId: finalizedRoute?.id ?? null,
-      routeTitle: finalizedRoute?.title ?? 'Ruta finalizada',
-      rating: reviewForm.rating,
-      comments: reviewForm.comments.trim(),
-      createdAt: new Date().toISOString()
-    };
-
-    setReviews((current) => [nextReview, ...current].slice(0, 12));
-    setReviewForm(DEFAULT_REVIEW_FORM);
-    setReviewMessage('Valoracion guardada en este dispositivo.');
-  };
 
   const handleInstallClick = async () => {
     if (!installState.canInstall) {
@@ -345,10 +217,6 @@ function PerfilPage() {
             <strong>{metrics.averageOverall ? metrics.averageOverall.toFixed(1) : '0.0'}</strong>
             <span>Prom. estrellas</span>
           </article>
-          <article>
-            <strong>{metrics.activeUsers}</strong>
-            <span>Usuarios activos</span>
-          </article>
         </section>
 
         <section className="profile-settings profile-session-panel" aria-label="Sesion Firebase">
@@ -364,73 +232,7 @@ function PerfilPage() {
           </p>
         </section>
 
-        <section className="profile-settings profile-review-panel" aria-label="Calificaciones y comentarios">
-          <h3>Calificar ruta</h3>
-          <div className="route-finalized-banner">
-            {hasFinalizedRoute ? (
-              <>
-                <strong>{finalizedRoute.title}</strong>
-                <span>Ruta finalizada. Ya puedes dejar tu calificacion con estrellas.</span>
-              </>
-            ) : (
-              <>
-                <strong>Calificacion bloqueada</strong>
-                <span>Primero debes finalizar una ruta desde la vista de rutas.</span>
-              </>
-            )}
-          </div>
-          <form className="profile-review-form" onSubmit={handleReviewSubmit}>
-            <div className="star-rating" role="radiogroup" aria-label="Calificacion con estrellas">
-              {[1, 2, 3, 4, 5].map((rating) => (
-                <button
-                  key={rating}
-                  type="button"
-                  className={rating <= reviewForm.rating ? 'star-button is-active' : 'star-button'}
-                  onClick={() => handleRatingSelect(rating)}
-                  disabled={!hasFinalizedRoute}
-                  aria-label={`${rating} estrella${rating === 1 ? '' : 's'}`}
-                >
-                  ★
-                </button>
-              ))}
-            </div>
 
-            <label htmlFor="reviewComments">Comentarios</label>
-            <textarea
-              id="reviewComments"
-              rows="4"
-              placeholder="Escribe tu comentario sobre el servicio..."
-              value={reviewForm.comments}
-              onChange={(event) => setReviewForm((current) => ({ ...current, comments: event.target.value }))}
-              disabled={!hasFinalizedRoute}
-            ></textarea>
-
-            <button type="submit" className="primary-btn" disabled={!currentUser || !hasFinalizedRoute}>
-              Guardar calificacion
-            </button>
-          </form>
-          <p className="profile-session-note">{reviewMessage}</p>
-        </section>
-
-        <section className="profile-settings profile-review-list-panel" aria-label="Comentarios guardados">
-          <h3>Comentarios recientes</h3>
-          {reviews.length ? (
-            <div className="review-list">
-              {reviews.map((review) => (
-                <article key={review.id} className="review-card">
-                  <div className="review-card-top">
-                    <strong>{review.user}</strong>
-                    <span>{new Date(review.createdAt).toLocaleDateString()}</span>
-                  </div>
-                  <div className="review-stars-display">{'★'.repeat(Number(review.rating || 0))}</div>
-                  <p>{review.comments || 'Sin comentario adicional.'}</p>
-                </article>
-              ))}
-            </div>
-          ) : (
-            <p className="profile-session-note">Aun no hay comentarios guardados en este dispositivo.</p>
-          )}
-        </section>
 
         <section className="profile-settings profile-general-panel" aria-label="Ajustes generales">
           <h3>Ajustes generales</h3>

@@ -3,6 +3,7 @@
  * Dispara sincronización automática cuando vuelve internet
  */
 
+import React from 'react';
 import syncQueue from './syncQueue';
 
 class ConnectivityMonitor {
