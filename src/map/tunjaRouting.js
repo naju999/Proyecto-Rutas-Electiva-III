@@ -88,6 +88,44 @@ function normalizeText(value) {
     .trim();
 }
 
+const SEARCH_STOPWORDS = new Set(['centro', 'comercial', 'de', 'del', 'la', 'el', 'y', 'a', 'en', 'los', 'las', 'the']);
+
+function getSearchTokens(value) {
+  return normalizeText(value)
+    .split(' ')
+    .map((token) => token.trim())
+    .filter((token) => token && !SEARCH_STOPWORDS.has(token));
+}
+
+function scoreTunjaLocationMatch(normalizedQuery, normalizedLabel, normalizedAlias) {
+  const queryTokens = getSearchTokens(normalizedQuery);
+  const aliasTokens = getSearchTokens(normalizedAlias);
+
+  if (!normalizedAlias) {
+    return 0;
+  }
+
+  if (normalizedQuery === normalizedAlias || normalizedQuery === normalizedLabel) {
+    return 120;
+  }
+
+  if (normalizedQuery.includes(normalizedAlias) || normalizedAlias.includes(normalizedQuery)) {
+    return 100 - Math.abs(normalizedAlias.length - normalizedQuery.length);
+  }
+
+  const sharedTokens = aliasTokens.filter((token) => queryTokens.includes(token));
+
+  if (sharedTokens.length >= 2) {
+    return 45 + sharedTokens.length * 10;
+  }
+
+  if (sharedTokens.length === 1 && sharedTokens[0].length >= 5) {
+    return 30;
+  }
+
+  return 0;
+}
+
 function toRadians(value) {
   return (value * Math.PI) / 180;
 }
@@ -284,6 +322,37 @@ function formatPointLabel(location) {
   return location.label || location.displayName || 'Punto en Tunja';
 }
 
+export function searchTunjaLocationSuggestions(query, limit = 6) {
+  const normalizedQuery = normalizeText(query);
+
+  if (!normalizedQuery) {
+    return [];
+  }
+
+  return LOCAL_TUNJA_PLACES.map((place) => {
+    const normalizedLabel = normalizeText(place.label);
+    const aliasScores = place.aliases.map((alias) =>
+      scoreTunjaLocationMatch(normalizedQuery, normalizedLabel, normalizeText(alias))
+    );
+
+    const score = Math.max(normalizedLabel.includes(normalizedQuery) ? 18 : 0, ...aliasScores);
+
+    return {
+      label: place.label,
+      displayName: place.label,
+      lat: place.coords[0],
+      lng: place.coords[1],
+      source: place.source,
+      note: place.note,
+      score
+    };
+  })
+    .filter((place) => place.score > 0)
+    .sort((first, second) => second.score - first.score || first.label.localeCompare(second.label, 'es', { sensitivity: 'base' }))
+    .slice(0, Math.max(1, Number(limit) || 6))
+    .map(({ score, ...place }) => place);
+}
+
 export function isInsideTunjaBounds(lat, lng) {
   const numericLat = Number(lat);
   const numericLng = Number(lng);
@@ -397,10 +466,10 @@ async function loadRouteManifest() {
 }
 
 async function loadGeoJson(filePath, sourceFileName) {
-  // Try to prefer a pre-sampled points file placed in /database/sampled_points
+  // Try to prefer a pre-sampled points file exposed from /public/data/sample-points
   const sampledCandidate =
     typeof sourceFileName === 'string' && sourceFileName.length
-      ? `/database/sampled_points/${sourceFileName.replace(/\.geojson$/i, '')}-samples.geojson`
+      ? `/data/sample-points/${sourceFileName.replace(/\.geojson$/i, '')}-samples.geojson`
       : null;
 
   const cacheKey = sampledCandidate ?? filePath;
