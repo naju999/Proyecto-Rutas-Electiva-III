@@ -8,6 +8,7 @@ import {
   disableDeviceLocationUsage,
   formatDeviceLocation,
   isDeviceLocationEnabled,
+  markDeviceLocationReactivated,
   setDeviceLocationEnabled
 } from '../utils/deviceLocation';
 
@@ -289,6 +290,7 @@ function PerfilPage() {
 
     setDeviceLocationEnabled(true);
     setIsLocationEnabled(true);
+    markDeviceLocationReactivated();
     handleCaptureLocation();
   };
 

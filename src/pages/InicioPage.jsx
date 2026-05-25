@@ -10,7 +10,11 @@ import {
   recommendTunjaBusRoute,
   resolveTunjaLocation
 } from '../map/tunjaRouting';
-import { formatDeviceLocation, isDeviceLocationEnabled } from '../utils/deviceLocation';
+import {
+  consumeDeviceLocationReactivated,
+  formatDeviceLocation,
+  isDeviceLocationEnabled
+} from '../utils/deviceLocation';
 
 function pointToLabel(point, fallbackLabel) {
   if (!point) {
@@ -180,7 +184,13 @@ function InicioPage() {
   }, [dispatch, location.state]);
 
   useEffect(() => {
-    if (!isDeviceLocationEnabled() || !savedDeviceLocationSummary || selectedOrigin || originInput.trim()) {
+    const shouldForceCenter = consumeDeviceLocationReactivated();
+
+    if (
+      !isDeviceLocationEnabled() ||
+      !savedDeviceLocationSummary ||
+      (!shouldForceCenter && (selectedOrigin || originInput.trim()))
+    ) {
       return;
     }
 

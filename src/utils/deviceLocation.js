@@ -1,5 +1,6 @@
 const PENDING_DEVICE_LOCATION_KEY = 'tuRuta.pendingDeviceLocation';
 const DEVICE_LOCATION_ENABLED_KEY = 'tuRuta.deviceLocationEnabled';
+const DEVICE_LOCATION_REACTIVATED_KEY = 'tuRuta.deviceLocationReactivated';
 const NOMINATIM_REVERSE_ENDPOINT = 'https://nominatim.openstreetmap.org/reverse';
 
 function buildCoordinatesLabel(latitude, longitude) {
@@ -130,6 +131,28 @@ export function setDeviceLocationEnabled(enabled) {
 export function disableDeviceLocationUsage() {
   setDeviceLocationEnabled(false);
   clearPendingDeviceLocation();
+
+  if (typeof window !== 'undefined') {
+    window.localStorage.removeItem(DEVICE_LOCATION_REACTIVATED_KEY);
+  }
+}
+
+export function markDeviceLocationReactivated() {
+  if (typeof window === 'undefined') {
+    return;
+  }
+
+  window.localStorage.setItem(DEVICE_LOCATION_REACTIVATED_KEY, 'true');
+}
+
+export function consumeDeviceLocationReactivated() {
+  if (typeof window === 'undefined') {
+    return false;
+  }
+
+  const storedValue = window.localStorage.getItem(DEVICE_LOCATION_REACTIVATED_KEY);
+  window.localStorage.removeItem(DEVICE_LOCATION_REACTIVATED_KEY);
+  return storedValue === 'true';
 }
 
 export async function captureDeviceLocation() {
