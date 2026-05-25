@@ -12,6 +12,8 @@ export const ACTION_TYPES = {
     setWarning: 'map/setWarning'
   },
   favorites: {
+    setFavorites: 'favorites/setFavorites',
+    clearFavorites: 'favorites/clearFavorites',
     toggleFavorite: 'favorites/toggleFavorite',
     toggleFavoriteTripRoute: 'favorites/toggleFavoriteTripRoute'
   },

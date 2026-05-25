@@ -1,9 +1,14 @@
-import { createContext, useContext, useEffect, useReducer } from 'react';
+import { createContext, useContext, useEffect, useReducer, useRef } from 'react';
+import { useAuth } from '../context/AuthContext';
 import { MAP_CONFIG } from '../map/legacyMapConfig';
 import { ACTION_TYPES } from './actionTypes';
+import {
+  removeFavorite,
+  subscribeToFavorites,
+  setFavorite
+} from '../firebase/firestoreService';
 
 const VALID_MAP_LAYERS = new Set(['openstreetmap']);
-const FAVORITES_STORAGE_KEY = 'tuRuta.favoriteRoutes';
 const FAVORITE_ROUTE_CACHE_NAME = 'tunja-favorite-routes-v1';
 const TILE_CACHE_NAME = 'tunja-tiles-v2';
 const ROUTE_MANIFEST_URL = '/data/routes-manifest.json';
@@ -41,7 +46,28 @@ function readStoredFavorites() {
   }
 
   try {
-    const storedFavorites = window.localStorage.getItem(FAVORITES_STORAGE_KEY) || '[]';
+    const storedFavorites = window.localStorage.getItem('tuRuta.favoriteRoutes') || '[]';
+    const parsedFavorites = JSON.parse(storedFavorites);
+
+    return Array.isArray(parsedFavorites)
+      ? parsedFavorites.map(normalizeFavoriteRoute).filter(Boolean)
+      : [];
+  } catch {
+    return [];
+  }
+}
+
+function getFavoritesStorageKey(userId) {
+  return userId ? `tuRuta.favoriteRoutes.${userId}` : 'tuRuta.favoriteRoutes.anonymous';
+}
+
+function readStoredFavoritesForUser(userId) {
+  if (typeof window === 'undefined' || !userId) {
+    return [];
+  }
+
+  try {
+    const storedFavorites = window.localStorage.getItem(getFavoritesStorageKey(userId)) || '[]';
     const parsedFavorites = JSON.parse(storedFavorites);
 
     return Array.isArray(parsedFavorites)
@@ -104,7 +130,7 @@ function createInitialState() {
   return {
     ...baseInitialState,
     favorites: {
-      items: readStoredFavorites()
+      items: []
     }
   };
 }
@@ -294,6 +320,29 @@ function appReducer(state, action) {
         }
       };
 
+    case ACTION_TYPES.favorites.setFavorites: {
+      const favoriteItems = Array.isArray(action.payload)
+        ? action.payload.map(normalizeFavoriteRoute).filter(Boolean)
+        : [];
+
+      return {
+        ...state,
+        favorites: {
+          ...state.favorites,
+          items: favoriteItems
+        }
+      };
+    }
+
+    case ACTION_TYPES.favorites.clearFavorites:
+      return {
+        ...state,
+        favorites: {
+          ...state.favorites,
+          items: []
+        }
+      };
+
     case ACTION_TYPES.favorites.toggleFavorite: {
       const favoriteRoute = normalizeFavoriteRoute(action.payload);
 
@@ -398,14 +447,122 @@ const AppStoreDispatchContext = appStoreRegistry.dispatchContext;
 
 export function AppStoreProvider({ children }) {
   const [state, dispatch] = useReducer(appReducer, undefined, createInitialState);
+  const { currentUser } = useAuth();
+  const favoritesHydratedRef = useRef(false);
+  const previousFavoritesRef = useRef([]);
+  const activeFavoritesUserIdRef = useRef(null);
 
   useEffect(() => {
     if (typeof window === 'undefined') {
       return;
     }
 
-    window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(state.favorites.items));
-  }, [state.favorites.items]);
+    const nextUserId = currentUser?.uid ?? null;
+
+    if (activeFavoritesUserIdRef.current === nextUserId) {
+      return;
+    }
+
+    let cancelled = false;
+    let unsubscribeFavorites = null;
+
+    activeFavoritesUserIdRef.current = nextUserId;
+
+    if (!nextUserId) {
+      favoritesHydratedRef.current = false;
+      previousFavoritesRef.current = [];
+      dispatch({ type: ACTION_TYPES.favorites.clearFavorites });
+      return () => {
+        cancelled = true;
+      };
+    }
+
+    favoritesHydratedRef.current = false;
+
+    const cachedFavorites = readStoredFavoritesForUser(nextUserId);
+    if (cachedFavorites.length > 0) {
+      dispatch({
+        type: ACTION_TYPES.favorites.setFavorites,
+        payload: cachedFavorites
+      });
+      previousFavoritesRef.current = cachedFavorites;
+    }
+
+    unsubscribeFavorites = subscribeToFavorites(nextUserId, (remoteFavorites) => {
+      if (cancelled) {
+        return;
+      }
+
+      const normalizedFavorites = Array.isArray(remoteFavorites)
+        ? remoteFavorites.map(normalizeFavoriteRoute).filter(Boolean)
+        : [];
+
+      dispatch({
+        type: ACTION_TYPES.favorites.setFavorites,
+        payload: normalizedFavorites
+      });
+      previousFavoritesRef.current = normalizedFavorites;
+
+      try {
+        window.localStorage.setItem(getFavoritesStorageKey(nextUserId), JSON.stringify(normalizedFavorites));
+      } catch {
+        // Ignorar errores de almacenamiento local.
+      }
+
+      favoritesHydratedRef.current = true;
+    });
+
+    if (!unsubscribeFavorites) {
+      favoritesHydratedRef.current = true;
+    }
+
+    return () => {
+      cancelled = true;
+      if (typeof unsubscribeFavorites === 'function') {
+        unsubscribeFavorites();
+      }
+    };
+  }, [currentUser?.uid]);
+
+  useEffect(() => {
+    if (!currentUser?.uid) {
+      return;
+    }
+
+    if (!favoritesHydratedRef.current) {
+      return;
+    }
+
+    const nextFavorites = state.favorites.items;
+    const previousFavorites = previousFavoritesRef.current;
+
+    const addedFavorites = nextFavorites.filter(
+      (favorite) => !previousFavorites.some((previousFavorite) => previousFavorite.id === favorite.id)
+    );
+    const removedFavorites = previousFavorites.filter(
+      (favorite) => !nextFavorites.some((nextFavorite) => nextFavorite.id === favorite.id)
+    );
+
+    previousFavoritesRef.current = nextFavorites;
+
+    try {
+      window.localStorage.setItem(getFavoritesStorageKey(currentUser.uid), JSON.stringify(nextFavorites));
+    } catch {
+      // Ignorar errores de almacenamiento local.
+    }
+
+    if (addedFavorites.length === 0 && removedFavorites.length === 0) {
+      return;
+    }
+
+    void Promise.all(
+      addedFavorites.map((favorite) => setFavorite(currentUser.uid, favorite))
+    ).then(() => Promise.all(
+      removedFavorites.map((favorite) => removeFavorite(currentUser.uid, favorite.id))
+    )).catch((error) => {
+      console.error('No se pudo sincronizar favoritos con Firestore:', error);
+    });
+  }, [currentUser?.uid, state.favorites.items]);
 
   useEffect(() => {
     if (!state.favorites.items.length) {

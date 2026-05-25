@@ -74,6 +74,26 @@ export async function addFavorite(userId, routeData) {
     }
 }
 
+export async function setFavorite(userId, favoriteData) {
+    try {
+        const favoriteId = favoriteData?.id;
+
+        if (!favoriteId) {
+            throw new Error('favoriteData.id is required');
+        }
+
+        await setDoc(doc(db, 'favorites', userId, 'routes', favoriteId), {
+            ...favoriteData,
+            savedAt: favoriteData.savedAt ?? serverTimestamp(),
+            createdAt: favoriteData.createdAt ?? serverTimestamp(),
+            updatedAt: serverTimestamp()
+        }, { merge: true });
+    } catch (err) {
+        console.error('Error guardando favorito:', err);
+        throw err;
+    }
+}
+
 export async function removeFavorite(userId, routeId) {
     try {
         await deleteDoc(doc(db, 'favorites', userId, 'routes', routeId));
@@ -86,12 +106,17 @@ export async function removeFavorite(userId, routeId) {
 export async function getFavorites(userId) {
     try {
         const favoritesRef = collection(db, 'favorites', userId, 'routes');
-        const q = query(favoritesRef, orderBy('addedAt', 'desc'));
-        const snapshot = await getDocs(q);
-        return snapshot.docs.map(doc => ({
-            id: doc.id,
-            ...doc.data(),
-        }));
+        const snapshot = await getDocs(favoritesRef);
+        return snapshot.docs
+            .map(doc => ({
+                id: doc.id,
+                ...doc.data(),
+            }))
+            .sort((left, right) => {
+                const leftDate = left.savedAt || left.addedAt || left.createdAt || '';
+                const rightDate = right.savedAt || right.addedAt || right.createdAt || '';
+                return String(rightDate).localeCompare(String(leftDate));
+            });
     } catch (err) {
         console.error('Error obteniendo favoritos:', err);
         throw err;
@@ -101,13 +126,18 @@ export async function getFavorites(userId) {
 export function subscribeToFavorites(userId, callback) {
     try {
         const favoritesRef = collection(db, 'favorites', userId, 'routes');
-        const q = query(favoritesRef, orderBy('addedAt', 'desc'));
 
-        return onSnapshot(q, (snapshot) => {
-            const favorites = snapshot.docs.map(doc => ({
-                id: doc.id,
-                ...doc.data(),
-            }));
+        return onSnapshot(favoritesRef, (snapshot) => {
+            const favorites = snapshot.docs
+                .map(doc => ({
+                    id: doc.id,
+                    ...doc.data(),
+                }))
+                .sort((left, right) => {
+                    const leftDate = left.savedAt || left.addedAt || left.createdAt || '';
+                    const rightDate = right.savedAt || right.addedAt || right.createdAt || '';
+                    return String(rightDate).localeCompare(String(leftDate));
+                });
             callback(favorites);
         }, (error) => {
             console.error('Error suscribiendo a favoritos:', error);
