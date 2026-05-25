@@ -45,3 +45,7 @@ Flujo recomendado cuando agregues o cambies rutas:
 - React/PWA es el código principal.
 - La raíz expone la app y su build directamente.
 - La estructura apunta a mantenimiento y despliegue de una sola app.
+
+## Contrato API
+
+- Contrato oficial de backend/frontend para rutas y busqueda: [API_CONTRACT.md](API_CONTRACT.md)

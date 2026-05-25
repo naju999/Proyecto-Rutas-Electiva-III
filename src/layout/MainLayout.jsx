@@ -82,6 +82,8 @@ function MainLayout() {
     return segment || 'inicio';
   }, [location.pathname]);
 
+  const selectedRouteForMap = activeView === 'rutas' ? selectedRoute : null;
+
   const isMapView = activeView === 'inicio' || activeView === 'rutas';
 
   useEffect(() => {
@@ -191,6 +193,16 @@ function MainLayout() {
           <p className="eyebrow">Movilidad urbana inteligente</p>
           <h1>Rutas de Buses de Tunja</h1>
         </div>
+
+        <div className="header-meta">
+          <div className="connection-status connection-status-header" aria-live="polite">
+            <span
+              className={`status-led ${isOfflineMode ? 'is-offline' : 'is-online'}`}
+              aria-hidden="true"
+            ></span>
+            <span>{isOfflineMode ? 'Sin conexion' : 'En linea'}</span>
+          </div>
+        </div>
       </header>
 
       {isSwUpdateAvailable ? (
@@ -275,23 +287,13 @@ function MainLayout() {
               </button>
             </div>
 
-            <div className="connection-status connection-status-routes" aria-live="polite">
-              <span
-                className={`status-led ${isOfflineMode ? 'is-offline' : 'is-online'}`}
-                aria-hidden="true"
-              ></span>
-              <span>{isOfflineMode ? 'Sin conexion' : 'En linea'}</span>
-            </div>
-
-            {selectedRoute ? (
-              <p className="selected-route-hint">{selectedRoute.title} visible en el mapa.</p>
-            ) : null}
-
             {mapWarning ? <p className="map-warning">{mapWarning}</p> : null}
           </div>
 
           <MapCanvas
-            selectedRoute={selectedRoute}
+            selectedRoute={selectedRouteForMap}
+            routeGeoJSON={selectedRouteForMap?.routeGeoJSON ?? null}
+            stops={selectedRouteForMap?.stops ?? null}
             coordinates={coord}
             onMapReady={setMapActions}
             onMapError={handleMapWarning}

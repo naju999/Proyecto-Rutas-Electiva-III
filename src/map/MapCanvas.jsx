@@ -9,6 +9,8 @@ import {
 
 function MapCanvas({
   selectedRoute,
+  routeGeoJSON,
+  stops,
   coordinates,
   onMapReady,
   onMapError,
@@ -20,6 +22,8 @@ function MapCanvas({
   const selectedRouteLayerRef = useRef(null);
   const selectedLocationLayerRef = useRef(null);
   const selectedRouteRef = useRef(selectedRoute);
+  const routeGeoJSONRef = useRef(routeGeoJSON);
+  const stopsRef = useRef(stops);
   const coordinatesRef = useRef(coordinates);
   const onMapReadyRef = useRef(onMapReady);
   const onMapErrorRef = useRef(onMapError);
@@ -114,6 +118,84 @@ function MapCanvas({
   useEffect(() => {
     selectedRouteRef.current = selectedRoute;
   }, [selectedRoute]);
+
+  useEffect(() => {
+    routeGeoJSONRef.current = routeGeoJSON;
+  }, [routeGeoJSON]);
+
+  useEffect(() => {
+    stopsRef.current = stops;
+  }, [stops]);
+
+  const buildLayerFromDirectData = () => {
+    const activeRouteGeoJson = routeGeoJSONRef.current ?? selectedRouteRef.current?.routeGeoJSON ?? null;
+    const activeStops = stopsRef.current ?? selectedRouteRef.current?.stops ?? null;
+
+    if (!activeRouteGeoJson && !activeStops) {
+      return null;
+    }
+
+    const layerGroup = L.layerGroup();
+
+    if (activeRouteGeoJson) {
+      L.geoJSON(activeRouteGeoJson, {
+        style: {
+          color: '#0c67ff',
+          weight: 5,
+          opacity: 0.9,
+          lineCap: 'round',
+          lineJoin: 'round'
+        }
+      }).addTo(layerGroup);
+    }
+
+    if (Array.isArray(activeStops)) {
+      activeStops.forEach((stop, index) => {
+        const stopCoordinates = Array.isArray(stop?.geometry?.coordinates)
+          ? stop.geometry.coordinates
+          : null;
+
+        const lat = Number(stop?.lat ?? stop?.latitude ?? stopCoordinates?.[1]);
+        const lng = Number(stop?.lng ?? stop?.lon ?? stop?.longitude ?? stopCoordinates?.[0]);
+
+        if (!Number.isFinite(lat) || !Number.isFinite(lng)) {
+          return;
+        }
+
+        const stopName =
+          stop?.name ??
+          stop?.label ??
+          stop?.properties?.name ??
+          stop?.properties?.Name ??
+          'Parada';
+
+        L.circleMarker([lat, lng], {
+          radius: 6,
+          fillColor: '#f97316',
+          color: '#9a3412',
+          weight: 1,
+          opacity: 1,
+          fillOpacity: 0.95
+        })
+          .bindPopup(`<strong>Parada ${index + 1}</strong><br/>${stopName}`)
+          .addTo(layerGroup);
+      });
+    } else if (activeStops && typeof activeStops === 'object') {
+      L.geoJSON(activeStops, {
+        pointToLayer: (feature, latlng) =>
+          L.circleMarker(latlng, {
+            radius: 6,
+            fillColor: '#f97316',
+            color: '#9a3412',
+            weight: 1,
+            opacity: 1,
+            fillOpacity: 0.95
+          }).bindPopup(`<strong>Parada</strong><br/>${feature?.properties?.name || 'Parada'}`)
+      }).addTo(layerGroup);
+    }
+
+    return layerGroup;
+  };
 
   useEffect(() => {
     if (!mapNodeRef.current || mapRef.current) {
@@ -275,13 +357,16 @@ function MapCanvas({
       selectedRouteLayerRef.current = null;
     }
 
-    if (!selectedRoute) {
-      return;
-    }
-
     let cancelled = false;
 
-    createSelectedRouteLayer(L, selectedRoute)
+    const directLayer = buildLayerFromDirectData();
+    const renderPromise = directLayer
+      ? Promise.resolve(directLayer)
+      : selectedRoute
+        ? createSelectedRouteLayer(L, selectedRoute)
+        : Promise.resolve(null);
+
+    renderPromise
       .then((nextLayer) => {
         if (cancelled || !nextLayer || !mapRef.current) {
           return;
@@ -301,16 +386,21 @@ function MapCanvas({
       })
       .catch((error) => {
         if (!cancelled) {
-          onMapErrorRef.current(`No se pudo cargar ${selectedRoute.title}: ${error.message}`);
+          const routeTitle = selectedRoute?.title || 'la ruta seleccionada';
+          onMapErrorRef.current(`No se pudo cargar ${routeTitle}: ${error.message}`);
         }
       });
 
     return () => {
       cancelled = true;
     };
-  }, [selectedRoute]);
+  }, [selectedRoute, routeGeoJSON, stops]);
 
-  return <div id="map" ref={mapNodeRef} aria-label="Mapa de Tunja"></div>;
+  return (
+    <div className="map-canvas-wrapper">
+      <div id="map" ref={mapNodeRef} aria-label="Mapa de Tunja"></div>
+    </div>
+  );
 }
 
 export default MapCanvas;

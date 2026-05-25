@@ -5,6 +5,7 @@ const APP_SHELL_CACHE_PREFIX = 'tunja-app-shell-';
 const FAVORITE_ROUTE_CACHE_NAME = 'tunja-favorite-routes-v1';
 const TILE_CACHE_NAME = `tunja-tiles-${SW_VERSION}`;
 const TILE_CACHE_PREFIX = 'tunja-tiles-';
+const ROUTES_CACHE_NAME = `tunja-routes-${SW_VERSION}`;
 
 const OFFLINE_FALLBACK_URL = '/offline.html';
 const APP_SHELL_FILES = [
@@ -61,6 +62,15 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  // Network-first for dynamic route searches
+  try {
+    const reqUrl = new URL(request.url);
+    if (reqUrl.pathname.startsWith('/api/search')) {
+      event.respondWith(networkFirstApiSearch(request));
+      return;
+    }
+  } catch (_e) {}
+
   if (isTileRequest(request)) {
     event.respondWith(handleTileRequest(event));
     return;
@@ -72,9 +82,76 @@ self.addEventListener('fetch', (event) => {
   }
 
   if (isAppAssetRequest(request)) {
+    // If it's a data asset (manifest or geojson), handle with S-W-R
+    try {
+      const url = new URL(request.url);
+      if (url.pathname.endsWith('/routes-manifest.json') || url.pathname.endsWith('.geojson')) {
+        event.respondWith(handleGeoJSONRequest(request, event));
+        return;
+      }
+    } catch (_e) {}
+
     event.respondWith(handleAppAssetRequest(request, event));
   }
 });
+
+async function networkFirstApiSearch(request) {
+  const cache = await caches.open(ROUTES_CACHE_NAME);
+  try {
+    const networkResponse = await fetchWithTimeout(request, 6000);
+    if (networkResponse && networkResponse.ok) {
+      try {
+        await cache.put(request, networkResponse.clone());
+      } catch (_err) {}
+      return networkResponse;
+    }
+    throw new Error('Network response not ok');
+  } catch (_error) {
+    const cached = await cache.match(request);
+    if (cached) return cached;
+
+    return new Response(JSON.stringify({ error: 'offline', message: 'No network and no cached response' }), {
+      status: 503,
+      headers: { 'Content-Type': 'application/json' }
+    });
+  }
+}
+
+// Stale-while-revalidate for manifest and GeoJSON files
+async function handleGeoJSONRequest(request, event) {
+  const cache = await caches.open(ROUTES_CACHE_NAME);
+
+  const cachedResponse = await cache.match(request, { ignoreSearch: true });
+
+  if (cachedResponse) {
+    // Refresh in background
+    event.waitUntil((async () => {
+      try {
+        const networkResponse = await fetch(request, { cache: 'no-store' });
+        if (networkResponse && networkResponse.ok) {
+          await cache.put(request, networkResponse.clone());
+        }
+      } catch (_e) {}
+    })());
+
+    return cachedResponse;
+  }
+
+  try {
+    const networkResponse = await fetch(request);
+    if (networkResponse && networkResponse.ok) {
+      try {
+        await cache.put(request, networkResponse.clone());
+      } catch (_e) {}
+    }
+    return networkResponse;
+  } catch (_error) {
+    const fallback = await caches.open(APP_SHELL_CACHE_NAME).then(c => c.match('/index.html'));
+    if (fallback) return fallback;
+
+    return new Response('Offline', { status: 503, statusText: 'Offline' });
+  }
+}
 
 self.addEventListener('message', (event) => {
   const type = event?.data?.type;

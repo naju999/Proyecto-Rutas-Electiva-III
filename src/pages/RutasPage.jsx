@@ -188,6 +188,92 @@ function buildRouteDirectionSummary(routeFilePath, dispatchFilePath, config) {
   );
 }
 
+function parseLatLngInput(rawValue) {
+  const cleanValue = String(rawValue ?? '').trim();
+  if (!cleanValue) {
+    return null;
+  }
+
+  const parts = cleanValue.split(',').map((part) => Number(part.trim()));
+  if (parts.length !== 2 || !Number.isFinite(parts[0]) || !Number.isFinite(parts[1])) {
+    return null;
+  }
+
+  return {
+    lat: parts[0],
+    lng: parts[1],
+    label: cleanValue
+  };
+}
+
+function normalizeApiRoute(route, index) {
+  if (!route || typeof route !== 'object') {
+    return null;
+  }
+
+  const routeId = String(route.id ?? route.code ?? `api-route-${index + 1}`);
+  const routeCode = String(route.code ?? routeId);
+  const routeTitle = String(route.title ?? route.name ?? routeCode);
+
+  const routeGeoJSON =
+    route.routeGeoJSON ??
+    route.route_geojson ??
+    route.geojson ??
+    route.route_geometry ??
+    null;
+
+  const stops =
+    route.stops ??
+    route.dispatchPoints ??
+    route.dispatch_points ??
+    route.paradas ??
+    null;
+
+  return {
+    ...route,
+    id: routeId,
+    code: routeCode,
+    title: routeTitle,
+    summary: String(route.summary ?? 'Ruta retornada por la API.'),
+    detail: String(route.detail ?? 'Resultado de busqueda origen/destino.'),
+    eta: String(route.eta ?? 'Variable'),
+    routeGeoJSON,
+    stops
+  };
+}
+
+function normalizeDestinationOption(option, index) {
+  if (typeof option === 'string') {
+    const parsed = parseLatLngInput(option);
+    return {
+      id: `destination-option-${index + 1}`,
+      label: option,
+      coordinates: parsed
+    };
+  }
+
+  if (!option || typeof option !== 'object') {
+    return null;
+  }
+
+  const lat = Number(option.lat ?? option.latitude);
+  const lng = Number(option.lng ?? option.longitude ?? option.lon);
+  const label = String(option.label ?? option.name ?? option.destination ?? `Opcion ${index + 1}`);
+
+  return {
+    id: String(option.id ?? `destination-option-${index + 1}`),
+    label,
+    coordinates:
+      Number.isFinite(lat) && Number.isFinite(lng)
+        ? {
+            lat,
+            lng,
+            label
+          }
+        : parseLatLngInput(label)
+  };
+}
+
 function RutasPage() {
   const state = useAppStore();
   const dispatch = useAppDispatch();
@@ -196,6 +282,7 @@ function RutasPage() {
   const favoriteRoutes = selectFavoriteRoutes(state);
 
   const [routes, setRoutes] = useState([]);
+  const [allRoutes, setAllRoutes] = useState([]);
   const [isLoadingRoutes, setIsLoadingRoutes] = useState(true);
   const [selectedRouteId, setSelectedRouteId] = useState(null);
   const [routeSearchInput, setRouteSearchInput] = useState('');
@@ -207,7 +294,10 @@ function RutasPage() {
   // Estados para búsqueda por origen/destino (API-ready)
   const [searchOrigin, setSearchOrigin] = useState(null);
   const [searchDestination, setSearchDestination] = useState(null);
+  const [searchOriginInput, setSearchOriginInput] = useState('');
+  const [searchDestinationInput, setSearchDestinationInput] = useState('');
   const [searchResults, setSearchResults] = useState([]);
+  const [destinationOptions, setDestinationOptions] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
   const [apiError, setApiError] = useState(null);
 
@@ -292,6 +382,7 @@ function RutasPage() {
           return;
         }
 
+        setAllRoutes(routeList);
         setRoutes(routeList);
         setSelectedRouteId((currentSelected) => {
           if (currentSelected && routeList.some((route) => route.id === currentSelected)) {
@@ -311,6 +402,7 @@ function RutasPage() {
           const offlineRoutes =
             cachedRoutes.length > 0 ? cachedRoutes : favoriteRoutes.filter((route) => route?.type !== 'trip');
 
+          setAllRoutes(offlineRoutes);
           setRoutes(offlineRoutes);
           setSelectedRouteId((currentSelected) => {
             if (currentSelected && offlineRoutes.some((route) => route.id === currentSelected)) {
@@ -436,19 +528,80 @@ function RutasPage() {
 
     setIsSearching(true);
     setApiError(null);
+    setDestinationOptions([]);
     setStatusMessage('Buscando rutas disponibles...');
 
     try {
+      // Si estamos offline, intentar servir desde cache primero
+      const requestUrl = `/api/search?origin=${origin.lat},${origin.lng}&destination=${destination.lat},${destination.lng}&radius=5000`;
+      if (typeof window !== 'undefined' && !navigator.onLine && 'caches' in window) {
+        try {
+          const cached = await caches.match(requestUrl);
+          if (cached) {
+            const data = await cached.clone().json();
+            const normalizedRoutes = (Array.isArray(data?.routes) ? data.routes : [])
+              .map((route, index) => normalizeApiRoute(route, index))
+              .filter(Boolean);
+
+            const rawDestinationOptions =
+              data?.destinationOptions ?? data?.destination_options ?? data?.options ?? data?.destinations ?? [];
+            const normalizedDestinationOptions = (Array.isArray(rawDestinationOptions) ? rawDestinationOptions : [])
+              .map((option, index) => normalizeDestinationOption(option, index))
+              .filter(Boolean);
+
+            setSearchResults(normalizedRoutes);
+            setDestinationOptions(normalizedDestinationOptions);
+            setRoutes(normalizedRoutes);
+            setSelectedRouteId(normalizedRoutes[0]?.id ?? null);
+            setStatusMessage(
+              normalizedRoutes.length > 0
+                ? `Sin conexión: mostrando ${normalizedRoutes.length} rutas cacheadas.`
+                : 'Sin conexión: no hay resultados cacheados para esa busqueda.'
+            );
+
+            return normalizedRoutes;
+          }
+        } catch (_err) {
+          // ignore cache lookup errors
+        }
+      }
+
       // Llamada real a backend para buscar rutas por origen y destino
       const response = await fetch(`/api/search?origin=${origin.lat},${origin.lng}&destination=${destination.lat},${destination.lng}&radius=5000`);
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const data = await response.json();
-      setSearchResults(data.routes || []);
-      return data.routes || [];
+      const normalizedRoutes = (Array.isArray(data?.routes) ? data.routes : [])
+        .map((route, index) => normalizeApiRoute(route, index))
+        .filter(Boolean);
+
+      const rawDestinationOptions =
+        data?.destinationOptions ?? data?.destination_options ?? data?.options ?? data?.destinations ?? [];
+      const normalizedDestinationOptions = (Array.isArray(rawDestinationOptions) ? rawDestinationOptions : [])
+        .map((option, index) => normalizeDestinationOption(option, index))
+        .filter(Boolean);
+
+      setSearchResults(normalizedRoutes);
+      setDestinationOptions(normalizedDestinationOptions);
+      setRoutes(normalizedRoutes);
+      setSelectedRouteId(normalizedRoutes[0]?.id ?? null);
+      setStatusMessage(
+        normalizedRoutes.length > 0
+          ? `Busqueda completada: ${normalizedRoutes.length} rutas candidatas.`
+          : 'La API no retorno rutas para ese origen y destino.'
+      );
+
+      return normalizedRoutes;
     } catch (error) {
       const errorMsg = error instanceof Error ? error.message : 'Error desconocido en búsqueda';
-      setApiError(errorMsg);
-      setStatusMessage(`Error buscando rutas: ${errorMsg}`);
+      // Si estamos offline y no hay cache, mostrar mensaje claro
+      if (typeof window !== 'undefined' && !navigator.onLine) {
+        setApiError('Sin conexion y no se encontraron resultados cacheados para esa busqueda.');
+        setStatusMessage('Sin conexion: no se pudo completar la busqueda y no hay datos cacheados.');
+      } else {
+        setApiError(errorMsg);
+        setStatusMessage(`Error buscando rutas: ${errorMsg}`);
+      }
+
       setSearchResults([]);
       return [];
     } finally {
@@ -467,6 +620,71 @@ function RutasPage() {
     }
     setStatusMessage(errorMsg);
   }
+
+  const handleApiSearchSubmit = async () => {
+    const parsedOrigin = parseLatLngInput(searchOriginInput);
+    const parsedDestination = parseLatLngInput(searchDestinationInput);
+
+    if (!parsedOrigin || !parsedDestination) {
+      setApiError('Formato invalido. Usa: lat,lng. Ejemplo: 5.544,-73.357');
+      return;
+    }
+
+    setSearchOrigin(parsedOrigin);
+    setSearchDestination(parsedDestination);
+
+    window.dispatchEvent(
+      new CustomEvent('map:mark-trip-points', {
+        detail: {
+          origin: parsedOrigin,
+          destination: parsedDestination
+        }
+      })
+    );
+
+    await searchRoutes(parsedOrigin, parsedDestination);
+  };
+
+  const handleResetApiSearch = () => {
+    setRoutes(allRoutes);
+    setSearchResults([]);
+    setDestinationOptions([]);
+    setSearchOrigin(null);
+    setSearchDestination(null);
+    setSearchOriginInput('');
+    setSearchDestinationInput('');
+    setApiError(null);
+    setSelectedRouteId(allRoutes[0]?.id ?? null);
+    setStatusMessage('Se restauro el catalogo completo de rutas.');
+  };
+
+  const handleDestinationOptionSelect = async (option) => {
+    if (!option?.coordinates) {
+      setApiError('La opcion seleccionada no incluye coordenadas validas.');
+      return;
+    }
+
+    const parsedOrigin = parseLatLngInput(searchOriginInput);
+    if (!parsedOrigin) {
+      setApiError('Define primero un origen valido para usar opciones de destino.');
+      return;
+    }
+
+    const nextDestination = option.coordinates;
+    setSearchDestinationInput(`${nextDestination.lat},${nextDestination.lng}`);
+    setSearchDestination(nextDestination);
+
+    window.dispatchEvent(
+      new CustomEvent('map:mark-trip-points', {
+        detail: {
+          origin: parsedOrigin,
+          destination: nextDestination
+        }
+      })
+    );
+
+    await searchRoutes(parsedOrigin, nextDestination);
+  };
 
   return (
     <section className="view-panel active" data-view="rutas">
@@ -505,7 +723,58 @@ function RutasPage() {
       </section>
 
       <section className="panel">
+        <h2>Buscar por origen y destino (API)</h2>
+        <p className="panel-copy">Ingresa coordenadas en formato lat,lng para consultar la API.</p>
+        <div className="input-with-action routes-search-row">
+          <input
+            type="text"
+            placeholder="Origen: 5.544,-73.357"
+            value={searchOriginInput}
+            onChange={(event) => setSearchOriginInput(event.target.value)}
+          />
+          <input
+            type="text"
+            placeholder="Destino: 5.563,-73.345"
+            value={searchDestinationInput}
+            onChange={(event) => setSearchDestinationInput(event.target.value)}
+          />
+          <button type="button" className="ghost-btn" onClick={handleApiSearchSubmit} disabled={isSearching}>
+            {isSearching ? 'Buscando...' : 'Buscar API'}
+          </button>
+          <button type="button" className="ghost-btn" onClick={handleResetApiSearch} disabled={isSearching}>
+            Limpiar
+          </button>
+        </div>
+        {apiError ? <p className="map-warning">{apiError}</p> : null}
+        {searchOrigin && searchDestination ? (
+          <p className="panel-copy">
+            Ultima busqueda: {searchOrigin.label} {'->'} {searchDestination.label}
+          </p>
+        ) : null}
+        {destinationOptions.length > 0 ? (
+          <div className="route-direction-summary">
+            <h3>Opciones de destino sugeridas por la API</h3>
+            <div className="route-card-meta">
+              {destinationOptions.map((option) => (
+                <button
+                  key={option.id}
+                  type="button"
+                  className="route-pill"
+                  onClick={() => handleDestinationOptionSelect(option)}
+                >
+                  {option.label}
+                </button>
+              ))}
+            </div>
+          </div>
+        ) : null}
+      </section>
+
+      <section className="panel">
         <h2>Rutas disponibles</h2>
+        {searchResults.length > 0 ? (
+          <p className="panel-copy">Mostrando rutas retornadas por /api/search.</p>
+        ) : null}
         <ul className="route-list">
           {routeCatalog.map((route) => (
             <li key={route.id}>
@@ -552,6 +821,8 @@ function RutasPage() {
           <div className="route-detail">
             <h3>{selectedRoute.title}</h3>
             <p>{selectedRoute.detail}</p>
+            {selectedRoute.routeGeoJSON ? <p className="panel-copy">Linea GeoJSON cargada desde API.</p> : null}
+            {selectedRoute.stops ? <p className="panel-copy">Paradas/despachos disponibles para mostrar en mapa.</p> : null}
             <div className="route-color-legend route-color-legend-compact">
               <span className="route-legend-item">
                 <span className="route-legend-swatch route-legend-green"></span>

@@ -47,6 +47,21 @@ body {
   text-align: center;
 }
 
+.header-meta {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 130px;
+}
+
+.connection-status-header {
+  margin-top: 0;
+}
+
 .eyebrow {
   font-size: 0.76rem;
   letter-spacing: 0.08em;
@@ -119,6 +134,8 @@ body[data-active-view='inicio'] #container {
   height: calc(100dvh - var(--header-height) - var(--nav-height));
   padding: 16px;
   gap: 16px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
 
 .map-column {
@@ -145,20 +162,33 @@ body[data-active-view='inicio'] .map-tools-routes {
   display: none;
 }
 
+body[data-active-view='rutas'] #mapWorkspace {
+  position: relative;
+}
+
 body[data-active-view='rutas'] .map-tools-home {
   display: none;
+}
+
+body[data-active-view='rutas'] .map-tools-routes {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 8px;
+  padding: 10px 12px;
 }
 
 .button-group {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
 }
 
 .button-group button {
-  flex: 1 1 130px;
+  flex: 1 1 120px;
   background: linear-gradient(120deg, var(--brand) 0%, var(--brand-deep) 100%);
   color: #fff;
+  padding: 10px 12px;
+  font-size: 0.92rem;
 }
 
 .layer-controls {
@@ -230,6 +260,12 @@ body[data-active-view='rutas'] .map-tools-home {
   color: #35537f;
   font-size: 0.84rem;
   font-weight: 700;
+}
+
+body[data-active-view='rutas'] .map-tools-routes .map-warning {
+  margin-top: 8px;
+  padding: 8px 10px;
+  font-size: 0.82rem;
 }
 
 .map-warning {
@@ -1330,19 +1366,34 @@ button:hover {
 }
 
 body[data-active-view='inicio'] #sidebar {
-  display: block;
+  display: none;
 }
 
 body[data-active-view='inicio'] #mapWorkspace {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   position: relative;
   height: 100%;
   min-height: 0;
 }
 
 body[data-active-view='inicio'] #map {
+  width: 100%;
   height: 100%;
   min-height: 0;
   border-radius: 10px;
+}
+
+body[data-active-view='inicio'] .map-canvas-wrapper {
+  flex: 1;
+  min-height: 0;
+  height: 100%;
+  display: flex;
+}
+
+body[data-active-view='inicio'] .map-canvas-wrapper #map {
+  flex: 1;
 }
 
 body[data-active-view='inicio'] .map-tools-home {
@@ -1549,6 +1600,15 @@ body[data-active-view='perfil'] #sidebar {
 }
 
 @media (max-width: 1100px) {
+  #header {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .header-meta {
+    min-width: auto;
+  }
+
   #container {
     grid-template-columns: 1fr;
     height: auto;
@@ -1582,6 +1642,10 @@ body[data-active-view='perfil'] #sidebar {
     width: auto;
     max-width: none;
   }
+
+  body[data-active-view='rutas'] .map-tools-routes {
+    padding: 10px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -1590,6 +1654,12 @@ body[data-active-view='perfil'] #sidebar {
     align-items: center;
     padding: 10px 14px;
     gap: 6px;
+  }
+
+  .header-meta {
+    position: static;
+    transform: none;
+    justify-content: center;
   }
 
   #container {
@@ -1656,6 +1726,10 @@ body[data-active-view='perfil'] #sidebar {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(255, 255, 255, 0.9) 100%);
   }
 
+  body[data-active-view='rutas'] .map-tools-routes {
+    margin-bottom: 6px;
+  }
+
   body.routes-sheet-collapsed[data-active-view='rutas'] #sidebar {
     max-height: 56px;
     min-height: 56px;
@@ -1676,6 +1750,11 @@ body[data-active-view='perfil'] #sidebar {
   #header {
     align-items: center;
     padding: 8px 10px;
+  }
+
+  .header-meta {
+    position: static;
+    transform: none;
   }
 
   .eyebrow {
