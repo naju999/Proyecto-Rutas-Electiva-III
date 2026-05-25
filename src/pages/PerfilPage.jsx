@@ -2,6 +2,14 @@ import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { promptPwaInstall, subscribePwaInstallState } from '../pwa/pwaInstall';
 import { useAuth } from '../context/AuthContext';
+import { updateUserProfile } from '../firebase/firestoreService';
+import {
+  captureDeviceLocation,
+  disableDeviceLocationUsage,
+  formatDeviceLocation,
+  isDeviceLocationEnabled,
+  setDeviceLocationEnabled
+} from '../utils/deviceLocation';
 
 const REVIEWS_STORAGE_KEY = 'tuRuta.routeReviews';
 const FINALIZED_ROUTE_KEY = 'tuRuta.finalizedRoute';
@@ -22,6 +30,12 @@ function PerfilPage() {
   const [reviewForm, setReviewForm] = useState(DEFAULT_REVIEW_FORM);
   const [finalizedRoute, setFinalizedRoute] = useState(null);
   const [reviewMessage, setReviewMessage] = useState('Finaliza una ruta para habilitar la calificacion.');
+  const [locationMessage, setLocationMessage] = useState('');
+  const [isSavingLocation, setIsSavingLocation] = useState(false);
+  const [deviceLocation, setDeviceLocation] = useState(userProfile?.currentLocation || null);
+  const [isGeneralOpen, setIsGeneralOpen] = useState(false);
+  const [locationPermissionState, setLocationPermissionState] = useState(null);
+  const [isLocationEnabled, setIsLocationEnabled] = useState(isDeviceLocationEnabled());
 
   useEffect(() => {
     return subscribePwaInstallState(setInstallState);
@@ -70,6 +84,58 @@ function PerfilPage() {
     return () => {
       window.removeEventListener('tuRuta:routeFinalized', handleRouteFinalized);
       window.removeEventListener('focus', syncFinalizedRoute);
+    };
+  }, []);
+
+  useEffect(() => {
+    setDeviceLocation(userProfile?.currentLocation || null);
+  }, [userProfile?.currentLocation]);
+
+  useEffect(() => {
+    setIsLocationEnabled(isDeviceLocationEnabled());
+  }, []);
+
+  useEffect(() => {
+    if (!navigator.permissions?.query) {
+      setLocationPermissionState(null);
+      return undefined;
+    }
+
+    let permissionStatus = null;
+    let isCancelled = false;
+
+    const syncPermissionState = () => {
+      if (!permissionStatus || isCancelled) {
+        return;
+      }
+
+      setLocationPermissionState(permissionStatus.state);
+    };
+
+    const loadPermissionState = async () => {
+      try {
+        permissionStatus = await navigator.permissions.query({ name: 'geolocation' });
+
+        if (isCancelled) {
+          return;
+        }
+
+        setLocationPermissionState(permissionStatus.state);
+        permissionStatus.onchange = syncPermissionState;
+      } catch {
+        if (!isCancelled) {
+          setLocationPermissionState(null);
+        }
+      }
+    };
+
+    void loadPermissionState();
+
+    return () => {
+      isCancelled = true;
+      if (permissionStatus) {
+        permissionStatus.onchange = null;
+      }
     };
   }, []);
 
@@ -175,6 +241,66 @@ function PerfilPage() {
 
     await promptPwaInstall();
   };
+
+  const handleCaptureLocation = () => {
+    if (!currentUser) {
+      setLocationMessage('Primero inicia sesion para guardar la ubicacion en Firebase.');
+      return;
+    }
+
+    setIsSavingLocation(true);
+    setLocationMessage('Solicitando permiso para capturar la ubicacion actual...');
+
+    void (async () => {
+      try {
+        const nextLocation = await captureDeviceLocation();
+
+        await updateUserProfile(currentUser.uid, {
+          currentLocation: nextLocation
+        });
+        setDeviceLocation(nextLocation);
+        setLocationMessage('Ubicacion capturada y guardada en tu perfil Firebase.');
+        setIsGeneralOpen(false);
+      } catch (error) {
+        setLocationMessage(error?.message || 'No se pudo guardar la ubicacion en Firebase. Intenta de nuevo.');
+      } finally {
+        setIsSavingLocation(false);
+      }
+    })();
+  };
+
+  const handleLocationPermissionToggle = () => {
+    if (isLocationEnabled) {
+      disableDeviceLocationUsage();
+      setIsLocationEnabled(false);
+
+      void updateUserProfile(currentUser?.uid, {
+        currentLocation: null
+      }).catch(() => {
+        // Si falla la limpieza, no bloqueamos la interfaz.
+      });
+
+      setDeviceLocation(null);
+      setLocationMessage(
+        'La ubicacion se desactivo para esta app. Para revocar el permiso por completo, hazlo desde el navegador.'
+      );
+      return;
+    }
+
+    setDeviceLocationEnabled(true);
+    setIsLocationEnabled(true);
+    handleCaptureLocation();
+  };
+
+  const locationPermissionLabel = isLocationEnabled ? 'Desactivar' : 'Activar';
+  const locationPermissionHint =
+    !isLocationEnabled
+      ? 'Ubicacion desactivada para la app. Se puede volver a activar desde aqui.'
+      : locationPermissionState === 'granted'
+        ? 'Permiso concedido en el navegador.'
+        : locationPermissionState === 'denied'
+          ? 'Permiso bloqueado en el navegador.'
+          : 'Aun no has autorizado el uso de la ubicacion.';
 
   return (
     <section className="view-panel active" data-view="perfil">
@@ -304,8 +430,66 @@ function PerfilPage() {
           )}
         </section>
 
-        <section className="profile-settings" aria-label="Configuracion">
-          <h3>Configuracion</h3>
+        <section className="profile-settings profile-general-panel" aria-label="Ajustes generales">
+          <h3>Ajustes generales</h3>
+          <button
+            type="button"
+            className={isGeneralOpen ? 'setting-item setting-item-toggle is-open' : 'setting-item setting-item-toggle'}
+            onClick={() => setIsGeneralOpen((current) => !current)}
+            aria-expanded={isGeneralOpen}
+            aria-controls="general-options-panel"
+          >
+            <span className="setting-left">
+              <span className="setting-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" className="setting-icon-svg" focusable="false" aria-hidden="true">
+                  <circle cx="12" cy="12" r="3.5"></circle>
+                  <path d="M12 3v3"></path>
+                  <path d="M12 18v3"></path>
+                  <path d="M3 12h3"></path>
+                  <path d="M18 12h3"></path>
+                  <path d="M5.6 5.6l2.1 2.1"></path>
+                  <path d="M16.3 16.3l2.1 2.1"></path>
+                  <path d="M18.4 5.6l-2.1 2.1"></path>
+                  <path d="M7.7 16.3l-2.1 2.1"></path>
+                </svg>
+              </span>
+              <span>General</span>
+            </span>
+            <span className="setting-chevron" aria-hidden="true">
+              <svg viewBox="0 0 20 20" className="chevron-svg" focusable="false" aria-hidden="true">
+                <path d="M7 4l6 6-6 6"></path>
+              </svg>
+            </span>
+          </button>
+
+          {isGeneralOpen ? (
+            <div id="general-options-panel" className="general-dropdown" role="group" aria-label="Opciones generales">
+              <button
+                type="button"
+                className="general-option"
+                onClick={handleLocationPermissionToggle}
+                disabled={isSavingLocation || !currentUser}
+              >
+                <span className="general-option-copy">
+                  <strong>Ubicacion del dispositivo</strong>
+                  <span>{locationPermissionHint}</span>
+                </span>
+                <span className="general-option-action">
+                  {isSavingLocation && locationPermissionState !== 'granted'
+                    ? 'Activando...'
+                    : locationPermissionLabel}
+                </span>
+              </button>
+
+              <p className="profile-session-note profile-location-note">
+                {locationMessage || 'La ubicacion quedara asociada a tu usuario de Firebase y se mantendra entre sesiones.'}
+              </p>
+            </div>
+          ) : null}
+        </section>
+
+        <section className="profile-settings profile-app-panel" aria-label="Aplicacion">
+          <h3>Aplicacion</h3>
           <button
             type="button"
             className="setting-item"
@@ -321,45 +505,6 @@ function PerfilPage() {
                 </svg>
               </span>
               <span>{installLabel}</span>
-            </span>
-            <span className="setting-chevron" aria-hidden="true">
-              <svg viewBox="0 0 20 20" className="chevron-svg" focusable="false" aria-hidden="true">
-                <path d="M7 4l6 6-6 6"></path>
-              </svg>
-            </span>
-          </button>
-          <button type="button" className="setting-item">
-            <span className="setting-left">
-              <span className="setting-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" className="setting-icon-svg" focusable="false" aria-hidden="true">
-                  <path d="M12 21s7-4.5 7-11a7 7 0 1 0-14 0c0 6.5 7 11 7 11z"></path>
-                  <circle cx="12" cy="10" r="2.5"></circle>
-                </svg>
-              </span>
-              <span>Permisos de ubicacion</span>
-            </span>
-            <span className="setting-chevron" aria-hidden="true">
-              <svg viewBox="0 0 20 20" className="chevron-svg" focusable="false" aria-hidden="true">
-                <path d="M7 4l6 6-6 6"></path>
-              </svg>
-            </span>
-          </button>
-          <button type="button" className="setting-item">
-            <span className="setting-left">
-              <span className="setting-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" className="setting-icon-svg" focusable="false" aria-hidden="true">
-                  <circle cx="12" cy="12" r="3.5"></circle>
-                  <path d="M12 3v3"></path>
-                  <path d="M12 18v3"></path>
-                  <path d="M3 12h3"></path>
-                  <path d="M18 12h3"></path>
-                  <path d="M5.6 5.6l2.1 2.1"></path>
-                  <path d="M16.3 16.3l2.1 2.1"></path>
-                  <path d="M18.4 5.6l-2.1 2.1"></path>
-                  <path d="M7.7 16.3l-2.1 2.1"></path>
-                </svg>
-              </span>
-              <span>Ajustes generales</span>
             </span>
             <span className="setting-chevron" aria-hidden="true">
               <svg viewBox="0 0 20 20" className="chevron-svg" focusable="false" aria-hidden="true">

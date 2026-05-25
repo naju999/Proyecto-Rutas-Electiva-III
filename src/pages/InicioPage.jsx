@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext';
 import { useAppDispatch, useAppStore } from '../store/AppStore';
 import { mapActions, favoritesActions } from '../store/actions';
 import { selectFavoriteTripRoutes } from '../store/selectors';
@@ -9,6 +10,7 @@ import {
   recommendTunjaBusRoute,
   resolveTunjaLocation
 } from '../map/tunjaRouting';
+import { formatDeviceLocation, isDeviceLocationEnabled } from '../utils/deviceLocation';
 
 function pointToLabel(point, fallbackLabel) {
   if (!point) {
@@ -70,6 +72,7 @@ function isSamePoint(pointA, pointB) {
 
 function InicioPage() {
   const location = useLocation();
+  const { userProfile } = useAuth();
   const state = useAppStore();
   const dispatch = useAppDispatch();
   const favoriteTripRoutes = selectFavoriteTripRoutes(state);
@@ -83,6 +86,40 @@ function InicioPage() {
     'Escribe el sitio de origen y destino dentro de Tunja. Luego busca la mejor ruta de bus.'
   );
   const [recommendations, setRecommendations] = useState([]);
+  const activeView = location.pathname.split('/').filter(Boolean)[0] || 'inicio';
+  const savedDeviceLocation = userProfile?.currentLocation ?? null;
+
+  const savedDeviceLocationSummary = useMemo(() => {
+    if (!savedDeviceLocation) {
+      return null;
+    }
+
+    return {
+      label: formatDeviceLocation(savedDeviceLocation),
+      coordinates: savedDeviceLocation.coordinatesLabel || `${Number(savedDeviceLocation.latitude).toFixed(6)}, ${Number(savedDeviceLocation.longitude).toFixed(6)}`
+    };
+  }, [savedDeviceLocation]);
+
+  const focusMapOnCoordinates = (lat, lng, zoom = 17) => {
+    window.dispatchEvent(
+      new CustomEvent('map:focus-selected-location', {
+        detail: { lat, lng, zoom }
+      })
+    );
+  };
+
+  useEffect(() => {
+    if (activeView !== 'inicio' || !isDeviceLocationEnabled() || !savedDeviceLocationSummary) {
+      return;
+    }
+
+    const autoCenterCoordinates = {
+      lat: savedDeviceLocation.latitude,
+      lng: savedDeviceLocation.longitude
+    };
+
+    focusMapOnCoordinates(autoCenterCoordinates.lat, autoCenterCoordinates.lng, 17);
+  }, [activeView, savedDeviceLocation, savedDeviceLocationSummary]);
 
   useEffect(() => {
     const tripFavorite = location.state?.tripFavorite ?? null;
@@ -142,6 +179,25 @@ function InicioPage() {
     );
   }, [dispatch, location.state]);
 
+  useEffect(() => {
+    if (!isDeviceLocationEnabled() || !savedDeviceLocationSummary || selectedOrigin || originInput.trim()) {
+      return;
+    }
+
+    const autoOrigin = {
+      lat: savedDeviceLocation.latitude,
+      lng: savedDeviceLocation.longitude,
+      label: savedDeviceLocationSummary.label,
+      source: 'saved-device-location'
+    };
+
+    setSelectedOrigin(autoOrigin);
+    setOriginInput(autoOrigin.label);
+    dispatch(mapActions.setCoordinates(autoOrigin.lat, autoOrigin.lng));
+    focusMapOnCoordinates(autoOrigin.lat, autoOrigin.lng, 17);
+    setStatusMessage('Se uso tu ubicacion guardada como origen inicial.');
+  }, [dispatch, originInput, savedDeviceLocation, savedDeviceLocationSummary, selectedOrigin]);
+
   const resolvePoint = async (role, query) => {
     const trimmedQuery = String(query ?? '').trim();
     if (!trimmedQuery) {
@@ -197,7 +253,8 @@ function InicioPage() {
         setSelectedOrigin(currentPoint);
         setOriginInput(currentPoint.label);
         dispatch(mapActions.setCoordinates(currentPoint.lat, currentPoint.lng));
-        setStatusMessage('Ubicacion actual lista como origen.');
+        focusMapOnCoordinates(currentPoint.lat, currentPoint.lng, 17);
+        setStatusMessage('Ubicacion actual lista como origen y centrada en el mapa.');
       },
       () => {
         setStatusMessage('No pude obtener tu ubicacion actual. Revisa permisos y vuelve a intentarlo.');
@@ -408,6 +465,11 @@ function InicioPage() {
             <span>Destino</span>
             <strong>{pointToLabel(selectedDestination, 'Aun no seleccionado')}</strong>
           </div>
+        </div>
+        <div className="trip-location-card saved-location-card">
+          <span>Tu ubicacion guardada</span>
+          <strong>{savedDeviceLocationSummary?.label || 'Aun no has guardado una ubicacion en tu perfil'}</strong>
+          <em>{savedDeviceLocationSummary?.coordinates || 'Se mostrara aqui cuando la captures desde el login o el perfil.'}</em>
         </div>
         <p className="trip-tip">
           El mapa solo acepta ubicaciones dentro de Tunja y su borde cercano.

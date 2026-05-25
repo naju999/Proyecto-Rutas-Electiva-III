@@ -8,7 +8,11 @@ import {
   onAuthStateChanged,
 } from 'firebase/auth';
 import { auth } from '../firebase/config';
-import { createUserProfile, getUserProfile } from '../firebase/firestoreService';
+import { createUserProfile, getUserProfile, updateUserProfile } from '../firebase/firestoreService';
+import {
+  clearPendingDeviceLocation,
+  readPendingDeviceLocation
+} from '../utils/deviceLocation';
 
 // Crear el contexto
 const AuthContext = createContext();
@@ -26,6 +30,29 @@ async function ensureUserProfile(user, fallbackDisplayName = '') {
   }
 
   return getUserProfile(user.uid);
+}
+
+async function syncPendingDeviceLocation(user, profile) {
+  const pendingLocation = readPendingDeviceLocation();
+
+  if (!pendingLocation) {
+    return profile;
+  }
+
+  const hasSameLocation = profile?.currentLocation?.capturedAt === pendingLocation.capturedAt;
+
+  if (!hasSameLocation) {
+    await updateUserProfile(user.uid, {
+      currentLocation: pendingLocation
+    });
+  }
+
+  clearPendingDeviceLocation();
+
+  return {
+    ...(profile || {}),
+    currentLocation: pendingLocation
+  };
 }
 
 // Proveedor del contexto
@@ -94,7 +121,8 @@ export function AuthProvider({ children }) {
   const loadUserProfile = async (user) => {
     try {
       const profile = await ensureUserProfile(user);
-      setUserProfile(profile);
+      const profileWithLocation = await syncPendingDeviceLocation(user, profile);
+      setUserProfile(profileWithLocation);
     } catch (err) {
       console.error('Error cargando perfil:', err);
     }

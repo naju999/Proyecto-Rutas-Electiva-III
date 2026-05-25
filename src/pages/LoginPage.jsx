@@ -1,14 +1,59 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import {
+  captureDeviceLocation,
+  isDeviceLocationEnabled,
+  persistPendingDeviceLocation
+} from '../utils/deviceLocation';
 
 export default function LoginPage() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const [locationStatus, setLocationStatus] = useState('');
   const { login, loginWithGoogle } = useAuth();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    let isCancelled = false;
+
+    const requestDeviceLocation = async () => {
+      if (!isDeviceLocationEnabled()) {
+        setLocationStatus('La ubicacion esta desactivada para la app. Puedes activarla luego desde el perfil.');
+        return;
+      }
+
+      if (!navigator.geolocation) {
+        setLocationStatus('Tu navegador no soporta geolocalizacion.');
+        return;
+      }
+
+      setLocationStatus('Solicitando permiso para usar tu ubicacion y mejorar la experiencia...');
+
+      try {
+        const deviceLocation = await captureDeviceLocation();
+
+        if (isCancelled) {
+          return;
+        }
+
+        persistPendingDeviceLocation(deviceLocation);
+        setLocationStatus('');
+      } catch {
+        if (!isCancelled) {
+          setLocationStatus('No pudimos obtener tu ubicacion. Puedes continuar sin ella.');
+        }
+      }
+    };
+
+    void requestDeviceLocation();
+
+    return () => {
+      isCancelled = true;
+    };
+  }, []);
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -54,6 +99,12 @@ export default function LoginPage() {
             <p className="auth-card-kicker">Acceso seguro con Firebase</p>
           </div>
           <h1>Iniciar Sesión</h1>
+
+          {locationStatus ? (
+            <div className="auth-location-banner" role="status" aria-live="polite">
+              {locationStatus}
+            </div>
+          ) : null}
           
           {error && (
             <div className="error-message" role="alert">
