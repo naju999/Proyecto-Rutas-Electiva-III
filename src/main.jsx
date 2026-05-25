@@ -13,12 +13,12 @@ void registerServiceWorker();
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <AuthProvider>
-        <AppStoreProvider>
+    <AuthProvider>
+      <AppStoreProvider>
+        <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
           <App />
-        </AppStoreProvider>
-      </AuthProvider>
-    </BrowserRouter>
+        </BrowserRouter>
+      </AppStoreProvider>
+    </AuthProvider>
   </React.StrictMode>
 );

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Despachos",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Despacho Arboleda" }, "geometry": { "type": "Point", "coordinates": [ -73.33157, 5.575059, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Despacho Terminal Transportes " }, "geometry": { "type": "Point", "coordinates": [ -73.344941, 5.530811, 0.0 ] } }
+]
+}

@@ -22,9 +22,9 @@ export const mapActions = {
     type: ACTION_TYPES.map.setCurrentLayer,
     payload: layer
   }),
-  setShowBusA1: (value) => ({
-    type: ACTION_TYPES.map.setShowBusA1,
-    payload: value
+  setSelectedRoute: (route) => ({
+    type: ACTION_TYPES.map.setSelectedRoute,
+    payload: route
   }),
   setCoordinates: (lat, lng) => ({
     type: ACTION_TYPES.map.setCoordinates,
@@ -33,6 +33,17 @@ export const mapActions = {
   setWarning: (warning) => ({
     type: ACTION_TYPES.map.setWarning,
     payload: warning
+  })
+};
+
+export const favoritesActions = {
+  toggleFavorite: (route) => ({
+    type: ACTION_TYPES.favorites.toggleFavorite,
+    payload: route
+  }),
+  toggleFavoriteTripRoute: (tripRoute) => ({
+    type: ACTION_TYPES.favorites.toggleFavoriteTripRoute,
+    payload: tripRoute
   })
 };
 

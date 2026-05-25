@@ -1,0 +1,33 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.338312,
+                    5.568983
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Retorno",
+                "name": "Retorno"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.433792,
+                    5.4462969
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Despacho Puente de Boyaca",
+                "name": "Despacho Puente de Boyaca"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

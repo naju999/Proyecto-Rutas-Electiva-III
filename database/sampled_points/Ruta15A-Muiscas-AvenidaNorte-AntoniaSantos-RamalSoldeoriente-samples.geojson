@@ -1,0 +1,3305 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.332277,
+          5.573464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33264960790477,
+          5.5732138586168585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33296970708066,
+          5.572896727781926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33327256709757,
+          5.572563058684473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33356656058095,
+          5.572221855980343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3338501609842,
+          5.57187182259867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33413988730221,
+          5.571527038802046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3344508515631,
+          5.571200975006994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33479974415009,
+          5.570923808541971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33522425458074,
+          5.570771357090927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33564669708667,
+          5.570613858746872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33603171950334,
+          5.570378603215144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33641958678363,
+          5.570148015511478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33680380861989,
+          5.569911524663943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.337051,
+          5.569756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33749610954197,
+          5.569705302728187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33789317450915,
+          5.569509332138267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33806639674054,
+          5.569098898162668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33826178643783,
+          5.5686946601608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33835660585342,
+          5.568983285372675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.338467,
+          5.569289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33878751522518,
+          5.5696009631108065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33914300180324,
+          5.569878458159398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3394995282012,
+          5.5701546478152375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33986351061539,
+          5.570420993216512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34022668352559,
+          5.570688405564837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34058297163153,
+          5.570964900285506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34093926007289,
+          5.57124139479211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34129307443781,
+          5.571520991853514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3416445075292,
+          5.571803575107288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34206305774836,
+          5.571911906512878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.342187,
+          5.571908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34245219302372,
+          5.571545055660384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3427040726877,
+          5.5711717609992775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34295632414741,
+          5.570798718031204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34321247285396,
+          5.570428312325856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34346832912924,
+          5.570057707226553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34372305527351,
+          5.569686331234612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34397778109576,
+          5.569314955133278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34423272256355,
+          5.568943726003325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34448826266053,
+          5.568572904668649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34474126674941,
+          5.568200370119111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34499320242358,
+          5.567827113859459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34524716326526,
+          5.567455223806422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34549562603058,
+          5.567079863157882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34572813384567,
+          5.566694320520278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34592546644934,
+          5.566290403270063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34611141167838,
+          5.565880594300101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34629677736127,
+          5.565470524731321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34649542912341,
+          5.5650666953541625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34669561783363,
+          5.564663587903296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3468797931341,
+          5.5642531494165715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34706937703206,
+          5.563845082594306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34726383106033,
+          5.5634392041275325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34745828482025,
+          5.563033325597079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34764893987722,
+          5.562625668507638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34784515531538,
+          5.562220655497809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34803422203119,
+          5.561812410903864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34821314313439,
+          5.561399515996609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3483901866109,
+          5.56098582253722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34857828900138,
+          5.560577009053519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3487886988157,
+          5.560180165826279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34898342674666,
+          5.559774418040267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34917704132678,
+          5.55936815583182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34936279530062,
+          5.558958261275124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34954854901576,
+          5.5585483666603634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34973430247226,
+          5.558138471987546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3499218639981,
+          5.557729408823375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35011291093174,
+          5.55732197182301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35029124380372,
+          5.556908825483501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35047386624849,
+          5.556497627753224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35066637774841,
+          5.55609085798863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35085509431033,
+          5.555682306689285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35104477590606,
+          5.555274199603312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35122709881078,
+          5.554862815342681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35140664249133,
+          5.554450189150185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35155110365255,
+          5.554024323058638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.351691376282,
+          5.553596886355587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3518314968218,
+          5.553169400233632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35197161715833,
+          5.5527419140786725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35210670082469,
+          5.552312845329313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35223869308378,
+          5.5518828044676845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35240667448828,
+          5.551469596345074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35242,
+          5.55145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35266635636486,
+          5.551073152575233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35293306109705,
+          5.5507110688971455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3532288516232,
+          5.550371192921644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35352942804028,
+          5.550035494803408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35380956776946,
+          5.549682845003348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3540871375866,
+          5.549328063660668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35437997835704,
+          5.5489857657765915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35465047727999,
+          5.548625747374456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35491900715174,
+          5.548264139731523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35518683494664,
+          5.547902024497254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3554494713662,
+          5.5475361547835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35571541377408,
+          5.547172658115229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35598135585425,
+          5.546809161328193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35624682762442,
+          5.546445324476078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35651454541033,
+          5.5460831254944205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35678302257614,
+          5.545721479934821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35705477174398,
+          5.545362416561437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35734731834884,
+          5.54501976528009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357377,
+          5.544985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35776834506963,
+          5.544765208323515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35788793391553,
+          5.5443511791619216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357976,
+          5.544187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35823288497086,
+          5.5438175105611185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35849543255074,
+          5.543451687239991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3587541121776,
+          5.543083040930161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35906874348304,
+          5.542787036658684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359192,
+          5.542812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35963384769768,
+          5.542904698702417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36007369916747,
+          5.543006318398203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36047868958416,
+          5.542870320647136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36072104246036,
+          5.5424918040891304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3608461128537,
+          5.542068925564112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36077676988783,
+          5.541625107033656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36068767393557,
+          5.541184539549466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36062085069217,
+          5.540739919078711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36052010955363,
+          5.5403015838032585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36041767800563,
+          5.539863657365383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36031112130146,
+          5.5394266914814985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36021175228736,
+          5.538988073378806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36029037694193,
+          5.538549635541707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36041594959762,
+          5.538118151214512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360589,
+          5.53786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36097725441192,
+          5.537630959402215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36127812171526,
+          5.537306816141398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36149060734526,
+          5.536910306460591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36182246797425,
+          5.536607102340682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36225790882987,
+          5.536504031744177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36270619158844,
+          5.5364485241506225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36315398299874,
+          5.536388996314082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36360436082185,
+          5.536354056801706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36405492663648,
+          5.536322545009818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36450422574991,
+          5.536275603282483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.364752,
+          5.536112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36494769156359,
+          5.535720084477718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3653851172877,
+          5.535613456795929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36544,
+          5.535607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36562636499175,
+          5.535198063470462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36579172373737,
+          5.534779704213337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36598533515958,
+          5.534376231807557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36616888436778,
+          5.533965798638791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36634908188742,
+          5.5335534916347635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36652402198338,
+          5.533140203885234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3666808194734,
+          5.532718618387654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.366747,
+          5.532284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36630423684309,
+          5.532195268032307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36586701426698,
+          5.532083006110545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36543150051484,
+          5.531963606438957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36499434740107,
+          5.531850172108346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3645641421148,
+          5.531713127815816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36413307143346,
+          5.5315785952097185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36370200094817,
+          5.53144406229245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.363548,
+          5.531396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36367550882291,
+          5.53096463119602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36380522526355,
+          5.530533905963691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36392475464747,
+          5.530100443174589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36405628917134,
+          5.529670264593282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36418630989832,
+          5.529239643293011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3643089709033,
+          5.528806875248691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36443520990632,
+          5.528375136166067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36456329565839,
+          5.527943927894434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36469060798485,
+          5.527512495186534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36481974750363,
+          5.527081894548359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36507727310342,
+          5.526725389088259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36535699559693,
+          5.526379410211715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3655662424364,
+          5.525980950586715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36575340624103,
+          5.525572018315473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36591583692723,
+          5.525152518609842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36606747985157,
+          5.524728969926169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.366072,
+          5.524476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36565357566286,
+          5.524308259007913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36523149415042,
+          5.524148197694279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3648084526714,
+          5.52399062310945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.364659,
+          5.523937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36473468900643,
+          5.523494051502238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3644458061775,
+          5.523169280705391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3640618049971,
+          5.52293593353115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36366167134854,
+          5.522729272406419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3637401977421,
+          5.5223035105927165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.363761,
+          5.522206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36398409353598,
+          5.521819379641064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36423856538207,
+          5.521447845110448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36449303690912,
+          5.521076310471586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36474924236865,
+          5.520705969595959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36500869942965,
+          5.520337867256708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36526815616844,
+          5.519969764804956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36552658594714,
+          5.519600966344149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36577564217168,
+          5.519225814218795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3660246980811,
+          5.5188506619898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36627375367539,
+          5.518475509657168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36652389278422,
+          5.5181010725493325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36678770677335,
+          5.517736600118026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3671042191466,
+          5.5174168991577694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36744746966973,
+          5.517124559465508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36779071985455,
+          5.516832219576456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36813396970105,
+          5.516539879490626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.368344,
+          5.516361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36836433942877,
+          5.516113087728003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.368309,
+          5.516164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36797235597886,
+          5.516463107307721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36765299741009,
+          5.51678114340421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36731698287873,
+          5.517081580493061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36699356845564,
+          5.517395333289418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36668279132975,
+          5.517721304079212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36640665740607,
+          5.518076194231003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36615397291393,
+          5.5184489344399035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36590128810413,
+          5.518821674542135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36563600604559,
+          5.519185634175303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.365464,
+          5.519371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36501980112608,
+          5.519293952619227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3645740466595,
+          5.519229427622656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36414344175098,
+          5.519094675904441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36371512084564,
+          5.518951733779973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36330103782392,
+          5.518772759078475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36288528991267,
+          5.518597038970832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36246128604245,
+          5.518443150778915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15A-Muiscas-AvenidaNorte-AntoniaSantos-RamalSoldeoriente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36202943595573,
+          5.518311149154968
+        ]
+      }
+    }
+  ]
+}

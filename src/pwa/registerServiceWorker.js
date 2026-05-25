@@ -2,6 +2,24 @@ let activeRegistration = null;
 let shouldReloadOnControllerChange = false;
 const updateListeners = new Set();
 
+async function clearBrowserCaches() {
+  if (typeof caches === 'undefined') {
+    return;
+  }
+
+  const cacheNames = await caches.keys();
+  await Promise.all(cacheNames.map((cacheName) => caches.delete(cacheName)));
+}
+
+async function unregisterExistingServiceWorkers() {
+  if (!('serviceWorker' in navigator)) {
+    return;
+  }
+
+  const registrations = await navigator.serviceWorker.getRegistrations();
+  await Promise.all(registrations.map((registration) => registration.unregister()));
+}
+
 function notifyUpdateState(payload) {
   updateListeners.forEach((listener) => listener(payload));
 }
@@ -60,16 +78,14 @@ export async function registerServiceWorker() {
     return { supported: false };
   }
 
-  const shouldRegisterInDev = window.__ENABLE_SW_DEV__ === true;
-  if (import.meta.env.DEV && !shouldRegisterInDev) {
-    return { supported: true, skipped: true };
+  if (import.meta.env.DEV) {
+    await unregisterExistingServiceWorkers();
+    await clearBrowserCaches();
+    return { supported: true, skipped: true, cleared: true };
   }
 
   try {
-    const registration = await navigator.serviceWorker.register('/sw.js', {
-      scope: '/',
-      type: 'module'
-    });
+    const registration = await navigator.serviceWorker.register('/sw.js', { scope: '/' });
     activeRegistration = registration;
     bindRegistrationUpdateLifecycle(registration);
 

@@ -1,0 +1,33 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.32944,
+                    5.529523
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Despacho Pirgua",
+                "name": "Despacho Pirgua"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.332286,
+                    5.573506
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Despacho Arboleda",
+                "name": "Despacho Arboleda"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

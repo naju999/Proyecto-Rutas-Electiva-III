@@ -58,6 +58,10 @@ export default function RegisterPage() {
     <main className="auth-container">
       <section className="auth-form-section">
         <div className="auth-card">
+          <div className="auth-card-hero">
+            <span className="auth-card-badge">Tu Ruta</span>
+            <p className="auth-card-kicker">Crea tu cuenta para guardar rutas</p>
+          </div>
           <h1>Registrarse</h1>
           
           {error && (
@@ -95,7 +99,7 @@ export default function RegisterPage() {
 
             <div className="form-group">
               <label htmlFor="password">Contraseña</label>
-              <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
+              <div className="password-field">
                 <input
                   id="password"
                   type={showPassword ? 'text' : 'password'}
@@ -104,23 +108,12 @@ export default function RegisterPage() {
                   onChange={(e) => setPassword(e.target.value)}
                   required
                   disabled={loading}
-                  style={{ width: '100%', paddingRight: '40px' }}
                 />
                 <button
                   type="button"
+                  className="password-toggle"
                   onClick={() => setShowPassword(!showPassword)}
                   disabled={loading}
-                  style={{
-                    position: 'absolute',
-                    right: '10px',
-                    background: 'none',
-                    border: 'none',
-                    cursor: loading ? 'not-allowed' : 'pointer',
-                    padding: '5px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}
                   aria-label={showPassword ? 'Ocultar contraseña' : 'Mostrar contraseña'}
                 >
                   {showPassword ? (
@@ -140,7 +133,7 @@ export default function RegisterPage() {
 
             <div className="form-group">
               <label htmlFor="passwordConfirm">Confirmar Contraseña</label>
-              <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
+              <div className="password-field">
                 <input
                   id="passwordConfirm"
                   type={showPasswordConfirm ? 'text' : 'password'}
@@ -149,23 +142,12 @@ export default function RegisterPage() {
                   onChange={(e) => setPasswordConfirm(e.target.value)}
                   required
                   disabled={loading}
-                  style={{ width: '100%', paddingRight: '40px' }}
                 />
                 <button
                   type="button"
+                  className="password-toggle"
                   onClick={() => setShowPasswordConfirm(!showPasswordConfirm)}
                   disabled={loading}
-                  style={{
-                    position: 'absolute',
-                    right: '10px',
-                    background: 'none',
-                    border: 'none',
-                    cursor: loading ? 'not-allowed' : 'pointer',
-                    padding: '5px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}
                   aria-label={showPasswordConfirm ? 'Ocultar contraseña' : 'Mostrar contraseña'}
                 >
                   {showPasswordConfirm ? (
