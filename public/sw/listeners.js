@@ -1,6 +1,6 @@
 /**
  * Event Listeners del Service Worker
- * install, activate, message
+ * install, activate, fetch, message
  */
 
 import {
@@ -12,10 +12,18 @@ import {
     APP_SHELL_CACHE_PREFIX,
     APP_RUNTIME_CACHE_PREFIX,
     API_CACHE_NAME,
-    API_CACHE_PREFIX
+    API_CACHE_PREFIX,
+    FAVORITE_ROUTE_CACHE_NAME,
+    FAVORITE_ROUTE_CACHE_PREFIX,
+    MAX_FAVORITE_ENTRIES
 } from './constants.js';
 import { cleanupTileCache, getTileCacheStats, clearTileCacheAndMetadata } from './handlers/tiles.js';
 import { cleanupApiCache } from './handlers/api.js';
+import { handleNavigationRequest } from './handlers/navigation.js';
+import { handleAppAssetRequest } from './handlers/assets.js';
+import { handleApiRequest } from './handlers/api.js';
+import { handleTileRequest } from './handlers/tiles.js';
+import { isTileRequest, isAppAssetRequest, isApiRequest } from './classifiers.js';
 import { postPortMessage } from './utils.js';
 
 /**
@@ -24,6 +32,7 @@ import { postPortMessage } from './utils.js';
 export function setupListeners() {
     self.addEventListener('install', handleInstall);
     self.addEventListener('activate', handleActivate);
+    self.addEventListener('fetch', handleFetch);
     self.addEventListener('message', handleMessage);
 }
 
@@ -44,6 +53,49 @@ function handleActivate(event) {
         await cleanupApiCache({ force: true });
         await self.clients.claim();
     })());
+}
+
+/**
+ * Fetch: enrutamiento inteligente por tipo de request
+ */
+async function handleFetch(event) {
+    const request = event.request;
+
+    // Solo procesar GET
+    if (!request || request.method !== 'GET') {
+        return;
+    }
+
+    try {
+        const url = new URL(request.url);
+
+        // Navegación (HTML) - Network First
+        if (request.mode === 'navigate') {
+            event.respondWith(handleNavigationRequest(request));
+            return;
+        }
+
+        // Tiles - Cache First
+        if (isTileRequest(request)) {
+            event.respondWith(handleTileRequest(event));
+            return;
+        }
+
+        // API - Network First
+        if (isApiRequest(request)) {
+            event.respondWith(handleApiRequest(request));
+            return;
+        }
+
+        // Assets - Cache First + SWR
+        if (isAppAssetRequest(request)) {
+            event.respondWith(handleAppAssetRequest(request, event));
+            return;
+        }
+
+    } catch (_error) {
+        // Ignorar errores de parsing URL
+    }
 }
 
 /**
@@ -100,6 +152,19 @@ function handleMessage(event) {
             const stats = await getTileCacheStats();
             postPortMessage(port, { ok: true, type, payload: stats });
         })());
+        return;
+    }
+
+    if (type === 'TRIGGER_SYNC') {
+        event.waitUntil((async () => {
+            try {
+                const { handleSyncMessage } = await import('./handlers/syncHandler.js');
+                await handleSyncMessage(event);
+            } catch (error) {
+                console.error('Error en TRIGGER_SYNC:', error);
+            }
+        })());
+        return;
     }
 }
 
@@ -138,8 +203,40 @@ async function deleteOutdatedCaches() {
         const isOldAppRuntime = cacheName.startsWith(APP_RUNTIME_CACHE_PREFIX) && cacheName !== APP_RUNTIME_CACHE_NAME;
         const isOldTileCache = cacheName.startsWith(TILE_CACHE_PREFIX) && cacheName !== TILE_CACHE_NAME;
         const isOldApiCache = cacheName.startsWith(API_CACHE_PREFIX) && cacheName !== API_CACHE_NAME;
-        return isOldAppShell || isOldAppRuntime || isOldTileCache || isOldApiCache;
+        const isOldFavorite = cacheName.startsWith(FAVORITE_ROUTE_CACHE_PREFIX) && cacheName !== FAVORITE_ROUTE_CACHE_NAME;
+        return isOldAppShell || isOldAppRuntime || isOldTileCache || isOldApiCache || isOldFavorite;
     });
 
     await Promise.all(outdated.map((cacheName) => caches.delete(cacheName)));
+}
+
+/**
+ * Limpiar cache de rutas favoritas (límite: 50 máximo)
+ */
+let lastFavoriteCleanupAt = 0;
+
+export async function cleanupFavoriteCache({ force = false } = {}) {
+    const now = Date.now();
+
+    if (!force && now - lastFavoriteCleanupAt < FAVORITE_CLEANUP_INTERVAL_MS) {
+        return null;
+    }
+
+    lastFavoriteCleanupAt = now;
+
+    const cache = await caches.open(FAVORITE_ROUTE_CACHE_NAME);
+    const keys = await cache.keys();
+
+    if (keys.length > MAX_FAVORITE_ENTRIES) {
+        // Eliminar más antiguas primero (FIFO)
+        const toDelete = keys.slice(0, keys.length - MAX_FAVORITE_ENTRIES);
+        for (const request of toDelete) {
+            await cache.delete(request);
+        }
+    }
+
+    return {
+        cacheName: FAVORITE_ROUTE_CACHE_NAME,
+        totalEntries: Math.min(keys.length, MAX_FAVORITE_ENTRIES)
+    };
 }

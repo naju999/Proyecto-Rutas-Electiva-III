@@ -1,0 +1,3695 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.383415,
+          5.491589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38386510076697,
+          5.491624059208175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38431618122078,
+          5.491635543936698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38474600352525,
+          5.491510394340603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38519060527253,
+          5.4915225327644075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38535993806926,
+          5.491863222835117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38534232850468,
+          5.492307398482633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3852092789368,
+          5.492737112655807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38499635561924,
+          5.493132567114575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38471286736986,
+          5.493478325101579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38436418665769,
+          5.493762610915968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38397427976005,
+          5.493988668851074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38356965862373,
+          5.494188610617762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38316951792105,
+          5.494397012798132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38277502854808,
+          5.494616099936374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38241173565298,
+          5.494881226002833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38212379022167,
+          5.495223910271209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38191669065617,
+          5.495622015019265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38179198824457,
+          5.496052294158103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38173913596253,
+          5.496497537342964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.381736,
+          5.49694709912382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38170435995724,
+          5.4973953302319565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3816042040307,
+          5.497833183935539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38140672958912,
+          5.498234767087774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38112182212295,
+          5.498580534746145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38079562347811,
+          5.4988913851747965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38046307348314,
+          5.499195672875796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38012541880958,
+          5.499494387958354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37978837789964,
+          5.499793787603119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37945204129552,
+          5.5000939727701015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3791813301198,
+          5.500452642285002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37896871584474,
+          5.500849385044512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3787561012861,
+          5.50124612772874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37854945184016,
+          5.50164594935518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37834619616996,
+          5.502047522739094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3781429402253,
+          5.502449096054192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37793968400618,
+          5.502850669300468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37772604240511,
+          5.50324681962424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37750963990642,
+          5.503641528345824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37727504571382,
+          5.504023855074305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.376944560197,
+          5.504329267766178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37657577261658,
+          5.504588119326679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37617549478556,
+          5.504796526231937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3757775659721,
+          5.505007892119743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37542017588756,
+          5.505280452132313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37515839560393,
+          5.505645642581331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3749890355812,
+          5.506058647475822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37491860763637,
+          5.506502607261194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37483407775606,
+          5.506942411527085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37460019567838,
+          5.507323295952887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37432832992134,
+          5.507682411499691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37405985465604,
+          5.508043775496355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3738336162097,
+          5.508432982440627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37362738795593,
+          5.508832441370089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37343415500662,
+          5.509238854165423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37323859265823,
+          5.5096441783075605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37305264407146,
+          5.510053978471864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37286669522813,
+          5.510463778578488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37268075975516,
+          5.510873584744179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37249529269666,
+          5.511283601224418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37230982538203,
+          5.5116936176472615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37212356717244,
+          5.512103271446966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37193099554267,
+          5.512510030141177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.371772,
+          5.512931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37148492907355,
+          5.513277654020056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37116752572146,
+          5.513597490247907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3708330994093,
+          5.513899791198444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37049867275647,
+          5.514202091962288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37016424576294,
+          5.514504392539426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36982911779155,
+          5.514805919495928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36949254403774,
+          5.515105850639495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36915596994368,
+          5.515405781593922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36881939550936,
+          5.515705712359198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.368699,
+          5.515813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.368462,
+          5.516159292536525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.368446,
+          5.516397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3683337432857,
+          5.5168325561625275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36818884437366,
+          5.517253864139871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36794031104354,
+          5.517629359133164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3677022650292,
+          5.518011373910723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36749718502169,
+          5.518407571835064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36741898124691,
+          5.518850443160996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36737569878126,
+          5.519298017291689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3673090337596,
+          5.519741677828156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36720295527303,
+          5.520178765639201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36708910886273,
+          5.520613859110444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36696954920706,
+          5.521047485766206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36685411788234,
+          5.521482216848314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36673216874377,
+          5.52191511004107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36660343180922,
+          5.5223460897910135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36649139337368,
+          5.522781701919723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36639916484559,
+          5.523221838988671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36630917874965,
+          5.523662488284706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36620177122016,
+          5.524098748791217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36604693972745,
+          5.524520658360661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36588116584029,
+          5.524938875277167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36572492482082,
+          5.5253607867891485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36555382254912,
+          5.525776835924712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.365471,
+          5.525971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36504948300534,
+          5.5258108652262985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36463441309886,
+          5.525633358307777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36421934344118,
+          5.525455851101062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36379754402098,
+          5.525294853973222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36337574967538,
+          5.525154170270948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.363329,
+          5.525173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36318705721484,
+          5.52559986804371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36304833630686,
+          5.526027804050059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36290531421697,
+          5.526454321855025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36269601457988,
+          5.526846041303534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36256305137499,
+          5.5272757843324305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36242602426071,
+          5.527704252045053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36228608028209,
+          5.528131792233588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36214532950123,
+          5.5285590712544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.362119,
+          5.528639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36167987903094,
+          5.5285379683623255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3612431244159,
+          5.528423032842337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36111,
+          5.528388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3609609004258,
+          5.52880951846546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36083917326482,
+          5.529242547717478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36071646697165,
+          5.529675302701198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36059247766528,
+          5.530107695248977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3604703609272,
+          5.530540605578303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36035196148083,
+          5.53097454805046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36023726541164,
+          5.531409464233778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36010347813387,
+          5.531838931502872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35996884449533,
+          5.532268159318636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35984292172385,
+          5.532699960139829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35972053128376,
+          5.533132804353475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35959476935713,
+          5.533564665605219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35946318054089,
+          5.53399482799867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35933159153319,
+          5.534424990363112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35921750480452,
+          5.534858911650124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35908857393835,
+          5.535289870773385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359029,
+          5.535489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3594504057094,
+          5.535650268366523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35987690795682,
+          5.535798534575732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359884,
+          5.535801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35974018818605,
+          5.536227268602696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359717,
+          5.536296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35928012388747,
+          5.536193288549494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.358854,
+          5.536071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35874317306528,
+          5.53650691970816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3586323459671,
+          5.536942839395734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.358599,
+          5.537074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35902506391442,
+          5.537223512426719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3594511280444,
+          5.537373024549148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35986592008857,
+          5.5375506255480165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36026906396123,
+          5.537750251174561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360324,
+          5.538022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36019233676092,
+          5.5384510913580804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360147,
+          5.538702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3600421057289,
+          5.5391393716708315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35994315874517,
+          5.539578111136445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35982215683445,
+          5.540011082478377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35967251620104,
+          5.540435192447917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35948445289982,
+          5.540843460949031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3592947865273,
+          5.541251574104454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35910555383464,
+          5.541659884963191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35891768761223,
+          5.542068815407022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.358825,
+          5.542504563621528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35875090345068,
+          5.542932099135296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35847948182739,
+          5.54329077574823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35822196604532,
+          5.543660213309014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35794245556063,
+          5.544012233985577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35768,
+          5.544249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35732111366669,
+          5.544457866594887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35724548193015,
+          5.5448984595524955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357188,
+          5.544997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35692152852627,
+          5.545360111910158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35665410491517,
+          5.545722528525137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35638691594282,
+          5.5460851049429944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35612678875964,
+          5.5464527463530615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3558666612523,
+          5.546820387649517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35560000034062,
+          5.547183309777979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35532947594866,
+          5.547543441306674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3550589512264,
+          5.5479035727124675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35478365256677,
+          5.5482600801550115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35450758780736,
+          5.548616021559906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35423185277321,
+          5.548972217179831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35395611740599,
+          5.549328412672043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35367642758591,
+          5.549681502927172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35339208688112,
+          5.5500309245725905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35310052084264,
+          5.550374404913564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35280895446448,
+          5.550717885111704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35251738774657,
+          5.551061365166998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35227694808289,
+          5.551442029114542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35213127525373,
+          5.5518662737474305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35199607003605,
+          5.552295324962747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35185989312099,
+          5.552724063371042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3517170219475,
+          5.553150646583481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35157415056715,
+          5.553577229761609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35143127897993,
+          5.554003812905419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35128840718586,
+          5.5544303960149115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35111849221421,
+          5.554846605767481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35093630777543,
+          5.555258080923462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35074992956696,
+          5.555667694152412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35056355109924,
+          5.556077307322943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35037717237232,
+          5.55648692043505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35019121565769,
+          5.556896723485631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35000538985086,
+          5.557306585495168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34981956378536,
+          5.557716447446615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34963185691798,
+          5.558125457362727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34944334763877,
+          5.558534103806192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34925483809789,
+          5.558942750189864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3490663282953,
+          5.559351396513739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34887488002177,
+          5.5597586823426255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34868227237817,
+          5.560165431426583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34849043249376,
+          5.560572536542578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34830149175282,
+          5.560980985905885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34811255074958,
+          5.561389435209097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34792360948404,
+          5.561797884452213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34773466795619,
+          5.562206333635225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.347545726166,
+          5.562614782758132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34735856004632,
+          5.563024038107924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34717250501988,
+          5.563433797961776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3469864497342,
+          5.56384355775733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3468028332266,
+          5.564254404735099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3466195511438,
+          5.564665400845735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34643155637127,
+          5.565074224536573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3462351337919,
+          5.565479163191504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34603871094197,
+          5.5658841017814344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34583611302727,
+          5.566285980887157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34562243890451,
+          5.566681733647814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34537368736122,
+          5.567057099125137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34512493550024,
+          5.567432464498185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34487618332156,
+          5.567807829766953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34462825376626,
+          5.568183731759899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34438168873281,
+          5.568560523973764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3441351233832,
+          5.568937316085153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34388855771736,
+          5.569314108094059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 63
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34364199173532,
+          5.569690900000472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34338293526382,
+          5.570059291825084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34312367293263,
+          5.570427545308786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3428644102764,
+          5.5707957986791445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.342608,
+          5.57116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3422002288704,
+          5.57098000386641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34182712163461,
+          5.570726944180638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34146443414124,
+          5.570458826130867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34110910469619,
+          5.570181451061066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34082477931985,
+          5.569848303734009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3406276780594,
+          5.569445559202905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34029283750623,
+          5.569152036112786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33993116598047,
+          5.568882555356475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33957141934496,
+          5.568610587237809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3392172730036,
+          5.568331381975292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta12-Runta-RetenSur-AvenidaNorte-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33879230341235,
+          5.5682669012365915
+        ]
+      }
+    }
+  ]
+}

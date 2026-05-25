@@ -1,0 +1,3 @@
+// BACKUP: Original sw.js v2 - Kept for reference
+// This version was monolithic and has been refactored into v3 (modular)
+// See /public/sw/ directory for the new structure

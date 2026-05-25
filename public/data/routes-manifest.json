@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-26T05:22:41.805Z",
-  "total_routes": 26,
+  "generated_at": "2026-05-25T17:49:09.186Z",
+  "total_routes": 25,
   "routes": [
     {
       "id": "Ruta1",
@@ -144,24 +144,6 @@
         "dispatch_points": "Ruta6-Despacho.geojson",
         "outbound_route": "Ruta6-EstanciaelRoble-AvenidaNorte-RetenSur.geojson",
         "inbound_route": "Ruta6-RetenSur-ViaMoniquira-EstanciaelRoble.geojson"
-      }
-    },
-    {
-      "id": "Ruta7",
-      "code": "Ruta7",
-      "title": "Ruta 7",
-      "summary": "Ruta7 con un despacho, un punto de retorno y un solo recorrido compartido para ambos sentidos.",
-      "detail": "Datos cargados desde archivos GeoJSON del proyecto.",
-      "eta": "Variable",
-      "files": {
-        "dispatch_points": "/data/routes/Ruta7-Despacho.geojson",
-        "outbound_route": "/data/routes/Ruta7-EstanciaelRoble-ViaMoniquira-JuandeCastellanos-Florida.geojson",
-        "inbound_route": "/data/routes/Ruta7-EstanciaelRoble-ViaMoniquira-JuandeCastellanos-Florida.geojson"
-      },
-      "source_files": {
-        "dispatch_points": "Ruta7-Despacho.geojson",
-        "outbound_route": "Ruta7-EstanciaelRoble-ViaMoniquira-JuandeCastellanos-Florida.geojson",
-        "inbound_route": "Ruta7-EstanciaelRoble-ViaMoniquira-JuandeCastellanos-Florida.geojson"
       }
     },
     {
@@ -408,12 +390,12 @@
       "files": {
         "dispatch_points": "/data/routes/Ruta18-Despacho.geojson",
         "outbound_route": "/data/routes/Ruta18-LIMITE%20PERIMETRO%20TUNJA%20(Sector%20El%20Lago%20-%20Resoluci%C3%B3n%202292%20de%201999)-AvenidaNorte-PradosdeSanLuis.geojson",
-        "inbound_route": "/data/routes/Ruta18-PradosdeSanLuis-AvenidaNorte-LIMITE%20PERIMETRO%20TUNJA%20(Sector%20El%20Lago%20-%20Resoluci%C3%B3n%202292%20de%201999).geojson"
+        "inbound_route": "/data/routes/Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago).geojson"
       },
       "source_files": {
         "dispatch_points": "Ruta18-Despacho.geojson",
         "outbound_route": "Ruta18-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999)-AvenidaNorte-PradosdeSanLuis.geojson",
-        "inbound_route": "Ruta18-PradosdeSanLuis-AvenidaNorte-LIMITE PERIMETRO TUNJA (Sector El Lago - Resolución 2292 de 1999).geojson"
+        "inbound_route": "Ruta18-PradosdeSanLuis-AvenidaNorte-LimitePerimetroTunja(SectorElLago).geojson"
       }
     },
     {
@@ -425,13 +407,13 @@
       "eta": "Variable",
       "files": {
         "dispatch_points": "/data/routes/Ruta19-Despacho.geojson",
-        "outbound_route": "/data/routes/Ruta19-Arboleda-LIMITE PERIMETRO TUNJA(RETORNO BTS, Vda. Barón Gallero - Sector San Antonio).geojson",
-        "inbound_route": "/data/routes/Ruta19-LIMITE PERIMETRO TUNJA(RETORNO BTS, Vda. Barón Gallero-Sector San Antonio)-Arboleda.geojson"
+        "outbound_route": "/data/routes/Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio).geojson",
+        "inbound_route": "/data/routes/Ruta19-LimitePerimetroTunja(RetornoBTSVdaBaronGallero-SectorSanAntonio)-Arboleda.geojson"
       },
       "source_files": {
         "dispatch_points": "Ruta19-Despacho.geojson",
-        "outbound_route": "Ruta19-Arboleda-LIMITE PERIMETRO TUNJA(RETORNO BTS, Vda. Barón Gallero - Sector San Antonio).geojson",
-        "inbound_route": "Ruta19-LIMITE PERIMETRO TUNJA(RETORNO BTS, Vda. Barón Gallero-Sector San Antonio)-Arboleda.geojson"
+        "outbound_route": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio).geojson",
+        "inbound_route": "Ruta19-LimitePerimetroTunja(RetornoBTSVdaBaronGallero-SectorSanAntonio)-Arboleda.geojson"
       }
     },
     {

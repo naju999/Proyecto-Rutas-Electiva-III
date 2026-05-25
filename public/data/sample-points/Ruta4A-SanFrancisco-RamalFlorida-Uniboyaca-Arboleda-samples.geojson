@@ -1,0 +1,2960 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.366981,
+          5.508108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36714979523435,
+          5.508507379204938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36745651044716,
+          5.508830932993821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36785237217971,
+          5.509046518631473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36818,
+          5.509256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36817069072806,
+          5.509705252806585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36824817158306,
+          5.510145812870765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36848484579362,
+          5.510524268691679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36842345277566,
+          5.5109200709747395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36805050246163,
+          5.511173813402941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3678227012349,
+          5.511541059239402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36782095103682,
+          5.511990704521346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36786533670016,
+          5.51243488876988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.367949,
+          5.512648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36769909549089,
+          5.513015156195503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36761614222196,
+          5.513403221183821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36763544369795,
+          5.513828347255627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36745956672009,
+          5.514242528711886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.367415,
+          5.514347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36697296189526,
+          5.514262749208451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.366539,
+          5.514213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36635390126878,
+          5.514623147815728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3661639977467,
+          5.515031147719373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.366095,
+          5.515179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3665058912985,
+          5.515365427940397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36691945578643,
+          5.515546360557972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36734728247322,
+          5.515690214846639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36773472611745,
+          5.515715762078392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36816415755922,
+          5.515750201425327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.368518,
+          5.515821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3684948705116,
+          5.516263771681761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.368504,
+          5.516286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36838338084085,
+          5.516719335610413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36823748920034,
+          5.517143513653017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.368008594128,
+          5.517531045375462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.367764913217,
+          5.517909678304611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36753694924298,
+          5.51829747812138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36745029597793,
+          5.518736058897992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36739580009284,
+          5.519182435361641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36733972406546,
+          5.519628616013345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36724503274448,
+          5.520067519683991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.367124423842,
+          5.520500858334905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36700381476318,
+          5.520934196961507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36688317634221,
+          5.521367527518588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36676249009638,
+          5.521800844907807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36664180367407,
+          5.52223416227268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36654248973439,
+          5.5226727943258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36644425535665,
+          5.523111694852295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36634602083342,
+          5.523550595362654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36623651850675,
+          5.5239867535948335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.366154,
+          5.524295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36640211659365,
+          5.5246674173854915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36657493517565,
+          5.52507014774013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36647498312541,
+          5.525508030004183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36636381777696,
+          5.525943129809147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36632595996772,
+          5.526390720590518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36634990249111,
+          5.526839643281701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36633576834011,
+          5.527288279073426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36630075327861,
+          5.527736584051736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.366408,
+          5.528146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36602226835039,
+          5.528346766022296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36570191008212,
+          5.5286620401865685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36540355425934,
+          5.528999685548164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36523576459433,
+          5.529414279513229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36510050704315,
+          5.529843205177426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36497679955838,
+          5.530275474893255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36487018777824,
+          5.530712182565065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36473112631559,
+          5.531140009438392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36460861995782,
+          5.531572710120292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36448001658123,
+          5.5320037223372776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36434140501807,
+          5.5324316468056045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3641995926472,
+          5.532858565069092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36406264836064,
+          5.5332870681527435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36392731163805,
+          5.533716075672349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36382492112381,
+          5.5341539720096895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36371503065068,
+          5.53459012643639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3635958329041,
+          5.535023823889191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.363465568971,
+          5.535454005350229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.363311,
+          5.535807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36329215097243,
+          5.5362462703644475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.363225,
+          5.536348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36277486229521,
+          5.536377012320352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36232680223962,
+          5.5364344590767836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36188471527034,
+          5.5365124531057575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3615349183433,
+          5.536791486394921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36128251975437,
+          5.5371625560733495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3610380268171,
+          5.537536266833488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36063617015292,
+          5.537738929370529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360636,
+          5.537739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36032947713261,
+          5.538057426841446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36019147633888,
+          5.538482766090623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360148,
+          5.538682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36003934510836,
+          5.539118461203455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35993419444137,
+          5.539555770508665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35981454326983,
+          5.53998933120113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35966195123497,
+          5.540412242800923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35948988914276,
+          5.540827364733125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35928829628374,
+          5.541229480527082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359105688036,
+          5.541640770514013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35893594064623,
+          5.542057308506899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35882985493907,
+          5.542490886658936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35876321927915,
+          5.542920997495189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.358684,
+          5.543027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35841627935139,
+          5.543389188257338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35814458083456,
+          5.543748441774153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357867309611,
+          5.544103436941978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357473042956,
+          5.544292662116908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35726377912978,
+          5.544656051482702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357156,
+          5.545037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35689494612069,
+          5.545403989783998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35663389191666,
+          5.545770979453598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35637283738795,
+          5.546137969008787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3561117825345,
+          5.546504958449558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35584594381066,
+          5.546868483602868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35557544742667,
+          5.547228635864965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35530495071241,
+          5.547588788004193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35503445366787,
+          5.547948940020546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35476395629301,
+          5.548309091914014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35449345858781,
+          5.548669243684593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35422296055226,
+          5.549029395332269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35393603655703,
+          5.549376714572571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3536488053739,
+          5.549723793952424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35336157385264,
+          5.550070873193676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35307434199322,
+          5.550417952296315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35278710979566,
+          5.550765031260336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35250819138618,
+          5.551118644233491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35226925774901,
+          5.5514973224767665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35210204442852,
+          5.551914086755418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35196650629243,
+          5.5523430339043784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35183096795906,
+          5.552771981022462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35169542942839,
+          5.553200928109666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35155989070041,
+          5.553629875165989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35142435177511,
+          5.554058822191426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35128881265246,
+          5.554487769185977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35110361090784,
+          5.554897784820386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35091658059986,
+          5.55530710344629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35072955003199,
+          5.555716422013368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35054251920415,
+          5.556125740521619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35035548811639,
+          5.5565350589710345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35016846171702,
+          5.556944379597162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34998202982686,
+          5.557353968865806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34979559767737,
+          5.5577635580759805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3496091652685,
+          5.558173147227679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34942273260025,
+          5.558582736320899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34923629967258,
+          5.558992325355634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34904986648549,
+          5.559401914331882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34886343303893,
+          5.559811503249637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34865833619428,
+          5.56021171065802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.348575,
+          5.56036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34824353301038,
+          5.560622172780296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3479707724855,
+          5.5609806257317915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34769519866575,
+          5.561336904519618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34746446303133,
+          5.561721372473241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34714645170052,
+          5.562030710931117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3467330245003,
+          5.562211139866964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34631166224982,
+          5.562373362498112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34589029976696,
+          5.562535584830314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34546893705172,
+          5.562697806863561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3450476468852,
+          5.562860214817839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3446269041737,
+          5.563024023806571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34420616122786,
+          5.563187832497203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34378541804769,
+          5.5633516408897234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34336693454924,
+          5.563520775354159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34299163190768,
+          5.563768513817503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34265946921046,
+          5.564073307843811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34232730616897,
+          5.56437810168429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34199514278318,
+          5.5646828953389305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34167025582612,
+          5.564995321858695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3413470101769,
+          5.565309470231627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34102376418228,
+          5.565623618428533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34069180001885,
+          5.56592796700237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34033886234977,
+          5.566208171891465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33995703414563,
+          5.566448096875508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33956351757926,
+          5.566668995234048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3391841179405,
+          5.566912454123195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33882872439847,
+          5.567189917641536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3384749253427,
+          5.567468872750696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33814771421999,
+          5.567778929166429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33785255038143,
+          5.5681170425556505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3376497611939,
+          5.568517776233639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3374903680811,
+          5.568938522424381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33732326190122,
+          5.569355595045716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3370457536756,
+          5.569703775079346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.336943,
+          5.569757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.336552003018,
+          5.569982109999977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33616709712953,
+          5.57021755628665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33577839672941,
+          5.5704467501913095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3353738597925,
+          5.57064603503103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33494602259817,
+          5.57078990753953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3345538436887,
+          5.571008072884105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33423316044225,
+          5.571324130875116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33393454504265,
+          5.571661428229395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33364922854567,
+          5.572010077336927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33335865040446,
+          5.572354362336211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33306551838723,
+          5.572696529171463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.332763421258,
+          5.5730301458856575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta4A-SanFrancisco-RamalFlorida-Uniboyaca-Arboleda",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33241091366901,
+          5.573309584406601
+        ]
+      }
+    }
+  ]
+}

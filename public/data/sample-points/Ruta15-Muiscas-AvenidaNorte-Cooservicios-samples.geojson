@@ -1,0 +1,3185 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.338456,
+          5.568422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.338343,
+          5.568849321981948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33846467836962,
+          5.569279680724268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.338589,
+          5.569458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33894403708541,
+          5.569736083268541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33930627167791,
+          5.570004770991533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33966971284838,
+          5.570271883833139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34002788646104,
+          5.5705458978373175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3403838830816,
+          5.570822764111457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34073988003772,
+          5.5710996301718865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34109587732944,
+          5.571376496018594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34145187495676,
+          5.571653361651569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34182277306411,
+          5.571907233851583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.342163,
+          5.571922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34244064906775,
+          5.571572926385972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34268875461042,
+          5.571197136380439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34293744853345,
+          5.5708217378748195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34319142873608,
+          5.570449855925797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34344540861714,
+          5.570077973868007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34369938817669,
+          5.569706091701454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34395336741471,
+          5.569334209426149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34420734633126,
+          5.568962327042096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34446132492634,
+          5.568590444549304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34471530319999,
+          5.5682185619477815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3449692811522,
+          5.567846679237533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34522325878304,
+          5.56747479641857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34546733737595,
+          5.567096466933494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34570802912157,
+          5.5667159318625625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34592585824572,
+          5.566322801215339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34612207206584,
+          5.565917762181075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34631828561562,
+          5.5655127230819454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34651449889508,
+          5.565107683917955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34671071190421,
+          5.564702644689111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34690003490641,
+          5.564294403553833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34708607730767,
+          5.563884637899086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34727211944971,
+          5.563474872186044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34745816133254,
+          5.5630651064147125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34764420295618,
+          5.5626553405850965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34783024432065,
+          5.562245574697201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34801628542597,
+          5.561835808751028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34820232627217,
+          5.561426042746584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34838733123946,
+          5.561015813261256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34857180982638,
+          5.560605348287316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34876250214771,
+          5.560197729170865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34895571174268,
+          5.559791262987441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34914892107079,
+          5.559384796741194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34934076062525,
+          5.558977695868582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34952889364489,
+          5.558568877627395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34971702640323,
+          5.558160059326653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34990515890031,
+          5.557751240966361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35009329113615,
+          5.557342422546523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35028142311076,
+          5.556933604067144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35046955482419,
+          5.556524785528227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3506576862764,
+          5.556115966929777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35084297451726,
+          5.555705886334317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35102285386029,
+          5.555293404877737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3512027329514,
+          5.554880923366746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35138049276341,
+          5.554467578767495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35154273432659,
+          5.5540479139710905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35168392880604,
+          5.553620987309913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35181746937243,
+          5.553191419847014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35195100974416,
+          5.552761852354137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3520845499212,
+          5.552332284831285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35221808990359,
+          5.55190271727846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.352278,
+          5.55171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35247933822087,
+          5.5513098799264995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35275495596485,
+          5.550953593552956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35304156777107,
+          5.550606049279335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35332983335499,
+          5.550259820142273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35361809860039,
+          5.549913590865595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35390636350724,
+          5.549567361449311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35418997826639,
+          5.549217435024229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35446555293112,
+          5.548861116390429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35474112726286,
+          5.548504797629067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35501069501929,
+          5.548143966734868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35527942071391,
+          5.547782503393479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3555481460792,
+          5.547421039930814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35581687111518,
+          5.547059576346882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35608559582188,
+          5.546698112641688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35635432019929,
+          5.546336648815245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35662304424747,
+          5.545975184867559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35689176796642,
+          5.545613720798635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35716049135615,
+          5.545252256608486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357351,
+          5.544996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35773552048573,
+          5.544796821001181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35785823008173,
+          5.544398957885605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357885,
+          5.544346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3581254436899,
+          5.54396535099187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35838976695699,
+          5.543600687391177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35865408989753,
+          5.543236023673238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35895144065226,
+          5.542901644847436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35892522389513,
+          5.5424897934109945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35901682240396,
+          5.542054066428208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35919895589831,
+          5.541642816812918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35939434406852,
+          5.541237386503821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35958834842359,
+          5.5408313655475325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35974877369131,
+          5.540411011017716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35990594510612,
+          5.539989623190205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36001976087206,
+          5.539554466926931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36013357647033,
+          5.539119310641933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360215,
+          5.538808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36032729581093,
+          5.5383724527579625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36045263316845,
+          5.537940513301377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36057,
+          5.537712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36070175228602,
+          5.5372839045629245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3608091853316,
+          5.536847143899019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36092898979186,
+          5.536413651927067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36105644831801,
+          5.535982281805144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36118973984891,
+          5.535552638951677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36132230361294,
+          5.53512277925049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36144815268155,
+          5.534690918587519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36157400156631,
+          5.534259057898013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.361595,
+          5.534187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36201484500987,
+          5.53426508133482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36244446934506,
+          5.534404128018262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36287605322661,
+          5.534536880023404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3633094011085,
+          5.5346639654965974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36374191640539,
+          5.53479375853084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36417248330218,
+          5.534929887387551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36460305010704,
+          5.535066016816017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36503113785994,
+          5.535209683653946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36545922582087,
+          5.535353350184797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.365555,
+          5.535357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36573209088996,
+          5.5349435293331535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36590507701384,
+          5.53452844529446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36609051834134,
+          5.53411857788539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36628567406251,
+          5.533713084926628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3664721337707,
+          5.533303629476632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3666210793759,
+          5.532879200123706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36672198326944,
+          5.532442525358988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.366741,
+          5.532289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36630183393451,
+          5.532184103204628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36586552668163,
+          5.532067486537656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36542850297823,
+          5.531953600768521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36499181868231,
+          5.531838414800776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36455572042065,
+          5.5317210716596925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36412753872618,
+          5.531577975914943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36369911270978,
+          5.531435687884976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36326475471103,
+          5.531314743754408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36283386399285,
+          5.531180156021922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36240216482355,
+          5.531048008420486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36197417830377,
+          5.530904059552169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36154579875192,
+          5.530761266265904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.361524,
+          5.530754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36163756217404,
+          5.530320802913171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3617632454069,
+          5.529888911148733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.361819,
+          5.529692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36138524965213,
+          5.529567302788279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3609517587247,
+          5.52944102463782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36051515245506,
+          5.529325557460068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36007696704051,
+          5.529216147967151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359776,
+          5.529141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3598921751721,
+          5.5287073284775055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36002245594065,
+          5.52827677216673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36014938960179,
+          5.527845231967992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36029490525436,
+          5.527419634889935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360426,
+          5.527083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36068606552294,
+          5.526715321348847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36094235433912,
+          5.526345082190473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36119088277987,
+          5.525969581594394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36144056275198,
+          5.525594839967221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3616908211982,
+          5.52522047966101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3619422089255,
+          5.524846877968522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36201952582833,
+          5.524468984125103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.362012,
+          5.524456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36175069934616,
+          5.524089224295939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36141159403769,
+          5.523832953545158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3610498021044,
+          5.523669861920705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3607225839032,
+          5.523359838477586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36039720941112,
+          5.5230479425332515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36011534131183,
+          5.522700232581853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35989,
+          5.522354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3601543386915,
+          5.521989354412184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360338,
+          5.521736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35997423393454,
+          5.5214694516881275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359694,
+          5.52126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35979352955833,
+          5.520821454609225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35982782571934,
+          5.520374485293034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3598272077713,
+          5.519951468759007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36000957920918,
+          5.519540108801679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36019554629034,
+          5.51913031561589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36037814566163,
+          5.518719081097105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3603575349862,
+          5.51828421882023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36025131858057,
+          5.517847247100369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36016137940692,
+          5.5174065893310855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36011387498793,
+          5.5169630000703815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36020100589552,
+          5.516524314516946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36034420809062,
+          5.516097876400039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36049020863605,
+          5.515672347237596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36063828257495,
+          5.515247688162818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360746,
+          5.515036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36032352819302,
+          5.51488106283331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35989059129264,
+          5.5147526663888895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35945762476035,
+          5.514624350087162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35902490311845,
+          5.514495216483358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3585927274898,
+          5.5143642880191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.358296,
+          5.514274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35816220449932,
+          5.514703485386492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35802697265449,
+          5.515132507509485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35795,
+          5.51535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35752097817519,
+          5.5152094977661905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35709341957852,
+          5.515064363483935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35666276796506,
+          5.514928545736729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35623211654874,
+          5.514792727679878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35580117938696,
+          5.514657815103006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35536988206844,
+          5.514524043714265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35494030472057,
+          5.514384943764315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35453504540615,
+          5.514299130902172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35430378185279,
+          5.514685051001568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3540664768773,
+          5.5150676745000204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35385676415224,
+          5.515465652371471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta15-Muiscas-AvenidaNorte-Cooservicios",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35384335438467,
+          5.515812488222653
+        ]
+      }
+    }
+  ]
+}

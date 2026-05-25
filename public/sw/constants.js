@@ -14,6 +14,8 @@ export const TILE_CACHE_NAME = `tunja-tiles-${SW_VERSION}`;
 export const TILE_CACHE_PREFIX = 'tunja-tiles-';
 export const API_CACHE_NAME = `tunja-api-${SW_VERSION}`;
 export const API_CACHE_PREFIX = 'tunja-api-';
+export const FAVORITE_ROUTE_CACHE_NAME = `tunja-favorite-routes-${SW_VERSION}`;
+export const FAVORITE_ROUTE_CACHE_PREFIX = 'tunja-favorite-routes-';
 
 // Offline fallback
 export const OFFLINE_FALLBACK_URL = '/offline.html';
@@ -54,3 +56,7 @@ export const API_CACHE_TIMEOUT_MS = 8000;
 export const API_CACHE_MAX_AGE_MS = 1000 * 60 * 10; // 10 minutos
 export const API_CACHE_MAX_ENTRIES = 120;
 export const API_CLEANUP_INTERVAL_MS = 1000 * 60 * 5; // 5 minutos
+
+// Favorite routes cache limits
+export const MAX_FAVORITE_ENTRIES = 50;
+export const FAVORITE_CLEANUP_INTERVAL_MS = 1000 * 60 * 10; // 10 minutos

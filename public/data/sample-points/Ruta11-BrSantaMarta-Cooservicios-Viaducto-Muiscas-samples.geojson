@@ -1,0 +1,3170 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.353899,
+          5.515815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35413590176914,
+          5.515520044333917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35404389312829,
+          5.5151655709975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35428231262568,
+          5.514783634567943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35452067751437,
+          5.514401664444137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35490287464843,
+          5.514405792303145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35533380382519,
+          5.514540733778088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35576447881897,
+          5.514676469757279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35619441844882,
+          5.514814503713232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3566243582787,
+          5.51495253736057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35705429830857,
+          5.515090570699287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35748423853848,
+          5.5152286037293745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3579141789684,
+          5.515366636450824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357952,
+          5.515368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3581231687689,
+          5.5149554871767545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3582574991182,
+          5.514526291319525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.358316,
+          5.514312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35874797030361,
+          5.514443596334863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35918036422257,
+          5.514573812907064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35961242462747,
+          5.514705120828133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36004440519818,
+          5.514836690229012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36047638596045,
+          5.514968259318338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36060154776199,
+          5.515240307433773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36045448376329,
+          5.5156654735848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36030741955386,
+          5.516090639699714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3601634662608,
+          5.516516857700257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36006679096275,
+          5.516954052210857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36011264825818,
+          5.517399593668895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36020426026784,
+          5.5178398566570594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36030401112141,
+          5.518278387416165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36032636610939,
+          5.518716320269841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360149408933,
+          5.519129972449413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35996642109069,
+          5.519541092251125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35978343299465,
+          5.519952211996886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35979073107202,
+          5.520383101458778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3597560763076,
+          5.52083069210656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35965084393206,
+          5.521267514725484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35942869003709,
+          5.521657696237407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35913758966308,
+          5.522001539111927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359016,
+          5.522218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35937961135782,
+          5.52248484063057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359652,
+          5.52265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359907,
+          5.52242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36014739140028,
+          5.522800684025913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360175,
+          5.522843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35989885057677,
+          5.523198868168858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35962317188569,
+          5.523555097902175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35938703950686,
+          5.523936674127635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35917690718568,
+          5.524334722031759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3589696043401,
+          5.52473424438332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35876230121491,
+          5.525133766663005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35856002849772,
+          5.525535824224476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.358467,
+          5.525915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35887173307873,
+          5.526114760992543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35923712831939,
+          5.526377328471648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35958960141669,
+          5.526658354551058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35993302428996,
+          5.526950500064068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360052,
+          5.5272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35977067015924,
+          5.527545287033182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36000986274219,
+          5.527823421175987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360101,
+          5.52793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360121,
+          5.528161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36055957008261,
+          5.528268868570976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36099814032507,
+          5.528376736820051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.361069,
+          5.52844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36094450843359,
+          5.528872249909432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36082001668537,
+          5.529304499792924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36070225105024,
+          5.529738588656928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36058282243455,
+          5.530172251589563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3604564696535,
+          5.53060389768591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36032330101325,
+          5.531033555220547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36020620779772,
+          5.531467848718256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36009088227665,
+          5.5319026102699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35996580498774,
+          5.53233454620135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35982881966852,
+          5.532763036252806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35969600143464,
+          5.533192811162059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35956786826301,
+          5.5336239986239795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3594423181703,
+          5.5340559454250045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35931772365473,
+          5.534488163007454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35919589607234,
+          5.534921164605984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35907463709194,
+          5.535354324274583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359035,
+          5.535496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35946162271924,
+          5.535643811684584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35988958173878,
+          5.535787859216861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35989,
+          5.535788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35975050085318,
+          5.536215686071211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359723,
+          5.5363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35928590503833,
+          5.536198634572645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35885251125823,
+          5.536071700448952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35841911766425,
+          5.535944766010472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3579857242564,
+          5.535817831257215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35755328808848,
+          5.535687728968349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35712145047223,
+          5.5355556461870155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35668961304896,
+          5.53542356309318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35626020691372,
+          5.535283903407101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35583517498257,
+          5.535131512693877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.355513,
+          5.535016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35508698820136,
+          5.53486634501009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35465497767606,
+          5.534734963167309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3542071258893,
+          5.534738697680196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35379183849263,
+          5.534895820877687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35346408100311,
+          5.535202289787216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35323696046795,
+          5.535589887357059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3530182106847,
+          5.535983303123922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35281022362327,
+          5.53638247511976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35260223628093,
+          5.536781647043097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35241226325955,
+          5.537189547908954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35222489043396,
+          5.537598708772064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35201250255915,
+          5.537995305087234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35179326765127,
+          5.5383884688896154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.351575327094,
+          5.538782345334776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35135738624612,
+          5.539176221700296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35113944510768,
+          5.53957009798617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35091834189208,
+          5.539962220657443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35070984797271,
+          5.540361027437595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35051048041684,
+          5.540764485492829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35039109207479,
+          5.541196312624375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.350277,
+          5.541439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35005868509215,
+          5.54181815753998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35004,
+          5.542266750754804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34993498636379,
+          5.542703069575653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34977164036816,
+          5.543120941832066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34955210649552,
+          5.543513941676248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34932129679295,
+          5.543900244758056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3490780581953,
+          5.544279166252971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34883481928533,
+          5.544658087648585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34859158006307,
+          5.545037008944893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34833278325345,
+          5.545405304883654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34806507579884,
+          5.545767515164319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34779736801558,
+          5.546129725324669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34753106528197,
+          5.546492949727524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34726835061629,
+          5.546858764016024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34700563562483,
+          5.54722457818863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34678000609878,
+          5.547610156202232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34661976255383,
+          5.548030580132159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3464942781411,
+          5.548461619839623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34639002439137,
+          5.548899143610627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34628694849326,
+          5.549336943520096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3461840555401,
+          5.549774786334876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34608116243416,
+          5.5502126291318685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3459782691754,
+          5.550650471911076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34591981969166,
+          5.551095618562595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3458758380635,
+          5.551543142861036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34583512917995,
+          5.551990964014674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3457971094049,
+          5.5524390290851455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34575908957204,
+          5.552887094153188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34571274642403,
+          5.553334354343427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34566339650057,
+          5.553781323775708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3456140465022,
+          5.554228293203892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34561995421637,
+          5.554673372438056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.345706,
+          5.554821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3460769141021,
+          5.555077721929598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34644782852746,
+          5.55533444362785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34681747953061,
+          5.555592959149243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34718640624651,
+          5.555852503124261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34755533328752,
+          5.556112046870373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34792476191778,
+          5.556369812114775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34826860533337,
+          5.556127570694401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.348294,
+          5.556098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34863382191537,
+          5.556283636078986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.348801,
+          5.556435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34914647788479,
+          5.556724755685754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34948588090336,
+          5.557021509682656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34984417715803,
+          5.557294432376631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.349944,
+          5.557406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34976425618297,
+          5.557818540256385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34958451211408,
+          5.558231080458417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34939848634146,
+          5.558640789048934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34920549493786,
+          5.559047357725482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3490125953299,
+          5.5594539695411145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34882024955202,
+          5.559860841313517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3486279035082,
+          5.560267713023653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34844423474264,
+          5.560678369818425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34826780130936,
+          5.561092217651735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34807934659996,
+          5.561500889461719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34789089162878,
+          5.561909561211913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34769373823254,
+          5.562314036181925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34749443386025,
+          5.5627174408479165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34730944216382,
+          5.563127677291494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34712445020938,
+          5.563537913677443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3469431295027,
+          5.5639497700092235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34675515726836,
+          5.564358617066377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34656260894518,
+          5.564765394677275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34636987053243,
+          5.565172083136339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34617703374258,
+          5.565578725486783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34598419668599,
+          5.565985367774577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34577401894383,
+          5.5663834015808025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34555502624336,
+          5.566776619305307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34532553066556,
+          5.567163734868455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34506937607004,
+          5.567534135564807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34481322115168,
+          5.567904536150579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34455973806863,
+          5.568276728513501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34431102792465,
+          5.568652121607329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34406231746293,
+          5.569027514596888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3438099499621,
+          5.569400434199872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34355083227024,
+          5.569768788310502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34329171425351,
+          5.570137142307931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34303259591184,
+          5.570505496192152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34277792898443,
+          5.570876903425746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34257,
+          5.571182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34217086965576,
+          5.570973132747869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34180413386248,
+          5.570711177819439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34144210870046,
+          5.570442166570611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34109482428595,
+          5.570155089963823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34081739928463,
+          5.569813604381807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34060036891468,
+          5.56942973965785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34025272354677,
+          5.56914255455744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33990507851867,
+          5.56885536925329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33954695125725,
+          5.568581283152646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33918793885744,
+          5.568308303353686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta11-BrSantaMarta-Cooservicios-Viaducto-Muiscas",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33876412223483,
+          5.5682706528169685
+        ]
+      }
+    }
+  ]
+}

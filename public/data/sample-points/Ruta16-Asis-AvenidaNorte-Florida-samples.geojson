@@ -1,0 +1,2870 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.348008,
+          5.571353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34819711384858,
+          5.5710293118090295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34786663100044,
+          5.570730709826144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34750302415947,
+          5.570464039791442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34712352521827,
+          5.570221162030201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34674681044366,
+          5.569973886133793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.346445,
+          5.569755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34671003010766,
+          5.56939083663086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34696660673823,
+          5.569020856820878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34721958151576,
+          5.568649116596765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34755280743457,
+          5.5683517036768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34773350300782,
+          5.5679418150239695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.347882,
+          5.567557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34750462446367,
+          5.567361452545638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34709137428729,
+          5.567179951060545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.346818,
+          5.567036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34697850105027,
+          5.566615722799959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34721337933262,
+          5.56623519491152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34749198801204,
+          5.565881260799932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34775140673689,
+          5.565513219873654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34801913048364,
+          5.5651513181985495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.348269,
+          5.564827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34860872601485,
+          5.56512342177931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34895512405033,
+          5.5654117565372845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34931336035417,
+          5.565685742176591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.349524,
+          5.565793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34979326290532,
+          5.565432075618045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35003387756153,
+          5.565053616416346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35019066647996,
+          5.564631904203033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3503576185707,
+          5.564215653588565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.350371,
+          5.564194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.350746,
+          5.564315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35092021557712,
+          5.56390878344351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35122463802402,
+          5.563578700712099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.351482,
+          5.563288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35115179336712,
+          5.562981434698506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35079741633095,
+          5.562703854787009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35043173346222,
+          5.562440159474853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35004580301184,
+          5.562206385484302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34966169053052,
+          5.561969679019288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34927965325735,
+          5.561729744033258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34890157097341,
+          5.561483594613772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.348867,
+          5.561461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34904160075239,
+          5.561047186217104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34922166623875,
+          5.560634954183446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34941105997251,
+          5.560226732281042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34943,
+          5.560185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34903138203049,
+          5.559978713055182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.348943,
+          5.559938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34911264502622,
+          5.559521919331011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34929688786684,
+          5.559111363554643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34948208962219,
+          5.55870122690391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34966294790202,
+          5.558289169344792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34984367370049,
+          5.557877054238984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35002439924595,
+          5.557464939078226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.350214942122,
+          5.557057646974474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35040111968308,
+          5.556648001118212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35059064783245,
+          5.556239822076215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35077873984855,
+          5.555830987410672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35096865281132,
+          5.555422997920024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35116162170826,
+          5.555016419219325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35134353914457,
+          5.554605100909222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35150473573633,
+          5.554185067754574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35164752535933,
+          5.553758702911369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35177343123131,
+          5.553326857503424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35190720206475,
+          5.552897394192593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35204431766302,
+          5.55246894394251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35218143306193,
+          5.552040493660825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3523270904052,
+          5.5516152490895125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.352358,
+          5.551545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35260067749522,
+          5.551166671433718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35287082000258,
+          5.550806848496112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35316476125475,
+          5.550465379354492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35344892372868,
+          5.550115817081246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35373262468597,
+          5.549765872983573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35401654409306,
+          5.5494161060351095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35430329819701,
+          5.549068636199981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35458748829302,
+          5.548719092389143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35485762586681,
+          5.5483587416668145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35512463731578,
+          5.547996026315083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35538867801284,
+          5.54763115867933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35565307153402,
+          5.547266544525056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35591769539286,
+          5.546902095894146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35619029455935,
+          5.5465435309759075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35646239025347,
+          5.546184600753311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35672476536773,
+          5.545818545338017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35698896911117,
+          5.545453819282111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35725945770935,
+          5.545093661832482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35763135700637,
+          5.54484854717473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35784604600559,
+          5.544494098380794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357932,
+          5.544262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35817680115314,
+          5.5438842388136855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35844461654769,
+          5.543522108216381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3587116644574,
+          5.543159423383757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35899590589415,
+          5.54282937642435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359103,
+          5.542805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35954619665857,
+          5.542890335899196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35998634288839,
+          5.542991688224777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36041578542113,
+          5.542941170687769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3606744906842,
+          5.542574752293106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36084691107422,
+          5.542164656454121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36079499176684,
+          5.541719298049053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36070187193901,
+          5.541279320274892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36063886915288,
+          5.54083441846289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36053807998739,
+          5.540396092620611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36043237815413,
+          5.539959038956988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36033473170646,
+          5.539520018425342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36022921967869,
+          5.539082793970716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36026949641203,
+          5.538643175291334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36037822701752,
+          5.538207334986052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36062224791546,
+          5.537835580024574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360745,
+          5.537757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36113027228714,
+          5.53752624289604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36136398151764,
+          5.537143642547997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3616259353642,
+          5.536783090027476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36198892095163,
+          5.536527160926453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36243803701002,
+          5.536481868316866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3628861723845,
+          5.536424962356141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.363334922737,
+          5.536373776997256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36378498790639,
+          5.536334776963129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36423482488897,
+          5.536293817568378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3646739678675,
+          5.536210269793675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.364739,
+          5.536151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36491281284353,
+          5.535739013079069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36533899567853,
+          5.535602598904861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.365417,
+          5.535594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36561875641516,
+          5.535201024398101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36578587026011,
+          5.534783263624446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36597787581233,
+          5.534378263898831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36615430614626,
+          5.533965119643006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36635173616709,
+          5.533560741267897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36652846741295,
+          5.53314722517472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36666977560634,
+          5.532720829401772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.366743,
+          5.532282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36630477244036,
+          5.532174203603456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36586682395733,
+          5.532063852908294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36542943892853,
+          5.531951386825466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3649928587221,
+          5.531835790746711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36455689957207,
+          5.531718134973345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36412733293334,
+          5.531578919147066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36369794549769,
+          5.531439155626342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36355,
+          5.531391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36366247135591,
+          5.530956547803519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3637879771451,
+          5.530524588436657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36391993925349,
+          5.530094600368604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36405208510254,
+          5.5296646393653175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3641802237012,
+          5.529233458856407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36430472710585,
+          5.528801217127944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36443108757024,
+          5.528369531973267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3645640719612,
+          5.5279397953638165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36469352807991,
+          5.5275090170578345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36481535300217,
+          5.527076083029403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3650864976991,
+          5.52672809024741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.365203,
+          5.526645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36542306924831,
+          5.5262523069541345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36563523081061,
+          5.525857050892242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36580248999321,
+          5.525439348217725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36596820846738,
+          5.52502103462489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36612044323856,
+          5.524597926055455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3662620570044,
+          5.524170953484124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36638689271243,
+          5.523739445081705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36647958323482,
+          5.52329945483983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36656492116974,
+          5.522857908343247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36666648481902,
+          5.52242016610065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36680500579804,
+          5.521992221221581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36695427930499,
+          5.521567829601886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3670652400139,
+          5.521132269738754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3671728139309,
+          5.520695547282821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36728123617951,
+          5.520259029610614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36738623182187,
+          5.51982168452822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36748230804169,
+          5.519382969681578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3675192004245,
+          5.518934976534047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36757892997014,
+          5.518489430230868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3677527788919,
+          5.518080152330579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36798688963422,
+          5.517695583485158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36822630170111,
+          5.51731435343688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36841,
+          5.517014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36859133382295,
+          5.5166026600018965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36866179591142,
+          5.516180742586056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36860260285088,
+          5.515741090292061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.368605,
+          5.515339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36815701201566,
+          5.515293863817936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36770920262104,
+          5.515234858824779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36726435900461,
+          5.515157822149654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.367125,
+          5.515126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36727010048001,
+          5.514710524147887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.367425,
+          5.514362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36698292090084,
+          5.514269452637124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.366636,
+          5.514196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36639012622409,
+          5.514551343784214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta16-Asis-AvenidaNorte-Florida",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36620223854457,
+          5.514960261865925
+        ]
+      }
+    }
+  ]
+}

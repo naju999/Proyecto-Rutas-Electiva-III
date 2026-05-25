@@ -1,0 +1,6695 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.383477,
+          5.491585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38392647110106,
+          5.491629947121742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38437717840561,
+          5.491627774055967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3848071111604,
+          5.491494770104801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38525423338662,
+          5.491529243958681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38536660916076,
+          5.491919272466423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3853287182435,
+          5.492358967177071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38520047385315,
+          5.492789883422709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3849819228498,
+          5.493182079913172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38468067807145,
+          5.493513999912102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3843235913109,
+          5.493788037916777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38393332044352,
+          5.494014287908775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38353106442268,
+          5.494218903783083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38313676959726,
+          5.494437259943797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3827407700685,
+          5.494653630869711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38239037769104,
+          5.494931735304871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38210743833723,
+          5.49528125334194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3818980567897,
+          5.495677887960855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38179993446876,
+          5.496115404782978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38176101966123,
+          5.496563222011579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38174573385642,
+          5.497012624689901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38170353720427,
+          5.497459166422838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3815886990015,
+          5.497893531103649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38138187890408,
+          5.498291392310407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38108483341979,
+          5.498629842206249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38075697473069,
+          5.49893916346427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3804266626466,
+          5.499245903621251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38009158164003,
+          5.499547476524409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37974699036621,
+          5.499838236692985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37941938584643,
+          5.500147032557848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37914796225468,
+          5.500505191988476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3789265784657,
+          5.500896927373255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3787209155606,
+          5.501297284417405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37852379585564,
+          5.501701864492678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37832398342458,
+          5.502105085004689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37811514834183,
+          5.502503797799751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3779111332324,
+          5.502904989583599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37770137300781,
+          5.503303187671056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37748379719878,
+          5.503697198465165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37723224465672,
+          5.504068985289443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37690878410638,
+          5.504381354161259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37652842962977,
+          5.504622611647759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37612116455315,
+          5.50481618962251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37572911494277,
+          5.505039169206522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37538611865519,
+          5.5053286291563115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37513853147298,
+          5.5057034800797835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37498755822381,
+          5.506126358875977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37491111721458,
+          5.506569534747541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37480761448202,
+          5.507005569843935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37456670483745,
+          5.507384693779031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37429309210545,
+          5.507742476937623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37402446114312,
+          5.508103957458905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37379107589369,
+          5.508488206924364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37359916220817,
+          5.508895214895362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37340129910915,
+          5.509299427108667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.373308,
+          5.509485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37312599672408,
+          5.50989654814277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37294172868195,
+          5.510307099763108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37275958577628,
+          5.510718586170317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37257799041384,
+          5.511130312984688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37239323476702,
+          5.511540647597938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37220847886483,
+          5.5119509821542305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37201442962713,
+          5.512357012949064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37181809385736,
+          5.512761984891316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37158583220037,
+          5.513146670662495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3712930895683,
+          5.513487614270964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37121685827775,
+          5.513837519501071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3711343658615,
+          5.5142598752452825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37092499750064,
+          5.5146583233867945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37078075335587,
+          5.515082109238902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37067633902917,
+          5.515519517160449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37057802180509,
+          5.5159583975321205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3704846521459,
+          5.5163983480009575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37039353120053,
+          5.516838765970241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37029900621677,
+          5.517278443435204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37016579308383,
+          5.5177069735094655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37002597991113,
+          5.518119814404003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36996173577751,
+          5.5185648793549165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36989519678404,
+          5.5190096225391345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36983563044586,
+          5.519455353566614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36978060771685,
+          5.519901629522151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36973123634183,
+          5.52034858874375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36972,
+          5.520546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37016594336225,
+          5.5206176900567625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.370518,
+          5.520671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3704432892199,
+          5.521114382132863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37038980565329,
+          5.521560879595965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37033861981615,
+          5.52200764233633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.370289,
+          5.522435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37035698331444,
+          5.522879368191952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37035150689653,
+          5.5233232959408625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37020161083662,
+          5.523747336419671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37005785322401,
+          5.5241724423091405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37000180297524,
+          5.524616246026684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36985383217613,
+          5.525041097601994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36970598943203,
+          5.525465995867348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36955926782568,
+          5.525891274381676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36941681373474,
+          5.526317992224866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3692763333535,
+          5.52674535914953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36915303123168,
+          5.527176807678671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36907244054912,
+          5.527619255017397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36899158751443,
+          5.528061654958818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36890804406684,
+          5.528503548611549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36882898988554,
+          5.528946270497136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36875240680601,
+          5.529389391077572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36867166799057,
+          5.529831452664552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3685941500922,
+          5.530274440453802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36851500851415,
+          5.530717146503402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36847548877931,
+          5.531163922816406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.368426,
+          5.531412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36798207952687,
+          5.53133382397347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36753920328415,
+          5.531245179868538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36710044959096,
+          5.531138856147602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36665811489995,
+          5.5310477876749395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3662151713479,
+          5.530960049758396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36577526581138,
+          5.530857836927036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36533442853835,
+          5.530759542886407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36489201908749,
+          5.5306733818618214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.364884,
+          5.530673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3647298840996,
+          5.531094974607111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36461108003688,
+          5.531528690129097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36448784590418,
+          5.531960984717696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36436659270474,
+          5.532394145868427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36420916201698,
+          5.532815068449651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36407250541673,
+          5.533243662424321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36394090675019,
+          5.533673780319194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36382957880781,
+          5.534109501926854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36370812123431,
+          5.534542606470712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36359567782836,
+          5.5349781072702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3634634236149,
+          5.535407819244845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.363311,
+          5.535802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36332703327143,
+          5.536237850230265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.363311,
+          5.536372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36376096856259,
+          5.536331910711995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3642109452679,
+          5.536291912496537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36465559442887,
+          5.536223136400154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36508520032983,
+          5.536325294350905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36550048382233,
+          5.536501596347918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36591585062469,
+          5.536678349511392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36633326669246,
+          5.536850338211702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36675194503889,
+          5.5370192119796835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36717054266957,
+          5.537187966153985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36752357845103,
+          5.537460674492898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.367677,
+          5.537628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36786626363148,
+          5.538035117272824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3679458576134,
+          5.538476402450607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36799004157554,
+          5.538923905493195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3680359221203,
+          5.539371240790013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36808125999876,
+          5.539818630782608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36812640402353,
+          5.54026604031611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36815921217253,
+          5.540714022902908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36815613237933,
+          5.541163672635989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36815169689214,
+          5.541613311054358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3681299594576,
+          5.542060910490421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36802849824517,
+          5.5424990838863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36792911584047,
+          5.542937703584067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36784008920189,
+          5.543378546514645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36775646457602,
+          5.54382035830782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36768529140879,
+          5.544264403283238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.367625480629,
+          5.544710046996462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36757020106613,
+          5.545156328275814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36750706616318,
+          5.545601503013635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36743575027309,
+          5.546045525337365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36736443427566,
+          5.5464895476525555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3673166776049,
+          5.5469364202521865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36732240158543,
+          5.547382393637334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36752962249514,
+          5.547779418642687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36786377455901,
+          5.548079321992647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36827738946731,
+          5.5482518002293615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36872691595516,
+          5.548259773110855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3691446693777,
+          5.548094552780899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36954562323702,
+          5.547887369725318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36994871735682,
+          5.547684324834694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37035065969064,
+          5.547479038165554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37075683747017,
+          5.547282621473384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37119538327977,
+          5.547190523956464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3716310762646,
+          5.547296152256262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37199529620148,
+          5.547554030490347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37228139508663,
+          5.547902020686095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3725698866084,
+          5.548248056499229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37286885367305,
+          5.54858474951692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37322129652857,
+          5.548863875740284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3736186786716,
+          5.549074285916117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3740505530571,
+          5.549202625060472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37449710771132,
+          5.549268753094474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37494799359767,
+          5.549296780048675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37539833517218,
+          5.549332173340202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37584822513116,
+          5.549371480640345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37629633860539,
+          5.549337596572057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37669604504316,
+          5.549132197676914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37695480267469,
+          5.548768493320574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37709494037968,
+          5.548341401698412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37724523921825,
+          5.547917994380448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37751828418395,
+          5.547564499293211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37790464876271,
+          5.547337253811874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37833895324142,
+          5.547213414029007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37877150765873,
+          5.547083647834078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37920253697634,
+          5.546949167481752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37962989978179,
+          5.546803353423976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3800540685709,
+          5.546648645597675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38047257802636,
+          5.54647935525338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38088576603064,
+          5.546297627689058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38129993005357,
+          5.5461180316865315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38171511693412,
+          5.545940769183231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38213141401611,
+          5.545766099134057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3825469882972,
+          5.54558974199202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 63
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3829618436689,
+          5.545411706850319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38337737825051,
+          5.545235251500518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38379349599636,
+          5.545060160063533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38420979214028,
+          5.544885489894102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38462295275426,
+          5.544703894814547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38501429839904,
+          5.544480383922721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 69
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38535260726853,
+          5.544182998529045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38564393632903,
+          5.543840027763448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 71
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38591431646664,
+          5.543479790306148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 72
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38618811921019,
+          5.543122215865526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38657338235105,
+          5.54290132900549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38701370000815,
+          5.542940527875892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38734512303708,
+          5.543237068054154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38753964885404,
+          5.543642405920067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 77
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38775619358687,
+          5.544033822639877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3881142070853,
+          5.544294530476353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 79
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38855842659702,
+          5.544339726377296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38900856481762,
+          5.544301499708587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 81
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38945752661887,
+          5.544251506594398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 82
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38990640603738,
+          5.544200689906927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 83
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39035507718282,
+          5.544148085363831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 84
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3908045876829,
+          5.544104680285317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 85
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39125597238935,
+          5.544108150394058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 86
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39170453186064,
+          5.54415840251101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 87
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39214298167849,
+          5.5442658871912185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 88
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.392568357854,
+          5.54441531726602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 89
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39298214718806,
+          5.544594992878361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 90
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3933825434152,
+          5.544803109335746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 91
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39377587107668,
+          5.545024315261663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 92
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39417164289637,
+          5.545241133543347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 93
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39457019339363,
+          5.545452833320352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39497417146124,
+          5.545653677946854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 95
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39539731963465,
+          5.545808168487654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 96
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39583854704294,
+          5.5458988831447025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 97
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39628815200638,
+          5.5459330999102185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 98
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39673979382778,
+          5.545922315024194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 99
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39719114044878,
+          5.545902740015178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39764259167245,
+          5.545887492795889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 101
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39809431975318,
+          5.545889255985707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 102
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39854497649917,
+          5.545917822110283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 103
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39898561071365,
+          5.546016982560027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 104
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39942880587752,
+          5.5461040988871515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 105
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39987035627355,
+          5.546198209871325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 106
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40030283435296,
+          5.546327230457801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 107
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40071381981271,
+          5.546513077178975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 108
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40110153310599,
+          5.546743708276326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 109
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40146163664718,
+          5.547014656965933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 110
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40180665910545,
+          5.547304943224581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 111
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40214786254178,
+          5.547599645271619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 112
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40248758667447,
+          5.547896057905779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 113
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40282894074831,
+          5.548190599577467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 114
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40317189719774,
+          5.548483301928056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 115
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40351485398755,
+          5.54877600408109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 116
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40385529070387,
+          5.5490716036220284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 117
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40419543997938,
+          5.549367533816224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 118
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40453558959626,
+          5.549663463816054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 119
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40487573955456,
+          5.54995939362151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 120
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40521458239519,
+          5.550256803610577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 121
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40555306041698,
+          5.550554626862306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 122
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40589153878071,
+          5.550852449921536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 123
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40623001748644,
+          5.551150272788254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 124
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40657413668869,
+          5.5514415174768645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40684535007091,
+          5.55179958533913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 126
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4070339013661,
+          5.55220623290163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 127
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40716193353252,
+          5.552637357292103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 128
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40728370422826,
+          5.553070375786143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 129
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40740294010382,
+          5.553504089057083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 130
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40752105695076,
+          5.553938109059686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 131
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4076401284327,
+          5.554371865162115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 132
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40776383392976,
+          5.55480434013806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 133
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40788753960844,
+          5.55523681508827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 134
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40801070039386,
+          5.555669441833628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 135
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40813049647802,
+          5.556103005781398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 136
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40825029273856,
+          5.556536569705031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 137
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40837065234524,
+          5.55696997522945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 138
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40849649150331,
+          5.557401839627099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 139
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40855135327654,
+          5.557845274624633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 140
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40854981686124,
+          5.5582949322062705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 141
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40857134808954,
+          5.558743053614858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 142
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40871477897119,
+          5.559166646187379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 143
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40897400153602,
+          5.559534230825626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 144
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40925846761542,
+          5.559883514592706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 145
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40955743335972,
+          5.560219744872411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 146
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40995653525613,
+          5.560406548509894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 147
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4104009616989,
+          5.560365573152079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 148
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41082146377316,
+          5.560201558643306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 149
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41125503008662,
+          5.560090907411746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41167663888675,
+          5.560199858190934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 151
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41199917842359,
+          5.560510547497068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 152
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.412268917107,
+          5.560871266918726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 153
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41254193214337,
+          5.5612295277715456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 154
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41281616497437,
+          5.561586874870604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 155
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41309511783061,
+          5.561940529659009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.413256,
+          5.56204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41296382653765,
+          5.5616971290278014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41270736141809,
+          5.561326993285297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41242820524906,
+          5.560973442794949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41215004798178,
+          5.560619114683409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4118629722992,
+          5.5602723731900285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41148891492045,
+          5.560030847995318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41104032310191,
+          5.560048512307702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41061661854913,
+          5.560202800075978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41018760691836,
+          5.560334980646287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40974849946656,
+          5.560276355813899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40942280298867,
+          5.559970428592127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40913576935183,
+          5.5596231962156235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40885745774983,
+          5.559269347709127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40866538606029,
+          5.558866457887542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40861364146487,
+          5.558420826014389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40861127850945,
+          5.557971257743119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40859009763159,
+          5.557524037677922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40847183891769,
+          5.557090837762473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40835266197303,
+          5.556657104763076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40823334588903,
+          5.556223409959148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40811242432096,
+          5.55579015562462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40798936916292,
+          5.555357508029802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40786207667928,
+          5.55492606539881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40773887599677,
+          5.5544934640015855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40761889731432,
+          5.5540599501646435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40749891880846,
+          5.5536264363034995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40737882494736,
+          5.553192954123278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40725863373905,
+          5.55275949868208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40713561611314,
+          5.55232687026026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40697445921735,
+          5.551907222131492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40673478902636,
+          5.551527584038597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40641007580996,
+          5.5512156651824505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.406073529229,
+          5.550915714257335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40573410455424,
+          5.550618959991734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40539585778059,
+          5.5503208766899785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40505611991033,
+          5.550024490087649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40471433592353,
+          5.549730431252961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40437255227764,
+          5.54943637222202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4040307202902,
+          5.549142369062251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40368903262076,
+          5.548848200327454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40334792947209,
+          5.548553360158545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40300828658674,
+          5.54825685730596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40266907634702,
+          5.5479598619730375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40232722917087,
+          5.547665885980978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40198454052356,
+          5.547372873618971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4016413257209,
+          5.547080477216802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40129272870051,
+          5.546794522687187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40091649139342,
+          5.546547167357176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40051685537084,
+          5.546338200217503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4000921435244,
+          5.546186764828852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39965508715267,
+          5.546073072432607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39921347566309,
+          5.545978229789617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39877115480479,
+          5.54588682321364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39832294090603,
+          5.5458362222724285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39787199987006,
+          5.545809057584464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3974205474153,
+          5.5458259212682455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3969690554056,
+          5.545841726087127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39651746790646,
+          5.545854674880283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39606601799512,
+          5.545853134483052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3956186227298,
+          5.545793917112048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39518435221106,
+          5.545669987472032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39477320643482,
+          5.545487156821195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 63
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39437554639639,
+          5.5452737617703685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39397966603367,
+          5.54505712769696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39358457857199,
+          5.54483905069069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39318881571424,
+          5.544622193892364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39278264835389,
+          5.544425988371348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39236299930855,
+          5.544260168426318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 69
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3919298153731,
+          5.544132925128826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39148416896722,
+          5.5440615594627225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 71
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39103342772401,
+          5.544039409543827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 72
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39058250847148,
+          5.544058830308955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39013324525402,
+          5.544106011241244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38968430927484,
+          5.5441563298707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38923533819599,
+          5.544206317763173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3887857365888,
+          5.544250357758634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 77
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38833543172466,
+          5.544283731623469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38792413162389,
+          5.544119332022024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 79
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38766544633721,
+          5.543760893808083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38747220741716,
+          5.54335449913234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 81
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38721684094277,
+          5.542993406337866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 82
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38680848117265,
+          5.542823458880296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 83
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38637208257951,
+          5.542909030205319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 84
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38604002134022,
+          5.543206393109131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 85
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38576776945985,
+          5.543565229096032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 86
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38549579448421,
+          5.543924256902471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 87
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38518689420437,
+          5.544251356947131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 88
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38482994914115,
+          5.544525691438311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 89
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38442232045078,
+          5.544718128295361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 90
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38400669124216,
+          5.5448943609042685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 91
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38359158940753,
+          5.545071825178957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 92
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38317648732325,
+          5.545249289164407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 93
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38276138498935,
+          5.545426752860609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38234628240578,
+          5.545604216267553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 95
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38193107295272,
+          5.5457814319531975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 96
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38151577812727,
+          5.545958449804519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 97
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38110048305262,
+          5.546135467366286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 98
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38068518772882,
+          5.546312484638489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 99
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38026989215581,
+          5.546489501621122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37985141976705,
+          5.546658596713694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 101
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37942647754679,
+          5.546811021430501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 102
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37899571375323,
+          5.546946559360719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 103
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37856422109363,
+          5.547079648185066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 104
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37812912263806,
+          5.54720067927205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 105
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37770636411646,
+          5.547355790412347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 106
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37735088897016,
+          5.547631448075215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 107
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37713951802608,
+          5.548026343412551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 108
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3770039988586,
+          5.548455296218956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 109
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37684704173347,
+          5.548875748129652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 110
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37652441686339,
+          5.549180936789994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 111
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37609819092877,
+          5.549320555955864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 112
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37564793338991,
+          5.549302627886073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 113
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37519789993506,
+          5.549263162222192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 114
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37474705779307,
+          5.549235140552169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 115
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37429825381327,
+          5.549189162874467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 116
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37385301578927,
+          5.549114510044837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 117
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37343707564109,
+          5.5489434313498744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 118
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37305937811011,
+          5.548698007135986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 119
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37274207004427,
+          5.5483802254509875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 120
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37245518551322,
+          5.548032862698875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 121
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3721699828501,
+          5.547684148008545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 122
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37185921586665,
+          5.5473623315273795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 123
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37145092638575,
+          5.547176407542697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 124
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3710040647819,
+          5.547154426572933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37058367102901,
+          5.547311248960884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 126
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37017724775116,
+          5.547507610868157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 127
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36977198466593,
+          5.54770624996764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 128
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36937268791114,
+          5.547916598577456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 129
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36897165965001,
+          5.548123551789033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 130
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36853458048458,
+          5.548218964805546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 131
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36809375893596,
+          5.54814158631323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 132
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36771545443526,
+          5.547900794233122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 133
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36744912422796,
+          5.547544104182462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.367399,
+          5.54744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3672754631698,
+          5.547807857671514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36708455122994,
+          5.547691016188419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36692362305243,
+          5.547270911433206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36673331563912,
+          5.546863915214612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.366519,
+          5.546583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36614906372634,
+          5.546841108467972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.366049,
+          5.546965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36616629891526,
+          5.547398902389399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36626916979017,
+          5.547836679269526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36638739734153,
+          5.5482456091114765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36629370367139,
+          5.548685493006705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta8AF-Runta-RamalFlorencia-LaFuente",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36621161569315,
+          5.54912762643176
+        ]
+      }
+    }
+  ]
+}

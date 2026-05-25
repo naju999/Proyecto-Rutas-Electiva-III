@@ -1,0 +1,7145 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.338388,
+          5.568963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33854269533562,
+          5.569378064667778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33888067004898,
+          5.5696692469081395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33924115156769,
+          5.569940303169816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33960081913632,
+          5.570212415021003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33995708589981,
+          5.570488936613617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34031335299868,
+          5.570765457992206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34066962043295,
+          5.571041979156764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34102607907649,
+          5.571318255981544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34138292401781,
+          5.571594038949411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34173976929425,
+          5.571869821702518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.342166,
+          5.571921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34244122489217,
+          5.571567864043616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34269511728192,
+          5.571195922484081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34294865481638,
+          5.570823741631455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34320175703806,
+          5.570451267205728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34345487026992,
+          5.570078800321168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34370897499325,
+          5.56970700286108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34396307939498,
+          5.56933520529213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34421718347515,
+          5.568963407614326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34447128723376,
+          5.568591609827678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34472539067086,
+          5.568219811932189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34497906079653,
+          5.567847725275511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34522779494019,
+          5.567472348157087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34547652876617,
+          5.567096970934394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34571653242864,
+          5.566716075833221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34593499531546,
+          5.566322773337321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34612610591847,
+          5.56591538969479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34631467450501,
+          5.56550676927694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34650324282947,
+          5.565098148799189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34668954808373,
+          5.564688502639498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34687546250123,
+          5.564278679391504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3470621413251,
+          5.563869205742845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3472534449123,
+          5.563461846913368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34744474823455,
+          5.563054488022258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34763344586207,
+          5.5626459302229465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34782131244843,
+          5.562236990094112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34800917877364,
+          5.56182804990585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34819860292244,
+          5.5614198257661265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34838954843927,
+          5.561012300919356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34858168251945,
+          5.560605331330917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3487746276253,
+          5.560198740646943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34896738237997,
+          5.559792062114099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34915474673235,
+          5.559382894208754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34934211082427,
+          5.558973726244331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34952947465571,
+          5.558564558220835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34971669079818,
+          5.558155323483705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34990302487883,
+          5.557745690012486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35008935870022,
+          5.557336056482854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35027569226239,
+          5.556926422894814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3504620255653,
+          5.55651678924837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35064835860904,
+          5.5561071555435255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35084286874742,
+          5.555701327637496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35103924605771,
+          5.555296368800877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3512316993569,
+          5.554889727735475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3513924414693,
+          5.554469491683678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35153862658333,
+          5.554044128546478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35167922869543,
+          5.553616799057689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3518198306036,
+          5.553189469535667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35196043230788,
+          5.552762139980413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35209322195168,
+          5.552332369192026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35222326555242,
+          5.551901740297941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35238714803258,
+          5.551484172503651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35264124227207,
+          5.55111470394571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35291975478313,
+          5.550760654709753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35320378441,
+          5.550411040885613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35349294786751,
+          5.55006555434083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35378211098615,
+          5.5497200676555645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35407127376594,
+          5.549374580829827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35435231005916,
+          5.5490225501554615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35463140613247,
+          5.548668957226624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35491047560356,
+          5.548315344470019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35517496334131,
+          5.5479507976263145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35543945075213,
+          5.547586250665125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 63
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35570393783608,
+          5.547221703586458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35596842459314,
+          5.546857156390324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35623291102335,
+          5.546492609076729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35649739712674,
+          5.546128061645681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35676188290333,
+          5.545763514097189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35702636835312,
+          5.54539896643126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357281,
+          5.545048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35767979511905,
+          5.544857010822886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35782281934097,
+          5.544474089563088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357934,
+          5.544231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35819745216891,
+          5.5438657123639965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35846090401176,
+          5.543500424611514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35872435552858,
+          5.543135136742556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35900925720684,
+          5.542812331070246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359117,
+          5.542807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35956022352828,
+          5.542892429841381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35999911900338,
+          5.542998776018052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3604219516902,
+          5.542922414720041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36068366519135,
+          5.542557951574227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36084292917795,
+          5.542142231087881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36077975292089,
+          5.541698512171919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36069086749953,
+          5.5412576531221935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36062799927801,
+          5.5408125500861205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36052380513486,
+          5.540375291082685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36041788592135,
+          5.539938164137394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36031822830462,
+          5.539499583648606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36021759779318,
+          5.539061220631418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3602698740577,
+          5.538624505420822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36038527078198,
+          5.538189982134098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36064083776708,
+          5.537831918885879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.360697,
+          5.53778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36112309445508,
+          5.537929427615518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36154918912567,
+          5.538078854926666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36197624545312,
+          5.53822553000703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36240355515106,
+          5.538371480166452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.362692,
+          5.53847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3628170220434,
+          5.538038349216106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36292929887918,
+          5.537602808738717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36303683170794,
+          5.5371661243983485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.363124,
+          5.536791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3635644592673,
+          5.536890452890642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36400398432943,
+          5.536994426424551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36443980210012,
+          5.537112782595947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.364765,
+          5.537202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36496076483256,
+          5.536796779158006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36514271675655,
+          5.5363852314123925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36530169614412,
+          5.535964352977513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36546812561144,
+          5.535546387564649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36564961375295,
+          5.535134684988896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3658138809576,
+          5.534715803625796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36600617620788,
+          5.5343093195408075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3661968127593,
+          5.533901707452914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3663900417853,
+          5.533495275763512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36655560436017,
+          5.533076958727147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36669839260317,
+          5.532650525751467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36675108189976,
+          5.532204607724798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3668060318066,
+          5.531758779773573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36689107184266,
+          5.531317158139751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36693,
+          5.531115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36648868737633,
+          5.531018848908777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36604805023492,
+          5.53091966769927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36560701713309,
+          5.530822249397418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3651651247365,
+          5.530728799983165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36472569952046,
+          5.5306257231096865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36429205480141,
+          5.530499668958535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36385984108146,
+          5.530368822996113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.363834,
+          5.530361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36396778051314,
+          5.529931658506518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36410722965577,
+          5.5295039597268705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36422454474442,
+          5.529071130576333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36435779080071,
+          5.528641510665267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36447631807464,
+          5.52820765914463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36460701578076,
+          5.527777228074203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3647350649584,
+          5.527346036792953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3649098122712,
+          5.526934509108107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36521060848331,
+          5.526609191509974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36545260933201,
+          5.526229491341807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36564882832927,
+          5.525826576152486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36581146509845,
+          5.525407068523364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36597349256851,
+          5.524987324844553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3661271018418,
+          5.5245646312396195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36626499681412,
+          5.524136430958339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.366269,
+          5.524124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3663954791746,
+          5.523692647869852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36649372901219,
+          5.52325375075044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3665744531225,
+          5.522811404605846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36668055357197,
+          5.522374567623261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36682965118038,
+          5.521950103206564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36696650555015,
+          5.521521656327094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36708270837923,
+          5.521087241135054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36718856910662,
+          5.520650118461222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36729016386019,
+          5.520211981743868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36739178287793,
+          5.519773875393069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36747517823933,
+          5.519332911625015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36751475984732,
+          5.518885069071588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36757878136936,
+          5.518440332442954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36778508129431,
+          5.5180463378657745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36802258387698,
+          5.517663837150466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36825863695633,
+          5.517280447503275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.368297,
+          5.517218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3685042438913,
+          5.51681892960892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36867315840237,
+          5.516402153447159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3688251839119,
+          5.515978786001138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.368923,
+          5.515829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36925822233744,
+          5.5155275726409005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36959374500802,
+          5.515226478401292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3699307845674,
+          5.514927065873144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37026782378666,
+          5.514627653155338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37060265896139,
+          5.514325809355739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37093639444397,
+          5.514022752682114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37126350386349,
+          5.513713035031012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37154608510123,
+          5.513363644262608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37178358896308,
+          5.51298145675696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37197177827728,
+          5.512573146772144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37216318298778,
+          5.512165877794699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37234767014826,
+          5.51175542342691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37253215705367,
+          5.511344969002329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37271664370405,
+          5.510934514520959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37289687209032,
+          5.510522193338956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37307654278669,
+          5.5101096277300545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37325621323343,
+          5.509697062067304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37345164547084,
+          5.5092918720222785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37365348470568,
+          5.5088896001563015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3738500529095,
+          5.508484756290516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37409076722041,
+          5.508105229445377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37435880720244,
+          5.507743297200819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37462857931844,
+          5.507382761479019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37487417895666,
+          5.507005856315815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37497773285352,
+          5.506568710688868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3750511095936,
+          5.50612506343189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37520497915108,
+          5.50570612941221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37546877618044,
+          5.505342682657161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37581694531187,
+          5.505060368329302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37621384908549,
+          5.50484566433608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37661299844886,
+          5.504635097989712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37698909389576,
+          5.504390247211606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37730700439505,
+          5.50407189749111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3775443250484,
+          5.503691116616466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37775593130266,
+          5.503293910719581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37796328011137,
+          5.502894415851124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37816993274515,
+          5.502494565271305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37837534072423,
+          5.502094078680964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37858270534059,
+          5.501694592157182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37879006967843,
+          5.50129510556178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37899810638716,
+          5.500895967961932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37922254187099,
+          5.500506533636054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37948763425426,
+          5.5001435190159516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37982427054588,
+          5.49984392772684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38016639578674,
+          5.499550295734701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38050722838894,
+          5.499255244073237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38083437606132,
+          5.49894516095569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38115975781088,
+          5.498633488955991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38142866685146,
+          5.498272842207104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38164604240487,
+          5.497878976033941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38176063139474,
+          5.4974463436946435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38180399999999,
+          5.497001567460279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.381804,
+          5.496569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38184632863474,
+          5.496121529172088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38195983454467,
+          5.495686744547512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38216103824075,
+          5.495287756109399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38245028017623,
+          5.4949432083348375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3828121172468,
+          5.494677531794504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38320380293149,
+          5.494453518926391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38360161303801,
+          5.494240927272662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38400659017677,
+          5.4940417049198995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38439304814844,
+          5.49380971457266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38475064599545,
+          5.493538236356748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38504213963212,
+          5.49319779869388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38525979174472,
+          5.49280517827845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38538446321813,
+          5.492373372261483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38543079461782,
+          5.491930264794613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38536124542811,
+          5.491486189623619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38523439206318,
+          5.491054636623655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38511164333323,
+          5.490621895381079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38499400940364,
+          5.490188470523094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38494632461288,
+          5.489741322919965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38498979055602,
+          5.489295170620398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38509900326198,
+          5.488859407487511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38527438768163,
+          5.4884453571541005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38551918675405,
+          5.488067781621477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38585488561526,
+          5.487768094087917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3862085605724,
+          5.487488358057476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38656768320715,
+          5.487215606154718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38692756834877,
+          5.486943831990092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38728745316244,
+          5.486672057610309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3876315163506,
+          5.486381640832624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38793048958782,
+          5.486047930064148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38812642666858,
+          5.485644542020793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38826593181197,
+          5.485216961441714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38838981181169,
+          5.484785097038233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38868172353116,
+          5.484445112828797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38908405200297,
+          5.484246161177161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3895288311571,
+          5.484190138036691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.38997186867923,
+          5.484271806496418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39037546217662,
+          5.484469133355832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39071736059694,
+          5.484763017022802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39105904373969,
+          5.485057148822265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39140341230257,
+          5.485348149851025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39174275847512,
+          5.485643723977772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39194234005893,
+          5.486042134937939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39200906336046,
+          5.4864844105298465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39196876849608,
+          5.486932278196711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39194019649739,
+          5.4873808912895585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39192291453305,
+          5.4878302222858375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39193654842197,
+          5.488279258728817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39202649940145,
+          5.4887183472765475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39215774502657,
+          5.489148429017572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39233972811681,
+          5.489557638058016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39255934793546,
+          5.489950579347442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39282058878742,
+          5.4903168417401025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39311432460926,
+          5.4906571691530175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39345640176414,
+          5.490948088172722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39382623956773,
+          5.491206077505939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39420837429164,
+          5.491445878632166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39462588342111,
+          5.491615350134973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39505179369363,
+          5.491763529012912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3954891594237,
+          5.49187603477661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39592585925767,
+          5.491990899332366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3963580716676,
+          5.492121658133431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 63
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39677824061354,
+          5.4922842078868905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39716373843234,
+          5.492516526277908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39749639337226,
+          5.492819448473172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39782338109191,
+          5.493129688317369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39815182616354,
+          5.493438406145323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39848027157556,
+          5.493747123793862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 69
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39882790772462,
+          5.49403325773722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.39920681399194,
+          5.494276240001269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 71
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3996331024458,
+          5.49441812499449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 72
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40008141232232,
+          5.494455728759091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4005291080913,
+          5.494414251620352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40096267135381,
+          5.494297068685256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40136048575384,
+          5.494091012481535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4017058759249,
+          5.4938058675849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 77
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40197078089439,
+          5.493444296957209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40218393470329,
+          5.493048027332178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 79
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40237301457289,
+          5.492639651701554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40256209418332,
+          5.4922312760114735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 81
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40274152092158,
+          5.491818609694856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 82
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4028586370076,
+          5.491386214290485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 83
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40291228985042,
+          5.490941716239909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 84
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40286325908617,
+          5.490495116844186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 85
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4027770944786,
+          5.490053712378516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 86
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40270598594499,
+          5.489610560984434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 87
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40268864998563,
+          5.48916131674966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 88
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40278374375198,
+          5.488722255470209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 89
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4029440178118,
+          5.488304757448246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 90
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4031902741935,
+          5.487928131585348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 91
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40346675254975,
+          5.487572901796027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 92
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40377823603667,
+          5.48724748627749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 93
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40404627888307,
+          5.486886019728426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4042632725276,
+          5.48649203951958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 95
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40446362799075,
+          5.486089299594444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 96
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40459032805836,
+          5.485660333721488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 97
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40464638797954,
+          5.485214928575269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 98
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40466140506757,
+          5.484766367283446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 99
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40461260254034,
+          5.484320000324006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40449464036492,
+          5.483886884100418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 101
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40436961448015,
+          5.483454872779288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 102
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40426353196449,
+          5.483018106378114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 103
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.404222,
+          5.482572162328244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 104
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40426915239799,
+          5.482126428676727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 105
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40437928494141,
+          5.4816912595564204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 106
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4045215666759,
+          5.481264609294678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 107
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40467312083722,
+          5.480841011409852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 108
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40482467478354,
+          5.4804174134869115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 109
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40497622851485,
+          5.479993815525861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 110
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40512683771475,
+          5.479569887004059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 111
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40527496575693,
+          5.479145090083062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 112
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40541852418615,
+          5.47871875655047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 113
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40555953403187,
+          5.478291566028039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 114
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4056848772836,
+          5.477859894660556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 115
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40576212781767,
+          5.477417013475887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 116
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40580556462557,
+          5.476969855978423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 117
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40582284131783,
+          5.476520727634217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 118
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40582600000002,
+          5.476071080300714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 119
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40582600000002,
+          5.475621420118852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 120
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40583638711388,
+          5.475172058416443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 121
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40585643604184,
+          5.474722873429537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 122
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40587165398688,
+          5.474273468488396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 123
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4058969149176,
+          5.4738246476178505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 124
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40593472545306,
+          5.473376579273294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40601598608794,
+          5.472934813400622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 126
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40618549849783,
+          5.472521451294088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 127
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4064423488682,
+          5.472152236800731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 128
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40676222520185,
+          5.471838276119231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 129
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4071504632065,
+          5.4716104484719486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 130
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40758549523122,
+          5.471494079019184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 131
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40802942360342,
+          5.47141094620259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 132
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40846636720087,
+          5.471300243075057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 133
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4088752771862,
+          5.4711184868872005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 134
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40925290147646,
+          5.47087179590352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 135
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.40962602047574,
+          5.470618336093785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 136
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41000062448455,
+          5.47036707026401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 137
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41037670430043,
+          5.470117984813788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 138
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41074391205312,
+          5.469856619736815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 139
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41109425663666,
+          5.469573326440057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 140
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41146830918116,
+          5.469324470101963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 141
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41183440935026,
+          5.46906121008875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 142
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.412183894242,
+          5.468776783898429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 143
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41252792376572,
+          5.468485385706992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 144
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41287563048593,
+          5.468198419732981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 145
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41322809650742,
+          5.467917190193124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 146
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41357668933587,
+          5.467631231222801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 147
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41392919708393,
+          5.467350176345355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 148
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4142735037129,
+          5.467060158270476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 149
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41459913647985,
+          5.466748517880651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41492525162066,
+          5.4664373774266375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 151
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41525116823692,
+          5.466126031185129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 152
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41557693775411,
+          5.4658145325088014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 153
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41589464663947,
+          5.465495059269951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 154
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41625953787218,
+          5.465230612389764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 155
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41662814018025,
+          5.464971489712859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 156
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4169657454839,
+          5.464672942948756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 157
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41726650905883,
+          5.464337862142145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 158
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41748425339435,
+          5.463946842153581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 159
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41767148739952,
+          5.463538870640944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 160
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4177565003502,
+          5.463098812509672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 161
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41779605864538,
+          5.4626514783234414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 162
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41781535569578,
+          5.462202342423555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 163
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41792861965206,
+          5.46176811644946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 164
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41810789413833,
+          5.461359503579522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 165
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41836997818072,
+          5.460994791222412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 166
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41870279116942,
+          5.460690778500345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 167
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41904161410119,
+          5.460393408473982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 168
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41934576210173,
+          5.460063918562172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 169
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41958722888279,
+          5.459685108538492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 170
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4197227228501,
+          5.459257266672092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 171
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41978502260893,
+          5.458812417994945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 172
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41975150958665,
+          5.458364312674067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 173
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41971644578895,
+          5.457916014540804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 174
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41968380673984,
+          5.457467529749036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 175
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41973252700421,
+          5.4570235118016805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 176
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41986695208081,
+          5.456594641856894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 177
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42007299287427,
+          5.456197224052977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 178
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42039207345661,
+          5.455879280810533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 179
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4207559547304,
+          5.455622265338105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4211724349315,
+          5.45544848866019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 181
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42161246818061,
+          5.4553493385347664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 182
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42205046270047,
+          5.455241015750986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 183
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42248311842548,
+          5.455111806287992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 184
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42289223094133,
+          5.454926097405518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 185
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4232327181042,
+          5.454633424007897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 186
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42356577517253,
+          5.4543302072425055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 187
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42393889372322,
+          5.4540812906178635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 188
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4243604072056,
+          5.453928673236294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 189
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42480329791172,
+          5.45385262757165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 190
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42525458621031,
+          5.453833317234136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 191
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42570628436762,
+          5.453833000111413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 192
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42615795975007,
+          5.453830052637907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 193
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4266073284432,
+          5.453802188877268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 194
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42701420454894,
+          5.453622938514297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 195
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42736780423074,
+          5.453345369576226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 196
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42756846754824,
+          5.4529500612343655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 197
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42768892914835,
+          5.452516748682425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 198
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4278060538825,
+          5.45208246909861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 199
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42807096737741,
+          5.45172208186231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42847242759497,
+          5.451526266624299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 201
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42891946343484,
+          5.4515148902224215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 202
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.42936345048558,
+          5.451596055566632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 203
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4298047667101,
+          5.451691761536425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 204
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43025286880462,
+          5.451713049715535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 205
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43068064630658,
+          5.451587469687875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 206
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43108180117852,
+          5.451380890538726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 207
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43145531952113,
+          5.4511301947848985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 208
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43176804647376,
+          5.450808887660095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 209
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43202557179318,
+          5.450439465058847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 210
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43214507305325,
+          5.4500089268393435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 211
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43227572117891,
+          5.449578533147238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 212
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43240343804207,
+          5.4491476123234035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 213
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43256795656283,
+          5.448728837925327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 214
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43272431448335,
+          5.448307003563662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 215
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43287596049349,
+          5.447883467465685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 216
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43308788734869,
+          5.447492387761078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 217
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43341447223857,
+          5.447182339973009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 218
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43377261113842,
+          5.446908494632767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 219
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43414179057584,
+          5.446649542121108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 220
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43451506014412,
+          5.4463963241162645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 221
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43488559794443,
+          5.44614164517397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 222
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43518407252517,
+          5.445806615896557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4354213196112,
+          5.445423993162747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43565134758633,
+          5.4450370091438325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 225
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4358881411958,
+          5.444654288285468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 226
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43614053358974,
+          5.444281404122022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 227
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43639915575947,
+          5.443912745442804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 228
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43666746672051,
+          5.443551011532291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 229
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43692864688555,
+          5.44318419259163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 230
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43718170500337,
+          5.442811749567753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 231
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43744364974667,
+          5.4424457496700915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 232
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43763606488712,
+          5.442067584694196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 233
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43726569808557,
+          5.442048857282884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 234
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43698573853786,
+          5.442400246873935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 235
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43675848651506,
+          5.44278802702956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 236
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43656746205099,
+          5.443195359673132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 237
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43637836476128,
+          5.44360370573435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 238
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43615070230081,
+          5.443991726898565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 239
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43591452178715,
+          5.444375009177921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 240
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43567511150525,
+          5.444756310116674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 241
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4354328250309,
+          5.445135809920709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 242
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4351913517536,
+          5.445515822188574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 243
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43494950245739,
+          5.445895597223282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 244
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43463355138704,
+          5.4462078558171925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta19-Arboleda-LimitePerimetroTunja(RetronoBTSVdaBaronGallero-SectorSanAntonio)",
+        "_segmentIndex": 0,
+        "_position": 245
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.43421417348699,
+          5.446142812399104
+        ]
+      }
+    }
+  ]
+}

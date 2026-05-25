@@ -1,0 +1,5105 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.326139,
+          5.599858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32637533382227,
+          5.599631831770295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32645149965829,
+          5.599188606912257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3265277496668,
+          5.598745396424282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32660425921593,
+          5.598302230224911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32668076864903,
+          5.597859064015621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32675727796612,
+          5.597415897796412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3268384137344,
+          5.596973551854706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32692038646996,
+          5.596531354317383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32700016491474,
+          5.596088762445324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32707876662997,
+          5.595645959108949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32715763022428,
+          5.59520320218546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32724938235286,
+          5.59476304516205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3273515744426,
+          5.594325058725682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32747267435245,
+          5.593891851562361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32760839600643,
+          5.593463897575169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32779324954797,
+          5.593053595179394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32799636432091,
+          5.592652024877421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32823214043849,
+          5.592268767993224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32847427084891,
+          5.591889131532044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32871640094517,
+          5.591509494971633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32897343017612,
+          5.5911397876434545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32923391604876,
+          5.590772384003677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3294944015944,
+          5.590404980249077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.32975185028758,
+          5.590035494791088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33000391046757,
+          5.589662315529665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33025597032623,
+          5.589289136160747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33050802986355,
+          5.588915956684342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33076044385135,
+          5.588543017374594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33101674301682,
+          5.588172709464994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33127304185817,
+          5.587802401444281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33152934037538,
+          5.587432093312467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33178563856848,
+          5.587061785069552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33204120368823,
+          5.5866909761538945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33229626517729,
+          5.586319823304633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33255132634314,
+          5.585948670345366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33280638718581,
+          5.585577517276102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33306155940492,
+          5.585206440181384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33331685038837,
+          5.584835444093428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33357214104853,
+          5.5844644478952965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33382743138544,
+          5.584093451587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33408272139913,
+          5.583722455168544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33433698640957,
+          5.58335076636228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33458919864869,
+          5.582977690805059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33484141056675,
+          5.582604615140341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33509362216375,
+          5.582231539368133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33534901290113,
+          5.581860614384406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33560475902907,
+          5.581489929929671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33586050483362,
+          5.581119245364437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33611241255495,
+          5.580745971919386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33636361904185,
+          5.58037222556437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3366181240662,
+          5.580000713031733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33687521446082,
+          5.579630951375244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33713230453125,
+          5.579261189607124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33738882588315,
+          5.578891038101682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33764428065659,
+          5.578520155583948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.332938,
+          5.585386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33319165469261,
+          5.585013893790046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33344530906307,
+          5.584641787471327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33369943258636,
+          5.58426999891162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33395403926684,
+          5.583898537592548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33420864562459,
+          5.583527076163907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33446325165956,
+          5.58315561462571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33471747922371,
+          5.582783896568677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33497164267919,
+          5.582412135151174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33522580581229,
+          5.5820403736245146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33547996460473,
+          5.581668609267522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33573412288969,
+          5.581296844676021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33598828085236,
+          5.580925079975391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33624243849275,
+          5.580553315165639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33649713584882,
+          5.580181916637661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33675357848391,
+          5.5798117096363065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33701002079523,
+          5.579441502523879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33726646278284,
+          5.5790712953003885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.337311,
+          5.579007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33764824939611,
+          5.579306219242936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33798640894084,
+          5.579604417414758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33832515942926,
+          5.579901952689206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33866358687989,
+          5.580199845838974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33899683607925,
+          5.58050347287792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33934563763404,
+          5.580774000001104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33947,
+          5.580697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33976360929337,
+          5.580355235352044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3400572182445,
+          5.58001347055847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34034887346314,
+          5.579670054390969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.340393,
+          5.579618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34006918400209,
+          5.5793123033586145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33973980323904,
+          5.579004658118754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33938801686976,
+          5.5788831461936255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33917321140407,
+          5.578548425538923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33888541175725,
+          5.57822177295613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3385507852019,
+          5.577919709910635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33817303135937,
+          5.578002772826295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.337862,
+          5.578179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33810325393868,
+          5.577802684027831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33835728571711,
+          5.577430834932074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33861131717353,
+          5.577058985727372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33886636689765,
+          5.576687827980367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33912154594736,
+          5.576316758147557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33937824414913,
+          5.5759467536426905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33964343522098,
+          5.5755827043523585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33990096791861,
+          5.575213856532545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34015207880105,
+          5.574840081449435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34041926340947,
+          5.574477920822892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34069010791302,
+          5.574118374758858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34094511734922,
+          5.573747190202942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34120012646298,
+          5.573376005537311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34145513525431,
+          5.5730048207619705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34171014372326,
+          5.572633635876927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34197356069942,
+          5.572268330176889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34223268858405,
+          5.571900021955151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3424880582828,
+          5.571529083482232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.342632,
+          5.57132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3423062531948,
+          5.5710450261751205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34192248477488,
+          5.570816598457398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34156264430484,
+          5.57054469904406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3412123799217,
+          5.57026127902238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34089822850493,
+          5.569944967978661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34070036109777,
+          5.569541461662864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34038519266194,
+          5.569225599501915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34002872396778,
+          5.568949336795714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33967225560878,
+          5.568673073875306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33931578758494,
+          5.568396810740703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.339064,
+          5.568224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3386329262739,
+          5.568321154652407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33828754210916,
+          5.568591887013236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3380526317138,
+          5.5689605698077145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.337915104837,
+          5.569388170367745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33755475362746,
+          5.569632650917722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33711029590742,
+          5.569702000005511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.337042,
+          5.569702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.336647939749,
+          5.569920977941509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3362611521276,
+          5.570153204810782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33587221090896,
+          5.570381993593256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33548034728292,
+          5.570603824947507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33505362960135,
+          5.570749911139138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33464555949116,
+          5.570934830399682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3343131568211,
+          5.57123782384711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33402,
+          5.57156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33370606929417,
+          5.571240656426031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33340985972076,
+          5.5709011527116425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33315240561116,
+          5.570535673130595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33292252912132,
+          5.570148753044028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33268056489715,
+          5.569769017408338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33243317663215,
+          5.5693928452079895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33227544583684,
+          5.569001775802906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33237899821117,
+          5.568583247439527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33271135579268,
+          5.568280286174416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.333052800497,
+          5.56798582497064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33339424485919,
+          5.567691363570367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33373568887926,
+          5.5673969019736065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3340750149052,
+          5.567100027459862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3344140650562,
+          5.566802838828116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33475311486437,
+          5.566505650002664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33509274816896,
+          5.566209156377129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33546500056882,
+          5.5659554455876155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33584668949247,
+          5.565714893797013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3362239626166,
+          5.565467511318913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33660123542329,
+          5.565220128601023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33697850791252,
+          5.564972745643354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33734918124722,
+          5.564715832328384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3377061169564,
+          5.564440225956376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33806191044916,
+          5.564163106068433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33841770360662,
+          5.563885985967279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33877349642881,
+          5.5636088656529195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33912958389318,
+          5.563332125719598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33948880636152,
+          5.563059440350214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.33983976542436,
+          5.562776280536033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34019072414934,
+          5.5624931205144446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34054104918734,
+          5.5622091859238445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34089083538797,
+          5.561924592733322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34124098254837,
+          5.561640439827999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34159115031339,
+          5.561356312249516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34190667936878,
+          5.561035632533673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34220807587383,
+          5.560700658755196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34250976278916,
+          5.5603659455458665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34281317443035,
+          5.560032779072792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34311658572805,
+          5.559699612444776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34342476168146,
+          5.559370848992246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34372057793513,
+          5.559030983953345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34401639384721,
+          5.5586911187671895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34430744076592,
+          5.55834723620845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3445919594067,
+          5.557998218429108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34478785835282,
+          5.557597677477676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3449244877364,
+          5.5571690730393515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34506098997444,
+          5.556740428543496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34519723452371,
+          5.556311702829995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34533347887464,
+          5.555882977085269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34546702960962,
+          5.555453418002358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34559899277824,
+          5.555023367778178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34569703282536,
+          5.554585830715871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34574473328857,
+          5.554138781292002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34578678323007,
+          5.553691073079017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34582896152521,
+          5.553243376871709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34587143212039,
+          5.552795708001118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34591390265103,
+          5.552348039127496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34595637311719,
+          5.551900370250841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3459996244319,
+          5.551452777431115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34604515333733,
+          5.551005406449121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3461144123061,
+          5.550561286611197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34619201749818,
+          5.5501183102537315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 63
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34629680753979,
+          5.549681355679004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34641343839121,
+          5.549246949509489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34652493548634,
+          5.548811198528473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34663643241672,
+          5.548375447526577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34674792918234,
+          5.547939696503797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34691987438056,
+          5.547526566230821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 69
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34718148785329,
+          5.547160524787262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34744831454614,
+          5.546797670793332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 71
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34771679543405,
+          5.546436042597655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 72
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34798949669981,
+          5.546077541609574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34825460403562,
+          5.545713586414506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34851049603787,
+          5.545343012449249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34876638771875,
+          5.544972438374068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3490222790783,
+          5.544601864188975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 77
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34925542887383,
+          5.544217072490609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34947972230788,
+          5.543826744058811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 79
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.34970401544528,
+          5.543436415542587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3499283082861,
+          5.543046086941941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 81
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3501237154221,
+          5.542640743294685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 82
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35038881921464,
+          5.5422820373668245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.350553,
+          5.542106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35095510317808,
+          5.542310976704573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35135017163203,
+          5.5425289985308135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35175092548052,
+          5.542735730766062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3521621850584,
+          5.542921843079573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35258496623938,
+          5.543080216154647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35300820841722,
+          5.543237479571135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.353430200967,
+          5.543398004776441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35385117763775,
+          5.543561181708058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3542721545412,
+          5.543724358342272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35469299436296,
+          5.543887884656363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35511366282577,
+          5.5440518480157746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35553597347429,
+          5.544211506585213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35595997386244,
+          5.5443667356741555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.356295,
+          5.544434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35637636152522,
+          5.543991930317327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35647808877745,
+          5.543553829946273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35657873444048,
+          5.543115951828796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.356657,
+          5.543025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35679125706132,
+          5.542800584443982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35657428712086,
+          5.542407476647669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35646389719047,
+          5.541975088557976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35643704748684,
+          5.541527203027628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35644468069728,
+          5.541077607035041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35645187364318,
+          5.5406280039442946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35646001991653,
+          5.540178418947614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35653311855276,
+          5.53975990516028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.356553,
+          5.539744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35676914937902,
+          5.539371071927456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35687732564456,
+          5.538934535454237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35699419684111,
+          5.5385001903842594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35711524328227,
+          5.538066971600973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35723840695653,
+          5.537634349021994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35736466837146,
+          5.5372026114392865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35749329861257,
+          5.536771563204227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.357506,
+          5.536729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35793531235694,
+          5.536869003080799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35836483788887,
+          5.537008357620146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3587932688795,
+          5.537150976496005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35922077985246,
+          5.537296339279839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.359571,
+          5.537385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35970041190899,
+          5.536954566286426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3598224852911,
+          5.53652164833696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.35993315823993,
+          5.536085743942721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36006290882476,
+          5.535655737999056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36018494580011,
+          5.535222800705275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36030808326792,
+          5.534790179425646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3604428108824,
+          5.534360984005902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36057213614929,
+          5.533930142033616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3606797964544,
+          5.533493716873679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36083212397985,
+          5.5330720294956715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36100616382302,
+          5.53265980313814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36115924770021,
+          5.532236745900968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36123518046281,
+          5.531812305357366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36133193753427,
+          5.531380290217832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36145759704232,
+          5.530948375102536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36158278435595,
+          5.530516324284824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3617096303758,
+          5.530084753811738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36182537158375,
+          5.529650901647271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36195532662643,
+          5.529220318531257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36208609004814,
+          5.5287899071678765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.362121,
+          5.528675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36255741524687,
+          5.528787990963885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36299000909288,
+          5.528917582601192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36342357590543,
+          5.5290438772178625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36385786968926,
+          5.5291677084607125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.364157,
+          5.529253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36429959386611,
+          5.528828657454989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36443098358363,
+          5.528398474924727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36456804332305,
+          5.527970008771169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36469034837783,
+          5.527537179225173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36481202223892,
+          5.527104260323078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3650718455605,
+          5.526748865384801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36534829032783,
+          5.526402926836964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36555990372571,
+          5.526005754281972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36574921966017,
+          5.525598037357068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36591133370261,
+          5.525178326776856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36606086501102,
+          5.524754040552921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36620956416118,
+          5.5243294395590485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36634984946612,
+          5.523902339186761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36644707654823,
+          5.523463393535133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36653419941567,
+          5.523022176283405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36663911960444,
+          5.522585118704452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36676547734024,
+          5.522153588278308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3669109142923,
+          5.52172786744166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36702718666014,
+          5.521293515468816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36713414158102,
+          5.520856677722504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36724182088051,
+          5.520420137780258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36735076613287,
+          5.519984199051369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36743900523331,
+          5.519543203053213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36751221900214,
+          5.519099678413604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3675607620985,
+          5.5186526727612994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.367628,
+          5.518343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36806187199139,
+          5.518217921974977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36850350682981,
+          5.518123748477681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3689432392979,
+          5.51802070664764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36938876732296,
+          5.517953022221086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36983887493196,
+          5.517915113561077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.370167,
+          5.51776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37031942651201,
+          5.51733917292391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37042258876036,
+          5.516901451600252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3705117204197,
+          5.51646064707802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37054,
+          5.516373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37099063409143,
+          5.516341463822772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37144163488551,
+          5.516315992809658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.371694,
+          5.51623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37179130493088,
+          5.5157923632518076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37186279678072,
+          5.515348556637603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37195894033151,
+          5.514910087559161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37207498804744,
+          5.514475840791193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37216334001171,
+          5.514035034397279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37222556486068,
+          5.513589697896495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.372251,
+          5.513432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37270244648266,
+          5.513444020290692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37312,
+          5.51345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37329315191886,
+          5.513035485405161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37350113979471,
+          5.512636332041145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.373539,
+          5.512562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_source": "Ruta13-LimitePerimetroTunja-Estadio-Triunfo",
+        "_segmentIndex": 0,
+        "_position": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37398856419937,
+          5.512605939019695
+        ]
+      }
+    }
+  ]
+}
