@@ -1,13 +1,19 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import TunjaLocationSearchField from '../components/TunjaLocationSearchField';
 import { useAppDispatch, useAppStore } from '../store/AppStore';
 import { favoritesActions, mapActions, uiActions } from '../store/actions';
 import {
   selectFavoriteRoutes,
   selectRoutesSheetCollapsed
 } from '../store/selectors';
-
-const FINALIZED_ROUTE_KEY = 'tuRuta.finalizedRoute';
+import {
+  formatDistanceMeters,
+  isInsideTunjaBounds,
+  recommendTunjaBusRoute,
+  resolveTunjaLocation,
+  searchTunjaLocationSuggestions
+} from '../map/tunjaRouting';
 const ROUTES_MANIFEST_CACHE_KEY = 'tuRuta.routesManifest';
 const ROUTE_MANIFEST_URL = '/data/routes-manifest.json';
 const ROUTE_DIRECTION_CONFIG = [
@@ -206,6 +212,54 @@ function parseLatLngInput(rawValue) {
   };
 }
 
+function pointToLabel(point, fallbackLabel) {
+  if (!point) {
+    return fallbackLabel;
+  }
+
+  return point.label || `${Number(point.lat).toFixed(5)}, ${Number(point.lng).toFixed(5)}`;
+}
+
+function getPrimaryDispatchPointName(direction, dispatchPointName, endDispatchPointName) {
+  if (direction === 'inbound_route') {
+    return endDispatchPointName ?? dispatchPointName ?? null;
+  }
+
+  return dispatchPointName ?? endDispatchPointName ?? null;
+}
+
+function buildDirectionRouteView(route, direction, dispatchPointName, endDispatchPointName) {
+  const routeFilePath = route?.files?.[direction];
+
+  if (!route?.files || !routeFilePath) {
+    return route;
+  }
+
+  const primaryDispatchPointName = getPrimaryDispatchPointName(direction, dispatchPointName, endDispatchPointName);
+
+  return {
+    ...route,
+    dispatchPointName: primaryDispatchPointName,
+    endDispatchPointName: endDispatchPointName ?? null,
+    files: {
+      dispatch_points: route.files.dispatch_points,
+      [direction]: routeFilePath
+    }
+  };
+}
+
+function buildSearchRecommendation(recommendation) {
+  return {
+    ...recommendation,
+    routeView: buildDirectionRouteView(
+      recommendation.route,
+      recommendation.direction,
+      recommendation.dispatchPointName,
+      recommendation.endDispatchPointName
+    )
+  };
+}
+
 function normalizeApiRoute(route, index) {
   if (!route || typeof route !== 'object') {
     return null;
@@ -285,20 +339,35 @@ function RutasPage() {
   const [allRoutes, setAllRoutes] = useState([]);
   const [isLoadingRoutes, setIsLoadingRoutes] = useState(true);
   const [selectedRouteId, setSelectedRouteId] = useState(null);
+  const [selectedRouteView, setSelectedRouteView] = useState(null);
   const [routeSearchInput, setRouteSearchInput] = useState('');
   const [routeDirectionSummaries, setRouteDirectionSummaries] = useState([]);
   const [statusMessage, setStatusMessage] = useState(
     'Cargando catalogo de rutas desde tus archivos GeoJSON...'
   );
 
-  // Estados para búsqueda por origen/destino (API-ready)
+  // Routing / rating state
+  const [isRoutingActive, setIsRoutingActive] = useState(false);
+  const [ratingModalOpen, setRatingModalOpen] = useState(false);
+  const [currentRatingValue, setCurrentRatingValue] = useState(5);
+  const [ratingsMap, setRatingsMap] = useState(() => {
+    try {
+      const raw = window.localStorage.getItem('tuRuta.ratings') || '{}';
+      return JSON.parse(raw);
+    } catch {
+      return {};
+    }
+  });
+
   const [searchOrigin, setSearchOrigin] = useState(null);
   const [searchDestination, setSearchDestination] = useState(null);
   const [searchOriginInput, setSearchOriginInput] = useState('');
   const [searchDestinationInput, setSearchDestinationInput] = useState('');
+  const [searchOriginSuggestions, setSearchOriginSuggestions] = useState([]);
+  const [searchDestinationSuggestions, setSearchDestinationSuggestions] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
-  const [destinationOptions, setDestinationOptions] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
+  const [isUsingCurrentLocation, setIsUsingCurrentLocation] = useState(false);
   const [apiError, setApiError] = useState(null);
 
   const routeCatalog = useMemo(() => {
@@ -319,10 +388,17 @@ function RutasPage() {
     return [...routeMap.values()];
   }, [routes, favoriteRoutes]);
 
-  const selectedRoute = useMemo(
-    () => routeCatalog.find((route) => route.id === selectedRouteId) ?? null,
-    [routeCatalog, selectedRouteId]
-  );
+  const selectedRoute = useMemo(() => {
+    const selectedSearchResult = searchResults.find((result) => result.route?.id === selectedRouteId) ?? null;
+
+    if (selectedSearchResult) {
+      return selectedSearchResult.routeView ?? selectedSearchResult.route ?? null;
+    }
+
+    return routeCatalog.find((route) => route.id === selectedRouteId) ?? null;
+  }, [routeCatalog, searchResults, selectedRouteId]);
+
+  const visibleRoutes = searchResults.length > 0 ? searchResults : routeCatalog;
 
   useEffect(() => {
     const routeIdFromNavigation = location.state?.selectedRouteId;
@@ -337,6 +413,7 @@ function RutasPage() {
 
     if (routeFromNavigation) {
       setSelectedRouteId(routeFromNavigation.id);
+      setSelectedRouteView(null);
       setStatusMessage(`Mostrando ${routeFromNavigation.title} desde favoritos.`);
 
       if (tripFavoriteFromNavigation?.origin && tripFavoriteFromNavigation?.destination) {
@@ -480,9 +557,56 @@ function RutasPage() {
     };
   }, [selectedRoute]);
 
-  const handleRouteSelect = (route) => {
+  const handleRouteSelect = (route, routeView = null) => {
+    if (!route?.id) {
+      return;
+    }
+
     setSelectedRouteId(route.id);
-    setStatusMessage(`${route.title} activada y visible en el mapa.`);
+    setSelectedRouteView(routeView);
+    dispatch(mapActions.setSelectedRoute(routeView ?? route));
+    setStatusMessage(
+      routeView?.directionLabel
+        ? `${route.title} (${routeView.directionLabel}) activada y visible en el mapa.`
+        : `${route.title} activada y visible en el mapa.`
+    );
+  };
+
+  // Ratings helpers
+  const saveRatingsToStorage = (next) => {
+    try {
+      window.localStorage.setItem('tuRuta.ratings', JSON.stringify(next));
+    } catch {
+      // ignore
+    }
+  };
+
+  const ensureRouteHasDefaultRating = (routeId) => {
+    if (!routeId) return;
+    setRatingsMap((prev) => {
+      if (prev[routeId]) return prev;
+      const next = {
+        ...prev,
+        [routeId]: { count: 1, total: 5, average: 5 }
+      };
+      saveRatingsToStorage(next);
+      return next;
+    });
+  };
+
+  const submitRatingForRoute = (routeId, value) => {
+    if (!routeId) return;
+    setRatingsMap((prev) => {
+      const existing = prev[routeId] ?? { count: 0, total: 0, average: 5 };
+      const nextEntry = {
+        count: existing.count + 1,
+        total: existing.total + value,
+        average: (existing.total + value) / (existing.count + 1)
+      };
+      const next = { ...prev, [routeId]: nextEntry };
+      saveRatingsToStorage(next);
+      return next;
+    });
   };
 
   const handleFavoriteToggle = (route) => {
@@ -515,92 +639,137 @@ function RutasPage() {
     }
 
     setSelectedRouteId(matchingRoute.id);
+    setSelectedRouteView(null);
     setStatusMessage(`Ruta encontrada: ${matchingRoute.title}. Ya se mostro en el mapa.`);
   };
 
-  // Búsqueda de rutas por origen/destino (API-ready para Fase 2)
-  const searchRoutes = async (origin, destination) => {
-    // Validar entrada
-    if (!origin || !destination) {
-      setApiError('Debe especificar origen y destino');
-      return [];
+  const updateSearchOriginQuery = (value) => {
+    setSearchOriginInput(value);
+    setSearchOrigin(null);
+    setSearchOriginSuggestions(searchTunjaLocationSuggestions(value));
+  };
+
+  const updateSearchDestinationQuery = (value) => {
+    setSearchDestinationInput(value);
+    setSearchDestination(null);
+    setSearchDestinationSuggestions(searchTunjaLocationSuggestions(value));
+  };
+
+  const selectSearchOriginSuggestion = (suggestion) => {
+    if (!suggestion) {
+      return;
     }
 
+    const nextOrigin = {
+      lat: suggestion.lat,
+      lng: suggestion.lng,
+      label: suggestion.displayName || suggestion.label,
+      source: suggestion.source || 'local'
+    };
+
+    setSearchOriginInput(nextOrigin.label);
+    setSearchOrigin(nextOrigin);
+    setSearchOriginSuggestions([]);
+  };
+
+  const selectSearchDestinationSuggestion = (suggestion) => {
+    if (!suggestion) {
+      return;
+    }
+
+    const nextDestination = {
+      lat: suggestion.lat,
+      lng: suggestion.lng,
+      label: suggestion.displayName || suggestion.label,
+      source: suggestion.source || 'local'
+    };
+
+    setSearchDestinationInput(nextDestination.label);
+    setSearchDestination(nextDestination);
+    setSearchDestinationSuggestions([]);
+  };
+
+  const handleUseCurrentLocation = () => {
+    if (!navigator.geolocation) {
+      setApiError('Tu navegador no permite usar la ubicacion actual.');
+      setIsUsingCurrentLocation(false);
+      return;
+    }
+
+    setIsUsingCurrentLocation(true);
+    setApiError(null);
+    setStatusMessage('Buscando tu ubicacion actual para usarla como origen...');
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const currentPoint = {
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+          label: 'Ubicacion actual',
+          source: 'current-location'
+        };
+
+        setSearchOrigin(currentPoint);
+        setSearchOriginInput(currentPoint.label);
+        setSearchOriginSuggestions([]);
+        dispatch(mapActions.setCoordinates(currentPoint.lat, currentPoint.lng));
+
+        window.dispatchEvent(
+          new CustomEvent('map:mark-trip-points', {
+            detail: {
+              origin: currentPoint,
+              destination: searchDestination
+            }
+          })
+        );
+
+        if (!isInsideTunjaBounds(currentPoint.lat, currentPoint.lng)) {
+          setStatusMessage('Capturamos tu ubicacion, pero esta fuera de Tunja y su borde cercano.');
+        } else {
+          setStatusMessage('Ubicacion actual lista como origen. Ahora puedes buscar el destino por nombre.');
+        }
+
+        setIsUsingCurrentLocation(false);
+      },
+      () => {
+        setApiError('No pudimos obtener tu ubicacion actual. Revisa permisos y vuelve a intentarlo.');
+        setStatusMessage('No pudimos usar tu ubicacion compartida como origen.');
+        setIsUsingCurrentLocation(false);
+      },
+      {
+        enableHighAccuracy: true,
+        timeout: 10000,
+        maximumAge: 0
+      }
+    );
+  };
+
+  const searchRoutes = async (origin, destination) => {
     setIsSearching(true);
     setApiError(null);
-    setDestinationOptions([]);
-    setStatusMessage('Buscando rutas disponibles...');
+    setStatusMessage('Buscando rutas disponibles por nombre...');
 
     try {
-      // Si estamos offline, intentar servir desde cache primero
-      const requestUrl = `/api/search?origin=${origin.lat},${origin.lng}&destination=${destination.lat},${destination.lng}&radius=5000`;
-      if (typeof window !== 'undefined' && !navigator.onLine && 'caches' in window) {
-        try {
-          const cached = await caches.match(requestUrl);
-          if (cached) {
-            const data = await cached.clone().json();
-            const normalizedRoutes = (Array.isArray(data?.routes) ? data.routes : [])
-              .map((route, index) => normalizeApiRoute(route, index))
-              .filter(Boolean);
+      const result = await recommendTunjaBusRoute(origin, destination);
+      const nextRecommendations = Array.isArray(result?.recommendations)
+        ? result.recommendations.map((recommendation) => buildSearchRecommendation(recommendation)).filter(Boolean)
+        : [];
 
-            const rawDestinationOptions =
-              data?.destinationOptions ?? data?.destination_options ?? data?.options ?? data?.destinations ?? [];
-            const normalizedDestinationOptions = (Array.isArray(rawDestinationOptions) ? rawDestinationOptions : [])
-              .map((option, index) => normalizeDestinationOption(option, index))
-              .filter(Boolean);
-
-            setSearchResults(normalizedRoutes);
-            setDestinationOptions(normalizedDestinationOptions);
-            setRoutes(normalizedRoutes);
-            setSelectedRouteId(normalizedRoutes[0]?.id ?? null);
-            setStatusMessage(
-              normalizedRoutes.length > 0
-                ? `Sin conexión: mostrando ${normalizedRoutes.length} rutas cacheadas.`
-                : 'Sin conexión: no hay resultados cacheados para esa busqueda.'
-            );
-
-            return normalizedRoutes;
-          }
-        } catch (_err) {
-          // ignore cache lookup errors
-        }
-      }
-
-      // Llamada real a backend para buscar rutas por origen y destino
-      const response = await fetch(`/api/search?origin=${origin.lat},${origin.lng}&destination=${destination.lat},${destination.lng}&radius=5000`);
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const data = await response.json();
-      const normalizedRoutes = (Array.isArray(data?.routes) ? data.routes : [])
-        .map((route, index) => normalizeApiRoute(route, index))
-        .filter(Boolean);
-
-      const rawDestinationOptions =
-        data?.destinationOptions ?? data?.destination_options ?? data?.options ?? data?.destinations ?? [];
-      const normalizedDestinationOptions = (Array.isArray(rawDestinationOptions) ? rawDestinationOptions : [])
-        .map((option, index) => normalizeDestinationOption(option, index))
-        .filter(Boolean);
-
-      setSearchResults(normalizedRoutes);
-      setDestinationOptions(normalizedDestinationOptions);
-      setRoutes(normalizedRoutes);
-      setSelectedRouteId(normalizedRoutes[0]?.id ?? null);
+      setSearchResults(nextRecommendations);
+      setSelectedRouteId(nextRecommendations[0]?.route?.id ?? null);
+      setSelectedRouteView(nextRecommendations[0]?.routeView ?? null);
+      dispatch(mapActions.setSelectedRoute(nextRecommendations[0]?.routeView ?? nextRecommendations[0]?.route ?? null));
       setStatusMessage(
-        normalizedRoutes.length > 0
-          ? `Busqueda completada: ${normalizedRoutes.length} rutas candidatas.`
-          : 'La API no retorno rutas para ese origen y destino.'
+        nextRecommendations.length > 0
+          ? `Encontré ${nextRecommendations.length} rutas que respetan el sentido real del trayecto.`
+          : 'No encontré rutas confiables para ese origen y destino.'
       );
 
-      return normalizedRoutes;
+      return nextRecommendations;
     } catch (error) {
       const errorMsg = error instanceof Error ? error.message : 'Error desconocido en búsqueda';
-      // Si estamos offline y no hay cache, mostrar mensaje claro
-      if (typeof window !== 'undefined' && !navigator.onLine) {
-        setApiError('Sin conexion y no se encontraron resultados cacheados para esa busqueda.');
-        setStatusMessage('Sin conexion: no se pudo completar la busqueda y no hay datos cacheados.');
-      } else {
-        setApiError(errorMsg);
-        setStatusMessage(`Error buscando rutas: ${errorMsg}`);
-      }
+      setApiError(errorMsg);
+      setStatusMessage(`Error buscando rutas: ${errorMsg}`);
 
       setSearchResults([]);
       return [];
@@ -609,12 +778,10 @@ function RutasPage() {
     }
   };
 
-  // Callback robusto para errores del mapa
   function handleMapError(errorMsg) {
-    // Si es el error de appendChild pero la ruta ya está visible, ignóralo
     if (
       errorMsg?.includes('appendChild') &&
-      document.querySelector('.leaflet-pane .leaflet-interactive') // hay capa visible
+      document.querySelector('.leaflet-pane .leaflet-interactive')
     ) {
       return;
     }
@@ -622,11 +789,11 @@ function RutasPage() {
   }
 
   const handleApiSearchSubmit = async () => {
-    const parsedOrigin = parseLatLngInput(searchOriginInput);
-    const parsedDestination = parseLatLngInput(searchDestinationInput);
+    const parsedOrigin = searchOrigin ?? (await resolveTunjaLocation(searchOriginInput));
+    const parsedDestination = searchDestination ?? (await resolveTunjaLocation(searchDestinationInput));
 
     if (!parsedOrigin || !parsedDestination) {
-      setApiError('Formato invalido. Usa: lat,lng. Ejemplo: 5.544,-73.357');
+      setApiError('No pude resolver uno de los sitios por nombre. Prueba con UPTC, Medilaser o Terminal.');
       return;
     }
 
@@ -643,47 +810,55 @@ function RutasPage() {
     );
 
     await searchRoutes(parsedOrigin, parsedDestination);
+    // ensure default 5 stars for returned recommendations
+    // we will set defaults for all returned routes
+    // but do it after searchResults is updated
+  };
+
+  useEffect(() => {
+    // whenever visible routes change, ensure defaults exist
+    visibleRoutes.forEach((entry) => {
+      const route = entry.route ?? entry;
+      if (route?.id && !ratingsMap[route.id]) {
+        ensureRouteHasDefaultRating(route.id);
+      }
+    });
+  }, [visibleRoutes]);
+
+  const handleSubmitRating = () => {
+    if (!selectedRoute?.id) return;
+    submitRatingForRoute(selectedRoute.id, Number(currentRatingValue));
+    setRatingModalOpen(false);
+    setIsRoutingActive(false);
+    setStatusMessage(`Gracias por calificar ${selectedRoute.title} con ${currentRatingValue} estrellas.`);
+  };
+
+  const handleCancelRating = () => {
+    setRatingModalOpen(false);
   };
 
   const handleResetApiSearch = () => {
-    setRoutes(allRoutes);
     setSearchResults([]);
-    setDestinationOptions([]);
     setSearchOrigin(null);
     setSearchDestination(null);
     setSearchOriginInput('');
     setSearchDestinationInput('');
+    setSearchOriginSuggestions([]);
+    setSearchDestinationSuggestions([]);
     setApiError(null);
     setSelectedRouteId(allRoutes[0]?.id ?? null);
+    setSelectedRouteView(null);
+    dispatch(mapActions.setSelectedRoute(allRoutes[0] ?? null));
     setStatusMessage('Se restauro el catalogo completo de rutas.');
-  };
-
-  const handleDestinationOptionSelect = async (option) => {
-    if (!option?.coordinates) {
-      setApiError('La opcion seleccionada no incluye coordenadas validas.');
-      return;
-    }
-
-    const parsedOrigin = parseLatLngInput(searchOriginInput);
-    if (!parsedOrigin) {
-      setApiError('Define primero un origen valido para usar opciones de destino.');
-      return;
-    }
-
-    const nextDestination = option.coordinates;
-    setSearchDestinationInput(`${nextDestination.lat},${nextDestination.lng}`);
-    setSearchDestination(nextDestination);
 
     window.dispatchEvent(
       new CustomEvent('map:mark-trip-points', {
         detail: {
-          origin: parsedOrigin,
-          destination: nextDestination
+          origin: null,
+          destination: null
         }
       })
     );
-
-    await searchRoutes(parsedOrigin, nextDestination);
   };
 
   return (
@@ -723,23 +898,45 @@ function RutasPage() {
       </section>
 
       <section className="panel">
-        <h2>Buscar por origen y destino (API)</h2>
-        <p className="panel-copy">Ingresa coordenadas en formato lat,lng para consultar la API.</p>
-        <div className="input-with-action routes-search-row">
-          <input
-            type="text"
-            placeholder="Origen: 5.544,-73.357"
-            value={searchOriginInput}
-            onChange={(event) => setSearchOriginInput(event.target.value)}
-          />
-          <input
-            type="text"
-            placeholder="Destino: 5.563,-73.345"
+        <h2>Buscar por nombre de origen y destino</h2>
+        <p className="panel-copy">Escribe lugares como UPTC, Medilaser, Terminal o una estacion de servicio.</p>
+        <div className="trip-form route-name-search-form">
+          <div className="route-origin-search-block">
+            <TunjaLocationSearchField
+              id="routeOriginSearch"
+              label="Origen"
+              placeholder="Estoy en la UPTC"
+              value={searchOriginInput}
+              suggestions={searchOriginSuggestions}
+              onChange={updateSearchOriginQuery}
+              onSelectSuggestion={selectSearchOriginSuggestion}
+              showSuggestions={false}
+              helperText="La busqueda usa primero coincidencias internas de Tunja y luego completa con el mapa si hace falta."
+            />
+            <button
+              type="button"
+              className="ghost-btn route-current-location-btn"
+              onClick={handleUseCurrentLocation}
+              disabled={isUsingCurrentLocation}
+            >
+              {isUsingCurrentLocation ? 'Tomando ubicacion...' : 'Usar ubicacion actual'}
+            </button>
+          </div>
+          <TunjaLocationSearchField
+            id="routeDestinationSearch"
+            label="Destino"
+            placeholder="Quiero ir a Medilaser"
             value={searchDestinationInput}
-            onChange={(event) => setSearchDestinationInput(event.target.value)}
+            suggestions={searchDestinationSuggestions}
+            onChange={updateSearchDestinationQuery}
+            onSelectSuggestion={selectSearchDestinationSuggestion}
+            showSuggestions={false}
+            helperText="Las rutas se filtran por sentido real para evitar coincidencias invertidas."
           />
+        </div>
+        <div className="input-with-action routes-search-row">
           <button type="button" className="ghost-btn" onClick={handleApiSearchSubmit} disabled={isSearching}>
-            {isSearching ? 'Buscando...' : 'Buscar API'}
+            {isSearching ? 'Buscando...' : 'Buscar ruta'}
           </button>
           <button type="button" className="ghost-btn" onClick={handleResetApiSearch} disabled={isSearching}>
             Limpiar
@@ -751,67 +948,106 @@ function RutasPage() {
             Ultima busqueda: {searchOrigin.label} {'->'} {searchDestination.label}
           </p>
         ) : null}
-        {destinationOptions.length > 0 ? (
-          <div className="route-direction-summary">
-            <h3>Opciones de destino sugeridas por la API</h3>
-            <div className="route-card-meta">
-              {destinationOptions.map((option) => (
-                <button
-                  key={option.id}
-                  type="button"
-                  className="route-pill"
-                  onClick={() => handleDestinationOptionSelect(option)}
-                >
-                  {option.label}
-                </button>
-              ))}
-            </div>
-          </div>
-        ) : null}
       </section>
 
       <section className="panel">
-        <h2>Rutas disponibles</h2>
+        <h2>{searchResults.length > 0 ? 'Rutas ordenadas por cercania y sentido' : 'Rutas disponibles'}</h2>
         {searchResults.length > 0 ? (
-          <p className="panel-copy">Mostrando rutas retornadas por /api/search.</p>
+          <p className="panel-copy">Mostrando las rutas mas cercanas al origen y destino, en el sentido correcto de la linea.</p>
         ) : null}
         <ul className="route-list">
-          {routeCatalog.map((route) => (
-            <li key={route.id}>
-              <div className={`route-card ${selectedRouteId === route.id ? 'is-selected' : ''}`}>
-                <button
-                  type="button"
-                  className="route-card-main"
-                  onClick={() => handleRouteSelect(route)}
-                >
-                  <strong>{route.title}</strong>
-                  <span>{route.summary}</span>
-                  <div className="route-card-meta">
-                    <span className="route-pill">ETA {route.eta}</span>
-                    <span className="route-pill route-pill-muted">Toca para ver la ruta</span>
-                  </div>
-                </button>
+          {visibleRoutes.map((entry) => {
+            const route = entry.route ?? entry;
+            const routeView = entry.routeView ?? null;
+            const routeId = route?.id;
+            const isSearchResult = Boolean(routeView);
+            const isSelected = selectedRouteId === routeId;
+            const ratingForRoute = ratingsMap[routeId] ?? { average: 5, count: 1 };
 
-                <button
-                  type="button"
-                  className={`route-favorite-btn ${favoriteRouteIds.has(route.id) ? 'is-favorite' : ''}`}
-                  aria-pressed={favoriteRouteIds.has(route.id)}
-                  aria-label={
-                    favoriteRouteIds.has(route.id)
-                      ? `Quitar ${route.title} de favoritos`
-                      : `Guardar ${route.title} en favoritos`
-                  }
-                  onClick={() => handleFavoriteToggle(route)}
-                >
-                  <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
-                    <path d="M12 21s-7.2-4.6-9.4-9.1C1 8.5 2.8 5.5 6.1 4.8c2-.4 3.9.4 5.1 1.8 1.2-1.4 3.1-2.2 5.1-1.8C19.6 5.5 21.4 8.5 21.4 11.9 19.2 16.4 12 21 12 21z"></path>
-                  </svg>
-                </button>
-              </div>
-            </li>
-          ))}
+            return (
+              <li key={routeId}>
+                <div className={`route-card ${isSelected ? 'is-selected' : ''} ${isSearchResult ? 'route-card-recommended' : ''}`}>
+                  <button
+                    type="button"
+                    className="route-card-main"
+                    onClick={() => handleRouteSelect(route, routeView)}
+                  >
+                    <strong>
+                      {route.title}
+                      <span className="route-rating">{' '}• {Number(ratingForRoute.average).toFixed(1)}★</span>
+                    </strong>
+                    <span>{isSearchResult ? routeView.directionLabel : route.summary}</span>
+                    {isSearchResult ? (
+                      <div className="route-card-direction-block">
+                        <span
+                          className="route-pill route-direction-pill"
+                          style={{ backgroundColor: routeView.directionSoftColor, color: routeView.directionColor }}
+                        >
+                          {routeView.directionLabel}
+                        </span>
+                        <span className="route-card-distance">
+                          {pointToLabel(routeView.originMatch, 'Origen')} · {formatDistanceMeters(routeView.originMatch?.distanceMeters)}
+                        </span>
+                        <span className="route-card-distance">
+                          {pointToLabel(routeView.destinationMatch, 'Destino')} · {formatDistanceMeters(routeView.destinationMatch?.distanceMeters)}
+                        </span>
+                      </div>
+                    ) : null}
+                    <div className="route-card-meta">
+                      <span className="route-pill">ETA {route.eta}</span>
+                      <span className="route-pill route-pill-muted">Toca para ver la ruta</span>
+                    </div>
+                  </button>
+
+                  <button
+                    type="button"
+                    className={`route-favorite-btn ${favoriteRouteIds.has(routeId) ? 'is-favorite' : ''}`}
+                    aria-pressed={favoriteRouteIds.has(routeId)}
+                    aria-label={
+                      favoriteRouteIds.has(routeId)
+                        ? `Quitar ${route.title} de favoritos`
+                        : `Guardar ${route.title} en favoritos`
+                    }
+                    onClick={() => handleFavoriteToggle(route)}
+                  >
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+                      <path d="M12 21s-7.2-4.6-9.4-9.1C1 8.5 2.8 5.5 6.1 4.8c2-.4 3.9.4 5.1 1.8 1.2-1.4 3.1-2.2 5.1-1.8C19.6 5.5 21.4 8.5 21.4 11.9 19.2 16.4 12 21 12 21z"></path>
+                    </svg>
+                  </button>
+                  {isSearchResult && isSelected ? (
+                    <div className="route-action-row">
+                      {!isRoutingActive ? (
+                        <button
+                          type="button"
+                          className="primary-btn"
+                          onClick={() => {
+                            setIsRoutingActive(true);
+                            setStatusMessage('Ruta iniciada. Presiona Finalizar ruta al terminar.');
+                          }}
+                        >
+                          Iniciar ruta
+                        </button>
+                      ) : (
+                        <button
+                          type="button"
+                          className="danger-btn"
+                          onClick={() => {
+                            // open rating modal
+                            setRatingModalOpen(true);
+                            setCurrentRatingValue(5);
+                          }}
+                        >
+                          Finalizar ruta
+                        </button>
+                      )}
+                    </div>
+                  ) : null}
+                </div>
+              </li>
+            );
+          })}
         </ul>
-        {!isLoadingRoutes && routeCatalog.length === 0 ? (
+        {!isLoadingRoutes && visibleRoutes.length === 0 ? (
           <div className="route-detail">
             <h3>Sin rutas publicadas</h3>
             <p>Ejecuta npm run sync:routes para generar public/data/routes-manifest.json.</p>
@@ -868,6 +1104,35 @@ function RutasPage() {
           </div>
         ) : null}
       </section>
+      {ratingModalOpen ? (
+        <div className="rating-modal-backdrop">
+          <div className="rating-modal" role="dialog" aria-modal="true">
+            <h3>Califica la ruta recomendada</h3>
+            <p>Selecciona entre 1 y 5 estrellas para valorar la ruta.</p>
+            <div className="rating-stars">
+              {[1, 2, 3, 4, 5].map((star) => (
+                <button
+                  key={star}
+                  type="button"
+                  className={`star-btn ${currentRatingValue >= star ? 'selected' : ''}`}
+                  onClick={() => setCurrentRatingValue(star)}
+                  aria-label={`${star} estrellas`}
+                >
+                  {currentRatingValue >= star ? '★' : '☆'}
+                </button>
+              ))}
+            </div>
+            <div className="rating-actions">
+              <button type="button" className="primary-btn" onClick={handleSubmitRating}>
+                Enviar calificación
+              </button>
+              <button type="button" className="ghost-btn" onClick={handleCancelRating}>
+                Cancelar
+              </button>
+            </div>
+          </div>
+        </div>
+      ) : null}
     </section>
   );
 }
