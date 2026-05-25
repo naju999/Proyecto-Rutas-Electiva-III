@@ -232,7 +232,22 @@ async function deleteOutdatedCaches() {
 }
 
 function isTileRequest(request) {
-  const url = new URL(request.url);
+  if (!request?.url) {
+    return false;
+  }
+
+  let url;
+
+  try {
+    url = new URL(request.url);
+  } catch (_error) {
+    return false;
+  }
+
+  if (!url?.hostname) {
+    return false;
+  }
+
   const path = url.pathname.toLowerCase();
 
   const sameProtocol = url.protocol === 'https:' || url.protocol === 'http:';
@@ -272,7 +287,21 @@ function isTunjaTileRequest(url) {
 }
 
 function isAppAssetRequest(request) {
-  const url = new URL(request.url);
+  if (!request?.url) {
+    return false;
+  }
+
+  let url;
+
+  try {
+    url = new URL(request.url);
+  } catch (_error) {
+    return false;
+  }
+
+  if (!url?.origin) {
+    return false;
+  }
 
   if (url.origin !== self.location.origin) {
     return false;

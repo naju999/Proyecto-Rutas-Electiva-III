@@ -7,7 +7,7 @@ export default function LoginPage() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
-  const { login } = useAuth();
+  const { login, loginWithGoogle } = useAuth();
   const navigate = useNavigate();
 
   async function handleSubmit(e) {
@@ -31,10 +31,28 @@ export default function LoginPage() {
     }
   }
 
+  async function handleGoogleLogin() {
+    setError('');
+    setLoading(true);
+
+    try {
+      await loginWithGoogle();
+      navigate('/inicio');
+    } catch (err) {
+      setError('Error al iniciar sesión con Google: ' + err.message);
+    } finally {
+      setLoading(false);
+    }
+  }
+
   return (
     <main className="auth-container">
       <section className="auth-form-section">
         <div className="auth-card">
+          <div className="auth-card-hero">
+            <span className="auth-card-badge">Tu Ruta</span>
+            <p className="auth-card-kicker">Acceso seguro con Firebase</p>
+          </div>
           <h1>Iniciar Sesión</h1>
           
           {error && (
@@ -74,6 +92,19 @@ export default function LoginPage() {
               {loading ? 'Cargando...' : 'Iniciar Sesión'}
             </button>
           </form>
+
+          <div className="auth-divider" aria-hidden="true">
+            <span>o</span>
+          </div>
+
+          <button
+            type="button"
+            className="submit-button auth-google-button"
+            onClick={handleGoogleLogin}
+            disabled={loading}
+          >
+            {loading ? 'Cargando...' : 'Continuar con Google'}
+          </button>
 
           <div className="auth-footer">
             <p>

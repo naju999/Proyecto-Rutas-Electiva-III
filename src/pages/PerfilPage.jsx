@@ -1,16 +1,10 @@
 import { useEffect, useMemo, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { promptPwaInstall, subscribePwaInstallState } from '../pwa/pwaInstall';
+import { useAuth } from '../context/AuthContext';
 
-const SESSION_STORAGE_KEY = 'tuRuta.sessionUser';
-const ACCOUNTS_STORAGE_KEY = 'tuRuta.accounts';
 const REVIEWS_STORAGE_KEY = 'tuRuta.routeReviews';
 const FINALIZED_ROUTE_KEY = 'tuRuta.finalizedRoute';
-
-const DEFAULT_AUTH_FORM = {
-  email: '',
-  password: '',
-  confirmPassword: ''
-};
 
 const DEFAULT_REVIEW_FORM = {
   rating: 0,
@@ -18,18 +12,15 @@ const DEFAULT_REVIEW_FORM = {
 };
 
 function PerfilPage() {
+  const { currentUser, userProfile, logout } = useAuth();
+  const navigate = useNavigate();
   const [installState, setInstallState] = useState({
     canInstall: false,
     installed: false
   });
-  const [sessionUser, setSessionUser] = useState('');
-  const [authMode, setAuthMode] = useState('login');
-  const [authForm, setAuthForm] = useState(DEFAULT_AUTH_FORM);
-  const [accounts, setAccounts] = useState([]);
   const [reviews, setReviews] = useState([]);
   const [reviewForm, setReviewForm] = useState(DEFAULT_REVIEW_FORM);
   const [finalizedRoute, setFinalizedRoute] = useState(null);
-  const [authMessage, setAuthMessage] = useState('Inicia sesion o crea una cuenta para continuar.');
   const [reviewMessage, setReviewMessage] = useState('Finaliza una ruta para habilitar la calificacion.');
 
   useEffect(() => {
@@ -37,24 +28,8 @@ function PerfilPage() {
   }, []);
 
   useEffect(() => {
-    const storedUser = window.localStorage.getItem(SESSION_STORAGE_KEY) || '';
-    const storedAccounts = window.localStorage.getItem(ACCOUNTS_STORAGE_KEY) || '[]';
     const storedReviews = window.localStorage.getItem(REVIEWS_STORAGE_KEY) || '[]';
     const storedFinalizedRoute = window.localStorage.getItem(FINALIZED_ROUTE_KEY) || '';
-
-    setSessionUser(storedUser);
-    setAuthForm((current) => ({
-      ...current,
-      email: storedUser,
-      password: '',
-      confirmPassword: ''
-    }));
-
-    try {
-      setAccounts(JSON.parse(storedAccounts));
-    } catch {
-      setAccounts([]);
-    }
 
     try {
       setReviews(JSON.parse(storedReviews));
@@ -68,14 +43,6 @@ function PerfilPage() {
       setFinalizedRoute(null);
     }
   }, []);
-
-  useEffect(() => {
-    window.localStorage.setItem(SESSION_STORAGE_KEY, sessionUser);
-  }, [sessionUser]);
-
-  useEffect(() => {
-    window.localStorage.setItem(ACCOUNTS_STORAGE_KEY, JSON.stringify(accounts));
-  }, [accounts]);
 
   useEffect(() => {
     window.localStorage.setItem(REVIEWS_STORAGE_KEY, JSON.stringify(reviews));
@@ -117,7 +84,7 @@ function PerfilPage() {
       return {
         totalReviews: 0,
         averageOverall: 0,
-        activeUsers: sessionUser ? 1 : 0
+        activeUsers: currentUser ? 1 : 0
       };
     }
 
@@ -139,95 +106,16 @@ function PerfilPage() {
     return {
       totalReviews: reviews.length,
       averageOverall,
-      activeUsers: new Set([...reviews.map((review) => review.user), sessionUser].filter(Boolean)).size
+      activeUsers: new Set([...reviews.map((review) => review.user), currentUser?.email].filter(Boolean)).size
     };
-  }, [reviews, sessionUser]);
+  }, [reviews, currentUser]);
 
   const hasFinalizedRoute = Boolean(finalizedRoute?.id);
 
-  const handleLoginSubmit = (event) => {
-    event.preventDefault();
-
-    const nextEmail = authForm.email.trim().toLowerCase();
-    const nextPassword = authForm.password.trim();
-
-    if (!nextEmail || !nextPassword) {
-      setAuthMessage('Escribe tu correo y contrasena para continuar.');
-      return;
-    }
-
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(nextEmail)) {
-      setAuthMessage('Escribe un correo valido.');
-      return;
-    }
-
-    const existingAccount = accounts.find((account) => account.email === nextEmail);
-
-    if (!existingAccount) {
-      setAuthMessage('No existe una cuenta con ese correo. Crea una cuenta primero.');
-      return;
-    }
-
-    if (existingAccount.password !== nextPassword) {
-      setAuthMessage('La contrasena no coincide.');
-      return;
-    }
-
-    setSessionUser(nextEmail);
-    setAuthForm((current) => ({
-      ...current,
-      password: ''
-    }));
-    setAuthMessage(`Sesion local iniciada como ${nextEmail}.`);
-  };
-
-  const handleRegisterSubmit = (event) => {
-    event.preventDefault();
-
-    const nextEmail = authForm.email.trim().toLowerCase();
-    const nextPassword = authForm.password.trim();
-    const nextConfirmPassword = authForm.confirmPassword.trim();
-
-    if (!nextEmail || !nextPassword || !nextConfirmPassword) {
-      setAuthMessage('Completa correo, contrasena y confirmacion.');
-      return;
-    }
-
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(nextEmail)) {
-      setAuthMessage('Escribe un correo valido.');
-      return;
-    }
-
-    if (nextPassword.length < 4) {
-      setAuthMessage('La contrasena debe tener al menos 4 caracteres.');
-      return;
-    }
-
-    if (nextPassword !== nextConfirmPassword) {
-      setAuthMessage('Las contrasenas no coinciden.');
-      return;
-    }
-
-    if (accounts.some((account) => account.email === nextEmail)) {
-      setAuthMessage('Ya existe una cuenta con ese correo.');
-      return;
-    }
-
-    const nextAccount = {
-      email: nextEmail,
-      password: nextPassword,
-      createdAt: new Date().toISOString()
-    };
-
-    setAccounts((current) => [nextAccount, ...current]);
-    setSessionUser(nextEmail);
-    setAuthForm(DEFAULT_AUTH_FORM);
-    setAuthMessage(`Cuenta creada e iniciada como ${nextEmail}.`);
-  };
-
   const handleLogout = () => {
-    setSessionUser('');
-    setAuthMessage('Sesion cerrada. Puedes iniciar con otra cuenta cuando quieras.');
+    void logout().then(() => {
+      navigate('/login');
+    });
   };
 
   const handleRatingSelect = (rating) => {
@@ -240,8 +128,8 @@ function PerfilPage() {
   const handleReviewSubmit = (event) => {
     event.preventDefault();
 
-    if (!sessionUser) {
-      setReviewMessage('Primero inicia sesion para dejar una valoracion.');
+    if (!currentUser) {
+      setReviewMessage('Primero inicia sesion con Firebase para dejar una valoracion.');
       return;
     }
 
@@ -267,7 +155,7 @@ function PerfilPage() {
 
     const nextReview = {
       id: reviewId,
-      user: sessionUser,
+      user: currentUser.email || userProfile?.displayName || 'Usuario Firebase',
       routeId: finalizedRoute?.id ?? null,
       routeTitle: finalizedRoute?.title ?? 'Ruta finalizada',
       rating: reviewForm.rating,
@@ -308,8 +196,15 @@ function PerfilPage() {
             </svg>
           </div>
           <div>
-            <h3>{sessionUser || 'Usuario local'}</h3>
-            <p>{sessionUser ? 'Sesion activa en esta PWA' : 'Sin sesion iniciada'}</p>
+            <h3>{userProfile?.displayName || currentUser?.displayName || currentUser?.email || 'Usuario Firebase'}</h3>
+            <p>{currentUser ? 'Sesion activa con Firebase' : 'Sin sesion iniciada'}</p>
+          </div>
+          <div style={{ marginLeft: 'auto' }}>
+            {currentUser ? (
+              <button type="button" className="ghost-btn" onClick={handleLogout}>
+                Cerrar sesion
+              </button>
+            ) : null}
           </div>
         </section>
 
@@ -328,128 +223,17 @@ function PerfilPage() {
           </article>
         </section>
 
-        <section className="profile-settings profile-session-panel" aria-label="Inicio de sesion local">
-          <div className="auth-tabs" role="tablist" aria-label="Opciones de acceso">
-            <button
-              type="button"
-              className={authMode === 'login' ? 'auth-tab active' : 'auth-tab'}
-              onClick={() => setAuthMode('login')}
-              role="tab"
-              aria-selected={String(authMode === 'login')}
-            >
-              Iniciar sesion
-            </button>
-            <button
-              type="button"
-              className={authMode === 'register' ? 'auth-tab active' : 'auth-tab'}
-              onClick={() => setAuthMode('register')}
-              role="tab"
-              aria-selected={String(authMode === 'register')}
-            >
-              Crear cuenta
-            </button>
-          </div>
-
-          <div className="auth-panel">
-            {authMode === 'login' ? (
-              <form className="profile-login-form" onSubmit={handleLoginSubmit}>
-                <label htmlFor="loginEmail">Correo</label>
-                <input
-                  id="loginEmail"
-                  type="email"
-                  placeholder="correo@ejemplo.com"
-                  autoComplete="email"
-                  value={authForm.email}
-                  onChange={(event) =>
-                    setAuthForm((current) => ({
-                      ...current,
-                      email: event.target.value
-                    }))
-                  }
-                />
-
-                <label htmlFor="loginPassword">Contrasena</label>
-                <div className="input-with-action profile-login-row">
-                  <input
-                    id="loginPassword"
-                    type="password"
-                    placeholder="Escribe tu contrasena"
-                    autoComplete="current-password"
-                    value={authForm.password}
-                    onChange={(event) =>
-                      setAuthForm((current) => ({
-                        ...current,
-                        password: event.target.value
-                      }))
-                    }
-                  />
-                  {sessionUser ? (
-                    <button type="button" className="ghost-btn" onClick={handleLogout}>
-                      Cerrar sesion
-                    </button>
-                  ) : (
-                    <button type="submit" className="primary-btn profile-login-btn">
-                      Entrar
-                    </button>
-                  )}
-                </div>
-              </form>
-            ) : (
-              <form className="profile-login-form" onSubmit={handleRegisterSubmit}>
-                <label htmlFor="registerEmail">Correo</label>
-                <input
-                  id="registerEmail"
-                  type="email"
-                  placeholder="correo@ejemplo.com"
-                  autoComplete="email"
-                  value={authForm.email}
-                  onChange={(event) =>
-                    setAuthForm((current) => ({
-                      ...current,
-                      email: event.target.value
-                    }))
-                  }
-                />
-
-                <label htmlFor="registerPassword">Contrasena</label>
-                <input
-                  id="registerPassword"
-                  type="password"
-                  placeholder="Crea tu contrasena"
-                  autoComplete="new-password"
-                  value={authForm.password}
-                  onChange={(event) =>
-                    setAuthForm((current) => ({
-                      ...current,
-                      password: event.target.value
-                    }))
-                  }
-                />
-
-                <label htmlFor="registerConfirmPassword">Confirmar contrasena</label>
-                <div className="input-with-action profile-login-row">
-                  <input
-                    id="registerConfirmPassword"
-                    type="password"
-                    placeholder="Repite tu contrasena"
-                    autoComplete="new-password"
-                    value={authForm.confirmPassword}
-                    onChange={(event) =>
-                      setAuthForm((current) => ({
-                        ...current,
-                        confirmPassword: event.target.value
-                      }))
-                    }
-                  />
-                  <button type="submit" className="primary-btn profile-login-btn">
-                    Crear cuenta
-                  </button>
-                </div>
-              </form>
-            )}
-          </div>
-
-          <p className="profile-session-note">{authMessage}</p>
+        <section className="profile-settings profile-session-panel" aria-label="Sesion Firebase">
+          <h3>Sesion Firebase</h3>
+          <p className="profile-session-note">
+            El acceso ya no se maneja con login local en esta pantalla. Usa la pagina de inicio de
+            sesion con Firebase y Google para entrar.
+          </p>
+          <p className="profile-session-note">
+            {currentUser
+              ? `Sesión activa: ${currentUser.email || 'usuario autenticado'}`
+              : 'No hay una sesión Firebase activa en este momento.'}
+          </p>
         </section>
 
         <section className="profile-settings profile-review-panel" aria-label="Calificaciones y comentarios">
@@ -493,7 +277,7 @@ function PerfilPage() {
               disabled={!hasFinalizedRoute}
             ></textarea>
 
-            <button type="submit" className="primary-btn" disabled={!sessionUser || !hasFinalizedRoute}>
+            <button type="submit" className="primary-btn" disabled={!currentUser || !hasFinalizedRoute}>
               Guardar calificacion
             </button>
           </form>

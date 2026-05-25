@@ -13,7 +13,22 @@ import { TILE_HOST_MATCHERS } from './constants.js';
  * - Path/extension indica tile (contiene "/tile/", patrón /z/x/y, o extensión .png/.jpg/.webp)
  */
 export function isTileRequest(request) {
-    const url = new URL(request.url);
+    if (!request?.url) {
+        return false;
+    }
+
+    let url;
+
+    try {
+        url = new URL(request.url);
+    } catch (_error) {
+        return false;
+    }
+
+    if (!url?.hostname) {
+        return false;
+    }
+
     const path = url.pathname.toLowerCase();
 
     const sameProtocol = url.protocol === 'https:' || url.protocol === 'http:';
@@ -34,7 +49,21 @@ export function isTileRequest(request) {
  * Validar que sea mismo origen.
  */
 export function isAppAssetRequest(request) {
-    const url = new URL(request.url);
+    if (!request?.url) {
+        return false;
+    }
+
+    let url;
+
+    try {
+        url = new URL(request.url);
+    } catch (_error) {
+        return false;
+    }
+
+    if (!url?.origin) {
+        return false;
+    }
 
     // Solo assets del mismo origen
     if (url.origin !== self.location.origin) {
@@ -60,7 +89,21 @@ export function isAppAssetRequest(request) {
  *   - Header 'accept' contiene 'application/json'
  */
 export function isApiRequest(request) {
-    const url = new URL(request.url);
+    if (!request?.url) {
+        return false;
+    }
+
+    let url;
+
+    try {
+        url = new URL(request.url);
+    } catch (_error) {
+        return false;
+    }
+
+    if (!url?.origin) {
+        return false;
+    }
 
     // Solo datos dinámicos del mismo origen
     if (url.origin !== self.location.origin) {

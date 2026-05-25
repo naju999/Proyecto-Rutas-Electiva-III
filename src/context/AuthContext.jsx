@@ -1,6 +1,8 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import {
   createUserWithEmailAndPassword,
+  GoogleAuthProvider,
+  signInWithPopup,
   signInWithEmailAndPassword,
   signOut,
   onAuthStateChanged,
@@ -10,6 +12,21 @@ import { createUserProfile, getUserProfile } from '../firebase/firestoreService'
 
 // Crear el contexto
 const AuthContext = createContext();
+const googleProvider = new GoogleAuthProvider();
+
+async function ensureUserProfile(user, fallbackDisplayName = '') {
+  const profile = await getUserProfile(user.uid);
+
+  if (!profile) {
+    await createUserProfile(user.uid, {
+      email: user.email || '',
+      displayName: user.displayName || fallbackDisplayName || '',
+      photoURL: user.photoURL || ''
+    });
+  }
+
+  return getUserProfile(user.uid);
+}
 
 // Proveedor del contexto
 export function AuthProvider({ children }) {
@@ -23,8 +40,6 @@ export function AuthProvider({ children }) {
     setError(null);
     try {
       const result = await createUserWithEmailAndPassword(auth, email, password);
-      
-      // Crear perfil en Firestore
       await createUserProfile(result.user.uid, {
         email: result.user.email,
         displayName: displayName || '',
@@ -50,6 +65,18 @@ export function AuthProvider({ children }) {
     }
   };
 
+  const loginWithGoogle = async () => {
+    setError(null);
+    try {
+      const result = await signInWithPopup(auth, googleProvider);
+      await ensureUserProfile(result.user);
+      return result.user;
+    } catch (err) {
+      setError(err.message);
+      throw err;
+    }
+  };
+
   // Cerrar sesión
   const logout = async () => {
     setError(null);
@@ -64,9 +91,9 @@ export function AuthProvider({ children }) {
   };
 
   // Cargar perfil del usuario
-  const loadUserProfile = async (userId) => {
+  const loadUserProfile = async (user) => {
     try {
-      const profile = await getUserProfile(userId);
+      const profile = await ensureUserProfile(user);
       setUserProfile(profile);
     } catch (err) {
       console.error('Error cargando perfil:', err);
@@ -78,7 +105,7 @@ export function AuthProvider({ children }) {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       setCurrentUser(user);
       if (user) {
-        loadUserProfile(user.uid);
+        loadUserProfile(user);
       } else {
         setUserProfile(null);
       }
@@ -94,6 +121,7 @@ export function AuthProvider({ children }) {
     userProfile,
     signup,
     login,
+    loginWithGoogle,
     logout,
     loading,
     error,
