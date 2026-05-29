@@ -7,6 +7,7 @@ import {
   selectFavoriteRoutes,
   selectRoutesSheetCollapsed
 } from '../store/selectors';
+import { useAuth } from '../context/AuthContext';
 import {
   formatDistanceMeters,
   isInsideTunjaBounds,
@@ -14,6 +15,7 @@ import {
   resolveTunjaLocation,
   searchTunjaLocationSuggestions
 } from '../map/tunjaRouting';
+import { setRouteRating, getRouteRatingSummary, getRouteRatingSummaries, subscribeToRouteRatingSummaries } from '../firebase/firestoreService';
 const ROUTES_MANIFEST_CACHE_KEY = 'tuRuta.routesManifest';
 const ROUTE_MANIFEST_URL = '/data/routes-manifest.json';
 const ROUTE_DIRECTION_CONFIG = [
@@ -32,6 +34,11 @@ const ROUTE_DIRECTION_CONFIG = [
     softColor: '#ffedd5'
   }
 ];
+
+const RATING_STORAGE_KEY_PREFIX = 'tuRuta.ratings';
+function getRatingsStorageKey(userId) {
+  return userId ? `${RATING_STORAGE_KEY_PREFIX}.${userId}` : `${RATING_STORAGE_KEY_PREFIX}.anonymous`;
+}
 
 const geoJsonCache = new Map();
 
@@ -332,6 +339,7 @@ function RutasPage() {
   const state = useAppStore();
   const dispatch = useAppDispatch();
   const location = useLocation();
+  const { currentUser } = useAuth();
   const isCollapsed = selectRoutesSheetCollapsed(state);
   const favoriteRoutes = selectFavoriteRoutes(state);
 
@@ -352,12 +360,13 @@ function RutasPage() {
   const [currentRatingValue, setCurrentRatingValue] = useState(5);
   const [ratingsMap, setRatingsMap] = useState(() => {
     try {
-      const raw = window.localStorage.getItem('tuRuta.ratings') || '{}';
+      const raw = window.localStorage.getItem(getRatingsStorageKey(null)) || '{}';
       return JSON.parse(raw);
     } catch {
       return {};
     }
   });
+  const [routeRatingSummaries, setRouteRatingSummaries] = useState({});
 
   const [searchOrigin, setSearchOrigin] = useState(null);
   const [searchDestination, setSearchDestination] = useState(null);
@@ -369,6 +378,21 @@ function RutasPage() {
   const [isSearching, setIsSearching] = useState(false);
   const [isUsingCurrentLocation, setIsUsingCurrentLocation] = useState(false);
   const [apiError, setApiError] = useState(null);
+
+  useEffect(() => {
+    if (typeof window === 'undefined' || !currentUser?.uid) {
+      return;
+    }
+
+    try {
+      const raw = window.localStorage.getItem(getRatingsStorageKey(currentUser.uid));
+      if (raw) {
+        setRatingsMap(JSON.parse(raw));
+      }
+    } catch {
+      // ignore malformed local storage data
+    }
+  }, [currentUser?.uid]);
 
   const routeCatalog = useMemo(() => {
     const routeMap = new Map();
@@ -399,6 +423,46 @@ function RutasPage() {
   }, [routeCatalog, searchResults, selectedRouteId]);
 
   const visibleRoutes = searchResults.length > 0 ? searchResults : routeCatalog;
+
+  useEffect(() => {
+    const routeIds = visibleRoutes
+      .map((entry) => (entry.route ?? entry)?.id)
+      .filter((routeId) => typeof routeId === 'string' && routeId);
+
+    if (routeIds.length === 0) {
+      return;
+    }
+
+    let cancelled = false;
+    let unsubscribe = () => {};
+    
+    const loadAndSubscribeToRatingSummaries = async () => {
+      try {
+        const initialSummaries = await getRouteRatingSummaries(routeIds);
+        if (!cancelled) {
+          setRouteRatingSummaries(initialSummaries);
+        }
+
+        unsubscribe = subscribeToRouteRatingSummaries(routeIds, (update) => {
+          if (!cancelled) {
+            setRouteRatingSummaries((prev) => ({
+              ...prev,
+              [update.routeId]: update.summary
+            }));
+          }
+        });
+      } catch (error) {
+        console.warn('No se pudo cargar el resumen de calificaciones:', error);
+      }
+    };
+
+    loadAndSubscribeToRatingSummaries();
+
+    return () => {
+      cancelled = true;
+      unsubscribe();
+    };
+  }, [visibleRoutes]);
 
   useEffect(() => {
     const routeIdFromNavigation = location.state?.selectedRouteId;
@@ -575,7 +639,7 @@ function RutasPage() {
   // Ratings helpers
   const saveRatingsToStorage = (next) => {
     try {
-      window.localStorage.setItem('tuRuta.ratings', JSON.stringify(next));
+      window.localStorage.setItem(getRatingsStorageKey(currentUser?.uid), JSON.stringify(next));
     } catch {
       // ignore
     }
@@ -594,14 +658,40 @@ function RutasPage() {
     });
   };
 
-  const submitRatingForRoute = (routeId, value) => {
+  const submitRatingForRoute = async (routeId, value) => {
     if (!routeId) return;
+
+    if (currentUser?.uid) {
+      try {
+        await setRouteRating(currentUser.uid, routeId, value);
+        const summary = await getRouteRatingSummary(routeId);
+        const nextEntry = {
+          count: summary.count,
+          total: summary.total,
+          average: summary.average,
+          lastRating: value
+        };
+        const next = { ...ratingsMap, [routeId]: nextEntry };
+        setRatingsMap(next);
+        saveRatingsToStorage(next);
+        return;
+      } catch (error) {
+        console.error('No se pudo guardar la calificación en Firestore:', error);
+        // continuar con la lógica local si falla la persistencia remota
+      }
+    }
+
     setRatingsMap((prev) => {
-      const existing = prev[routeId] ?? { count: 0, total: 0, average: 5 };
+      const existing = prev[routeId] ?? { count: 0, total: 0, average: 5, lastRating: null };
+      const previousRating = Number(existing.lastRating ?? 0);
+      const nextCount = previousRating > 0 ? Math.max(existing.count, 1) : existing.count + 1;
+      const nextTotal = previousRating > 0 ? existing.total - previousRating + value : existing.total + value;
+      const nextAverage = nextCount > 0 ? nextTotal / nextCount : 5;
       const nextEntry = {
-        count: existing.count + 1,
-        total: existing.total + value,
-        average: (existing.total + value) / (existing.count + 1)
+        count: nextCount,
+        total: nextTotal,
+        average: nextAverage,
+        lastRating: value
       };
       const next = { ...prev, [routeId]: nextEntry };
       saveRatingsToStorage(next);
@@ -825,9 +915,9 @@ function RutasPage() {
     });
   }, [visibleRoutes]);
 
-  const handleSubmitRating = () => {
+  const handleSubmitRating = async () => {
     if (!selectedRoute?.id) return;
-    submitRatingForRoute(selectedRoute.id, Number(currentRatingValue));
+    await submitRatingForRoute(selectedRoute.id, Number(currentRatingValue));
     setRatingModalOpen(false);
     setIsRoutingActive(false);
     setStatusMessage(`Gracias por calificar ${selectedRoute.title} con ${currentRatingValue} estrellas.`);
@@ -962,7 +1052,7 @@ function RutasPage() {
             const routeId = route?.id;
             const isSearchResult = Boolean(routeView);
             const isSelected = selectedRouteId === routeId;
-            const ratingForRoute = ratingsMap[routeId] ?? { average: 5, count: 1 };
+            const ratingForRoute = routeRatingSummaries[routeId] ?? ratingsMap[routeId] ?? { average: 5, count: 1 };
 
             return (
               <li key={routeId}>
@@ -1032,7 +1122,8 @@ function RutasPage() {
                           type="button"
                           className="danger-btn"
                           onClick={() => {
-                            // open rating modal
+                            setIsRoutingActive(false);
+                            setStatusMessage('Ruta finalizada. Por favor califica tu experiencia.');
                             setRatingModalOpen(true);
                             setCurrentRatingValue(5);
                           }}

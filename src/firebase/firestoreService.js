@@ -54,6 +54,127 @@ export async function updateUserProfile(userId, updates) {
     }
 }
 
+// ===== VALORACIONES DE RUTAS =====
+export async function setRouteRating(userId, routeId, rating) {
+    if (!userId || !routeId) {
+        throw new Error('userId y routeId son requeridos para guardar una calificación');
+    }
+
+    try {
+        const ratingRef = doc(db, 'routeRatings', `${encodeURIComponent(userId)}_${encodeURIComponent(routeId)}`);
+        await setDoc(ratingRef, {
+            userId,
+            routeId,
+            rating: Number(rating),
+            updatedAt: serverTimestamp()
+        }, { merge: true });
+    } catch (err) {
+        console.error('Error guardando calificación de ruta:', err);
+        throw err;
+    }
+}
+
+export async function getRouteRatingSummary(routeId) {
+    try {
+        const ratingsRef = collection(db, 'routeRatings');
+        const q = query(ratingsRef, where('routeId', '==', routeId));
+        const snapshot = await getDocs(q);
+        const ratings = snapshot.docs.map((doc) => doc.data());
+
+        if (ratings.length === 0) {
+            return { count: 0, total: 0, average: 5 };
+        }
+
+        const count = ratings.length;
+        const total = ratings.reduce((sum, item) => sum + Number(item.rating || 0), 0);
+        const average = Number((total / count).toFixed(1));
+
+        return { count, total, average };
+    } catch (err) {
+        console.error('Error obteniendo resumen de calificaciones:', err);
+        throw err;
+    }
+}
+
+export async function getRouteRatingSummaries(routeIds) {
+    if (!Array.isArray(routeIds) || routeIds.length === 0) {
+        return {};
+    }
+
+    try {
+        const ratingsRef = collection(db, 'routeRatings');
+        const summaries = {};
+        const chunkSize = 10;
+
+        for (let i = 0; i < routeIds.length; i += chunkSize) {
+            const chunk = routeIds.slice(i, i + chunkSize);
+            const q = query(ratingsRef, where('routeId', 'in', chunk));
+            const snapshot = await getDocs(q);
+            snapshot.docs.forEach((docSnap) => {
+                const data = docSnap.data();
+                const routeId = String(data.routeId ?? '');
+                if (!routeId) {
+                    return;
+                }
+
+                const ratingValue = Number(data.rating ?? 0);
+                if (!summaries[routeId]) {
+                    summaries[routeId] = { count: 0, total: 0, average: 5 };
+                }
+
+                summaries[routeId].count += 1;
+                summaries[routeId].total += ratingValue;
+            });
+        }
+
+        Object.keys(summaries).forEach((routeId) => {
+            const summary = summaries[routeId];
+            summary.average = summary.count > 0 ? Number((summary.total / summary.count).toFixed(1)) : 5;
+        });
+
+        return summaries;
+    } catch (err) {
+        console.error('Error obteniendo resúmenes de calificaciones:', err);
+        throw err;
+    }
+}
+
+export function subscribeToRouteRatingSummaries(routeIds, callback) {
+    if (!Array.isArray(routeIds) || routeIds.length === 0) {
+        return () => {};
+    }
+
+    try {
+        const ratingsRef = collection(db, 'routeRatings');
+        const unsubscribers = [];
+
+        routeIds.forEach((routeId) => {
+            const q = query(ratingsRef, where('routeId', '==', routeId));
+            const unsubscribe = onSnapshot(q, (snapshot) => {
+                const ratings = snapshot.docs.map((doc) => doc.data());
+                const count = ratings.length;
+                const total = ratings.reduce((sum, item) => sum + Number(item.rating || 0), 0);
+                const average = count > 0 ? Number((total / count).toFixed(1)) : 5;
+
+                callback({
+                    routeId,
+                    summary: { count, total, average }
+                });
+            }, (error) => {
+                console.error('Error suscribiendo a calificaciones de ruta:', error);
+            });
+            unsubscribers.push(unsubscribe);
+        });
+
+        return () => {
+            unsubscribers.forEach((unsub) => unsub());
+        };
+    } catch (err) {
+        console.error('Error en subscribeToRouteRatingSummaries:', err);
+        return () => {};
+    }
+}
+
 // ===== FAVORITOS =====
 export async function addFavorite(userId, routeData) {
     try {
